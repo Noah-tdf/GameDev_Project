@@ -2,17 +2,23 @@ using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(Collider2D))]
+[RequireComponent(typeof(SpriteRenderer))]
 public class Bullet : MonoBehaviour
 {
     [SerializeField] private int damage = 1;
     [SerializeField] private float lifetime = 2f;
 
+    private static Sprite fallbackSprite;
+
     private Rigidbody2D rb;
+    private SpriteRenderer spriteRenderer;
     private GameObject owner;
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        EnsureVisibleSprite();
     }
 
     private void Start()
@@ -24,6 +30,44 @@ public class Bullet : MonoBehaviour
     {
         owner = bulletOwner;
         rb.linearVelocity = new Vector2(direction * speed, 0f);
+    }
+
+    private void EnsureVisibleSprite()
+    {
+        if (spriteRenderer == null)
+        {
+            return;
+        }
+
+        if (spriteRenderer.sprite == null)
+        {
+            fallbackSprite ??= CreateFallbackSprite();
+            spriteRenderer.sprite = fallbackSprite;
+        }
+
+        if (spriteRenderer.color.a <= 0f)
+        {
+            spriteRenderer.color = new Color(1f, 0.9f, 0.2f, 1f);
+        }
+
+        if (spriteRenderer.sortingOrder < 10)
+        {
+            spriteRenderer.sortingOrder = 10;
+        }
+    }
+
+    private static Sprite CreateFallbackSprite()
+    {
+        Texture2D texture = new Texture2D(1, 1, TextureFormat.RGBA32, false)
+        {
+            filterMode = FilterMode.Point,
+            wrapMode = TextureWrapMode.Clamp
+        };
+
+        texture.SetPixel(0, 0, Color.white);
+        texture.Apply();
+
+        return Sprite.Create(texture, new Rect(0f, 0f, 1f, 1f), new Vector2(0.5f, 0.5f), 1f);
     }
 
     private void OnTriggerEnter2D(Collider2D other)
