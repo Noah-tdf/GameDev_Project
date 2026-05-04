@@ -248,7 +248,9 @@ Current control plan:
 - `A` / `Left Arrow` = move left
 - `D` / `Right Arrow` = move right
 - `Space` = jump
-- `J` = shoot
+- `J` / Left Mouse = shoot equipped weapon
+- `Q` / `Tab` = switch equipped weapon
+- `1` / `2` = equip primary / secondary weapon directly
 
 This prototype uses the active Unity Input System keyboard API directly to stay simple.
 

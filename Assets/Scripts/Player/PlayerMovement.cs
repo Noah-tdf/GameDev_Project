@@ -133,24 +133,30 @@ public class PlayerMovement : MonoBehaviour
 
     private void CheckGrounded()
     {
+        bool groundedByCheck = false;
         if (groundCheck != null)
         {
-            IsGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
-            return;
+            groundedByCheck = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
         }
 
         if (bodyCollider == null)
         {
-            Debug.LogWarning("PlayerMovement: Ground Check is not assigned.", this);
-            IsGrounded = false;
+            if (groundCheck == null)
+            {
+                Debug.LogWarning("PlayerMovement: Ground Check is not assigned.", this);
+            }
+
+            IsGrounded = groundedByCheck;
             return;
         }
 
+        // Use Luca's actual collider bottom so grounded detection still works after collider edits.
         Bounds bounds = bodyCollider.bounds;
         Vector2 origin = new Vector2(bounds.center.x, bounds.min.y);
-        float castDistance = 0.08f;
-        RaycastHit2D hit = Physics2D.BoxCast(origin, new Vector2(bounds.size.x * 0.9f, 0.05f), 0f, Vector2.down, castDistance, groundLayer);
-        IsGrounded = hit.collider != null;
+        float castDistance = 0.12f;
+        Vector2 castSize = new Vector2(bounds.size.x * 0.9f, 0.05f);
+        RaycastHit2D hit = Physics2D.BoxCast(origin, castSize, 0f, Vector2.down, castDistance, groundLayer);
+        IsGrounded = groundedByCheck || hit.collider != null;
     }
 
     private void UpdateTimers()
@@ -193,12 +199,21 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnDrawGizmosSelected()
     {
-        if (groundCheck == null)
+        Gizmos.color = Color.yellow;
+        if (groundCheck != null)
+        {
+            Gizmos.DrawWireSphere(groundCheck.position, groundCheckRadius);
+        }
+
+        Collider2D collider = bodyCollider != null ? bodyCollider : GetComponent<Collider2D>();
+        if (collider == null)
         {
             return;
         }
 
-        Gizmos.color = Color.yellow;
-        Gizmos.DrawWireSphere(groundCheck.position, groundCheckRadius);
+        Bounds bounds = collider.bounds;
+        Vector3 center = new Vector3(bounds.center.x, bounds.min.y - 0.06f, transform.position.z);
+        Vector3 size = new Vector3(bounds.size.x * 0.9f, 0.12f, 0f);
+        Gizmos.DrawWireCube(center, size);
     }
 }

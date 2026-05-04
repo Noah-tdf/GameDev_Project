@@ -7,12 +7,14 @@ public class Bullet : MonoBehaviour
 {
     [SerializeField] private int damage = 1;
     [SerializeField] private float lifetime = 2f;
+    [SerializeField] private float environmentCollisionDelay = 0.05f;
 
     private static Sprite fallbackSprite;
 
     private Rigidbody2D rb;
     private SpriteRenderer spriteRenderer;
     private GameObject owner;
+    private float environmentCollisionEnabledTime;
 
     private void Awake()
     {
@@ -29,6 +31,7 @@ public class Bullet : MonoBehaviour
     public void Initialize(float direction, float speed, GameObject bulletOwner)
     {
         owner = bulletOwner;
+        environmentCollisionEnabledTime = Time.time + environmentCollisionDelay;
         rb.linearVelocity = new Vector2(direction * speed, 0f);
     }
 
@@ -85,7 +88,18 @@ public class Bullet : MonoBehaviour
             return;
         }
 
-        if (other.CompareTag("Ground") || other.CompareTag("Platform") || other.CompareTag("Enemy"))
+        if (other.CompareTag("Ground") || other.CompareTag("Platform"))
+        {
+            if (Time.time < environmentCollisionEnabledTime)
+            {
+                return;
+            }
+
+            Destroy(gameObject);
+            return;
+        }
+
+        if (other.CompareTag("Enemy"))
         {
             Destroy(gameObject);
         }

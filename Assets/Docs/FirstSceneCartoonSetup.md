@@ -101,7 +101,8 @@ By the end of this setup, the scene should do this:
 - Player moves left and right
 - Player jumps consistently
 - Camera follows the player
-- Player shoots with `J`
+- Player shoots the equipped weapon with `J`
+- Player switches weapons with `Q` / `Tab` or `1` / `2`
 - Bullets hit an enemy
 - Scene reads as grayscale cartoon prototype, not generic Unity boxes
 
