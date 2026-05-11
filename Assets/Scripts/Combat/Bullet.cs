@@ -7,6 +7,7 @@ public class Bullet : MonoBehaviour
 {
     [SerializeField] private int damage = 1;
     [SerializeField] private float lifetime = 2f;
+    [SerializeField] private float maxDistance = 12f;
     [SerializeField] private float environmentCollisionDelay = 0.05f;
 
     private static Sprite fallbackSprite;
@@ -14,6 +15,7 @@ public class Bullet : MonoBehaviour
     private Rigidbody2D rb;
     private SpriteRenderer spriteRenderer;
     private GameObject owner;
+    private Vector2 startPosition;
     private float environmentCollisionEnabledTime;
 
     private void Awake()
@@ -25,12 +27,20 @@ public class Bullet : MonoBehaviour
 
     private void Start()
     {
+        startPosition = transform.position;
         Destroy(gameObject, lifetime);
+    }
+
+    private void Update()
+    {
+        if (Vector2.Distance(startPosition, transform.position) >= maxDistance)
+            Destroy(gameObject);
     }
 
     public void Initialize(float direction, float speed, GameObject bulletOwner)
     {
         owner = bulletOwner;
+        startPosition = transform.position;
         environmentCollisionEnabledTime = Time.time + environmentCollisionDelay;
         rb.linearVelocity = new Vector2(direction * speed, 0f);
     }

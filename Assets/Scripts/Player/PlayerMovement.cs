@@ -16,8 +16,16 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float coyoteTime = 0.1f;
     [SerializeField] private float jumpBufferTime = 0.12f;
 
+    [Header("Tutorial Prompt")]
+    [SerializeField] private GameObject movementPopUp;
+    [SerializeField] private GameObject combatPopUp;
+    [SerializeField] private GameObject levelEndPopUp;
+    private bool combatTipDone;
+
     private Rigidbody2D rb;
     private Collider2D bodyCollider;
+    private readonly ContactPoint2D[] groundContacts = new ContactPoint2D[8];
+    private readonly RaycastHit2D[] groundHits = new RaycastHit2D[8];
     private float moveInput;
     private bool isFacingRight = true;
     private float coyoteTimer;
@@ -53,6 +61,27 @@ public class PlayerMovement : MonoBehaviour
                 groundLayer = 1 << namedGroundLayer;
             }
         }
+    }
+
+    private void Start()
+    {
+        if (movementPopUp == null)
+            movementPopUp = GameObject.Find("MovementPopUp");
+
+        if (movementPopUp != null)
+            movementPopUp.SetActive(true);
+
+        if (combatPopUp == null)
+            combatPopUp = GameObject.Find("CombatPopUp");
+
+        if (combatPopUp != null)
+            combatPopUp.SetActive(false);
+
+        if (levelEndPopUp == null)
+            levelEndPopUp = GameObject.Find("LevelEndPopUp");
+
+        if (levelEndPopUp != null)
+            levelEndPopUp.SetActive(false);
     }
 
     /// <summary>Called by PlayerHealth on death — freezes all movement.</summary>
@@ -150,13 +179,61 @@ public class PlayerMovement : MonoBehaviour
             return;
         }
 
-        // Use Luca's actual collider bottom so grounded detection still works after collider edits.
-        Bounds bounds = bodyCollider.bounds;
-        Vector2 origin = new Vector2(bounds.center.x, bounds.min.y);
-        float castDistance = 0.12f;
-        Vector2 castSize = new Vector2(bounds.size.x * 0.9f, 0.05f);
-        RaycastHit2D hit = Physics2D.BoxCast(origin, castSize, 0f, Vector2.down, castDistance, groundLayer);
-        IsGrounded = groundedByCheck || hit.collider != null;
+        IsGrounded = groundedByCheck
+            || HasGroundContact(true)
+            || CastForGroundBelow(true)
+            || HasGroundContact(false)
+            || CastForGroundBelow(false);
+    }
+
+    private bool HasGroundContact(bool useGroundLayer)
+    {
+        ContactFilter2D filter = new ContactFilter2D
+        {
+            useTriggers = false
+        };
+
+        if (useGroundLayer)
+        {
+            filter.useLayerMask = true;
+            filter.layerMask = groundLayer;
+        }
+
+        int contactCount = bodyCollider.GetContacts(filter, groundContacts);
+        for (int i = 0; i < contactCount; i++)
+        {
+            if (groundContacts[i].normal.y > 0.45f)
+            {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+    private bool CastForGroundBelow(bool useGroundLayer)
+    {
+        ContactFilter2D filter = new ContactFilter2D
+        {
+            useTriggers = false
+        };
+
+        if (useGroundLayer)
+        {
+            filter.useLayerMask = true;
+            filter.layerMask = groundLayer;
+        }
+
+        int hitCount = bodyCollider.Cast(Vector2.down, filter, groundHits, 0.18f);
+        for (int i = 0; i < hitCount; i++)
+        {
+            if (groundHits[i].collider != null && groundHits[i].normal.y > 0.45f)
+            {
+                return true;
+            }
+        }
+
+        return false;
     }
 
     private void UpdateTimers()
@@ -195,6 +272,49 @@ public class PlayerMovement : MonoBehaviour
         Vector3 localScale = transform.localScale;
         localScale.x *= -1f;
         transform.localScale = localScale;
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        HideTutorialPromptIfLandedOnTarget(collision);
+    }
+
+    private void OnCollisionStay2D(Collision2D collision)
+    {
+        HideTutorialPromptIfLandedOnTarget(collision);
+    }
+
+    private void HideTutorialPromptIfLandedOnTarget(Collision2D collision)
+    {
+        for (int i = 0; i < collision.contactCount; i++)
+        {
+            if (collision.GetContact(i).normal.y > 0.45f)
+            {
+                if (movementPopUp != null && collision.gameObject.name.StartsWith("AirPlatforms"))
+                    movementPopUp.SetActive(false);
+
+                if (!combatTipDone && combatPopUp != null && collision.gameObject.name.StartsWith("2ndPlatform"))
+                    combatPopUp.SetActive(true);
+
+                if (levelEndPopUp != null && collision.gameObject.name.StartsWith("3rdPlatform"))
+                    levelEndPopUp.SetActive(false);
+
+                return;
+            }
+        }
+    }
+
+    public void FinishCombatTip()
+    {
+        combatTipDone = true;
+        if (combatPopUp != null)
+            combatPopUp.SetActive(false);
+    }
+
+    public void ShowLevelEndTip()
+    {
+        if (levelEndPopUp != null)
+            levelEndPopUp.SetActive(true);
     }
 
     private void OnDrawGizmosSelected()

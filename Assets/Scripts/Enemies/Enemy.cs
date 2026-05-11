@@ -20,10 +20,18 @@ public class Enemy : MonoBehaviour
     [SerializeField] private int contactDamage = 1;         // HP taken by player on side hit
     [SerializeField] private float stompBounceForce = 10f;  // Upward push when player stomps
 
+    [Header("Sound")]
+    [SerializeField] private AudioSource hitSound;
+    [SerializeField] private AudioSource deathSound;
+
     private Rigidbody2D _rb;
     private SpriteRenderer _sr;
     private int _currentHealth;
     private int _moveDirection = 1;
+    private float _leftBoundX;
+    private float _rightBoundX;
+    private bool _hasPatrolBounds;
+    private bool _isDead;
 
     // Flash-on-hit state
     private float _flashTimer;
@@ -36,6 +44,23 @@ public class Enemy : MonoBehaviour
         _rb = GetComponent<Rigidbody2D>();
         _sr = GetComponent<SpriteRenderer>();
         _currentHealth = maxHealth;
+
+        if (hitSound == null)
+            hitSound = GetComponent<AudioSource>();
+
+        if (_rb != null)
+        {
+            _rb.bodyType = RigidbodyType2D.Kinematic;
+            _rb.gravityScale = 0f;
+            _rb.freezeRotation = true;
+        }
+
+        if (leftPoint != null && rightPoint != null)
+        {
+            _leftBoundX = Mathf.Min(leftPoint.position.x, rightPoint.position.x);
+            _rightBoundX = Mathf.Max(leftPoint.position.x, rightPoint.position.x);
+            _hasPatrolBounds = true;
+        }
     }
 
     private void Update()
@@ -66,7 +91,13 @@ public class Enemy : MonoBehaviour
     /// </summary>
     public void TakeDamage(int damage)
     {
+        if (_isDead)
+            return;
+
         _currentHealth -= damage;
+
+        if (_currentHealth > 0 && hitSound != null)
+            hitSound.Play();
 
         // Flash red
         if (_sr != null)
@@ -77,8 +108,33 @@ public class Enemy : MonoBehaviour
 
         if (_currentHealth <= 0)
         {
+            _isDead = true;
             Debug.Log("Enemy defeated!");
-            Destroy(gameObject);
+            if (deathSound != null)
+                deathSound.Play();
+
+            PlayerMovement player = FindFirstObjectByType<PlayerMovement>();
+            if (player != null)
+            {
+                player.FinishCombatTip();
+
+                if (gameObject.name == "UbuntyWalker")
+                    player.ShowLevelEndTip();
+            }
+
+            GameObject combatPopUp = GameObject.Find("CombatPopUp");
+            if (combatPopUp != null)
+                combatPopUp.SetActive(false);
+
+            if (_sr != null)
+                _sr.enabled = false;
+
+            Collider2D enemyCollider = GetComponent<Collider2D>();
+            if (enemyCollider != null)
+                enemyCollider.enabled = false;
+
+            shouldPatrol = false;
+            Destroy(gameObject, 1f);
         }
     }
 
@@ -111,24 +167,26 @@ public class Enemy : MonoBehaviour
     // ────────────────────────────────────────────────────────────────────────
     private void Patrol()
     {
-        if (leftPoint == null || rightPoint == null)
+        if (!_hasPatrolBounds)
         {
-            _rb.linearVelocity = new Vector2(0f, _rb.linearVelocity.y);
+            _rb.linearVelocity = Vector2.zero;
             return;
         }
 
-        _rb.linearVelocity = new Vector2(_moveDirection * patrolSpeed, _rb.linearVelocity.y);
-
-        if (transform.position.x <= leftPoint.position.x)
+        if (transform.position.x <= _leftBoundX)
         {
             _moveDirection = 1;
             FaceDirection(1);
         }
-        else if (transform.position.x >= rightPoint.position.x)
+        else if (transform.position.x >= _rightBoundX)
         {
             _moveDirection = -1;
             FaceDirection(-1);
         }
+
+        Vector2 nextPosition = _rb.position + Vector2.right * (_moveDirection * patrolSpeed * Time.fixedDeltaTime);
+        nextPosition.x = Mathf.Clamp(nextPosition.x, _leftBoundX, _rightBoundX);
+        _rb.MovePosition(nextPosition);
     }
 
     private void FaceDirection(int direction)

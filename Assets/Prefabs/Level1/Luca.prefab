@@ -226,6 +226,7 @@ MonoBehaviour:
   bulletPrefab: {fileID: 2268013671619156180, guid: 9c904cddab196c24db8bcfa2062d8033, type: 3}
   fireRate: 0.25
   bulletSpeed: 12
+  shootingSound: {fileID: 2606705088491955548}
 --- !u!82 &2606705088491955548
 AudioSource:
   m_ObjectHideFlags: 0
@@ -237,8 +238,8 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_Resource: {fileID: 8300000, guid: 4310474905e266640852f43bd609a1a4, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
