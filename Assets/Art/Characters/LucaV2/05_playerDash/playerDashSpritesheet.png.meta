@@ -1,0 +1,429 @@
+fileFormatVersion: 2
+guid: e2cc4cffe8a5026458e2d561d04669d0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -818987755780509431
+    second: playerDashSpritesheet_0
+  - first:
+      213: 2850558283365050943
+    second: playerDashSpritesheet_1
+  - first:
+      213: 8822411201379581224
+    second: playerDashSpritesheet_2
+  - first:
+      213: -1221597330626170643
+    second: playerDashSpritesheet_3
+  - first:
+      213: -4417554965052442383
+    second: playerDashSpritesheet_4
+  - first:
+      213: 3598152611880051054
+    second: playerDashSpritesheet_5
+  - first:
+      213: 1047779018336274015
+    second: playerDashSpritesheet_6
+  - first:
+      213: 481613314772361553
+    second: playerDashSpritesheet_7
+  - first:
+      213: 4560621776197717519
+    second: playerDashSpritesheet_8
+  - first:
+      213: -3260640554968597649
+    second: playerDashSpritesheet_9
+  - first:
+      213: 8504953841103800559
+    second: playerDashSpritesheet_10
+  - first:
+      213: -3465597094061365801
+    second: playerDashSpritesheet_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: playerDashSpritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 0
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 901fe4da9fe52a4f0800000000000000
+      internalID: -818987755780509431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerDashSpritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3a6583e7a73f8720800000000000000
+      internalID: 2850558283365050943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerDashSpritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 0
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82d38a89e308f6a70800000000000000
+      internalID: 8822411201379581224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerDashSpritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 0
+        width: 24
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de0367933b30c0fe0800000000000000
+      internalID: -1221597330626170643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerDashSpritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 0
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f8394c1a21b1b2c0800000000000000
+      internalID: -4417554965052442383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerDashSpritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 0
+        width: 42
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6121c69cb43fe130800000000000000
+      internalID: 3598152611880051054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerDashSpritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 0
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f568a0f37757a8e00800000000000000
+      internalID: 1047779018336274015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerDashSpritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 0
+        width: 38
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 151ea1212c80fa600800000000000000
+      internalID: 481613314772361553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerDashSpritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 0
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0e0d2d97559a4f30800000000000000
+      internalID: 4560621776197717519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerDashSpritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 0
+        width: 37
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6b3ddcd0b0efb2d0800000000000000
+      internalID: -3260640554968597649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerDashSpritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 0
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe80612157aa70670800000000000000
+      internalID: 8504953841103800559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerDashSpritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 0
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d5a8d1fdc9b7efc0800000000000000
+      internalID: -3465597094061365801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      playerDashSpritesheet_0: -818987755780509431
+      playerDashSpritesheet_1: 2850558283365050943
+      playerDashSpritesheet_10: 8504953841103800559
+      playerDashSpritesheet_11: -3465597094061365801
+      playerDashSpritesheet_2: 8822411201379581224
+      playerDashSpritesheet_3: -1221597330626170643
+      playerDashSpritesheet_4: -4417554965052442383
+      playerDashSpritesheet_5: 3598152611880051054
+      playerDashSpritesheet_6: 1047779018336274015
+      playerDashSpritesheet_7: 481613314772361553
+      playerDashSpritesheet_8: 4560621776197717519
+      playerDashSpritesheet_9: -3260640554968597649
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,4159 @@
+fileFormatVersion: 2
+guid: 05ef11c411811d940822d307f528f2ba
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8004479691346891330
+    second: GandalfHardcore Hell Tiles 32x32_0
+  - first:
+      213: 1058263587159787581
+    second: GandalfHardcore Hell Tiles 32x32_1
+  - first:
+      213: -1486963832608693978
+    second: GandalfHardcore Hell Tiles 32x32_2
+  - first:
+      213: 5649268380422743438
+    second: GandalfHardcore Hell Tiles 32x32_3
+  - first:
+      213: -3912319062695885267
+    second: GandalfHardcore Hell Tiles 32x32_4
+  - first:
+      213: -8542505646622051127
+    second: GandalfHardcore Hell Tiles 32x32_5
+  - first:
+      213: -8897772725054039006
+    second: GandalfHardcore Hell Tiles 32x32_6
+  - first:
+      213: -834342495983038118
+    second: GandalfHardcore Hell Tiles 32x32_7
+  - first:
+      213: -9165986254874829273
+    second: GandalfHardcore Hell Tiles 32x32_8
+  - first:
+      213: -8514374686935773617
+    second: GandalfHardcore Hell Tiles 32x32_9
+  - first:
+      213: 5402309418723715079
+    second: GandalfHardcore Hell Tiles 32x32_10
+  - first:
+      213: 2352138876693611044
+    second: GandalfHardcore Hell Tiles 32x32_11
+  - first:
+      213: 8708508890457749441
+    second: GandalfHardcore Hell Tiles 32x32_12
+  - first:
+      213: -8180031057304973604
+    second: GandalfHardcore Hell Tiles 32x32_13
+  - first:
+      213: -6527090020808768885
+    second: GandalfHardcore Hell Tiles 32x32_14
+  - first:
+      213: -2734356704296680393
+    second: GandalfHardcore Hell Tiles 32x32_15
+  - first:
+      213: 1605369489842293761
+    second: GandalfHardcore_Hell_Tiles_32x32_00_00
+  - first:
+      213: 7871474488602676255
+    second: GandalfHardcore_Hell_Tiles_32x32_00_01
+  - first:
+      213: -2436661509706788734
+    second: GandalfHardcore_Hell_Tiles_32x32_00_02
+  - first:
+      213: 6916173057778091647
+    second: GandalfHardcore_Hell_Tiles_32x32_00_03
+  - first:
+      213: 8459548107470711143
+    second: GandalfHardcore_Hell_Tiles_32x32_00_04
+  - first:
+      213: -342138554204206731
+    second: GandalfHardcore_Hell_Tiles_32x32_00_05
+  - first:
+      213: -2379100812981737282
+    second: GandalfHardcore_Hell_Tiles_32x32_00_06
+  - first:
+      213: 213218424939492048
+    second: GandalfHardcore_Hell_Tiles_32x32_00_07
+  - first:
+      213: -975651483625281438
+    second: GandalfHardcore_Hell_Tiles_32x32_00_08
+  - first:
+      213: 7891025649693720875
+    second: GandalfHardcore_Hell_Tiles_32x32_00_09
+  - first:
+      213: 4335642154863449739
+    second: GandalfHardcore_Hell_Tiles_32x32_00_10
+  - first:
+      213: -7352464228639669855
+    second: GandalfHardcore_Hell_Tiles_32x32_00_11
+  - first:
+      213: -8182324667024780418
+    second: GandalfHardcore_Hell_Tiles_32x32_00_12
+  - first:
+      213: 14234850234277201
+    second: GandalfHardcore_Hell_Tiles_32x32_00_13
+  - first:
+      213: -1418563744250356982
+    second: GandalfHardcore_Hell_Tiles_32x32_00_14
+  - first:
+      213: 3519010631762924915
+    second: GandalfHardcore_Hell_Tiles_32x32_00_15
+  - first:
+      213: 8782926917921500301
+    second: GandalfHardcore_Hell_Tiles_32x32_00_16
+  - first:
+      213: 2821385148480705907
+    second: GandalfHardcore_Hell_Tiles_32x32_01_00
+  - first:
+      213: 7509068071072603578
+    second: GandalfHardcore_Hell_Tiles_32x32_01_01
+  - first:
+      213: -5305314544044193581
+    second: GandalfHardcore_Hell_Tiles_32x32_01_02
+  - first:
+      213: 7753463564747060467
+    second: GandalfHardcore_Hell_Tiles_32x32_01_03
+  - first:
+      213: 1774108944864926503
+    second: GandalfHardcore_Hell_Tiles_32x32_01_04
+  - first:
+      213: 6735283433285802225
+    second: GandalfHardcore_Hell_Tiles_32x32_01_05
+  - first:
+      213: -8360128001637692278
+    second: GandalfHardcore_Hell_Tiles_32x32_01_06
+  - first:
+      213: -859654754857088679
+    second: GandalfHardcore_Hell_Tiles_32x32_01_07
+  - first:
+      213: -4175153896250451546
+    second: GandalfHardcore_Hell_Tiles_32x32_01_08
+  - first:
+      213: -7976148349876633251
+    second: GandalfHardcore_Hell_Tiles_32x32_01_09
+  - first:
+      213: -2801212712417803203
+    second: GandalfHardcore_Hell_Tiles_32x32_01_10
+  - first:
+      213: -7344674526995574503
+    second: GandalfHardcore_Hell_Tiles_32x32_01_11
+  - first:
+      213: -2954857645715313183
+    second: GandalfHardcore_Hell_Tiles_32x32_01_12
+  - first:
+      213: 5380392512915550815
+    second: GandalfHardcore_Hell_Tiles_32x32_01_13
+  - first:
+      213: -1982214615597833480
+    second: GandalfHardcore_Hell_Tiles_32x32_01_14
+  - first:
+      213: 2530051140555391471
+    second: GandalfHardcore_Hell_Tiles_32x32_01_15
+  - first:
+      213: 2863013894094178983
+    second: GandalfHardcore_Hell_Tiles_32x32_01_16
+  - first:
+      213: 1782740119849874421
+    second: GandalfHardcore_Hell_Tiles_32x32_02_00
+  - first:
+      213: -138410632666767946
+    second: GandalfHardcore_Hell_Tiles_32x32_02_01
+  - first:
+      213: -812756655541994762
+    second: GandalfHardcore_Hell_Tiles_32x32_02_02
+  - first:
+      213: -8662867840708236200
+    second: GandalfHardcore_Hell_Tiles_32x32_02_03
+  - first:
+      213: 4202355275757344861
+    second: GandalfHardcore_Hell_Tiles_32x32_02_04
+  - first:
+      213: -8259170146147368132
+    second: GandalfHardcore_Hell_Tiles_32x32_02_05
+  - first:
+      213: 5975027056037653867
+    second: GandalfHardcore_Hell_Tiles_32x32_02_06
+  - first:
+      213: -2908230333945041438
+    second: GandalfHardcore_Hell_Tiles_32x32_02_07
+  - first:
+      213: 7395314299296175334
+    second: GandalfHardcore_Hell_Tiles_32x32_02_08
+  - first:
+      213: -3256320336168540715
+    second: GandalfHardcore_Hell_Tiles_32x32_02_09
+  - first:
+      213: 5856226287834214012
+    second: GandalfHardcore_Hell_Tiles_32x32_02_10
+  - first:
+      213: 207967725498292766
+    second: GandalfHardcore_Hell_Tiles_32x32_02_11
+  - first:
+      213: -4142415146314881987
+    second: GandalfHardcore_Hell_Tiles_32x32_02_12
+  - first:
+      213: 1177250556756334441
+    second: GandalfHardcore_Hell_Tiles_32x32_02_13
+  - first:
+      213: 5883321919569944314
+    second: GandalfHardcore_Hell_Tiles_32x32_02_14
+  - first:
+      213: 99372188487882555
+    second: GandalfHardcore_Hell_Tiles_32x32_02_15
+  - first:
+      213: 5181917435859500541
+    second: GandalfHardcore_Hell_Tiles_32x32_02_16
+  - first:
+      213: 6402379070590824788
+    second: GandalfHardcore_Hell_Tiles_32x32_03_00
+  - first:
+      213: -5972271540070254861
+    second: GandalfHardcore_Hell_Tiles_32x32_03_01
+  - first:
+      213: 8469633913083086576
+    second: GandalfHardcore_Hell_Tiles_32x32_03_02
+  - first:
+      213: 4908081481252589220
+    second: GandalfHardcore_Hell_Tiles_32x32_03_03
+  - first:
+      213: 6641637881214055194
+    second: GandalfHardcore_Hell_Tiles_32x32_03_04
+  - first:
+      213: 3996883349886633929
+    second: GandalfHardcore_Hell_Tiles_32x32_03_05
+  - first:
+      213: -3263976643036061976
+    second: GandalfHardcore_Hell_Tiles_32x32_03_06
+  - first:
+      213: -4683128472100866233
+    second: GandalfHardcore_Hell_Tiles_32x32_03_07
+  - first:
+      213: -2802966204274427241
+    second: GandalfHardcore_Hell_Tiles_32x32_03_08
+  - first:
+      213: -5561797519297718352
+    second: GandalfHardcore_Hell_Tiles_32x32_03_09
+  - first:
+      213: 3485527338033635983
+    second: GandalfHardcore_Hell_Tiles_32x32_03_10
+  - first:
+      213: -617483005474820502
+    second: GandalfHardcore_Hell_Tiles_32x32_03_11
+  - first:
+      213: -8204594927676416983
+    second: GandalfHardcore_Hell_Tiles_32x32_03_12
+  - first:
+      213: 6905038839499627877
+    second: GandalfHardcore_Hell_Tiles_32x32_03_13
+  - first:
+      213: -305808361753079569
+    second: GandalfHardcore_Hell_Tiles_32x32_03_14
+  - first:
+      213: -4935314045478338224
+    second: GandalfHardcore_Hell_Tiles_32x32_03_15
+  - first:
+      213: -6645285064139515162
+    second: GandalfHardcore_Hell_Tiles_32x32_03_16
+  - first:
+      213: 8016910328253247210
+    second: GandalfHardcore_Hell_Tiles_32x32_04_00
+  - first:
+      213: 6099592194175519156
+    second: GandalfHardcore_Hell_Tiles_32x32_04_01
+  - first:
+      213: -5005855899075870636
+    second: GandalfHardcore_Hell_Tiles_32x32_04_02
+  - first:
+      213: -8730914541201391163
+    second: GandalfHardcore_Hell_Tiles_32x32_04_03
+  - first:
+      213: -1658080427317925184
+    second: GandalfHardcore_Hell_Tiles_32x32_04_04
+  - first:
+      213: -8841270382974077573
+    second: GandalfHardcore_Hell_Tiles_32x32_04_05
+  - first:
+      213: -6817829884236266747
+    second: GandalfHardcore_Hell_Tiles_32x32_04_06
+  - first:
+      213: 8635701358155546294
+    second: GandalfHardcore_Hell_Tiles_32x32_04_07
+  - first:
+      213: -8588862307704394303
+    second: GandalfHardcore_Hell_Tiles_32x32_04_08
+  - first:
+      213: 4262468212526876007
+    second: GandalfHardcore_Hell_Tiles_32x32_04_09
+  - first:
+      213: 220810016401886008
+    second: GandalfHardcore_Hell_Tiles_32x32_04_10
+  - first:
+      213: 1701186885674181858
+    second: GandalfHardcore_Hell_Tiles_32x32_04_11
+  - first:
+      213: -4741889057004824862
+    second: GandalfHardcore_Hell_Tiles_32x32_04_12
+  - first:
+      213: 6575401106297921573
+    second: GandalfHardcore_Hell_Tiles_32x32_04_13
+  - first:
+      213: 7394053984300009287
+    second: GandalfHardcore_Hell_Tiles_32x32_04_14
+  - first:
+      213: 4914237604897024700
+    second: GandalfHardcore_Hell_Tiles_32x32_04_15
+  - first:
+      213: 4697513523872405709
+    second: GandalfHardcore_Hell_Tiles_32x32_04_16
+  - first:
+      213: -1158466577341246556
+    second: GandalfHardcore_Hell_Tiles_32x32_05_00
+  - first:
+      213: -4930207194254700626
+    second: GandalfHardcore_Hell_Tiles_32x32_05_01
+  - first:
+      213: 4084404647311665585
+    second: GandalfHardcore_Hell_Tiles_32x32_05_02
+  - first:
+      213: 928300106333312168
+    second: GandalfHardcore_Hell_Tiles_32x32_05_03
+  - first:
+      213: -3469856958492536122
+    second: GandalfHardcore_Hell_Tiles_32x32_05_04
+  - first:
+      213: -5724317511604809395
+    second: GandalfHardcore_Hell_Tiles_32x32_05_05
+  - first:
+      213: 4188812787462354612
+    second: GandalfHardcore_Hell_Tiles_32x32_05_06
+  - first:
+      213: 4364100269217794380
+    second: GandalfHardcore_Hell_Tiles_32x32_05_07
+  - first:
+      213: -8724889078826168888
+    second: GandalfHardcore_Hell_Tiles_32x32_05_08
+  - first:
+      213: -7419427500056281606
+    second: GandalfHardcore_Hell_Tiles_32x32_05_09
+  - first:
+      213: 4077115682447569397
+    second: GandalfHardcore_Hell_Tiles_32x32_05_10
+  - first:
+      213: 3749315008359346719
+    second: GandalfHardcore_Hell_Tiles_32x32_05_11
+  - first:
+      213: 1097315449544906470
+    second: GandalfHardcore_Hell_Tiles_32x32_05_12
+  - first:
+      213: -4960817281818362458
+    second: GandalfHardcore_Hell_Tiles_32x32_05_13
+  - first:
+      213: -8425946071833683798
+    second: GandalfHardcore_Hell_Tiles_32x32_05_14
+  - first:
+      213: -1610261257680075333
+    second: GandalfHardcore_Hell_Tiles_32x32_05_15
+  - first:
+      213: 5793460259127160443
+    second: GandalfHardcore_Hell_Tiles_32x32_05_16
+  - first:
+      213: 2133314528799586688
+    second: GandalfHardcore_Hell_Tiles_32x32_06_00
+  - first:
+      213: -2197012292588615559
+    second: GandalfHardcore_Hell_Tiles_32x32_06_01
+  - first:
+      213: -72418768347849067
+    second: GandalfHardcore_Hell_Tiles_32x32_06_02
+  - first:
+      213: 3469141201487808975
+    second: GandalfHardcore_Hell_Tiles_32x32_06_03
+  - first:
+      213: 4704272004841291670
+    second: GandalfHardcore_Hell_Tiles_32x32_06_04
+  - first:
+      213: 5021757098687993270
+    second: GandalfHardcore_Hell_Tiles_32x32_06_05
+  - first:
+      213: 3080260407036489453
+    second: GandalfHardcore_Hell_Tiles_32x32_06_06
+  - first:
+      213: 2614518526629288276
+    second: GandalfHardcore_Hell_Tiles_32x32_06_07
+  - first:
+      213: -3400660601825213348
+    second: GandalfHardcore_Hell_Tiles_32x32_06_08
+  - first:
+      213: 5194542875997105677
+    second: GandalfHardcore_Hell_Tiles_32x32_06_09
+  - first:
+      213: -7750597238899456944
+    second: GandalfHardcore_Hell_Tiles_32x32_06_10
+  - first:
+      213: -7930222380538133751
+    second: GandalfHardcore_Hell_Tiles_32x32_06_11
+  - first:
+      213: 488248361829007893
+    second: GandalfHardcore_Hell_Tiles_32x32_06_12
+  - first:
+      213: 7475712812925797974
+    second: GandalfHardcore_Hell_Tiles_32x32_06_13
+  - first:
+      213: 3652546486198336447
+    second: GandalfHardcore_Hell_Tiles_32x32_06_14
+  - first:
+      213: -7032579375247201689
+    second: GandalfHardcore_Hell_Tiles_32x32_06_15
+  - first:
+      213: -4871251566969773775
+    second: GandalfHardcore_Hell_Tiles_32x32_06_16
+  - first:
+      213: -5844446550776628909
+    second: GandalfHardcore_Hell_Tiles_32x32_07_00
+  - first:
+      213: 5125468267067335946
+    second: GandalfHardcore_Hell_Tiles_32x32_07_01
+  - first:
+      213: 2099328266293877862
+    second: GandalfHardcore_Hell_Tiles_32x32_07_02
+  - first:
+      213: -1130074793754088626
+    second: GandalfHardcore_Hell_Tiles_32x32_07_03
+  - first:
+      213: -502359928806581305
+    second: GandalfHardcore_Hell_Tiles_32x32_07_04
+  - first:
+      213: 3912136250524798833
+    second: GandalfHardcore_Hell_Tiles_32x32_07_05
+  - first:
+      213: -2913456079634227865
+    second: GandalfHardcore_Hell_Tiles_32x32_07_06
+  - first:
+      213: -9011443360307533652
+    second: GandalfHardcore_Hell_Tiles_32x32_07_07
+  - first:
+      213: 6718988484060935809
+    second: GandalfHardcore_Hell_Tiles_32x32_07_08
+  - first:
+      213: -2003689229347853482
+    second: GandalfHardcore_Hell_Tiles_32x32_07_09
+  - first:
+      213: 6919962200288880261
+    second: GandalfHardcore_Hell_Tiles_32x32_07_10
+  - first:
+      213: -8452317444011436530
+    second: GandalfHardcore_Hell_Tiles_32x32_07_11
+  - first:
+      213: -7673460962956621759
+    second: GandalfHardcore_Hell_Tiles_32x32_07_12
+  - first:
+      213: -8031489501210009942
+    second: GandalfHardcore_Hell_Tiles_32x32_07_13
+  - first:
+      213: -4102693160211683854
+    second: GandalfHardcore_Hell_Tiles_32x32_07_14
+  - first:
+      213: 2899878181218465430
+    second: GandalfHardcore_Hell_Tiles_32x32_07_15
+  - first:
+      213: -2427770658486867812
+    second: GandalfHardcore_Hell_Tiles_32x32_07_16
+  - first:
+      213: -5906181726176860795
+    second: GandalfHardcore_Hell_Tiles_32x32_08_00
+  - first:
+      213: -4957935547361912345
+    second: GandalfHardcore_Hell_Tiles_32x32_08_01
+  - first:
+      213: 5256126313714734839
+    second: GandalfHardcore_Hell_Tiles_32x32_08_02
+  - first:
+      213: 7737428469144857288
+    second: GandalfHardcore_Hell_Tiles_32x32_08_03
+  - first:
+      213: -240876355124566425
+    second: GandalfHardcore_Hell_Tiles_32x32_08_04
+  - first:
+      213: 6317906605300291597
+    second: GandalfHardcore_Hell_Tiles_32x32_08_05
+  - first:
+      213: 6619831486433000278
+    second: GandalfHardcore_Hell_Tiles_32x32_08_06
+  - first:
+      213: -5190098341174158548
+    second: GandalfHardcore_Hell_Tiles_32x32_08_07
+  - first:
+      213: -1423196122497072253
+    second: GandalfHardcore_Hell_Tiles_32x32_08_08
+  - first:
+      213: -4561158345741806147
+    second: GandalfHardcore_Hell_Tiles_32x32_08_09
+  - first:
+      213: 4805131403589256706
+    second: GandalfHardcore_Hell_Tiles_32x32_08_10
+  - first:
+      213: 3393138578243590511
+    second: GandalfHardcore_Hell_Tiles_32x32_08_11
+  - first:
+      213: -3560644709888585060
+    second: GandalfHardcore_Hell_Tiles_32x32_08_12
+  - first:
+      213: 5101122665822627070
+    second: GandalfHardcore_Hell_Tiles_32x32_08_13
+  - first:
+      213: 8787898570665139173
+    second: GandalfHardcore_Hell_Tiles_32x32_08_14
+  - first:
+      213: 3232858192833915934
+    second: GandalfHardcore_Hell_Tiles_32x32_08_15
+  - first:
+      213: -6915992596657671035
+    second: GandalfHardcore_Hell_Tiles_32x32_08_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 35.555557
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_00_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10ccc4f9b0b674610800000000000000
+      internalID: 1605369489842293761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_00_01
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1c46bfa7581d3d60800000000000000
+      internalID: 7871474488602676255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_00_02
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2805f04544d3f2ed0800000000000000
+      internalID: -2436661509706788734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_00_03
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f768df9a0ce2bff50800000000000000
+      internalID: 6916173057778091647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_00_04
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 769ae12ee2a566570800000000000000
+      internalID: 8459548107470711143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_00_05
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57941b43cca704bf0800000000000000
+      internalID: -342138554204206731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_00_06
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb861656a6cbbfed0800000000000000
+      internalID: -2379100812981737282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_00_07
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d2361e170185f200800000000000000
+      internalID: 213218424939492048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_00_08
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 268aee5152ac572f0800000000000000
+      internalID: -975651483625281438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_00_09
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b218d7b150e828d60800000000000000
+      internalID: 7891025649693720875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_00_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8658d1919b4b2c30800000000000000
+      internalID: 4335642154863449739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_00_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a18a243dbcc6f990800000000000000
+      internalID: -7352464228639669855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_00_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e735211311b827e80800000000000000
+      internalID: -8182324667024780418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_00_13
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15d15a75582923000800000000000000
+      internalID: 14234850234277201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_00_14
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0b95bc5acf305ce0800000000000000
+      internalID: -1418563744250356982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_00_15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3755d0b668906d030800000000000000
+      internalID: 3519010631762924915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_00_16
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8c6de67f7933e970800000000000000
+      internalID: 8782926917921500301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_01_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37551cd18d2972720800000000000000
+      internalID: 2821385148480705907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_01_01
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abd928a30a1953860800000000000000
+      internalID: 7509068071072603578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_01_02
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d8488ce78cbf56b0800000000000000
+      internalID: -5305314544044193581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_01_03
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f4bea35806d99b60800000000000000
+      internalID: 7753463564747060467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_01_04
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72b548b8fa6ee9810800000000000000
+      internalID: 1774108944864926503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_01_05
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f8d296f898887d50800000000000000
+      internalID: 6735283433285802225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_01_06
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8cc69950ebdafb80800000000000000
+      internalID: -8360128001637692278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_01_07
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 959844b1e84e114f0800000000000000
+      internalID: -859654754857088679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_01_08
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a9576bf6afde06c0800000000000000
+      internalID: -4175153896250451546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_01_09
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5109c1d5570f4190800000000000000
+      internalID: -7976148349876633251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_01_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d34470821e71029d0800000000000000
+      internalID: -2801212712417803203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_01_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91191937e69721a90800000000000000
+      internalID: -7344674526995574503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_01_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1edaa4170ac3ef6d0800000000000000
+      internalID: -2954857645715313183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_01_13
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f52b084eb7efaaa40800000000000000
+      internalID: 5380392512915550815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_01_14
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f224b03f42cd74e0800000000000000
+      internalID: -1982214615597833480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_01_15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe140688b1c8c1320800000000000000
+      internalID: 2530051140555391471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_01_16
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aacd70c7f77bb720800000000000000
+      internalID: 2863013894094178983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_02_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f33d7291b09db810800000000000000
+      internalID: 1782740119849874421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_02_01
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bd92ce4344441ef0800000000000000
+      internalID: -138410632666767946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_02_02
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fab591c02288b4f0800000000000000
+      internalID: -812756655541994762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_02_03
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85c2e62c89f47c780800000000000000
+      internalID: -8662867840708236200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_02_04
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d585187bbd3c15a30800000000000000
+      internalID: 4202355275757344861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_02_05
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c330063d288816d80800000000000000
+      internalID: -8259170146147368132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_02_06
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6de87e437f8be250800000000000000
+      internalID: 5975027056037653867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_02_07
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eda0347be3e3a7d0800000000000000
+      internalID: -2908230333945041438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_02_08
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e45ae35c2f61a660800000000000000
+      internalID: 7395314299296175334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_02_09
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d52bcf28e93fc2d0800000000000000
+      internalID: -3256320336168540715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_02_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7ea9aaf7ce754150800000000000000
+      internalID: 5856226287834214012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_02_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1a52136b89d2e200800000000000000
+      internalID: 207967725498292766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_02_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3424b33f5f2386c0800000000000000
+      internalID: -4142415146314881987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_02_13
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 967971fd42f665010800000000000000
+      internalID: 1177250556756334441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_02_14
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afe5c3b5d12c5a150800000000000000
+      internalID: 5883321919569944314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_02_15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b379f5b9a7a016100800000000000000
+      internalID: 99372188487882555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_02_16
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfdfec3f37ed9e740800000000000000
+      internalID: 5181917435859500541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_03_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45136fbe7d1d9d850800000000000000
+      internalID: 6402379070590824788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_03_01
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f6ffef3daa3e1da0800000000000000
+      internalID: -5972271540070254861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_03_02
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f64bee7b2f2a8570800000000000000
+      internalID: 8469633913083086576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_03_03
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aecbb26a120d1440800000000000000
+      internalID: 4908081481252589220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_03_04
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a13ba8cc676db2c50800000000000000
+      internalID: 6641637881214055194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_03_05
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c78aa6fa38c77730800000000000000
+      internalID: 3996883349886633929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_03_06
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eed9a4598604b2d0800000000000000
+      internalID: -3263976643036061976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_03_07
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 747f8e6877f220fb0800000000000000
+      internalID: -4683128472100866233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_03_08
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79a3cc4861dd919d0800000000000000
+      internalID: -2802966204274427241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_03_09
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b75c95bf9680d2b0800000000000000
+      internalID: -5561797519297718352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_03_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f82686695a41f5030800000000000000
+      internalID: 3485527338033635983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_03_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6e25d36a724e67f0800000000000000
+      internalID: -617483005474820502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_03_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92c10e1126c632e80800000000000000
+      internalID: -8204594927676416983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_03_13
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56d96a47d30a3df50800000000000000
+      internalID: 6905038839499627877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_03_14
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe01d5c4aec81cbf0800000000000000
+      internalID: -305808361753079569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_03_15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0518448260e328bb0800000000000000
+      internalID: -4935314045478338224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_03_16
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ea51c0417437c3a0800000000000000
+      internalID: -6645285064139515162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_04_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeee1b7d779c14f60800000000000000
+      internalID: 8016910328253247210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_04_01
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b9c39898ca16a450800000000000000
+      internalID: 6099592194175519156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_04_02
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4500acaf490a78ab0800000000000000
+      internalID: -5005855899075870636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_04_03
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c1066fab7f85d680800000000000000
+      internalID: -8730914541201391163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_04_04
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0caefa0e2a05df8e0800000000000000
+      internalID: -1658080427317925184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_04_05
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b75f5a30e6f7d4580800000000000000
+      internalID: -8841270382974077573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_04_06
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5030e0bb7d33261a0800000000000000
+      internalID: -6817829884236266747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_04_07
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6be383f91ac28d770800000000000000
+      internalID: 8635701358155546294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_04_08
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cda984ac3b3ec880800000000000000
+      internalID: -8588862307704394303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_04_09
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7650f0a7144572b30800000000000000
+      internalID: 4262468212526876007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_04_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83b8b7e3a89701300800000000000000
+      internalID: 220810016401886008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_04_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e4a9219574db9710800000000000000
+      internalID: 1701186885674181858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_04_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e65ae8b60d613eb0800000000000000
+      internalID: -4741889057004824862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_04_13
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 520299cd774804b50800000000000000
+      internalID: 6575401106297921573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_04_14
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74783406ce4fc9660800000000000000
+      internalID: 7394053984300009287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_04_15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbae0cd9011e23440800000000000000
+      internalID: 4914237604897024700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_04_16
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc8120659abe03140800000000000000
+      internalID: 4697513523872405709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_05_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a3996529cc4cefe0800000000000000
+      internalID: -1158466577341246556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_05_01
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaf8f5d9da2649bb0800000000000000
+      internalID: -4930207194254700626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_05_02
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b967f9f268bea830800000000000000
+      internalID: 4084404647311665585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_05_03
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a454f2470cf1ec00800000000000000
+      internalID: 928300106333312168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_05_04
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c292a7fa7798dfc0800000000000000
+      internalID: -3469856958492536122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_05_05
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d415f3b4d832f80b0800000000000000
+      internalID: -5724317511604809395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_05_06
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b6be437907a12a30800000000000000
+      internalID: 4188812787462354612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_05_07
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c49c9e6a216609c30800000000000000
+      internalID: 4364100269217794380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_05_08
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cd81e7fb97fae680800000000000000
+      internalID: -8724889078826168888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_05_09
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afd716e9ff5e80990800000000000000
+      internalID: -7419427500056281606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_05_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f136789c13d49830800000000000000
+      internalID: 4077115682447569397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_05_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f12bc48a22e380430800000000000000
+      internalID: 3749315008359346719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_05_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e61ca866927a3f00800000000000000
+      internalID: 1097315449544906470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_05_13
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6adf89937f2a72bb0800000000000000
+      internalID: -4960817281818362458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_05_14
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa851c3b0b6011b80800000000000000
+      internalID: -8425946071833683798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_05_15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb5c76ceae337a9e0800000000000000
+      internalID: -1610261257680075333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_05_16
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7eed9d1961866050800000000000000
+      internalID: 5793460259127160443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_06_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 089774bd24e0b9d10800000000000000
+      internalID: 2133314528799586688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_06_01
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 978c61dc5f4a281e0800000000000000
+      internalID: -2197012292588615559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_06_02
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59e1e8d8387befef0800000000000000
+      internalID: -72418768347849067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_06_03
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc94a5eda8dd42030800000000000000
+      internalID: 3469141201487808975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_06_04
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69f316fc67ee84140800000000000000
+      internalID: 4704272004841291670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_06_05
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b5189f897dd0b540800000000000000
+      internalID: 5021757098687993270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_06_06
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dee2c1135884fba20800000000000000
+      internalID: 3080260407036489453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_06_07
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4599a666fb2a84420800000000000000
+      internalID: 2614518526629288276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_06_08
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c54ca8a333d6ec0d0800000000000000
+      internalID: -3400660601825213348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_06_09
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0ee75e4939b61840800000000000000
+      internalID: 5194542875997105677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_06_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 054464a20e8507490800000000000000
+      internalID: -7750597238899456944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_06_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9030c22d2c032f190800000000000000
+      internalID: -7930222380538133751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_06_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5120cf85c4b96c600800000000000000
+      internalID: 488248361829007893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_06_13
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 656474102311fb760800000000000000
+      internalID: 7475712812925797974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_06_14
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbbf37b5da370b230800000000000000
+      internalID: 3652546486198336447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_06_15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76ae6a38152476e90800000000000000
+      internalID: -7032579375247201689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_06_16
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 131a3334286d56cb0800000000000000
+      internalID: -4871251566969773775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_07_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 359b338c3da54eea0800000000000000
+      internalID: -5844446550776628909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_07_01
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a05e516ab32512740800000000000000
+      internalID: 5125468267067335946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_07_02
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66c126b7fef422d10800000000000000
+      internalID: 2099328266293877862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_07_03
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4b2aa466fa2150f0800000000000000
+      internalID: -1130074793754088626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_07_04
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cbd71e6e424709f0800000000000000
+      internalID: -502359928806581305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_07_05
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17f85754133ba4630800000000000000
+      internalID: 3912136250524798833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_07_06
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76d13b8b1235197d0800000000000000
+      internalID: -2913456079634227865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_07_07
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca8215b220ce0f280800000000000000
+      internalID: -9011443360307533652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_07_08
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18674627d64ae3d50800000000000000
+      internalID: 6718988484060935809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_07_09
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65be17c03477134e0800000000000000
+      internalID: -2003689229347853482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_07_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 586695725f4a80060800000000000000
+      internalID: 6919962200288880261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_07_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e065cd4211653ba80800000000000000
+      internalID: -8452317444011436530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_07_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 148c421f8e3628590800000000000000
+      internalID: -7673460962956621759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_07_13
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aae191fe9da6a8090800000000000000
+      internalID: -8031489501210009942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_07_14
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f5682bce4e4017c0800000000000000
+      internalID: -4102693160211683854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_07_15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 696be6377df6e3820800000000000000
+      internalID: 2899878181218465430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_07_16
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9826c0f273de4ed0800000000000000
+      internalID: -2427770658486867812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_08_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58523582307090ea0800000000000000
+      internalID: -5906181726176860795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_08_01
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e9163053efd13bb0800000000000000
+      internalID: -4957935547361912345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_08_02
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f6dc8fb80381f840800000000000000
+      internalID: 5256126313714734839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_08_03
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8caaf52b23ed06b60800000000000000
+      internalID: 7737428469144857288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_08_04
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76662023b3c38acf0800000000000000
+      internalID: -240876355124566425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_08_05
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0894057596bda750800000000000000
+      internalID: 6317906605300291597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_08_06
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65bf8cdd9ad5edb50800000000000000
+      internalID: 6619831486433000278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_08_07
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2b58f89e0119f7b0800000000000000
+      internalID: -5190098341174158548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_08_08
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38349d0caaacf3ce0800000000000000
+      internalID: -1423196122497072253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_08_09
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db550cd86a283b0c0800000000000000
+      internalID: -4561158345741806147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_08_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 206030a8d814fa240800000000000000
+      internalID: 4805131403589256706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_08_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6912ed2f89d61f20800000000000000
+      internalID: 3393138578243590511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_08_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9297bf508c069ec0800000000000000
+      internalID: -3560644709888585060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_08_13
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef42d04a904dac640800000000000000
+      internalID: 5101122665822627070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_08_14
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eb98a29033e4f970800000000000000
+      internalID: 8787898570665139173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_08_15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1ca311e56b6ddc20800000000000000
+      internalID: 3232858192833915934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Hell_Tiles_32x32_08_16
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 584fcf630657500a0800000000000000
+      internalID: -6915992596657671035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      GandalfHardcore Hell Tiles 32x32_0: -8004479691346891330
+      GandalfHardcore Hell Tiles 32x32_1: 1058263587159787581
+      GandalfHardcore Hell Tiles 32x32_10: 5402309418723715079
+      GandalfHardcore Hell Tiles 32x32_11: 2352138876693611044
+      GandalfHardcore Hell Tiles 32x32_12: 8708508890457749441
+      GandalfHardcore Hell Tiles 32x32_13: -8180031057304973604
+      GandalfHardcore Hell Tiles 32x32_14: -6527090020808768885
+      GandalfHardcore Hell Tiles 32x32_15: -2734356704296680393
+      GandalfHardcore Hell Tiles 32x32_2: -1486963832608693978
+      GandalfHardcore Hell Tiles 32x32_3: 5649268380422743438
+      GandalfHardcore Hell Tiles 32x32_4: -3912319062695885267
+      GandalfHardcore Hell Tiles 32x32_5: -8542505646622051127
+      GandalfHardcore Hell Tiles 32x32_6: -8897772725054039006
+      GandalfHardcore Hell Tiles 32x32_7: -834342495983038118
+      GandalfHardcore Hell Tiles 32x32_8: -9165986254874829273
+      GandalfHardcore Hell Tiles 32x32_9: -8514374686935773617
+      GandalfHardcore_Hell_Tiles_32x32_00_00: 1605369489842293761
+      GandalfHardcore_Hell_Tiles_32x32_00_01: 7871474488602676255
+      GandalfHardcore_Hell_Tiles_32x32_00_02: -2436661509706788734
+      GandalfHardcore_Hell_Tiles_32x32_00_03: 6916173057778091647
+      GandalfHardcore_Hell_Tiles_32x32_00_04: 8459548107470711143
+      GandalfHardcore_Hell_Tiles_32x32_00_05: -342138554204206731
+      GandalfHardcore_Hell_Tiles_32x32_00_06: -2379100812981737282
+      GandalfHardcore_Hell_Tiles_32x32_00_07: 213218424939492048
+      GandalfHardcore_Hell_Tiles_32x32_00_08: -975651483625281438
+      GandalfHardcore_Hell_Tiles_32x32_00_09: 7891025649693720875
+      GandalfHardcore_Hell_Tiles_32x32_00_10: 4335642154863449739
+      GandalfHardcore_Hell_Tiles_32x32_00_11: -7352464228639669855
+      GandalfHardcore_Hell_Tiles_32x32_00_12: -8182324667024780418
+      GandalfHardcore_Hell_Tiles_32x32_00_13: 14234850234277201
+      GandalfHardcore_Hell_Tiles_32x32_00_14: -1418563744250356982
+      GandalfHardcore_Hell_Tiles_32x32_00_15: 3519010631762924915
+      GandalfHardcore_Hell_Tiles_32x32_00_16: 8782926917921500301
+      GandalfHardcore_Hell_Tiles_32x32_01_00: 2821385148480705907
+      GandalfHardcore_Hell_Tiles_32x32_01_01: 7509068071072603578
+      GandalfHardcore_Hell_Tiles_32x32_01_02: -5305314544044193581
+      GandalfHardcore_Hell_Tiles_32x32_01_03: 7753463564747060467
+      GandalfHardcore_Hell_Tiles_32x32_01_04: 1774108944864926503
+      GandalfHardcore_Hell_Tiles_32x32_01_05: 6735283433285802225
+      GandalfHardcore_Hell_Tiles_32x32_01_06: -8360128001637692278
+      GandalfHardcore_Hell_Tiles_32x32_01_07: -859654754857088679
+      GandalfHardcore_Hell_Tiles_32x32_01_08: -4175153896250451546
+      GandalfHardcore_Hell_Tiles_32x32_01_09: -7976148349876633251
+      GandalfHardcore_Hell_Tiles_32x32_01_10: -2801212712417803203
+      GandalfHardcore_Hell_Tiles_32x32_01_11: -7344674526995574503
+      GandalfHardcore_Hell_Tiles_32x32_01_12: -2954857645715313183
+      GandalfHardcore_Hell_Tiles_32x32_01_13: 5380392512915550815
+      GandalfHardcore_Hell_Tiles_32x32_01_14: -1982214615597833480
+      GandalfHardcore_Hell_Tiles_32x32_01_15: 2530051140555391471
+      GandalfHardcore_Hell_Tiles_32x32_01_16: 2863013894094178983
+      GandalfHardcore_Hell_Tiles_32x32_02_00: 1782740119849874421
+      GandalfHardcore_Hell_Tiles_32x32_02_01: -138410632666767946
+      GandalfHardcore_Hell_Tiles_32x32_02_02: -812756655541994762
+      GandalfHardcore_Hell_Tiles_32x32_02_03: -8662867840708236200
+      GandalfHardcore_Hell_Tiles_32x32_02_04: 4202355275757344861
+      GandalfHardcore_Hell_Tiles_32x32_02_05: -8259170146147368132
+      GandalfHardcore_Hell_Tiles_32x32_02_06: 5975027056037653867
+      GandalfHardcore_Hell_Tiles_32x32_02_07: -2908230333945041438
+      GandalfHardcore_Hell_Tiles_32x32_02_08: 7395314299296175334
+      GandalfHardcore_Hell_Tiles_32x32_02_09: -3256320336168540715
+      GandalfHardcore_Hell_Tiles_32x32_02_10: 5856226287834214012
+      GandalfHardcore_Hell_Tiles_32x32_02_11: 207967725498292766
+      GandalfHardcore_Hell_Tiles_32x32_02_12: -4142415146314881987
+      GandalfHardcore_Hell_Tiles_32x32_02_13: 1177250556756334441
+      GandalfHardcore_Hell_Tiles_32x32_02_14: 5883321919569944314
+      GandalfHardcore_Hell_Tiles_32x32_02_15: 99372188487882555
+      GandalfHardcore_Hell_Tiles_32x32_02_16: 5181917435859500541
+      GandalfHardcore_Hell_Tiles_32x32_03_00: 6402379070590824788
+      GandalfHardcore_Hell_Tiles_32x32_03_01: -5972271540070254861
+      GandalfHardcore_Hell_Tiles_32x32_03_02: 8469633913083086576
+      GandalfHardcore_Hell_Tiles_32x32_03_03: 4908081481252589220
+      GandalfHardcore_Hell_Tiles_32x32_03_04: 6641637881214055194
+      GandalfHardcore_Hell_Tiles_32x32_03_05: 3996883349886633929
+      GandalfHardcore_Hell_Tiles_32x32_03_06: -3263976643036061976
+      GandalfHardcore_Hell_Tiles_32x32_03_07: -4683128472100866233
+      GandalfHardcore_Hell_Tiles_32x32_03_08: -2802966204274427241
+      GandalfHardcore_Hell_Tiles_32x32_03_09: -5561797519297718352
+      GandalfHardcore_Hell_Tiles_32x32_03_10: 3485527338033635983
+      GandalfHardcore_Hell_Tiles_32x32_03_11: -617483005474820502
+      GandalfHardcore_Hell_Tiles_32x32_03_12: -8204594927676416983
+      GandalfHardcore_Hell_Tiles_32x32_03_13: 6905038839499627877
+      GandalfHardcore_Hell_Tiles_32x32_03_14: -305808361753079569
+      GandalfHardcore_Hell_Tiles_32x32_03_15: -4935314045478338224
+      GandalfHardcore_Hell_Tiles_32x32_03_16: -6645285064139515162
+      GandalfHardcore_Hell_Tiles_32x32_04_00: 8016910328253247210
+      GandalfHardcore_Hell_Tiles_32x32_04_01: 6099592194175519156
+      GandalfHardcore_Hell_Tiles_32x32_04_02: -5005855899075870636
+      GandalfHardcore_Hell_Tiles_32x32_04_03: -8730914541201391163
+      GandalfHardcore_Hell_Tiles_32x32_04_04: -1658080427317925184
+      GandalfHardcore_Hell_Tiles_32x32_04_05: -8841270382974077573
+      GandalfHardcore_Hell_Tiles_32x32_04_06: -6817829884236266747
+      GandalfHardcore_Hell_Tiles_32x32_04_07: 8635701358155546294
+      GandalfHardcore_Hell_Tiles_32x32_04_08: -8588862307704394303
+      GandalfHardcore_Hell_Tiles_32x32_04_09: 4262468212526876007
+      GandalfHardcore_Hell_Tiles_32x32_04_10: 220810016401886008
+      GandalfHardcore_Hell_Tiles_32x32_04_11: 1701186885674181858
+      GandalfHardcore_Hell_Tiles_32x32_04_12: -4741889057004824862
+      GandalfHardcore_Hell_Tiles_32x32_04_13: 6575401106297921573
+      GandalfHardcore_Hell_Tiles_32x32_04_14: 7394053984300009287
+      GandalfHardcore_Hell_Tiles_32x32_04_15: 4914237604897024700
+      GandalfHardcore_Hell_Tiles_32x32_04_16: 4697513523872405709
+      GandalfHardcore_Hell_Tiles_32x32_05_00: -1158466577341246556
+      GandalfHardcore_Hell_Tiles_32x32_05_01: -4930207194254700626
+      GandalfHardcore_Hell_Tiles_32x32_05_02: 4084404647311665585
+      GandalfHardcore_Hell_Tiles_32x32_05_03: 928300106333312168
+      GandalfHardcore_Hell_Tiles_32x32_05_04: -3469856958492536122
+      GandalfHardcore_Hell_Tiles_32x32_05_05: -5724317511604809395
+      GandalfHardcore_Hell_Tiles_32x32_05_06: 4188812787462354612
+      GandalfHardcore_Hell_Tiles_32x32_05_07: 4364100269217794380
+      GandalfHardcore_Hell_Tiles_32x32_05_08: -8724889078826168888
+      GandalfHardcore_Hell_Tiles_32x32_05_09: -7419427500056281606
+      GandalfHardcore_Hell_Tiles_32x32_05_10: 4077115682447569397
+      GandalfHardcore_Hell_Tiles_32x32_05_11: 3749315008359346719
+      GandalfHardcore_Hell_Tiles_32x32_05_12: 1097315449544906470
+      GandalfHardcore_Hell_Tiles_32x32_05_13: -4960817281818362458
+      GandalfHardcore_Hell_Tiles_32x32_05_14: -8425946071833683798
+      GandalfHardcore_Hell_Tiles_32x32_05_15: -1610261257680075333
+      GandalfHardcore_Hell_Tiles_32x32_05_16: 5793460259127160443
+      GandalfHardcore_Hell_Tiles_32x32_06_00: 2133314528799586688
+      GandalfHardcore_Hell_Tiles_32x32_06_01: -2197012292588615559
+      GandalfHardcore_Hell_Tiles_32x32_06_02: -72418768347849067
+      GandalfHardcore_Hell_Tiles_32x32_06_03: 3469141201487808975
+      GandalfHardcore_Hell_Tiles_32x32_06_04: 4704272004841291670
+      GandalfHardcore_Hell_Tiles_32x32_06_05: 5021757098687993270
+      GandalfHardcore_Hell_Tiles_32x32_06_06: 3080260407036489453
+      GandalfHardcore_Hell_Tiles_32x32_06_07: 2614518526629288276
+      GandalfHardcore_Hell_Tiles_32x32_06_08: -3400660601825213348
+      GandalfHardcore_Hell_Tiles_32x32_06_09: 5194542875997105677
+      GandalfHardcore_Hell_Tiles_32x32_06_10: -7750597238899456944
+      GandalfHardcore_Hell_Tiles_32x32_06_11: -7930222380538133751
+      GandalfHardcore_Hell_Tiles_32x32_06_12: 488248361829007893
+      GandalfHardcore_Hell_Tiles_32x32_06_13: 7475712812925797974
+      GandalfHardcore_Hell_Tiles_32x32_06_14: 3652546486198336447
+      GandalfHardcore_Hell_Tiles_32x32_06_15: -7032579375247201689
+      GandalfHardcore_Hell_Tiles_32x32_06_16: -4871251566969773775
+      GandalfHardcore_Hell_Tiles_32x32_07_00: -5844446550776628909
+      GandalfHardcore_Hell_Tiles_32x32_07_01: 5125468267067335946
+      GandalfHardcore_Hell_Tiles_32x32_07_02: 2099328266293877862
+      GandalfHardcore_Hell_Tiles_32x32_07_03: -1130074793754088626
+      GandalfHardcore_Hell_Tiles_32x32_07_04: -502359928806581305
+      GandalfHardcore_Hell_Tiles_32x32_07_05: 3912136250524798833
+      GandalfHardcore_Hell_Tiles_32x32_07_06: -2913456079634227865
+      GandalfHardcore_Hell_Tiles_32x32_07_07: -9011443360307533652
+      GandalfHardcore_Hell_Tiles_32x32_07_08: 6718988484060935809
+      GandalfHardcore_Hell_Tiles_32x32_07_09: -2003689229347853482
+      GandalfHardcore_Hell_Tiles_32x32_07_10: 6919962200288880261
+      GandalfHardcore_Hell_Tiles_32x32_07_11: -8452317444011436530
+      GandalfHardcore_Hell_Tiles_32x32_07_12: -7673460962956621759
+      GandalfHardcore_Hell_Tiles_32x32_07_13: -8031489501210009942
+      GandalfHardcore_Hell_Tiles_32x32_07_14: -4102693160211683854
+      GandalfHardcore_Hell_Tiles_32x32_07_15: 2899878181218465430
+      GandalfHardcore_Hell_Tiles_32x32_07_16: -2427770658486867812
+      GandalfHardcore_Hell_Tiles_32x32_08_00: -5906181726176860795
+      GandalfHardcore_Hell_Tiles_32x32_08_01: -4957935547361912345
+      GandalfHardcore_Hell_Tiles_32x32_08_02: 5256126313714734839
+      GandalfHardcore_Hell_Tiles_32x32_08_03: 7737428469144857288
+      GandalfHardcore_Hell_Tiles_32x32_08_04: -240876355124566425
+      GandalfHardcore_Hell_Tiles_32x32_08_05: 6317906605300291597
+      GandalfHardcore_Hell_Tiles_32x32_08_06: 6619831486433000278
+      GandalfHardcore_Hell_Tiles_32x32_08_07: -5190098341174158548
+      GandalfHardcore_Hell_Tiles_32x32_08_08: -1423196122497072253
+      GandalfHardcore_Hell_Tiles_32x32_08_09: -4561158345741806147
+      GandalfHardcore_Hell_Tiles_32x32_08_10: 4805131403589256706
+      GandalfHardcore_Hell_Tiles_32x32_08_11: 3393138578243590511
+      GandalfHardcore_Hell_Tiles_32x32_08_12: -3560644709888585060
+      GandalfHardcore_Hell_Tiles_32x32_08_13: 5101122665822627070
+      GandalfHardcore_Hell_Tiles_32x32_08_14: 8787898570665139173
+      GandalfHardcore_Hell_Tiles_32x32_08_15: 3232858192833915934
+      GandalfHardcore_Hell_Tiles_32x32_08_16: -6915992596657671035
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

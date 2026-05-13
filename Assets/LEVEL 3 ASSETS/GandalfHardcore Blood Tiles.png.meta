@@ -1,0 +1,5849 @@
+fileFormatVersion: 2
+guid: c8d20223c559f244ab1da506cb4a88f7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3351689297811653559
+    second: GandalfHardcore Blood Tiles_0
+  - first:
+      213: -6010643195357617744
+    second: GandalfHardcore Blood Tiles_1
+  - first:
+      213: 4697590283224618536
+    second: GandalfHardcore Blood Tiles_2
+  - first:
+      213: 8401674119815723130
+    second: GandalfHardcore_Blood_Tiles_00_00
+  - first:
+      213: -1407202266119335893
+    second: GandalfHardcore_Blood_Tiles_00_01
+  - first:
+      213: 8936437764612251631
+    second: GandalfHardcore_Blood_Tiles_00_02
+  - first:
+      213: 3203920083693987927
+    second: GandalfHardcore_Blood_Tiles_00_03
+  - first:
+      213: 7716072103015742924
+    second: GandalfHardcore_Blood_Tiles_00_04
+  - first:
+      213: 8626230702883555314
+    second: GandalfHardcore_Blood_Tiles_00_05
+  - first:
+      213: -6959000892970897186
+    second: GandalfHardcore_Blood_Tiles_00_06
+  - first:
+      213: -6722232614860166472
+    second: GandalfHardcore_Blood_Tiles_00_07
+  - first:
+      213: 709653506681903915
+    second: GandalfHardcore_Blood_Tiles_00_08
+  - first:
+      213: -8252781555322996841
+    second: GandalfHardcore_Blood_Tiles_00_09
+  - first:
+      213: -2401976080532720780
+    second: GandalfHardcore_Blood_Tiles_00_10
+  - first:
+      213: -7520074798928950642
+    second: GandalfHardcore_Blood_Tiles_00_11
+  - first:
+      213: 8656180111185508702
+    second: GandalfHardcore_Blood_Tiles_00_12
+  - first:
+      213: 8553525734959607249
+    second: GandalfHardcore_Blood_Tiles_00_13
+  - first:
+      213: 5616339395744545993
+    second: GandalfHardcore_Blood_Tiles_00_14
+  - first:
+      213: 358808385617924758
+    second: GandalfHardcore_Blood_Tiles_00_15
+  - first:
+      213: -209897318265984142
+    second: GandalfHardcore_Blood_Tiles_00_16
+  - first:
+      213: 3603625699895320310
+    second: GandalfHardcore_Blood_Tiles_00_17
+  - first:
+      213: -3129244907923671617
+    second: GandalfHardcore_Blood_Tiles_00_18
+  - first:
+      213: -1016398407271422825
+    second: GandalfHardcore_Blood_Tiles_00_19
+  - first:
+      213: -7837517726902301230
+    second: GandalfHardcore_Blood_Tiles_01_00
+  - first:
+      213: -4429274510820657662
+    second: GandalfHardcore_Blood_Tiles_01_01
+  - first:
+      213: 7141364208805174237
+    second: GandalfHardcore_Blood_Tiles_01_02
+  - first:
+      213: -6872030667450193656
+    second: GandalfHardcore_Blood_Tiles_01_03
+  - first:
+      213: -431437640107094811
+    second: GandalfHardcore_Blood_Tiles_01_04
+  - first:
+      213: -7440299697818293192
+    second: GandalfHardcore_Blood_Tiles_01_05
+  - first:
+      213: 5941739770869729441
+    second: GandalfHardcore_Blood_Tiles_01_06
+  - first:
+      213: -52450225206906414
+    second: GandalfHardcore_Blood_Tiles_01_07
+  - first:
+      213: 7571448521664753546
+    second: GandalfHardcore_Blood_Tiles_01_08
+  - first:
+      213: 3323403543862558338
+    second: GandalfHardcore_Blood_Tiles_01_09
+  - first:
+      213: 4043217569462669634
+    second: GandalfHardcore_Blood_Tiles_01_10
+  - first:
+      213: 4959815969518681617
+    second: GandalfHardcore_Blood_Tiles_01_11
+  - first:
+      213: 1194467445365495912
+    second: GandalfHardcore_Blood_Tiles_01_12
+  - first:
+      213: -3364274956410192556
+    second: GandalfHardcore_Blood_Tiles_01_13
+  - first:
+      213: -6017991273109766281
+    second: GandalfHardcore_Blood_Tiles_01_14
+  - first:
+      213: -7768021142940075343
+    second: GandalfHardcore_Blood_Tiles_01_15
+  - first:
+      213: -3698935832000776967
+    second: GandalfHardcore_Blood_Tiles_01_16
+  - first:
+      213: 994067779428105189
+    second: GandalfHardcore_Blood_Tiles_01_17
+  - first:
+      213: -1725254228900045353
+    second: GandalfHardcore_Blood_Tiles_01_18
+  - first:
+      213: -3567642007374168821
+    second: GandalfHardcore_Blood_Tiles_01_19
+  - first:
+      213: 2631105477891260954
+    second: GandalfHardcore_Blood_Tiles_02_00
+  - first:
+      213: 6302128395113862281
+    second: GandalfHardcore_Blood_Tiles_02_01
+  - first:
+      213: -7253850077192133658
+    second: GandalfHardcore_Blood_Tiles_02_02
+  - first:
+      213: 5747268063981711214
+    second: GandalfHardcore_Blood_Tiles_02_03
+  - first:
+      213: -9198356680342178338
+    second: GandalfHardcore_Blood_Tiles_02_04
+  - first:
+      213: -6063239639433196993
+    second: GandalfHardcore_Blood_Tiles_02_05
+  - first:
+      213: 3622062248903741048
+    second: GandalfHardcore_Blood_Tiles_02_06
+  - first:
+      213: 8887715513814920974
+    second: GandalfHardcore_Blood_Tiles_02_07
+  - first:
+      213: 1181021867994022950
+    second: GandalfHardcore_Blood_Tiles_02_08
+  - first:
+      213: 3419258874759844043
+    second: GandalfHardcore_Blood_Tiles_02_09
+  - first:
+      213: -3142229085380065510
+    second: GandalfHardcore_Blood_Tiles_02_10
+  - first:
+      213: -2109643912363317072
+    second: GandalfHardcore_Blood_Tiles_02_11
+  - first:
+      213: -8677687618717744814
+    second: GandalfHardcore_Blood_Tiles_02_12
+  - first:
+      213: -4787829416493730228
+    second: GandalfHardcore_Blood_Tiles_02_13
+  - first:
+      213: -7703057504578372763
+    second: GandalfHardcore_Blood_Tiles_02_14
+  - first:
+      213: -8308191112249562356
+    second: GandalfHardcore_Blood_Tiles_02_15
+  - first:
+      213: 8590195749688688845
+    second: GandalfHardcore_Blood_Tiles_02_16
+  - first:
+      213: -7811470406763185475
+    second: GandalfHardcore_Blood_Tiles_02_17
+  - first:
+      213: 8359511338270322182
+    second: GandalfHardcore_Blood_Tiles_02_18
+  - first:
+      213: -6920173468295917059
+    second: GandalfHardcore_Blood_Tiles_02_19
+  - first:
+      213: -8283316172590495216
+    second: GandalfHardcore_Blood_Tiles_03_00
+  - first:
+      213: 3833864776542641716
+    second: GandalfHardcore_Blood_Tiles_03_01
+  - first:
+      213: 8134643127477312865
+    second: GandalfHardcore_Blood_Tiles_03_02
+  - first:
+      213: -5539006725772348615
+    second: GandalfHardcore_Blood_Tiles_03_03
+  - first:
+      213: -5404373169923151535
+    second: GandalfHardcore_Blood_Tiles_03_04
+  - first:
+      213: -6255014300915407568
+    second: GandalfHardcore_Blood_Tiles_03_05
+  - first:
+      213: 6591957407481354076
+    second: GandalfHardcore_Blood_Tiles_03_06
+  - first:
+      213: 7870035880335275912
+    second: GandalfHardcore_Blood_Tiles_03_07
+  - first:
+      213: 3575635870637668047
+    second: GandalfHardcore_Blood_Tiles_03_08
+  - first:
+      213: -1425520194395308094
+    second: GandalfHardcore_Blood_Tiles_03_09
+  - first:
+      213: 2898615716562199038
+    second: GandalfHardcore_Blood_Tiles_03_10
+  - first:
+      213: 3942560471607421279
+    second: GandalfHardcore_Blood_Tiles_03_11
+  - first:
+      213: 4083833435002344650
+    second: GandalfHardcore_Blood_Tiles_03_12
+  - first:
+      213: -1743288656264811834
+    second: GandalfHardcore_Blood_Tiles_03_13
+  - first:
+      213: -4349443755650208950
+    second: GandalfHardcore_Blood_Tiles_03_14
+  - first:
+      213: 8770607234449318579
+    second: GandalfHardcore_Blood_Tiles_03_15
+  - first:
+      213: -7020283824947157959
+    second: GandalfHardcore_Blood_Tiles_03_16
+  - first:
+      213: 1309455922768155719
+    second: GandalfHardcore_Blood_Tiles_03_17
+  - first:
+      213: -223543350522651894
+    second: GandalfHardcore_Blood_Tiles_03_18
+  - first:
+      213: 737745972052319741
+    second: GandalfHardcore_Blood_Tiles_03_19
+  - first:
+      213: -3534023751214695871
+    second: GandalfHardcore_Blood_Tiles_04_00
+  - first:
+      213: -2060238854412021694
+    second: GandalfHardcore_Blood_Tiles_04_01
+  - first:
+      213: -2591594215400296956
+    second: GandalfHardcore_Blood_Tiles_04_02
+  - first:
+      213: -1366902427270532080
+    second: GandalfHardcore_Blood_Tiles_04_03
+  - first:
+      213: 8233798173006243268
+    second: GandalfHardcore_Blood_Tiles_04_04
+  - first:
+      213: 2037901012416472671
+    second: GandalfHardcore_Blood_Tiles_04_05
+  - first:
+      213: 3445000460645631540
+    second: GandalfHardcore_Blood_Tiles_04_06
+  - first:
+      213: 5944028572363336612
+    second: GandalfHardcore_Blood_Tiles_04_07
+  - first:
+      213: -2325063590345043164
+    second: GandalfHardcore_Blood_Tiles_04_08
+  - first:
+      213: -5706999599493429169
+    second: GandalfHardcore_Blood_Tiles_04_09
+  - first:
+      213: 7128699743113477096
+    second: GandalfHardcore_Blood_Tiles_04_10
+  - first:
+      213: -3985640080542026562
+    second: GandalfHardcore_Blood_Tiles_04_11
+  - first:
+      213: -1729993970583220929
+    second: GandalfHardcore_Blood_Tiles_04_12
+  - first:
+      213: -6651423255692967319
+    second: GandalfHardcore_Blood_Tiles_04_13
+  - first:
+      213: -2560253421447707389
+    second: GandalfHardcore_Blood_Tiles_04_14
+  - first:
+      213: 5363097033339438394
+    second: GandalfHardcore_Blood_Tiles_04_15
+  - first:
+      213: -7892814416366512539
+    second: GandalfHardcore_Blood_Tiles_04_16
+  - first:
+      213: -8587129876173138253
+    second: GandalfHardcore_Blood_Tiles_04_17
+  - first:
+      213: -8667745661914425548
+    second: GandalfHardcore_Blood_Tiles_04_18
+  - first:
+      213: -2505418931260671710
+    second: GandalfHardcore_Blood_Tiles_04_19
+  - first:
+      213: -6902232218949690016
+    second: GandalfHardcore_Blood_Tiles_05_00
+  - first:
+      213: -2643576261614980125
+    second: GandalfHardcore_Blood_Tiles_05_01
+  - first:
+      213: -6432763739921755660
+    second: GandalfHardcore_Blood_Tiles_05_02
+  - first:
+      213: 8543993638919978842
+    second: GandalfHardcore_Blood_Tiles_05_03
+  - first:
+      213: -2122475333488560808
+    second: GandalfHardcore_Blood_Tiles_05_04
+  - first:
+      213: -4622964507656041853
+    second: GandalfHardcore_Blood_Tiles_05_05
+  - first:
+      213: 6863889575670298051
+    second: GandalfHardcore_Blood_Tiles_05_06
+  - first:
+      213: 6526347643927799983
+    second: GandalfHardcore_Blood_Tiles_05_07
+  - first:
+      213: -1791953983063924050
+    second: GandalfHardcore_Blood_Tiles_05_08
+  - first:
+      213: 6454827284175538106
+    second: GandalfHardcore_Blood_Tiles_05_09
+  - first:
+      213: -3488408092479426659
+    second: GandalfHardcore_Blood_Tiles_05_10
+  - first:
+      213: 796858954736277274
+    second: GandalfHardcore_Blood_Tiles_05_11
+  - first:
+      213: 4908897164900474428
+    second: GandalfHardcore_Blood_Tiles_05_12
+  - first:
+      213: -477135629475716664
+    second: GandalfHardcore_Blood_Tiles_05_13
+  - first:
+      213: 7209651876963495508
+    second: GandalfHardcore_Blood_Tiles_05_14
+  - first:
+      213: -6846922098430294699
+    second: GandalfHardcore_Blood_Tiles_05_15
+  - first:
+      213: 8507063310323660862
+    second: GandalfHardcore_Blood_Tiles_05_16
+  - first:
+      213: 1335442805213234959
+    second: GandalfHardcore_Blood_Tiles_05_17
+  - first:
+      213: 1554701603536625309
+    second: GandalfHardcore_Blood_Tiles_05_18
+  - first:
+      213: 7253597121871273918
+    second: GandalfHardcore_Blood_Tiles_05_19
+  - first:
+      213: -2704040583013041227
+    second: GandalfHardcore_Blood_Tiles_06_00
+  - first:
+      213: -2111972736817603782
+    second: GandalfHardcore_Blood_Tiles_06_01
+  - first:
+      213: 2996869402590224759
+    second: GandalfHardcore_Blood_Tiles_06_02
+  - first:
+      213: 2967726439421769466
+    second: GandalfHardcore_Blood_Tiles_06_03
+  - first:
+      213: -8256259079823200124
+    second: GandalfHardcore_Blood_Tiles_06_04
+  - first:
+      213: -1289773581036919919
+    second: GandalfHardcore_Blood_Tiles_06_05
+  - first:
+      213: 6075478296820546546
+    second: GandalfHardcore_Blood_Tiles_06_06
+  - first:
+      213: -3838799564362615750
+    second: GandalfHardcore_Blood_Tiles_06_07
+  - first:
+      213: 1776018682391390576
+    second: GandalfHardcore_Blood_Tiles_06_08
+  - first:
+      213: 6232841705636555670
+    second: GandalfHardcore_Blood_Tiles_06_09
+  - first:
+      213: -4185276930307530092
+    second: GandalfHardcore_Blood_Tiles_06_10
+  - first:
+      213: 6781915997513492932
+    second: GandalfHardcore_Blood_Tiles_06_11
+  - first:
+      213: -6357763042340385092
+    second: GandalfHardcore_Blood_Tiles_06_12
+  - first:
+      213: -6236269068106558674
+    second: GandalfHardcore_Blood_Tiles_06_13
+  - first:
+      213: 165186814796407847
+    second: GandalfHardcore_Blood_Tiles_06_14
+  - first:
+      213: -7273812204234769618
+    second: GandalfHardcore_Blood_Tiles_06_15
+  - first:
+      213: 3993490475709389546
+    second: GandalfHardcore_Blood_Tiles_06_16
+  - first:
+      213: -8555791226829709291
+    second: GandalfHardcore_Blood_Tiles_06_17
+  - first:
+      213: -3057964605030740763
+    second: GandalfHardcore_Blood_Tiles_06_18
+  - first:
+      213: 6853828994578671149
+    second: GandalfHardcore_Blood_Tiles_06_19
+  - first:
+      213: -2408820313112498817
+    second: GandalfHardcore_Blood_Tiles_07_00
+  - first:
+      213: 5566358943302089945
+    second: GandalfHardcore_Blood_Tiles_07_01
+  - first:
+      213: 8257316144714616853
+    second: GandalfHardcore_Blood_Tiles_07_02
+  - first:
+      213: 2061249978045878607
+    second: GandalfHardcore_Blood_Tiles_07_03
+  - first:
+      213: -584808385612352277
+    second: GandalfHardcore_Blood_Tiles_07_04
+  - first:
+      213: -188946063944127037
+    second: GandalfHardcore_Blood_Tiles_07_05
+  - first:
+      213: 9004261363914598953
+    second: GandalfHardcore_Blood_Tiles_07_06
+  - first:
+      213: 1986996541450214339
+    second: GandalfHardcore_Blood_Tiles_07_07
+  - first:
+      213: -8685442820141294487
+    second: GandalfHardcore_Blood_Tiles_07_08
+  - first:
+      213: -2545255379734854067
+    second: GandalfHardcore_Blood_Tiles_07_09
+  - first:
+      213: -2264961664271135081
+    second: GandalfHardcore_Blood_Tiles_07_10
+  - first:
+      213: 8913854623415490232
+    second: GandalfHardcore_Blood_Tiles_07_11
+  - first:
+      213: 7506563072327000156
+    second: GandalfHardcore_Blood_Tiles_07_12
+  - first:
+      213: 2118002740325272676
+    second: GandalfHardcore_Blood_Tiles_07_13
+  - first:
+      213: 921969918528909868
+    second: GandalfHardcore_Blood_Tiles_07_14
+  - first:
+      213: 5274109366628642898
+    second: GandalfHardcore_Blood_Tiles_07_15
+  - first:
+      213: 6502885113373914150
+    second: GandalfHardcore_Blood_Tiles_07_16
+  - first:
+      213: -1389714127095007693
+    second: GandalfHardcore_Blood_Tiles_07_17
+  - first:
+      213: -6464762716404270000
+    second: GandalfHardcore_Blood_Tiles_07_18
+  - first:
+      213: -3919230921235227014
+    second: GandalfHardcore_Blood_Tiles_07_19
+  - first:
+      213: 2185361732622308775
+    second: GandalfHardcore_Blood_Tiles_08_00
+  - first:
+      213: -33538612546227160
+    second: GandalfHardcore_Blood_Tiles_08_01
+  - first:
+      213: -6641110728670349434
+    second: GandalfHardcore_Blood_Tiles_08_02
+  - first:
+      213: 6467595354246398618
+    second: GandalfHardcore_Blood_Tiles_08_03
+  - first:
+      213: 4648008561758046954
+    second: GandalfHardcore_Blood_Tiles_08_04
+  - first:
+      213: -5895967865671696173
+    second: GandalfHardcore_Blood_Tiles_08_05
+  - first:
+      213: 3815484896099290645
+    second: GandalfHardcore_Blood_Tiles_08_06
+  - first:
+      213: 8351660543715094195
+    second: GandalfHardcore_Blood_Tiles_08_07
+  - first:
+      213: -1868536458258676540
+    second: GandalfHardcore_Blood_Tiles_08_08
+  - first:
+      213: 2921584435204234970
+    second: GandalfHardcore_Blood_Tiles_08_09
+  - first:
+      213: -4791160687818911253
+    second: GandalfHardcore_Blood_Tiles_08_10
+  - first:
+      213: -4813506345639699669
+    second: GandalfHardcore_Blood_Tiles_08_11
+  - first:
+      213: -4146152227744813521
+    second: GandalfHardcore_Blood_Tiles_08_12
+  - first:
+      213: 1293082267142460450
+    second: GandalfHardcore_Blood_Tiles_08_13
+  - first:
+      213: 3719164458090189744
+    second: GandalfHardcore_Blood_Tiles_08_14
+  - first:
+      213: 4195895176799124901
+    second: GandalfHardcore_Blood_Tiles_08_15
+  - first:
+      213: -8091518049546758532
+    second: GandalfHardcore_Blood_Tiles_08_16
+  - first:
+      213: -8785072404774902169
+    second: GandalfHardcore_Blood_Tiles_08_17
+  - first:
+      213: 7331470017919888699
+    second: GandalfHardcore_Blood_Tiles_08_18
+  - first:
+      213: -6271656018067368354
+    second: GandalfHardcore_Blood_Tiles_08_19
+  - first:
+      213: 2495111926637198745
+    second: GandalfHardcore_Blood_Tiles_09_00
+  - first:
+      213: 7407501724692079407
+    second: GandalfHardcore_Blood_Tiles_09_01
+  - first:
+      213: -2629779240230545281
+    second: GandalfHardcore_Blood_Tiles_09_02
+  - first:
+      213: -3088506094365908926
+    second: GandalfHardcore_Blood_Tiles_09_03
+  - first:
+      213: 8188261370595654840
+    second: GandalfHardcore_Blood_Tiles_09_04
+  - first:
+      213: -1627532780490753915
+    second: GandalfHardcore_Blood_Tiles_09_05
+  - first:
+      213: -1502267908949968113
+    second: GandalfHardcore_Blood_Tiles_09_06
+  - first:
+      213: -5173755576017305507
+    second: GandalfHardcore_Blood_Tiles_09_07
+  - first:
+      213: 2312478320936010459
+    second: GandalfHardcore_Blood_Tiles_09_08
+  - first:
+      213: 5734683190264387596
+    second: GandalfHardcore_Blood_Tiles_09_09
+  - first:
+      213: -875079969473106793
+    second: GandalfHardcore_Blood_Tiles_09_10
+  - first:
+      213: 7365167127710617034
+    second: GandalfHardcore_Blood_Tiles_09_11
+  - first:
+      213: -5421041292498070044
+    second: GandalfHardcore_Blood_Tiles_09_12
+  - first:
+      213: -6477368660378469550
+    second: GandalfHardcore_Blood_Tiles_09_13
+  - first:
+      213: 1363937893229408260
+    second: GandalfHardcore_Blood_Tiles_09_14
+  - first:
+      213: 8703061946864249815
+    second: GandalfHardcore_Blood_Tiles_09_15
+  - first:
+      213: -2992010792726611964
+    second: GandalfHardcore_Blood_Tiles_09_16
+  - first:
+      213: 6207383534530181557
+    second: GandalfHardcore_Blood_Tiles_09_17
+  - first:
+      213: 3147260698555683645
+    second: GandalfHardcore_Blood_Tiles_09_18
+  - first:
+      213: -5369072278061611549
+    second: GandalfHardcore_Blood_Tiles_09_19
+  - first:
+      213: 1240612208263350130
+    second: GandalfHardcore_Blood_Tiles_10_00
+  - first:
+      213: 5088841640667497314
+    second: GandalfHardcore_Blood_Tiles_10_01
+  - first:
+      213: -9006580522402139440
+    second: GandalfHardcore_Blood_Tiles_10_02
+  - first:
+      213: -1494155088073548369
+    second: GandalfHardcore_Blood_Tiles_10_03
+  - first:
+      213: 2992637184203461456
+    second: GandalfHardcore_Blood_Tiles_10_04
+  - first:
+      213: 1538807745185700155
+    second: GandalfHardcore_Blood_Tiles_10_05
+  - first:
+      213: 4362882704380786839
+    second: GandalfHardcore_Blood_Tiles_10_06
+  - first:
+      213: -6770404173121453060
+    second: GandalfHardcore_Blood_Tiles_10_07
+  - first:
+      213: -3964095537204182276
+    second: GandalfHardcore_Blood_Tiles_10_08
+  - first:
+      213: 1867900908436350838
+    second: GandalfHardcore_Blood_Tiles_10_09
+  - first:
+      213: 1877104994648890551
+    second: GandalfHardcore_Blood_Tiles_10_10
+  - first:
+      213: 6544288432959646498
+    second: GandalfHardcore_Blood_Tiles_10_11
+  - first:
+      213: -5718706687386302705
+    second: GandalfHardcore_Blood_Tiles_10_12
+  - first:
+      213: 3255657827478979328
+    second: GandalfHardcore_Blood_Tiles_10_13
+  - first:
+      213: -1117477805312435540
+    second: GandalfHardcore_Blood_Tiles_10_14
+  - first:
+      213: -5746073700840633762
+    second: GandalfHardcore_Blood_Tiles_10_15
+  - first:
+      213: 2579966844463961246
+    second: GandalfHardcore_Blood_Tiles_10_16
+  - first:
+      213: -4573768247583911438
+    second: GandalfHardcore_Blood_Tiles_10_17
+  - first:
+      213: -6776949381714192179
+    second: GandalfHardcore_Blood_Tiles_10_18
+  - first:
+      213: -4885204664104947190
+    second: GandalfHardcore_Blood_Tiles_10_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_00_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a787536191eb89470800000000000000
+      internalID: 8401674119815723130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_00_01
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2015d0aefc987ce0800000000000000
+      internalID: -1407202266119335893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_00_02
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fef5915bcca940c70800000000000000
+      internalID: 8936437764612251631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_00_03
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 758e15d475c967c20800000000000000
+      internalID: 3203920083693987927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_00_04
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccdfd8932bef41b60800000000000000
+      internalID: 7716072103015742924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_00_05
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f741fbde1786b770800000000000000
+      internalID: 8626230702883555314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_00_06
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed0f7d6ee89ac6f90800000000000000
+      internalID: -6959000892970897186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_00_07
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bae6bd7d05d5b2a0800000000000000
+      internalID: -6722232614860166472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_00_08
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2b926bba1239d900800000000000000
+      internalID: 709653506681903915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_00_09
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 797b31a86ea387d80800000000000000
+      internalID: -8252781555322996841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_00_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 473bcd02b777aaed0800000000000000
+      internalID: -2401976080532720780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_00_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8a097d30d353a790800000000000000
+      internalID: -7520074798928950642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_00_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e59730fd2fde02870800000000000000
+      internalID: 8656180111185508702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_00_13
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dded61665a34b670800000000000000
+      internalID: 8553525734959607249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_00_14
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ccb26d7cee31fd40800000000000000
+      internalID: 5616339395744545993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_00_15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 692103f535ebaf400800000000000000
+      internalID: 358808385617924758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_00_16
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27be279408b461df0800000000000000
+      internalID: -209897318265984142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_00_17
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fe9ab13b76a20230800000000000000
+      internalID: 3603625699895320310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_00_18
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb57200f550b294d0800000000000000
+      internalID: -3129244907923671617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_00_19
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7946050a80705e1f0800000000000000
+      internalID: -1016398407271422825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_01_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dd492ff62b8b3390800000000000000
+      internalID: -7837517726902301230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_01_01
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 206b7d9bc4e0882c0800000000000000
+      internalID: -4429274510820657662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_01_02
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddb558d49e83b1360800000000000000
+      internalID: 7141364208805174237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_01_03
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8096a0d7484a1a0a0800000000000000
+      internalID: -6872030667450193656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_01_04
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ec0fae80c9330af0800000000000000
+      internalID: -431437640107094811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_01_05
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83c281168debeb890800000000000000
+      internalID: -7440299697818293192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_01_06
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a8408647dc457250800000000000000
+      internalID: 5941739770869729441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_01_07
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d1372e4cc8a54ff0800000000000000
+      internalID: -52450225206906414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_01_08
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8febf0b050331960800000000000000
+      internalID: 7571448521664753546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_01_09
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28eb33d3ae91f1e20800000000000000
+      internalID: 3323403543862558338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_01_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 241d07125f46c1830800000000000000
+      internalID: 4043217569462669634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_01_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11e7876985ec4d440800000000000000
+      internalID: 4959815969518681617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_01_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86857c020d9939010800000000000000
+      internalID: 1194467445365495912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_01_13
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45d7d6870c1bf41d0800000000000000
+      internalID: -3364274956410192556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_01_14
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77f34e062dccb7ca0800000000000000
+      internalID: -6017991273109766281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_01_15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ba355f5de1723490800000000000000
+      internalID: -7768021142940075343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_01_16
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f431a6657dbaacc0800000000000000
+      internalID: -3698935832000776967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_01_17
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eb397be063abcd00800000000000000
+      internalID: 994067779428105189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_01_18
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dd1c2b6b6aae08e0800000000000000
+      internalID: -1725254228900045353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_01_19
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0d73b81f703d7ec0800000000000000
+      internalID: -3567642007374168821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_02_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a120b40fd70938420800000000000000
+      internalID: 2631105477891260954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_02_01
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9841aaf9268a57750800000000000000
+      internalID: 6302128395113862281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_02_02
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e3e50f89c5255b90800000000000000
+      internalID: -7253850077192133658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_02_03
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6fa3969ad562cf40800000000000000
+      internalID: 5747268063981711214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_02_04
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed5fcde855fd85080800000000000000
+      internalID: -9198356680342178338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_02_05
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3a448f1cab0bdba0800000000000000
+      internalID: -6063239639433196993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_02_06
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87e8244cc66244230800000000000000
+      internalID: 3622062248903741048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_02_07
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0faaa1bb22875b70800000000000000
+      internalID: 8887715513814920974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_02_08
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62480c1b125d36010800000000000000
+      internalID: 1181021867994022950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_02_09
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc09921a4d5a37f20800000000000000
+      internalID: 3419258874759844043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_02_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a17450b8b4f8464d0800000000000000
+      internalID: -3142229085380065510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_02_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b8e4010a0a09b2e0800000000000000
+      internalID: -2109643912363317072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_02_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 251068e4619a29780800000000000000
+      internalID: -8677687618717744814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_02_13
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c46b9b043863e8db0800000000000000
+      internalID: -4787829416493730228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_02_14
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56bf23b130e391590800000000000000
+      internalID: -7703057504578372763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_02_15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0bae4cb33063bc80800000000000000
+      internalID: -8308191112249562356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_02_16
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc0c3438581863770800000000000000
+      internalID: 8590195749688688845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_02_17
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dba776f4d05189390800000000000000
+      internalID: -7811470406763185475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_02_18
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60ee3758543f20470800000000000000
+      internalID: 8359511338270322182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_02_19
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df1932e25ea96ff90800000000000000
+      internalID: -6920173468295917059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_03_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01ace72f3dfbb0d80800000000000000
+      internalID: -8283316172590495216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_03_01
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43ed4ba93bf943530800000000000000
+      internalID: 3833864776542641716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_03_02
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16d9bd343de04e070800000000000000
+      internalID: 8134643127477312865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_03_03
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 933f6d5dabe7123b0800000000000000
+      internalID: -5539006725772348615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_03_04
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 159241d4c3fcff4b0800000000000000
+      internalID: -5404373169923151535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_03_05
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 035e2f042a9b139a0800000000000000
+      internalID: -6255014300915407568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_03_06
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c575e6f16565b7b50800000000000000
+      internalID: 6591957407481354076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_03_07
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88776f89febf73d60800000000000000
+      internalID: 7870035880335275912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_03_08
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc6b08b31e53f9130800000000000000
+      internalID: 3575635870637668047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_03_09
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cffbe89fe8873ce0800000000000000
+      internalID: -1425520194395308094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_03_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef1ed0ef2a3f93820800000000000000
+      internalID: 2898615716562199038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_03_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5928af3cd9c6b630800000000000000
+      internalID: 3942560471607421279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_03_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac49d2f3fd0bca830800000000000000
+      internalID: 4083833435002344650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_03_13
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ca2e5614389ec7e0800000000000000
+      internalID: -1743288656264811834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_03_14
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4bade5d2fba3a3c0800000000000000
+      internalID: -4349443755650208950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_03_15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b2a2d1afc477b970800000000000000
+      internalID: 8770607234449318579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_03_16
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 934aa976e01f29e90800000000000000
+      internalID: -7020283824947157959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_03_17
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74490a5593f1c2210800000000000000
+      internalID: 1309455922768155719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_03_18
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0b5230d180d5ecf0800000000000000
+      internalID: -223543350522651894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_03_19
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfd57a68d000d3a00800000000000000
+      internalID: 737745972052319741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_04_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14afd015f10a4fec0800000000000000
+      internalID: -3534023751214695871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_04_01
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24050527daf8863e0800000000000000
+      internalID: -2060238854412021694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_04_02
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40eab1dbacec80cd0800000000000000
+      internalID: -2591594215400296956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_04_03
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 014bbeb0c79c70de0800000000000000
+      internalID: -1366902427270532080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_04_04
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c52c4650d3544270800000000000000
+      internalID: 8233798173006243268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_04_05
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f562e7c6c24184c10800000000000000
+      internalID: 2037901012416472671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_04_06
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43607d3aaa91fcf20800000000000000
+      internalID: 3445000460645631540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_04_07
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ab2d766e7e6d7250800000000000000
+      internalID: 5944028572363336612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_04_08
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4231a49bbf6bbbfd0800000000000000
+      internalID: -2325063590345043164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_04_09
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f48c5eae91aacc0b0800000000000000
+      internalID: -5706999599493429169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_04_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eb72ba95aa3ee260800000000000000
+      internalID: 7128699743113477096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_04_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb4bbbca67920b8c0800000000000000
+      internalID: -3985640080542026562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_04_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3dc1df46a3ddf7e0800000000000000
+      internalID: -1729993970583220929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_04_13
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96206a92ac561b3a0800000000000000
+      internalID: -6651423255692967319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_04_14
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30581a7f317287cd0800000000000000
+      internalID: -2560253421447707389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_04_15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a350620465c8d6a40800000000000000
+      internalID: 5363097033339438394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_04_16
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56654623b17177290800000000000000
+      internalID: -7892814416366512539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_04_17
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b65e8acfd264d880800000000000000
+      internalID: -8587129876173138253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_04_18
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43758228e3bf5b780800000000000000
+      internalID: -8667745661914425548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_04_19
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2293bac91c6fa3dd0800000000000000
+      internalID: -2505418931260671710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_05_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06d5f30dd585630a0800000000000000
+      internalID: -6902232218949690016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_05_01
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e3b8c57561205bd0800000000000000
+      internalID: -2643576261614980125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_05_02
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f153f5f57b3ab6a0800000000000000
+      internalID: -6432763739921755660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_05_03
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5fb50352fc529670800000000000000
+      internalID: 8543993638919978842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_05_04
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 855b2e6fde37b82e0800000000000000
+      internalID: -2122475333488560808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_05_05
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38a4ce7164ee7dfb0800000000000000
+      internalID: -4622964507656041853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_05_06
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c5b55fd33f614f50800000000000000
+      internalID: 6863889575670298051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_05_07
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa82605aa9e329a50800000000000000
+      internalID: 6526347643927799983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_05_08
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea2e0a9b853b127e0800000000000000
+      internalID: -1791953983063924050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_05_09
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab748cf3737249950800000000000000
+      internalID: 6454827284175538106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_05_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9f6a20825fa69fc0800000000000000
+      internalID: -3488408092479426659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_05_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1715255ff20f0b00800000000000000
+      internalID: 796858954736277274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_05_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3e90d886f7ef1440800000000000000
+      internalID: 4908897164900474428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_05_13
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c1ea674cafd069f0800000000000000
+      internalID: -477135629475716664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_05_14
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45e23a80f24dd0460800000000000000
+      internalID: 7209651876963495508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_05_15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5554a46c0a8daf0a0800000000000000
+      internalID: -6846922098430294699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_05_16
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e38b99522092f0670800000000000000
+      internalID: 8507063310323660862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_05_17
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f070696e722788210800000000000000
+      internalID: 1335442805213234959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_05_18
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9ed78a0fd8639510800000000000000
+      internalID: 1554701603536625309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_05_19
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebfdee0b624f9a460800000000000000
+      internalID: 7253597121871273918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_06_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bb74479a61597ad0800000000000000
+      internalID: -2704040583013041227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_06_01
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3b5dae4cf3c0b2e0800000000000000
+      internalID: -2111972736817603782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_06_02
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 771a0a3f7d4079920800000000000000
+      internalID: 2996869402590224759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_06_03
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af6f444197b7f2920800000000000000
+      internalID: 2967726439421769466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_06_04
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4807b854c10eb6d80800000000000000
+      internalID: -8256259079823200124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_06_05
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1936c95f2cdc91ee0800000000000000
+      internalID: -1289773581036919919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_06_06
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fb759a525f605450800000000000000
+      internalID: 6075478296820546546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_06_07
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a34fd329228d9bac0800000000000000
+      internalID: -3838799564362615750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_06_08
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0796566f49fa5a810800000000000000
+      internalID: 1776018682391390576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_06_09
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69be4bd12808f7650800000000000000
+      internalID: 6232841705636555670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_06_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 492e1627ec8eae5c0800000000000000
+      internalID: -4185276930307530092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_06_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c9a458eaa43e1e50800000000000000
+      internalID: 6781915997513492932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_06_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbec137a230b4c7a0800000000000000
+      internalID: -6357763042340385092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_06_13
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2390cfd2525479a0800000000000000
+      internalID: -6236269068106558674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_06_14
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 724a489688cda4200800000000000000
+      internalID: 165186814796407847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_06_15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2b7faba65a3e0b90800000000000000
+      internalID: -7273812204234769618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_06_16
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aea5092ed6abb6730800000000000000
+      internalID: 3993490475709389546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_06_17
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5106960b539b34980800000000000000
+      internalID: -8555791226829709291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_06_18
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eccc6db46def85d0800000000000000
+      internalID: -3057964605030740763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_06_19
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d26622d4821bd1f50800000000000000
+      internalID: 6853828994578671149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_07_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7d2f2d00b6229ed0800000000000000
+      internalID: -2408820313112498817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_07_01
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dcf6d397fdaf3d40800000000000000
+      internalID: 5566358943302089945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_07_02
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51010d3d841e79270800000000000000
+      internalID: 8257316144714616853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_07_03
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f41d4be1fe70b9c10800000000000000
+      internalID: 2061249978045878607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_07_04
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be4f7e92fd752e7f0800000000000000
+      internalID: -584808385612352277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_07_05
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cde6e05e8ab06df0800000000000000
+      internalID: -188946063944127037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_07_06
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92a67ecf00095fc70800000000000000
+      internalID: 9004261363914598953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_07_07
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cbd11fa3da339b10800000000000000
+      internalID: 1986996541450214339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_07_08
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96cd284c5cb177780800000000000000
+      internalID: -8685442820141294487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_07_09
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d46804ca7bf6dacd0800000000000000
+      internalID: -2545255379734854067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_07_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79ecd3bdd5d3190e0800000000000000
+      internalID: -2264961664271135081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_07_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b657286d8f54bb70800000000000000
+      internalID: 8913854623415490232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_07_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c50ad12c75bac2860800000000000000
+      internalID: 7506563072327000156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_07_13
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46c446a4548a46d10800000000000000
+      internalID: 2118002740325272676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_07_14
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c22f28f81ce7bcc00800000000000000
+      internalID: 921969918528909868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_07_15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 250f5788686613940800000000000000
+      internalID: 5274109366628642898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_07_16
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 624f3dd8e83ee3a50800000000000000
+      internalID: 6502885113373914150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_07_17
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 336f82b4d5eb6bce0800000000000000
+      internalID: -1389714127095007693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_07_18
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05cb88baf8c8846a0800000000000000
+      internalID: -6464762716404270000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_07_19
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7e1c0bfd381c99c0800000000000000
+      internalID: -3919230921235227014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_08_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a55fa2dae6f35e10800000000000000
+      internalID: 2185361732622308775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_08_01
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8243ce04fc8d88ff0800000000000000
+      internalID: -33538612546227160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_08_02
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68771977af806d3a0800000000000000
+      internalID: -6641110728670349434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_08_03
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a92c2d835b381c950800000000000000
+      internalID: 6467595354246398618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_08_04
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aea0094292b018040800000000000000
+      internalID: 4648008561758046954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_08_05
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d0458fd6705d2ea0800000000000000
+      internalID: -5895967865671696173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_08_06
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51ecdd53c4353f430800000000000000
+      internalID: 3815484896099290645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_08_07
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bea8c8f30f07e370800000000000000
+      internalID: 8351660543715094195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_08_08
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c400abbdff9116e0800000000000000
+      internalID: -1868536458258676540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_08_09
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ade98a9809d8b8820800000000000000
+      internalID: 2921584435204234970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_08_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be1dcb43db0628db0800000000000000
+      internalID: -4791160687818911253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_08_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2b9e005b7df23db0800000000000000
+      internalID: -4813506345639699669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_08_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2e63902488e576c0800000000000000
+      internalID: -4146152227744813521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_08_13
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 224126e8873f1f110800000000000000
+      internalID: 1293082267142460450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_08_14
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b359b1ae502d9330800000000000000
+      internalID: 3719164458090189744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_08_15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5adf2e7be60da3a30800000000000000
+      internalID: 4195895176799124901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_08_16
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c769a13643725bf80800000000000000
+      internalID: -8091518049546758532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_08_17
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7662e437137251680800000000000000
+      internalID: -8785072404774902169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_08_18
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3daa83332d9eb560800000000000000
+      internalID: 7331470017919888699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_08_19
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5657a9841a96f8a0800000000000000
+      internalID: -6271656018067368354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_09_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99dfc0ed31b60a220800000000000000
+      internalID: 2495111926637198745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_09_01
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f236d5d629bbcc660800000000000000
+      internalID: 7407501724692079407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_09_02
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f789c54d6b5218bd0800000000000000
+      internalID: -2629779240230545281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_09_03
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 240e0be121c6325d0800000000000000
+      internalID: -3088506094365908926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_09_04
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bc3862555c82a170800000000000000
+      internalID: 8188261370595654840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_09_05
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5887b862f87d969e0800000000000000
+      internalID: -1627532780490753915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_09_06
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0b7191db4fd62be0800000000000000
+      internalID: -1502267908949968113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_09_07
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d50cac027b02338b0800000000000000
+      internalID: -5173755576017305507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_09_08
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd2ce26e7c2971020800000000000000
+      internalID: 2312478320936010459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_09_09
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c08dc175affa59f40800000000000000
+      internalID: 5734683190264387596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_09_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79cee7577671bd3f0800000000000000
+      internalID: -875079969473106793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_09_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acd4396fa74563660800000000000000
+      internalID: 7365167127710617034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_09_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e59de79aa794c4b0800000000000000
+      internalID: -5421041292498070044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_09_13
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25bb4ee9583cb16a0800000000000000
+      internalID: -6477368660378469550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_09_14
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40032a5994eade210800000000000000
+      internalID: 1363937893229408260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_09_15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7db2019dabc77c870800000000000000
+      internalID: 8703061946864249815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_09_16
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 408356f490e3a76d0800000000000000
+      internalID: -2992010792726611964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_09_17
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b9b740cf6e052650800000000000000
+      internalID: 6207383534530181557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_09_18
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3395f03ee05dab20800000000000000
+      internalID: 3147260698555683645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_09_19
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e58dbca5393d75b0800000000000000
+      internalID: -5369072278061611549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_10_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 277cc89fa3a873110800000000000000
+      internalID: 1240612208263350130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_10_01
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 263c336a2823f9640800000000000000
+      internalID: 5088841640667497314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_10_02
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d2b449dbb2320380800000000000000
+      internalID: -9006580522402139440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_10_03
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fad98002dd1b34be0800000000000000
+      internalID: -1494155088073548369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_10_04
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0539212d9abf78920800000000000000
+      internalID: 2992637184203461456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_10_05
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b39d965cd71fa5510800000000000000
+      internalID: 1538807745185700155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_10_06
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 798ff4f34b21c8c30800000000000000
+      internalID: 4362882704380786839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_10_07
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf306439641ba02a0800000000000000
+      internalID: -6770404173121453060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_10_08
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf2cb319c14bcf8c0800000000000000
+      internalID: -3964095537204182276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_10_09
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6776afacafd1ce910800000000000000
+      internalID: 1867900908436350838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_10_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bc982c1c01dc0a10800000000000000
+      internalID: 1877104994648890551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_10_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22be14a18abf1da50800000000000000
+      internalID: 6544288432959646498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_10_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0740bb119213a0b0800000000000000
+      internalID: -5718706687386302705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_10_13
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 003ca1d7b8b6e2d20800000000000000
+      internalID: 3255657827478979328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_10_14
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caa18f15bdbed70f0800000000000000
+      internalID: -1117477805312435540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_10_15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5a0e20c968d140b0800000000000000
+      internalID: -5746073700840633762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_10_16
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e945f800d22edc320800000000000000
+      internalID: 2579966844463961246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_10_17
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f1dccdf206b680c0800000000000000
+      internalID: -4573768247583911438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_10_18
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc85f12717073f1a0800000000000000
+      internalID: -6776949381714192179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore_Blood_Tiles_10_19
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0271fcad34443cb0800000000000000
+      internalID: -4885204664104947190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      GandalfHardcore Blood Tiles_0: 3351689297811653559
+      GandalfHardcore Blood Tiles_1: -6010643195357617744
+      GandalfHardcore Blood Tiles_2: 4697590283224618536
+      GandalfHardcore_Blood_Tiles_00_00: 8401674119815723130
+      GandalfHardcore_Blood_Tiles_00_01: -1407202266119335893
+      GandalfHardcore_Blood_Tiles_00_02: 8936437764612251631
+      GandalfHardcore_Blood_Tiles_00_03: 3203920083693987927
+      GandalfHardcore_Blood_Tiles_00_04: 7716072103015742924
+      GandalfHardcore_Blood_Tiles_00_05: 8626230702883555314
+      GandalfHardcore_Blood_Tiles_00_06: -6959000892970897186
+      GandalfHardcore_Blood_Tiles_00_07: -6722232614860166472
+      GandalfHardcore_Blood_Tiles_00_08: 709653506681903915
+      GandalfHardcore_Blood_Tiles_00_09: -8252781555322996841
+      GandalfHardcore_Blood_Tiles_00_10: -2401976080532720780
+      GandalfHardcore_Blood_Tiles_00_11: -7520074798928950642
+      GandalfHardcore_Blood_Tiles_00_12: 8656180111185508702
+      GandalfHardcore_Blood_Tiles_00_13: 8553525734959607249
+      GandalfHardcore_Blood_Tiles_00_14: 5616339395744545993
+      GandalfHardcore_Blood_Tiles_00_15: 358808385617924758
+      GandalfHardcore_Blood_Tiles_00_16: -209897318265984142
+      GandalfHardcore_Blood_Tiles_00_17: 3603625699895320310
+      GandalfHardcore_Blood_Tiles_00_18: -3129244907923671617
+      GandalfHardcore_Blood_Tiles_00_19: -1016398407271422825
+      GandalfHardcore_Blood_Tiles_01_00: -7837517726902301230
+      GandalfHardcore_Blood_Tiles_01_01: -4429274510820657662
+      GandalfHardcore_Blood_Tiles_01_02: 7141364208805174237
+      GandalfHardcore_Blood_Tiles_01_03: -6872030667450193656
+      GandalfHardcore_Blood_Tiles_01_04: -431437640107094811
+      GandalfHardcore_Blood_Tiles_01_05: -7440299697818293192
+      GandalfHardcore_Blood_Tiles_01_06: 5941739770869729441
+      GandalfHardcore_Blood_Tiles_01_07: -52450225206906414
+      GandalfHardcore_Blood_Tiles_01_08: 7571448521664753546
+      GandalfHardcore_Blood_Tiles_01_09: 3323403543862558338
+      GandalfHardcore_Blood_Tiles_01_10: 4043217569462669634
+      GandalfHardcore_Blood_Tiles_01_11: 4959815969518681617
+      GandalfHardcore_Blood_Tiles_01_12: 1194467445365495912
+      GandalfHardcore_Blood_Tiles_01_13: -3364274956410192556
+      GandalfHardcore_Blood_Tiles_01_14: -6017991273109766281
+      GandalfHardcore_Blood_Tiles_01_15: -7768021142940075343
+      GandalfHardcore_Blood_Tiles_01_16: -3698935832000776967
+      GandalfHardcore_Blood_Tiles_01_17: 994067779428105189
+      GandalfHardcore_Blood_Tiles_01_18: -1725254228900045353
+      GandalfHardcore_Blood_Tiles_01_19: -3567642007374168821
+      GandalfHardcore_Blood_Tiles_02_00: 2631105477891260954
+      GandalfHardcore_Blood_Tiles_02_01: 6302128395113862281
+      GandalfHardcore_Blood_Tiles_02_02: -7253850077192133658
+      GandalfHardcore_Blood_Tiles_02_03: 5747268063981711214
+      GandalfHardcore_Blood_Tiles_02_04: -9198356680342178338
+      GandalfHardcore_Blood_Tiles_02_05: -6063239639433196993
+      GandalfHardcore_Blood_Tiles_02_06: 3622062248903741048
+      GandalfHardcore_Blood_Tiles_02_07: 8887715513814920974
+      GandalfHardcore_Blood_Tiles_02_08: 1181021867994022950
+      GandalfHardcore_Blood_Tiles_02_09: 3419258874759844043
+      GandalfHardcore_Blood_Tiles_02_10: -3142229085380065510
+      GandalfHardcore_Blood_Tiles_02_11: -2109643912363317072
+      GandalfHardcore_Blood_Tiles_02_12: -8677687618717744814
+      GandalfHardcore_Blood_Tiles_02_13: -4787829416493730228
+      GandalfHardcore_Blood_Tiles_02_14: -7703057504578372763
+      GandalfHardcore_Blood_Tiles_02_15: -8308191112249562356
+      GandalfHardcore_Blood_Tiles_02_16: 8590195749688688845
+      GandalfHardcore_Blood_Tiles_02_17: -7811470406763185475
+      GandalfHardcore_Blood_Tiles_02_18: 8359511338270322182
+      GandalfHardcore_Blood_Tiles_02_19: -6920173468295917059
+      GandalfHardcore_Blood_Tiles_03_00: -8283316172590495216
+      GandalfHardcore_Blood_Tiles_03_01: 3833864776542641716
+      GandalfHardcore_Blood_Tiles_03_02: 8134643127477312865
+      GandalfHardcore_Blood_Tiles_03_03: -5539006725772348615
+      GandalfHardcore_Blood_Tiles_03_04: -5404373169923151535
+      GandalfHardcore_Blood_Tiles_03_05: -6255014300915407568
+      GandalfHardcore_Blood_Tiles_03_06: 6591957407481354076
+      GandalfHardcore_Blood_Tiles_03_07: 7870035880335275912
+      GandalfHardcore_Blood_Tiles_03_08: 3575635870637668047
+      GandalfHardcore_Blood_Tiles_03_09: -1425520194395308094
+      GandalfHardcore_Blood_Tiles_03_10: 2898615716562199038
+      GandalfHardcore_Blood_Tiles_03_11: 3942560471607421279
+      GandalfHardcore_Blood_Tiles_03_12: 4083833435002344650
+      GandalfHardcore_Blood_Tiles_03_13: -1743288656264811834
+      GandalfHardcore_Blood_Tiles_03_14: -4349443755650208950
+      GandalfHardcore_Blood_Tiles_03_15: 8770607234449318579
+      GandalfHardcore_Blood_Tiles_03_16: -7020283824947157959
+      GandalfHardcore_Blood_Tiles_03_17: 1309455922768155719
+      GandalfHardcore_Blood_Tiles_03_18: -223543350522651894
+      GandalfHardcore_Blood_Tiles_03_19: 737745972052319741
+      GandalfHardcore_Blood_Tiles_04_00: -3534023751214695871
+      GandalfHardcore_Blood_Tiles_04_01: -2060238854412021694
+      GandalfHardcore_Blood_Tiles_04_02: -2591594215400296956
+      GandalfHardcore_Blood_Tiles_04_03: -1366902427270532080
+      GandalfHardcore_Blood_Tiles_04_04: 8233798173006243268
+      GandalfHardcore_Blood_Tiles_04_05: 2037901012416472671
+      GandalfHardcore_Blood_Tiles_04_06: 3445000460645631540
+      GandalfHardcore_Blood_Tiles_04_07: 5944028572363336612
+      GandalfHardcore_Blood_Tiles_04_08: -2325063590345043164
+      GandalfHardcore_Blood_Tiles_04_09: -5706999599493429169
+      GandalfHardcore_Blood_Tiles_04_10: 7128699743113477096
+      GandalfHardcore_Blood_Tiles_04_11: -3985640080542026562
+      GandalfHardcore_Blood_Tiles_04_12: -1729993970583220929
+      GandalfHardcore_Blood_Tiles_04_13: -6651423255692967319
+      GandalfHardcore_Blood_Tiles_04_14: -2560253421447707389
+      GandalfHardcore_Blood_Tiles_04_15: 5363097033339438394
+      GandalfHardcore_Blood_Tiles_04_16: -7892814416366512539
+      GandalfHardcore_Blood_Tiles_04_17: -8587129876173138253
+      GandalfHardcore_Blood_Tiles_04_18: -8667745661914425548
+      GandalfHardcore_Blood_Tiles_04_19: -2505418931260671710
+      GandalfHardcore_Blood_Tiles_05_00: -6902232218949690016
+      GandalfHardcore_Blood_Tiles_05_01: -2643576261614980125
+      GandalfHardcore_Blood_Tiles_05_02: -6432763739921755660
+      GandalfHardcore_Blood_Tiles_05_03: 8543993638919978842
+      GandalfHardcore_Blood_Tiles_05_04: -2122475333488560808
+      GandalfHardcore_Blood_Tiles_05_05: -4622964507656041853
+      GandalfHardcore_Blood_Tiles_05_06: 6863889575670298051
+      GandalfHardcore_Blood_Tiles_05_07: 6526347643927799983
+      GandalfHardcore_Blood_Tiles_05_08: -1791953983063924050
+      GandalfHardcore_Blood_Tiles_05_09: 6454827284175538106
+      GandalfHardcore_Blood_Tiles_05_10: -3488408092479426659
+      GandalfHardcore_Blood_Tiles_05_11: 796858954736277274
+      GandalfHardcore_Blood_Tiles_05_12: 4908897164900474428
+      GandalfHardcore_Blood_Tiles_05_13: -477135629475716664
+      GandalfHardcore_Blood_Tiles_05_14: 7209651876963495508
+      GandalfHardcore_Blood_Tiles_05_15: -6846922098430294699
+      GandalfHardcore_Blood_Tiles_05_16: 8507063310323660862
+      GandalfHardcore_Blood_Tiles_05_17: 1335442805213234959
+      GandalfHardcore_Blood_Tiles_05_18: 1554701603536625309
+      GandalfHardcore_Blood_Tiles_05_19: 7253597121871273918
+      GandalfHardcore_Blood_Tiles_06_00: -2704040583013041227
+      GandalfHardcore_Blood_Tiles_06_01: -2111972736817603782
+      GandalfHardcore_Blood_Tiles_06_02: 2996869402590224759
+      GandalfHardcore_Blood_Tiles_06_03: 2967726439421769466
+      GandalfHardcore_Blood_Tiles_06_04: -8256259079823200124
+      GandalfHardcore_Blood_Tiles_06_05: -1289773581036919919
+      GandalfHardcore_Blood_Tiles_06_06: 6075478296820546546
+      GandalfHardcore_Blood_Tiles_06_07: -3838799564362615750
+      GandalfHardcore_Blood_Tiles_06_08: 1776018682391390576
+      GandalfHardcore_Blood_Tiles_06_09: 6232841705636555670
+      GandalfHardcore_Blood_Tiles_06_10: -4185276930307530092
+      GandalfHardcore_Blood_Tiles_06_11: 6781915997513492932
+      GandalfHardcore_Blood_Tiles_06_12: -6357763042340385092
+      GandalfHardcore_Blood_Tiles_06_13: -6236269068106558674
+      GandalfHardcore_Blood_Tiles_06_14: 165186814796407847
+      GandalfHardcore_Blood_Tiles_06_15: -7273812204234769618
+      GandalfHardcore_Blood_Tiles_06_16: 3993490475709389546
+      GandalfHardcore_Blood_Tiles_06_17: -8555791226829709291
+      GandalfHardcore_Blood_Tiles_06_18: -3057964605030740763
+      GandalfHardcore_Blood_Tiles_06_19: 6853828994578671149
+      GandalfHardcore_Blood_Tiles_07_00: -2408820313112498817
+      GandalfHardcore_Blood_Tiles_07_01: 5566358943302089945
+      GandalfHardcore_Blood_Tiles_07_02: 8257316144714616853
+      GandalfHardcore_Blood_Tiles_07_03: 2061249978045878607
+      GandalfHardcore_Blood_Tiles_07_04: -584808385612352277
+      GandalfHardcore_Blood_Tiles_07_05: -188946063944127037
+      GandalfHardcore_Blood_Tiles_07_06: 9004261363914598953
+      GandalfHardcore_Blood_Tiles_07_07: 1986996541450214339
+      GandalfHardcore_Blood_Tiles_07_08: -8685442820141294487
+      GandalfHardcore_Blood_Tiles_07_09: -2545255379734854067
+      GandalfHardcore_Blood_Tiles_07_10: -2264961664271135081
+      GandalfHardcore_Blood_Tiles_07_11: 8913854623415490232
+      GandalfHardcore_Blood_Tiles_07_12: 7506563072327000156
+      GandalfHardcore_Blood_Tiles_07_13: 2118002740325272676
+      GandalfHardcore_Blood_Tiles_07_14: 921969918528909868
+      GandalfHardcore_Blood_Tiles_07_15: 5274109366628642898
+      GandalfHardcore_Blood_Tiles_07_16: 6502885113373914150
+      GandalfHardcore_Blood_Tiles_07_17: -1389714127095007693
+      GandalfHardcore_Blood_Tiles_07_18: -6464762716404270000
+      GandalfHardcore_Blood_Tiles_07_19: -3919230921235227014
+      GandalfHardcore_Blood_Tiles_08_00: 2185361732622308775
+      GandalfHardcore_Blood_Tiles_08_01: -33538612546227160
+      GandalfHardcore_Blood_Tiles_08_02: -6641110728670349434
+      GandalfHardcore_Blood_Tiles_08_03: 6467595354246398618
+      GandalfHardcore_Blood_Tiles_08_04: 4648008561758046954
+      GandalfHardcore_Blood_Tiles_08_05: -5895967865671696173
+      GandalfHardcore_Blood_Tiles_08_06: 3815484896099290645
+      GandalfHardcore_Blood_Tiles_08_07: 8351660543715094195
+      GandalfHardcore_Blood_Tiles_08_08: -1868536458258676540
+      GandalfHardcore_Blood_Tiles_08_09: 2921584435204234970
+      GandalfHardcore_Blood_Tiles_08_10: -4791160687818911253
+      GandalfHardcore_Blood_Tiles_08_11: -4813506345639699669
+      GandalfHardcore_Blood_Tiles_08_12: -4146152227744813521
+      GandalfHardcore_Blood_Tiles_08_13: 1293082267142460450
+      GandalfHardcore_Blood_Tiles_08_14: 3719164458090189744
+      GandalfHardcore_Blood_Tiles_08_15: 4195895176799124901
+      GandalfHardcore_Blood_Tiles_08_16: -8091518049546758532
+      GandalfHardcore_Blood_Tiles_08_17: -8785072404774902169
+      GandalfHardcore_Blood_Tiles_08_18: 7331470017919888699
+      GandalfHardcore_Blood_Tiles_08_19: -6271656018067368354
+      GandalfHardcore_Blood_Tiles_09_00: 2495111926637198745
+      GandalfHardcore_Blood_Tiles_09_01: 7407501724692079407
+      GandalfHardcore_Blood_Tiles_09_02: -2629779240230545281
+      GandalfHardcore_Blood_Tiles_09_03: -3088506094365908926
+      GandalfHardcore_Blood_Tiles_09_04: 8188261370595654840
+      GandalfHardcore_Blood_Tiles_09_05: -1627532780490753915
+      GandalfHardcore_Blood_Tiles_09_06: -1502267908949968113
+      GandalfHardcore_Blood_Tiles_09_07: -5173755576017305507
+      GandalfHardcore_Blood_Tiles_09_08: 2312478320936010459
+      GandalfHardcore_Blood_Tiles_09_09: 5734683190264387596
+      GandalfHardcore_Blood_Tiles_09_10: -875079969473106793
+      GandalfHardcore_Blood_Tiles_09_11: 7365167127710617034
+      GandalfHardcore_Blood_Tiles_09_12: -5421041292498070044
+      GandalfHardcore_Blood_Tiles_09_13: -6477368660378469550
+      GandalfHardcore_Blood_Tiles_09_14: 1363937893229408260
+      GandalfHardcore_Blood_Tiles_09_15: 8703061946864249815
+      GandalfHardcore_Blood_Tiles_09_16: -2992010792726611964
+      GandalfHardcore_Blood_Tiles_09_17: 6207383534530181557
+      GandalfHardcore_Blood_Tiles_09_18: 3147260698555683645
+      GandalfHardcore_Blood_Tiles_09_19: -5369072278061611549
+      GandalfHardcore_Blood_Tiles_10_00: 1240612208263350130
+      GandalfHardcore_Blood_Tiles_10_01: 5088841640667497314
+      GandalfHardcore_Blood_Tiles_10_02: -9006580522402139440
+      GandalfHardcore_Blood_Tiles_10_03: -1494155088073548369
+      GandalfHardcore_Blood_Tiles_10_04: 2992637184203461456
+      GandalfHardcore_Blood_Tiles_10_05: 1538807745185700155
+      GandalfHardcore_Blood_Tiles_10_06: 4362882704380786839
+      GandalfHardcore_Blood_Tiles_10_07: -6770404173121453060
+      GandalfHardcore_Blood_Tiles_10_08: -3964095537204182276
+      GandalfHardcore_Blood_Tiles_10_09: 1867900908436350838
+      GandalfHardcore_Blood_Tiles_10_10: 1877104994648890551
+      GandalfHardcore_Blood_Tiles_10_11: 6544288432959646498
+      GandalfHardcore_Blood_Tiles_10_12: -5718706687386302705
+      GandalfHardcore_Blood_Tiles_10_13: 3255657827478979328
+      GandalfHardcore_Blood_Tiles_10_14: -1117477805312435540
+      GandalfHardcore_Blood_Tiles_10_15: -5746073700840633762
+      GandalfHardcore_Blood_Tiles_10_16: 2579966844463961246
+      GandalfHardcore_Blood_Tiles_10_17: -4573768247583911438
+      GandalfHardcore_Blood_Tiles_10_18: -6776949381714192179
+      GandalfHardcore_Blood_Tiles_10_19: -4885204664104947190
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1065 @@
+fileFormatVersion: 2
+guid: b86e4a6211d0471499800d44d6a249db
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8967976818538261321
+    second: Male Damned_0
+  - first:
+      213: -9132200100492059331
+    second: Male Damned_1
+  - first:
+      213: -8748632119501053284
+    second: Male Damned_2
+  - first:
+      213: 592742644194675616
+    second: Male Damned_3
+  - first:
+      213: -659488251210820167
+    second: Male Damned_4
+  - first:
+      213: 9187520883699398028
+    second: Male Damned_5
+  - first:
+      213: -6165963827630332007
+    second: Male Damned_6
+  - first:
+      213: 6143598696190951775
+    second: Male Damned_7
+  - first:
+      213: 4161706011780329512
+    second: Male Damned_8
+  - first:
+      213: -496935472582316112
+    second: Male Damned_9
+  - first:
+      213: 6201101491034705487
+    second: Male Damned_10
+  - first:
+      213: 8380148152193068881
+    second: Male Damned_11
+  - first:
+      213: -1604922313911984033
+    second: Male Damned_12
+  - first:
+      213: -7344162957185133595
+    second: Male Damned_13
+  - first:
+      213: -979102171902382008
+    second: Male Damned_14
+  - first:
+      213: -5181358183321558070
+    second: Male Damned_15
+  - first:
+      213: 3996788987127889596
+    second: Male Damned_16
+  - first:
+      213: 7931840846399467314
+    second: Male Damned_17
+  - first:
+      213: 5935971627732977815
+    second: Male Damned_18
+  - first:
+      213: -904958430180890614
+    second: Male Damned_19
+  - first:
+      213: 7926457282772146413
+    second: Male Damned_20
+  - first:
+      213: -6239774670524151378
+    second: Male Damned_21
+  - first:
+      213: 526636172626996200
+    second: Male Damned_22
+  - first:
+      213: 2217129214016113277
+    second: Male Damned_23
+  - first:
+      213: -4359280023166380649
+    second: Male Damned_24
+  - first:
+      213: -6776715993909259149
+    second: Male Damned_25
+  - first:
+      213: -413990938883691446
+    second: Male Damned_26
+  - first:
+      213: 4255268814349610692
+    second: Male Damned_27
+  - first:
+      213: -7387651372674964497
+    second: Male Damned_28
+  - first:
+      213: 415204686582501175
+    second: Male_Damned_00_00
+  - first:
+      213: -5527645560585832739
+    second: Male_Damned_00_01
+  - first:
+      213: 2773880859542895614
+    second: Male_Damned_00_02
+  - first:
+      213: 3157032740150413250
+    second: Male_Damned_00_03
+  - first:
+      213: 1705644025408629068
+    second: Male_Damned_00_04
+  - first:
+      213: -512000791566924421
+    second: Male_Damned_00_05
+  - first:
+      213: -4727372806875072021
+    second: Male_Damned_00_06
+  - first:
+      213: 8183276672017199515
+    second: Male_Damned_00_07
+  - first:
+      213: 1419171791856879440
+    second: Male_Damned_01_00
+  - first:
+      213: 6304259494024285498
+    second: Male_Damned_01_01
+  - first:
+      213: -4691209434592546933
+    second: Male_Damned_01_02
+  - first:
+      213: -1568812065364132735
+    second: Male_Damned_01_03
+  - first:
+      213: 5540252665596196772
+    second: Male_Damned_01_04
+  - first:
+      213: 2194791155489256682
+    second: Male_Damned_01_05
+  - first:
+      213: 8940021581824173350
+    second: Male_Damned_01_06
+  - first:
+      213: 6920889618799626456
+    second: Male_Damned_01_07
+  - first:
+      213: -2576928647857761877
+    second: Male_Damned_02_00
+  - first:
+      213: 6780025444551285063
+    second: Male_Damned_02_01
+  - first:
+      213: 5638490501657197792
+    second: Male_Damned_02_02
+  - first:
+      213: -2028898119609504203
+    second: Male_Damned_02_03
+  - first:
+      213: -4796450951088179223
+    second: Male_Damned_02_04
+  - first:
+      213: -7462075246533280121
+    second: Male_Damned_02_05
+  - first:
+      213: 8247700288364429556
+    second: Male_Damned_02_06
+  - first:
+      213: -994501928733003857
+    second: Male_Damned_02_07
+  - first:
+      213: 8539339621083110697
+    second: Male_Damned_03_00
+  - first:
+      213: 8102937424924280907
+    second: Male_Damned_03_01
+  - first:
+      213: -466248199464944458
+    second: Male_Damned_03_02
+  - first:
+      213: -7466209522095180918
+    second: Male_Damned_03_03
+  - first:
+      213: 6133605287398074080
+    second: Male_Damned_03_04
+  - first:
+      213: -5734101445514452572
+    second: Male_Damned_03_05
+  - first:
+      213: 516936206487107484
+    second: Male_Damned_03_06
+  - first:
+      213: 649869970396206867
+    second: Male_Damned_03_07
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Male_Damned_00_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73fc3dc667a13c500800000000000000
+      internalID: 415204686582501175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male_Damned_00_01
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd6340d36abd943b0800000000000000
+      internalID: -5527645560585832739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male_Damned_00_02
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efb3f42f1fdce7620800000000000000
+      internalID: 2773880859542895614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male_Damned_00_03
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c781fcec8800db20800000000000000
+      internalID: 3157032740150413250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male_Damned_00_04
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c49afb7443aaba710800000000000000
+      internalID: 1705644025408629068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male_Damned_00_05
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b754fe52ef105e8f0800000000000000
+      internalID: -512000791566924421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male_Damned_00_06
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be9be559a7ff46eb0800000000000000
+      internalID: -4727372806875072021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male_Damned_00_07
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b91735eb6c6d09170800000000000000
+      internalID: 8183276672017199515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male_Damned_01_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05742e0c939e1b310800000000000000
+      internalID: 1419171791856879440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male_Damned_01_01
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3d8331cb9a3d7750800000000000000
+      internalID: 6304259494024285498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male_Damned_01_02
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8f6624dfd975eeb0800000000000000
+      internalID: -4691209434592546933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male_Damned_01_03
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18cbf9c0db57a3ae0800000000000000
+      internalID: -1568812065364132735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male_Damned_01_04
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a7b5c2227ee2ec40800000000000000
+      internalID: 5540252665596196772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male_Damned_01_05
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae43b1b6de6757e10800000000000000
+      internalID: 2194791155489256682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male_Damned_01_06
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 625a4fc2346511c70800000000000000
+      internalID: 8940021581824173350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male_Damned_01_07
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d88d3a9070fb0060800000000000000
+      internalID: 6920889618799626456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male_Damned_02_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba119e44c09ec3cd0800000000000000
+      internalID: -2576928647857761877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male_Damned_02_01
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 749d69e383d771e50800000000000000
+      internalID: 6780025444551285063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male_Damned_02_02
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ecf0bcbc31ff3e40800000000000000
+      internalID: 5638490501657197792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male_Damned_02_03
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53ea737e8e7e7d3e0800000000000000
+      internalID: -2028898119609504203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male_Damned_02_04
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e7fdcdc5459f6db0800000000000000
+      internalID: -4796450951088179223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male_Damned_02_05
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78ef52b5912617890800000000000000
+      internalID: -7462075246533280121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male_Damned_02_06
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f049ddc6b7b57270800000000000000
+      internalID: 8247700288364429556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male_Damned_02_07
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fafad61d3c1d232f0800000000000000
+      internalID: -994501928733003857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male_Damned_03_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92dd31b5424d18670800000000000000
+      internalID: 8539339621083110697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male_Damned_03_01
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4884d128aa637070800000000000000
+      internalID: 8102937424924280907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male_Damned_03_02
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bcf9bd9bbd8789f0800000000000000
+      internalID: -466248199464944458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male_Damned_03_03
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a83b0e05ff1b26890800000000000000
+      internalID: -7466209522095180918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male_Damned_03_04
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e6e1dbf281fe1550800000000000000
+      internalID: 6133605287398074080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male_Damned_03_05
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a1ae0aad116c60b0800000000000000
+      internalID: -5734101445514452572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male_Damned_03_06
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c97b33fadb68c2700800000000000000
+      internalID: 516936206487107484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male_Damned_03_07
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 317d8af7b4dc40900800000000000000
+      internalID: 649869970396206867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Male Damned_0: -8967976818538261321
+      Male Damned_1: -9132200100492059331
+      Male Damned_10: 6201101491034705487
+      Male Damned_11: 8380148152193068881
+      Male Damned_12: -1604922313911984033
+      Male Damned_13: -7344162957185133595
+      Male Damned_14: -979102171902382008
+      Male Damned_15: -5181358183321558070
+      Male Damned_16: 3996788987127889596
+      Male Damned_17: 7931840846399467314
+      Male Damned_18: 5935971627732977815
+      Male Damned_19: -904958430180890614
+      Male Damned_2: -8748632119501053284
+      Male Damned_20: 7926457282772146413
+      Male Damned_21: -6239774670524151378
+      Male Damned_22: 526636172626996200
+      Male Damned_23: 2217129214016113277
+      Male Damned_24: -4359280023166380649
+      Male Damned_25: -6776715993909259149
+      Male Damned_26: -413990938883691446
+      Male Damned_27: 4255268814349610692
+      Male Damned_28: -7387651372674964497
+      Male Damned_3: 592742644194675616
+      Male Damned_4: -659488251210820167
+      Male Damned_5: 9187520883699398028
+      Male Damned_6: -6165963827630332007
+      Male Damned_7: 6143598696190951775
+      Male Damned_8: 4161706011780329512
+      Male Damned_9: -496935472582316112
+      Male_Damned_00_00: 415204686582501175
+      Male_Damned_00_01: -5527645560585832739
+      Male_Damned_00_02: 2773880859542895614
+      Male_Damned_00_03: 3157032740150413250
+      Male_Damned_00_04: 1705644025408629068
+      Male_Damned_00_05: -512000791566924421
+      Male_Damned_00_06: -4727372806875072021
+      Male_Damned_00_07: 8183276672017199515
+      Male_Damned_01_00: 1419171791856879440
+      Male_Damned_01_01: 6304259494024285498
+      Male_Damned_01_02: -4691209434592546933
+      Male_Damned_01_03: -1568812065364132735
+      Male_Damned_01_04: 5540252665596196772
+      Male_Damned_01_05: 2194791155489256682
+      Male_Damned_01_06: 8940021581824173350
+      Male_Damned_01_07: 6920889618799626456
+      Male_Damned_02_00: -2576928647857761877
+      Male_Damned_02_01: 6780025444551285063
+      Male_Damned_02_02: 5638490501657197792
+      Male_Damned_02_03: -2028898119609504203
+      Male_Damned_02_04: -4796450951088179223
+      Male_Damned_02_05: -7462075246533280121
+      Male_Damned_02_06: 8247700288364429556
+      Male_Damned_02_07: -994501928733003857
+      Male_Damned_03_00: 8539339621083110697
+      Male_Damned_03_01: 8102937424924280907
+      Male_Damned_03_02: -466248199464944458
+      Male_Damned_03_03: -7466209522095180918
+      Male_Damned_03_04: 6133605287398074080
+      Male_Damned_03_05: -5734101445514452572
+      Male_Damned_03_06: 516936206487107484
+      Male_Damned_03_07: 649869970396206867
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

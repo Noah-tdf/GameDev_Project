@@ -66,6 +66,7 @@ public class StoreWeaponShopUI : MonoBehaviour
     [Header("References")]
     [SerializeField] private Canvas targetCanvas;
     [SerializeField] private Sprite slotSprite;
+    [SerializeField] private Sprite buyButtonCoverSprite;
     [SerializeField] private TMP_FontAsset storeFont;
     [SerializeField] private Font stencilSourceFont;
     [SerializeField] private List<Sprite> primaryWeaponSprites = new List<Sprite>();
@@ -175,6 +176,9 @@ public class StoreWeaponShopUI : MonoBehaviour
 #if UNITY_EDITOR
         if (slotSprite == null)
             slotSprite = AssetDatabase.LoadAssetAtPath<Sprite>("Assets/Art/Armory/slot.png");
+
+        if (buyButtonCoverSprite == null)
+            buyButtonCoverSprite = AssetDatabase.LoadAssetAtPath<Sprite>("Assets/Art/Armory/Screenshot 2026-05-13 122102.png");
 
         if (stencilSourceFont == null)
             stencilSourceFont = AssetDatabase.LoadAssetAtPath<Font>("Assets/Fonts/BlackOpsOne-Regular.ttf");
@@ -304,7 +308,7 @@ public class StoreWeaponShopUI : MonoBehaviour
         detailsText = CreateText("SelectedWeaponDetails", root, string.Empty, 28f, TextAlignmentOptions.Top);
         SetTopLeft(detailsText.rectTransform, detailsPosition, detailsSize);
 
-        creditsText = CreateText("CreditsAmountText", root, string.Empty, 34f, TextAlignmentOptions.Left);
+        creditsText = CreateText("CreditsAmountText", root, string.Empty, 46f, TextAlignmentOptions.Left);
         ApplyOverlayTextStyle(creditsText);
         creditsText.color = new Color(0.82f, 0.78f, 0.70f, 1f);
         creditsText.outlineWidth = 0.12f;
@@ -314,16 +318,23 @@ public class StoreWeaponShopUI : MonoBehaviour
         buyButtonRect = CreateRect("BuyEquipClickArea", root);
         SetTopLeft(buyButtonRect, buyButtonPosition, buyButtonSize);
 
-        buyButtonTextCover = CreateImage("BuyButtonTextCover", buyButtonRect, null, new Color(0.08f, 0.08f, 0.07f, 1f));
-        Center(buyButtonTextCover.rectTransform);
-        buyButtonTextCover.rectTransform.anchoredPosition = new Vector2(0f, -16f);
-        buyButtonTextCover.rectTransform.sizeDelta = new Vector2(270f, 92f);
+        // Cover size and offset derived from the reference Square placed over the buy button inner area.
+        // Square world scale (263.27, 71.76) / canvas scale (1.333) = ~(197.5, 53.8) canvas px.
+        // Square center offset from button center = (-16, -24).
+        Vector2 innerCoverSize = new Vector2(197.5f, 53.8f);
+        Vector2 innerCoverOffset = new Vector2(-16f, -24f);
 
-        buyButtonText = CreateText("BuyEquipText", buyButtonRect, string.Empty, 30f, TextAlignmentOptions.Center);
+        buyButtonTextCover = CreateImage("BuyButtonTextCover", buyButtonRect, buyButtonCoverSprite, Color.white);
+        Center(buyButtonTextCover.rectTransform);
+        buyButtonTextCover.rectTransform.anchoredPosition = innerCoverOffset;
+        buyButtonTextCover.rectTransform.sizeDelta = innerCoverSize;
+
+        buyButtonText = CreateText("BuyEquipText", buyButtonRect, string.Empty, 40f, TextAlignmentOptions.Center);
         ApplyOverlayTextStyle(buyButtonText);
+        buyButtonText.enableWordWrapping = false;
         Center(buyButtonText.rectTransform);
-        buyButtonText.rectTransform.anchoredPosition = new Vector2(0f, -4f);
-        buyButtonText.rectTransform.sizeDelta = new Vector2(250f, 62f);
+        buyButtonText.rectTransform.anchoredPosition = innerCoverOffset;
+        buyButtonText.rectTransform.sizeDelta = innerCoverSize;
     }
 
     private void CreateWeaponSlot(int index)

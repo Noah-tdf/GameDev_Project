@@ -1,0 +1,339 @@
+fileFormatVersion: 2
+guid: 04220ae4918d34549b3fa50eb904b5c8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -443895990740262570
+    second: Female Hell Giant_0
+  - first:
+      213: -3763656701612032875
+    second: Female Hell Giant_1
+  - first:
+      213: -4448119654777194262
+    second: Female Hell Giant_2
+  - first:
+      213: 5688937059658487241
+    second: Female Hell Giant_3
+  - first:
+      213: -3246253898767543717
+    second: Female Hell Giant_4
+  - first:
+      213: 7975340712020324209
+    second: Female Hell Giant_5
+  - first:
+      213: 977676999703240840
+    second: Female Hell Giant_6
+  - first:
+      213: 1511894841600375195
+    second: Female Hell Giant_7
+  - first:
+      213: -7085055867618041373
+    second: Female Hell Giant_8
+  - first:
+      213: -6645269354138742041
+    second: Female Hell Giant_9
+  - first:
+      213: 7281150526486745695
+    second: Female_Hell_Giant_00_00
+  - first:
+      213: -4677765035116206635
+    second: Female_Hell_Giant_00_01
+  - first:
+      213: -7357112983406290064
+    second: Female_Hell_Giant_00_02
+  - first:
+      213: -2562695662737408849
+    second: Female_Hell_Giant_00_03
+  - first:
+      213: 6200883422014742567
+    second: Female_Hell_Giant_00_04
+  - first:
+      213: 6036271023950858871
+    second: Female_Hell_Giant_00_05
+  - first:
+      213: 3172080454263834018
+    second: Female_Hell_Giant_00_06
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Female_Hell_Giant_00_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f52146f93d7db0560800000000000000
+      internalID: 7281150526486745695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_Hell_Giant_00_01
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 160
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d5e7230c7d351fb0800000000000000
+      internalID: -4677765035116206635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_Hell_Giant_00_02
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 160
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07b57a3a8b846e990800000000000000
+      internalID: -7357112983406290064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_Hell_Giant_00_03
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 160
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fac3a1b5fd97f6cd0800000000000000
+      internalID: -2562695662737408849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_Hell_Giant_00_04
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 160
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7202cce5e96fd0650800000000000000
+      internalID: 6200883422014742567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_Hell_Giant_00_05
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 160
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77a0396c38425c350800000000000000
+      internalID: 6036271023950858871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_Hell_Giant_00_06
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 160
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a50b53ed5e750c20800000000000000
+      internalID: 3172080454263834018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Female Hell Giant_0: -443895990740262570
+      Female Hell Giant_1: -3763656701612032875
+      Female Hell Giant_2: -4448119654777194262
+      Female Hell Giant_3: 5688937059658487241
+      Female Hell Giant_4: -3246253898767543717
+      Female Hell Giant_5: 7975340712020324209
+      Female Hell Giant_6: 977676999703240840
+      Female Hell Giant_7: 1511894841600375195
+      Female Hell Giant_8: -7085055867618041373
+      Female Hell Giant_9: -6645269354138742041
+      Female_Hell_Giant_00_00: 7281150526486745695
+      Female_Hell_Giant_00_01: -4677765035116206635
+      Female_Hell_Giant_00_02: -7357112983406290064
+      Female_Hell_Giant_00_03: -2562695662737408849
+      Female_Hell_Giant_00_04: 6200883422014742567
+      Female_Hell_Giant_00_05: 6036271023950858871
+      Female_Hell_Giant_00_06: 3172080454263834018
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

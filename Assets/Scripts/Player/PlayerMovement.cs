@@ -1,5 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using TMPro;
+using UnityEngine.UI;
 
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(Collider2D))]
@@ -21,9 +23,11 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private GameObject combatPopUp;
     [SerializeField] private GameObject levelEndPopUp;
     [SerializeField] private GameObject weaponSwitchPopUp;
+    [SerializeField] private GameObject healthBarPopUp;
     private bool combatTipDone;
     private bool weaponSwitchTipShown;
     private bool levelEndTipShown;
+    private bool healthBarTipShown;
 
     private Rigidbody2D rb;
     private Collider2D bodyCollider;
@@ -73,6 +77,20 @@ public class PlayerMovement : MonoBehaviour
 
         if (movementPopUp != null)
             movementPopUp.SetActive(true);
+
+        if (healthBarPopUp == null)
+            healthBarPopUp = GameObject.Find("HealthBarPopUp");
+
+        if (healthBarPopUp == null)
+        {
+            TextMeshProUGUI promptStyle = movementPopUp != null
+                ? movementPopUp.GetComponentInChildren<TextMeshProUGUI>(true)
+                : null;
+            healthBarPopUp = BuildHealthBarPopUp(promptStyle);
+        }
+
+        if (healthBarPopUp != null)
+            healthBarPopUp.SetActive(false);
 
         if (combatPopUp == null)
             combatPopUp = GameObject.Find("CombatPopUp");
@@ -301,15 +319,25 @@ public class PlayerMovement : MonoBehaviour
             {
                 string platformName = collision.gameObject.name;
 
-                if (movementPopUp != null && platformName.StartsWith("AirPlatforms"))
+                if (movementPopUp != null && IsFirstAirPlatformSet(platformName))
+                {
                     movementPopUp.SetActive(false);
+                    ShowHealthBarTip();
+                }
+
+                if (!IsFirstAirPlatformSet(platformName))
+                    HideHealthBarTip();
 
                 if (!combatTipDone && combatPopUp != null && platformName.StartsWith("2ndPlatform"))
+                {
+                    HideHealthBarTip();
                     combatPopUp.SetActive(true);
+                }
 
                 if (!weaponSwitchTipShown && weaponSwitchPopUp != null && platformName.StartsWith("3rdPlatform"))
                 {
                     weaponSwitchTipShown = true;
+                    HideHealthBarTip();
                     if (combatPopUp != null)
                         combatPopUp.SetActive(false);
                     weaponSwitchPopUp.SetActive(true);
@@ -343,11 +371,75 @@ public class PlayerMovement : MonoBehaviour
         return platformName.Contains("Platform") || platformName.Contains("platform");
     }
 
+    private static bool IsFirstAirPlatformSet(string platformName)
+    {
+        return platformName == "AirPlatforms";
+    }
+
     public void FinishCombatTip()
     {
         combatTipDone = true;
+        HideHealthBarTip();
         if (combatPopUp != null)
             combatPopUp.SetActive(false);
+    }
+
+    private void ShowHealthBarTip()
+    {
+        if (healthBarTipShown)
+            return;
+
+        healthBarTipShown = true;
+        if (healthBarPopUp != null)
+            healthBarPopUp.SetActive(true);
+    }
+
+    private void HideHealthBarTip()
+    {
+        if (healthBarPopUp != null)
+            healthBarPopUp.SetActive(false);
+    }
+
+    private static GameObject BuildHealthBarPopUp(TextMeshProUGUI styleSource)
+    {
+        GameObject canvasObject = new GameObject("HealthBarPopUp", typeof(Canvas), typeof(CanvasScaler), typeof(GraphicRaycaster));
+        Canvas canvas = canvasObject.GetComponent<Canvas>();
+        canvas.renderMode = RenderMode.ScreenSpaceOverlay;
+        canvas.sortingOrder = 90;
+
+        CanvasScaler scaler = canvasObject.GetComponent<CanvasScaler>();
+        scaler.uiScaleMode = CanvasScaler.ScaleMode.ConstantPixelSize;
+        scaler.scaleFactor = 1f;
+        scaler.referencePixelsPerUnit = 100f;
+
+        GameObject textObject = new GameObject("Text (TMP)", typeof(RectTransform), typeof(CanvasRenderer), typeof(TextMeshProUGUI));
+        textObject.transform.SetParent(canvasObject.transform, false);
+
+        RectTransform rect = textObject.GetComponent<RectTransform>();
+        rect.anchorMin = new Vector2(0.5f, 0.5f);
+        rect.anchorMax = new Vector2(0.5f, 0.5f);
+        rect.pivot = new Vector2(0.5f, 0.5f);
+        rect.anchoredPosition = new Vector2(-1f, 102f);
+        rect.sizeDelta = new Vector2(760f, 90f);
+
+        TextMeshProUGUI text = textObject.GetComponent<TextMeshProUGUI>();
+        text.text = "The health bar in the top-left shows Luca's HP. If it reaches 0, it's game over.";
+        if (styleSource != null)
+        {
+            text.font = styleSource.font;
+            text.fontSharedMaterial = styleSource.fontSharedMaterial;
+            text.color = styleSource.color;
+        }
+        text.fontSize = 20f;
+        text.enableAutoSizing = true;
+        text.fontSizeMin = 18f;
+        text.fontSizeMax = 22f;
+        text.alignment = TextAlignmentOptions.Center;
+        if (styleSource == null)
+            text.color = Color.white;
+        text.raycastTarget = false;
+
+        return canvasObject;
     }
 
     private void OnDrawGizmosSelected()

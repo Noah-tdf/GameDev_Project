@@ -1,0 +1,865 @@
+fileFormatVersion: 2
+guid: f6ec41409ef576641864ff677e4556df
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3891361359843681242
+    second: Bloated Damned_0
+  - first:
+      213: -1133676772815820021
+    second: Bloated Damned_1
+  - first:
+      213: -965304966025994540
+    second: Bloated Damned_2
+  - first:
+      213: 6695245093428516858
+    second: Bloated Damned_3
+  - first:
+      213: 8573471366510675393
+    second: Bloated Damned_4
+  - first:
+      213: 2586200281441506550
+    second: Bloated Damned_5
+  - first:
+      213: 7556955749396248473
+    second: Bloated Damned_6
+  - first:
+      213: -7193505007810896699
+    second: Bloated Damned_7
+  - first:
+      213: 3915948694066642023
+    second: Bloated Damned_8
+  - first:
+      213: 8869172557797416728
+    second: Bloated Damned_9
+  - first:
+      213: -4691728749132766927
+    second: Bloated Damned_10
+  - first:
+      213: 942526765055854841
+    second: Bloated Damned_11
+  - first:
+      213: -593950024436809004
+    second: Bloated Damned_12
+  - first:
+      213: 1909496394601074143
+    second: Bloated Damned_13
+  - first:
+      213: 7613908239697098726
+    second: Bloated Damned_14
+  - first:
+      213: -8426450448636672776
+    second: Bloated Damned_15
+  - first:
+      213: -4903621394880215061
+    second: Bloated Damned_16
+  - first:
+      213: -1885485835010754768
+    second: Bloated Damned_17
+  - first:
+      213: -3586243260870015233
+    second: Bloated Damned_18
+  - first:
+      213: 732048918551511733
+    second: Bloated Damned_19
+  - first:
+      213: -7140641788065430449
+    second: Bloated Damned_20
+  - first:
+      213: -1681940159542881382
+    second: Bloated Damned_21
+  - first:
+      213: 1618328270241855177
+    second: Bloated Damned_22
+  - first:
+      213: -5155007516641648116
+    second: Bloated Damned_23
+  - first:
+      213: 8128805536510427810
+    second: Bloated Damned_24
+  - first:
+      213: 4147581615297647026
+    second: Bloated Damned_25
+  - first:
+      213: 2756808852026797689
+    second: Bloated Damned_26
+  - first:
+      213: 5833329795628505564
+    second: Bloated Damned_27
+  - first:
+      213: 82916042753881063
+    second: Bloated Damned_28
+  - first:
+      213: -50101893967317673
+    second: Bloated Damned_29
+  - first:
+      213: -6099055564158588024
+    second: Bloated Damned_30
+  - first:
+      213: 754854178620319656
+    second: Bloated_Damned_00_00
+  - first:
+      213: -4177069293757377280
+    second: Bloated_Damned_00_01
+  - first:
+      213: 1041696135624379538
+    second: Bloated_Damned_00_02
+  - first:
+      213: -3536349530575019116
+    second: Bloated_Damned_00_03
+  - first:
+      213: -474518693022556131
+    second: Bloated_Damned_00_04
+  - first:
+      213: 4994666453354107112
+    second: Bloated_Damned_00_05
+  - first:
+      213: 1267601511271358607
+    second: Bloated_Damned_00_06
+  - first:
+      213: 8832868854005466319
+    second: Bloated_Damned_00_07
+  - first:
+      213: 1194539828053838344
+    second: Bloated_Damned_01_00
+  - first:
+      213: 2815525966812728345
+    second: Bloated_Damned_01_01
+  - first:
+      213: 1854300212083643964
+    second: Bloated_Damned_01_02
+  - first:
+      213: 9022397395422139761
+    second: Bloated_Damned_01_03
+  - first:
+      213: -5959032204724719434
+    second: Bloated_Damned_01_04
+  - first:
+      213: -5730927536946394187
+    second: Bloated_Damned_01_05
+  - first:
+      213: 438920286876397580
+    second: Bloated_Damned_01_06
+  - first:
+      213: -6418576835399978751
+    second: Bloated_Damned_01_07
+  - first:
+      213: -5361976003493028327
+    second: Bloated_Damned_02_00
+  - first:
+      213: -867642746573083735
+    second: Bloated_Damned_02_01
+  - first:
+      213: -1636530333522046576
+    second: Bloated_Damned_02_02
+  - first:
+      213: -4061394552458251666
+    second: Bloated_Damned_02_03
+  - first:
+      213: 8367416168512577844
+    second: Bloated_Damned_02_04
+  - first:
+      213: 7392338628496080257
+    second: Bloated_Damned_02_05
+  - first:
+      213: 1560043341024510925
+    second: Bloated_Damned_02_06
+  - first:
+      213: -8310845752973175451
+    second: Bloated_Damned_02_07
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bloated_Damned_00_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a722e540e7c97a00800000000000000
+      internalID: 754854178620319656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloated_Damned_00_01
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 005566fbb911806c0800000000000000
+      internalID: -4177069293757377280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloated_Damned_00_02
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29cc9cfbd19d47e00800000000000000
+      internalID: 1041696135624379538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloated_Damned_00_03
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 493e47c96dc5ceec0800000000000000
+      internalID: -3536349530575019116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloated_Damned_00_04
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d10ab1743cb2a69f0800000000000000
+      internalID: -474518693022556131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloated_Damned_00_05
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e05bbb2dae905540800000000000000
+      internalID: 4994666453354107112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloated_Damned_00_06
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f80e314cbdc679110800000000000000
+      internalID: 1267601511271358607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloated_Damned_00_07
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc48b969c67a49a70800000000000000
+      internalID: 8832868854005466319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloated_Damned_01_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80a843905abd39010800000000000000
+      internalID: 1194539828053838344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloated_Damned_01_01
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91cc2c313f1c21720800000000000000
+      internalID: 2815525966812728345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloated_Damned_01_02
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c365d28e73ccbb910800000000000000
+      internalID: 1854300212083643964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloated_Damned_01_03
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 175db80e0aef53d70800000000000000
+      internalID: 9022397395422139761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloated_Damned_01_04
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b0354838c34d4da0800000000000000
+      internalID: -5959032204724719434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloated_Damned_01_05
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bb4ec6d4c7a770b0800000000000000
+      internalID: -5730927536946394187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloated_Damned_01_06
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c00faf7ecab571600800000000000000
+      internalID: 438920286876397580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloated_Damned_01_07
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 101fe621062ace6a0800000000000000
+      internalID: -6418576835399978751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloated_Damned_02_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91e11a9db3f6695b0800000000000000
+      internalID: -5361976003493028327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloated_Damned_02_01
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ab219ad48385f3f0800000000000000
+      internalID: -867642746573083735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloated_Damned_02_02
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09154461550e949e0800000000000000
+      internalID: -1636530333522046576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloated_Damned_02_03
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e62f4083c2703a7c0800000000000000
+      internalID: -4061394552458251666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloated_Damned_02_04
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4316d0c3ca80f1470800000000000000
+      internalID: 8367416168512577844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloated_Damned_02_05
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18d38eaf0dcd69660800000000000000
+      internalID: 7392338628496080257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloated_Damned_02_06
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc3caf7372366a510800000000000000
+      internalID: 1560043341024510925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloated_Damned_02_07
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56558f602d1f9ac80800000000000000
+      internalID: -8310845752973175451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Bloated Damned_0: 3891361359843681242
+      Bloated Damned_1: -1133676772815820021
+      Bloated Damned_10: -4691728749132766927
+      Bloated Damned_11: 942526765055854841
+      Bloated Damned_12: -593950024436809004
+      Bloated Damned_13: 1909496394601074143
+      Bloated Damned_14: 7613908239697098726
+      Bloated Damned_15: -8426450448636672776
+      Bloated Damned_16: -4903621394880215061
+      Bloated Damned_17: -1885485835010754768
+      Bloated Damned_18: -3586243260870015233
+      Bloated Damned_19: 732048918551511733
+      Bloated Damned_2: -965304966025994540
+      Bloated Damned_20: -7140641788065430449
+      Bloated Damned_21: -1681940159542881382
+      Bloated Damned_22: 1618328270241855177
+      Bloated Damned_23: -5155007516641648116
+      Bloated Damned_24: 8128805536510427810
+      Bloated Damned_25: 4147581615297647026
+      Bloated Damned_26: 2756808852026797689
+      Bloated Damned_27: 5833329795628505564
+      Bloated Damned_28: 82916042753881063
+      Bloated Damned_29: -50101893967317673
+      Bloated Damned_3: 6695245093428516858
+      Bloated Damned_30: -6099055564158588024
+      Bloated Damned_4: 8573471366510675393
+      Bloated Damned_5: 2586200281441506550
+      Bloated Damned_6: 7556955749396248473
+      Bloated Damned_7: -7193505007810896699
+      Bloated Damned_8: 3915948694066642023
+      Bloated Damned_9: 8869172557797416728
+      Bloated_Damned_00_00: 754854178620319656
+      Bloated_Damned_00_01: -4177069293757377280
+      Bloated_Damned_00_02: 1041696135624379538
+      Bloated_Damned_00_03: -3536349530575019116
+      Bloated_Damned_00_04: -474518693022556131
+      Bloated_Damned_00_05: 4994666453354107112
+      Bloated_Damned_00_06: 1267601511271358607
+      Bloated_Damned_00_07: 8832868854005466319
+      Bloated_Damned_01_00: 1194539828053838344
+      Bloated_Damned_01_01: 2815525966812728345
+      Bloated_Damned_01_02: 1854300212083643964
+      Bloated_Damned_01_03: 9022397395422139761
+      Bloated_Damned_01_04: -5959032204724719434
+      Bloated_Damned_01_05: -5730927536946394187
+      Bloated_Damned_01_06: 438920286876397580
+      Bloated_Damned_01_07: -6418576835399978751
+      Bloated_Damned_02_00: -5361976003493028327
+      Bloated_Damned_02_01: -867642746573083735
+      Bloated_Damned_02_02: -1636530333522046576
+      Bloated_Damned_02_03: -4061394552458251666
+      Bloated_Damned_02_04: 8367416168512577844
+      Bloated_Damned_02_05: 7392338628496080257
+      Bloated_Damned_02_06: 1560043341024510925
+      Bloated_Damned_02_07: -8310845752973175451
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

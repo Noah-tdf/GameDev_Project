@@ -1,0 +1,217 @@
+fileFormatVersion: 2
+guid: 223e3d5683698834db5d2b9ca2d0eab4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3361338435537232604
+    second: Plague Flies_0
+  - first:
+      213: 1527048717540732074
+    second: Plague Flies_1
+  - first:
+      213: 6130819781243578838
+    second: Plague Flies_2
+  - first:
+      213: 533008930260058542
+    second: Plague Flies_3
+  - first:
+      213: 5384504045391908094
+    second: Plague Flies_4
+  - first:
+      213: 7988095537982565352
+    second: Plague Flies_5
+  - first:
+      213: -4029336987940657472
+    second: Plague Flies_6
+  - first:
+      213: -3020015563337605118
+    second: Plague Flies_7
+  - first:
+      213: -1623417327510313374
+    second: Plague Flies_8
+  - first:
+      213: -6391824789414208863
+    second: Plague Flies_9
+  - first:
+      213: -7525137746200316633
+    second: Plague Flies_10
+  - first:
+      213: -774766014109745512
+    second: Plague Flies_11
+  - first:
+      213: 1908712849908051702
+    second: Plague_Flies_00_00
+  - first:
+      213: 5664774438201944961
+    second: Plague_Flies_00_01
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Plague_Flies_00_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fe2ef4693c1d7a10800000000000000
+      internalID: 1908712849908051702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plague_Flies_00_01
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18b6db996525d9e40800000000000000
+      internalID: 5664774438201944961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Plague Flies_0: 3361338435537232604
+      Plague Flies_1: 1527048717540732074
+      Plague Flies_10: -7525137746200316633
+      Plague Flies_11: -774766014109745512
+      Plague Flies_2: 6130819781243578838
+      Plague Flies_3: 533008930260058542
+      Plague Flies_4: 5384504045391908094
+      Plague Flies_5: 7988095537982565352
+      Plague Flies_6: -4029336987940657472
+      Plague Flies_7: -3020015563337605118
+      Plague Flies_8: -1623417327510313374
+      Plague Flies_9: -6391824789414208863
+      Plague_Flies_00_00: 1908712849908051702
+      Plague_Flies_00_01: 5664774438201944961
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

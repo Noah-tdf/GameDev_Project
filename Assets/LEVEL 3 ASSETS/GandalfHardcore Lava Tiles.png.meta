@@ -1,0 +1,5329 @@
+fileFormatVersion: 2
+guid: ae5152ca81e879d46931ebd0719ac1b6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4367183310561712253
+    second: GandalfHardcore Lava Tiles_0
+  - first:
+      213: 2343447975385160564
+    second: GandalfHardcore Lava Tiles_1
+  - first:
+      213: 6870977759737427601
+    second: GandalfHardcore Lava Tiles_2
+  - first:
+      213: 4876810584595081685
+    second: Lava_Cap_r00_c00
+  - first:
+      213: -4514514082732319524
+    second: Lava_Cap_r00_c01
+  - first:
+      213: 7873086586269628187
+    second: Lava_Cap_r00_c02
+  - first:
+      213: 7899511406361262459
+    second: Lava_Cap_r00_c03
+  - first:
+      213: 3333519822881067067
+    second: Lava_Cap_r00_c04
+  - first:
+      213: 6843527787483295242
+    second: Lava_Cap_r00_c05
+  - first:
+      213: 711645347213516871
+    second: Lava_Cap_r00_c06
+  - first:
+      213: 4898355547950442194
+    second: Lava_Cap_r00_c07
+  - first:
+      213: 8747689312140755417
+    second: Lava_Cap_r00_c08
+  - first:
+      213: -9152559079663693420
+    second: Lava_Cap_r00_c09
+  - first:
+      213: 8696031646397030383
+    second: Lava_Cap_r00_c10
+  - first:
+      213: 6516696982081174810
+    second: Lava_Cap_r00_c11
+  - first:
+      213: -4641620727839604685
+    second: Lava_Cap_r00_c12
+  - first:
+      213: -572137461240276318
+    second: Lava_Cap_r00_c13
+  - first:
+      213: 7263717167458091296
+    second: Lava_Cap_r00_c14
+  - first:
+      213: -7925744018375742370
+    second: Lava_Cap_r00_c15
+  - first:
+      213: -1111048032090614997
+    second: Lava_Cap_r00_c16
+  - first:
+      213: -973766948707861463
+    second: Lava_Cap_r00_c17
+  - first:
+      213: 5198472947235609142
+    second: Lava_Cap_r00_c18
+  - first:
+      213: -1557253302873117943
+    second: Lava_Cap_r00_c19
+  - first:
+      213: -8576812724334316813
+    second: Lava_Cap_r01_c00
+  - first:
+      213: -8907238436884775581
+    second: Lava_Cap_r01_c01
+  - first:
+      213: -1442391632900964003
+    second: Lava_Cap_r01_c02
+  - first:
+      213: 2473571872635894364
+    second: Lava_Cap_r01_c03
+  - first:
+      213: 7208739685071673265
+    second: Lava_Cap_r01_c04
+  - first:
+      213: 7147844357477545492
+    second: Lava_Cap_r01_c05
+  - first:
+      213: 1181281106748239509
+    second: Lava_Cap_r01_c06
+  - first:
+      213: 8792815858169172865
+    second: Lava_Cap_r01_c07
+  - first:
+      213: 5561510498174389072
+    second: Lava_Cap_r01_c08
+  - first:
+      213: 2693825157612967070
+    second: Lava_Cap_r01_c09
+  - first:
+      213: -3637386465865087320
+    second: Lava_Cap_r01_c10
+  - first:
+      213: -6176932976492275418
+    second: Lava_Cap_r01_c11
+  - first:
+      213: -6245184003980673961
+    second: Lava_Cap_r01_c12
+  - first:
+      213: -5671465472478241512
+    second: Lava_Cap_r01_c13
+  - first:
+      213: 5987713829538467059
+    second: Lava_Cap_r01_c14
+  - first:
+      213: 106300803728889860
+    second: Lava_Cap_r01_c15
+  - first:
+      213: 1141826214579724876
+    second: Lava_Cap_r01_c16
+  - first:
+      213: -2074613938821150494
+    second: Lava_Cap_r01_c17
+  - first:
+      213: 4926987604402774841
+    second: Lava_Cap_r01_c18
+  - first:
+      213: -1588309885754131814
+    second: Lava_Cap_r01_c19
+  - first:
+      213: 2925926413128088883
+    second: Lava_Strip_r00_c00
+  - first:
+      213: -5225902591618080194
+    second: Lava_Strip_r00_c01
+  - first:
+      213: -6506390853501221737
+    second: Lava_Strip_r00_c02
+  - first:
+      213: -7191725102605121066
+    second: Lava_Strip_r00_c03
+  - first:
+      213: 2652130501405797703
+    second: Lava_Strip_r00_c04
+  - first:
+      213: -6755236296276222169
+    second: Lava_Strip_r00_c05
+  - first:
+      213: 8923671447255711643
+    second: Lava_Strip_r00_c06
+  - first:
+      213: -4754095712294769593
+    second: Lava_Strip_r00_c07
+  - first:
+      213: 5905750515867603057
+    second: Lava_Strip_r00_c08
+  - first:
+      213: 8394206677891652574
+    second: Lava_Strip_r00_c09
+  - first:
+      213: 3668711719849257631
+    second: Lava_Strip_r00_c10
+  - first:
+      213: -5021121596588334017
+    second: Lava_Strip_r00_c11
+  - first:
+      213: -2746842419350787313
+    second: Lava_Strip_r00_c12
+  - first:
+      213: -4150222710770233614
+    second: Lava_Strip_r00_c13
+  - first:
+      213: 1919975542652756909
+    second: Lava_Strip_r00_c14
+  - first:
+      213: 6895207296572839667
+    second: Lava_Strip_r00_c15
+  - first:
+      213: -5400372917034981959
+    second: Lava_Strip_r00_c16
+  - first:
+      213: 2437468497720340793
+    second: Lava_Strip_r00_c17
+  - first:
+      213: -1504081565311081332
+    second: Lava_Strip_r00_c18
+  - first:
+      213: -1856377012978601333
+    second: Lava_Strip_r00_c19
+  - first:
+      213: -9130983787847080807
+    second: Lava_Pillar_r00_c00
+  - first:
+      213: 3339115099148094928
+    second: Lava_Pillar_r00_c01
+  - first:
+      213: 4707745744717533837
+    second: Lava_Pillar_r00_c02
+  - first:
+      213: -4196483438438092431
+    second: Lava_Pillar_r00_c03
+  - first:
+      213: 87132105913340166
+    second: Lava_Pillar_r00_c04
+  - first:
+      213: -5714103539840523929
+    second: Lava_Pillar_r00_c05
+  - first:
+      213: -5267103307661885021
+    second: Lava_Pillar_r00_c06
+  - first:
+      213: 1017279120108812469
+    second: Lava_Pillar_r00_c07
+  - first:
+      213: 8301972176480149713
+    second: Lava_Pillar_r00_c08
+  - first:
+      213: 1723201211830989467
+    second: Lava_Pillar_r00_c09
+  - first:
+      213: 820484860003942201
+    second: Lava_Pillar_r00_c10
+  - first:
+      213: 3770340122517307649
+    second: Lava_Pillar_r00_c11
+  - first:
+      213: -9101081898140929686
+    second: Lava_Pillar_r00_c12
+  - first:
+      213: 6324788675997551309
+    second: Lava_Pillar_r00_c13
+  - first:
+      213: 1978603482320514931
+    second: Lava_Pillar_r00_c14
+  - first:
+      213: -2463262330764606482
+    second: Lava_Pillar_r00_c15
+  - first:
+      213: -2191388383998859008
+    second: Lava_Pillar_r00_c16
+  - first:
+      213: 7645738304336373183
+    second: Lava_Pillar_r00_c17
+  - first:
+      213: 6718420620174518554
+    second: Lava_Pillar_r00_c18
+  - first:
+      213: -5246361871656972907
+    second: Lava_Pillar_r00_c19
+  - first:
+      213: -8407758668218313456
+    second: Lava_Pillar_r01_c00
+  - first:
+      213: 228131626913431576
+    second: Lava_Pillar_r01_c01
+  - first:
+      213: 7341050237458565108
+    second: Lava_Pillar_r01_c02
+  - first:
+      213: -9140096502679570385
+    second: Lava_Pillar_r01_c03
+  - first:
+      213: -8772721752820302017
+    second: Lava_Pillar_r01_c04
+  - first:
+      213: -5222569505315868507
+    second: Lava_Pillar_r01_c05
+  - first:
+      213: 8703198685410306016
+    second: Lava_Pillar_r01_c06
+  - first:
+      213: -8345208799451854017
+    second: Lava_Pillar_r01_c07
+  - first:
+      213: -5711096820823808605
+    second: Lava_Pillar_r01_c08
+  - first:
+      213: -2404536952965359885
+    second: Lava_Pillar_r01_c09
+  - first:
+      213: 4968106294390279953
+    second: Lava_Pillar_r01_c10
+  - first:
+      213: 6535199510747243599
+    second: Lava_Pillar_r01_c11
+  - first:
+      213: -1397101381170146413
+    second: Lava_Pillar_r01_c12
+  - first:
+      213: -5351534139533383801
+    second: Lava_Pillar_r01_c13
+  - first:
+      213: -2920771207560997075
+    second: Lava_Pillar_r01_c14
+  - first:
+      213: -7999553750315954165
+    second: Lava_Pillar_r01_c15
+  - first:
+      213: -3658993023601130461
+    second: Lava_Pillar_r01_c16
+  - first:
+      213: -2435672617960954920
+    second: Lava_Pillar_r01_c17
+  - first:
+      213: 7168011839779942991
+    second: Lava_Pillar_r01_c18
+  - first:
+      213: 4756111344746227230
+    second: Lava_Pillar_r01_c19
+  - first:
+      213: 3278735000764987009
+    second: Lava_Pillar_r02_c00
+  - first:
+      213: -8791212997093455565
+    second: Lava_Pillar_r02_c01
+  - first:
+      213: 926677045754101693
+    second: Lava_Pillar_r02_c02
+  - first:
+      213: -7967303747872916020
+    second: Lava_Pillar_r02_c03
+  - first:
+      213: 9167654712420135096
+    second: Lava_Pillar_r02_c04
+  - first:
+      213: -8349454626805400394
+    second: Lava_Pillar_r02_c05
+  - first:
+      213: -2075023187701562071
+    second: Lava_Pillar_r02_c06
+  - first:
+      213: -8963330363195945431
+    second: Lava_Pillar_r02_c07
+  - first:
+      213: -8158231870275080836
+    second: Lava_Pillar_r02_c08
+  - first:
+      213: -5189570217990050816
+    second: Lava_Pillar_r02_c09
+  - first:
+      213: -2880238081910890914
+    second: Lava_Pillar_r02_c10
+  - first:
+      213: -1370203813016302427
+    second: Lava_Pillar_r02_c11
+  - first:
+      213: 1787811748734336609
+    second: Lava_Pillar_r02_c12
+  - first:
+      213: 4505200300472728381
+    second: Lava_Pillar_r02_c13
+  - first:
+      213: -4472984192678071120
+    second: Lava_Pillar_r02_c14
+  - first:
+      213: -1012502210882153658
+    second: Lava_Pillar_r02_c15
+  - first:
+      213: -1500752116640213092
+    second: Lava_Pillar_r02_c16
+  - first:
+      213: 270895647298329873
+    second: Lava_Pillar_r02_c17
+  - first:
+      213: 6612516396966574943
+    second: Lava_Pillar_r02_c18
+  - first:
+      213: -3634629097970012349
+    second: Lava_Pillar_r02_c19
+  - first:
+      213: -6703262974674314422
+    second: Lava_Pillar_r03_c00
+  - first:
+      213: -3967105635948876960
+    second: Lava_Pillar_r03_c01
+  - first:
+      213: -5108417370552705191
+    second: Lava_Pillar_r03_c02
+  - first:
+      213: 655149047230695577
+    second: Lava_Pillar_r03_c03
+  - first:
+      213: -9013343538416225358
+    second: Lava_Pillar_r03_c04
+  - first:
+      213: -2047190770007800430
+    second: Lava_Pillar_r03_c05
+  - first:
+      213: -2951688345285646279
+    second: Lava_Pillar_r03_c06
+  - first:
+      213: -209005214368462539
+    second: Lava_Pillar_r03_c07
+  - first:
+      213: -5890696767909174053
+    second: Lava_Pillar_r03_c08
+  - first:
+      213: 9150585557619755159
+    second: Lava_Pillar_r03_c09
+  - first:
+      213: -1007992693373323784
+    second: Lava_Pillar_r03_c10
+  - first:
+      213: -3710173503917635071
+    second: Lava_Pillar_r03_c11
+  - first:
+      213: -3109057972052920513
+    second: Lava_Pillar_r03_c12
+  - first:
+      213: 6476167924411614440
+    second: Lava_Pillar_r03_c13
+  - first:
+      213: -2312843778230356431
+    second: Lava_Pillar_r03_c14
+  - first:
+      213: 368890890366665180
+    second: Lava_Pillar_r03_c15
+  - first:
+      213: 1017562298455323482
+    second: Lava_Pillar_r03_c16
+  - first:
+      213: -4667911780778978317
+    second: Lava_Pillar_r03_c17
+  - first:
+      213: 4547322727191974444
+    second: Lava_Pillar_r03_c18
+  - first:
+      213: -5805502273371591510
+    second: Lava_Pillar_r03_c19
+  - first:
+      213: -1835483261658041773
+    second: Lava_Floor_r00_c00
+  - first:
+      213: 6608332080366828549
+    second: Lava_Floor_r00_c01
+  - first:
+      213: 8551354809264587867
+    second: Lava_Floor_r00_c02
+  - first:
+      213: -1069293515737648989
+    second: Lava_Floor_r00_c03
+  - first:
+      213: 6066756044316851073
+    second: Lava_Floor_r00_c04
+  - first:
+      213: 5498709027022160788
+    second: Lava_Floor_r00_c05
+  - first:
+      213: 8472368423439113672
+    second: Lava_Floor_r00_c06
+  - first:
+      213: -8885703091017461595
+    second: Lava_Floor_r00_c07
+  - first:
+      213: -7251127612565102178
+    second: Lava_Floor_r00_c08
+  - first:
+      213: -7851696593561386851
+    second: Lava_Floor_r00_c09
+  - first:
+      213: 3632731179679504215
+    second: Lava_Floor_r00_c10
+  - first:
+      213: 5028767137707058035
+    second: Lava_Floor_r00_c11
+  - first:
+      213: -7400019954121277267
+    second: Lava_Floor_r00_c12
+  - first:
+      213: -825943269639357451
+    second: Lava_Floor_r00_c13
+  - first:
+      213: 6144518067053667482
+    second: Lava_Floor_r00_c14
+  - first:
+      213: -1398783550952992742
+    second: Lava_Floor_r00_c15
+  - first:
+      213: -1236167935196832317
+    second: Lava_Floor_r00_c16
+  - first:
+      213: -889567751203813718
+    second: Lava_Floor_r00_c17
+  - first:
+      213: 670596899394755991
+    second: Lava_Floor_r00_c18
+  - first:
+      213: -8789398517569700947
+    second: Lava_Floor_r00_c19
+  - first:
+      213: -7380883327654192136
+    second: Lava_Floor_r01_c00
+  - first:
+      213: -4510310151397971255
+    second: Lava_Floor_r01_c01
+  - first:
+      213: -4881270952473328653
+    second: Lava_Floor_r01_c02
+  - first:
+      213: -7653990874201654642
+    second: Lava_Floor_r01_c03
+  - first:
+      213: -3975256786862682536
+    second: Lava_Floor_r01_c04
+  - first:
+      213: -6394185208582290125
+    second: Lava_Floor_r01_c05
+  - first:
+      213: 8407655191805336384
+    second: Lava_Floor_r01_c06
+  - first:
+      213: -796110933802419377
+    second: Lava_Floor_r01_c07
+  - first:
+      213: -3945612125790935389
+    second: Lava_Floor_r01_c08
+  - first:
+      213: 4920212875900139038
+    second: Lava_Floor_r01_c09
+  - first:
+      213: -7892794475682760806
+    second: Lava_Floor_r01_c10
+  - first:
+      213: 3456921514392257686
+    second: Lava_Floor_r01_c11
+  - first:
+      213: -4348850462270285262
+    second: Lava_Floor_r01_c12
+  - first:
+      213: -8839538995388657499
+    second: Lava_Floor_r01_c13
+  - first:
+      213: 7150545206911092497
+    second: Lava_Floor_r01_c14
+  - first:
+      213: -1944150285732505222
+    second: Lava_Floor_r01_c15
+  - first:
+      213: 4416101889912687381
+    second: Lava_Floor_r01_c16
+  - first:
+      213: 4201238672150070384
+    second: Lava_Floor_r01_c17
+  - first:
+      213: -3457088480342803881
+    second: Lava_Floor_r01_c18
+  - first:
+      213: 5463368948830380626
+    second: Lava_Floor_r01_c19
+  - first:
+      213: -4478056157685952656
+    second: Lava_Fringe_r00_c00
+  - first:
+      213: -1146219760923127663
+    second: Lava_Fringe_r00_c01
+  - first:
+      213: -5621992915950927274
+    second: Lava_Fringe_r00_c02
+  - first:
+      213: 6311643361560061184
+    second: Lava_Fringe_r00_c03
+  - first:
+      213: 1760223499211105136
+    second: Lava_Fringe_r00_c04
+  - first:
+      213: 323020217393080817
+    second: Lava_Fringe_r00_c05
+  - first:
+      213: 2721010884135239645
+    second: Lava_Fringe_r00_c06
+  - first:
+      213: -9203877432817872522
+    second: Lava_Fringe_r00_c07
+  - first:
+      213: -5952276305788041118
+    second: Lava_Fringe_r00_c08
+  - first:
+      213: 5284425781418465372
+    second: Lava_Fringe_r00_c09
+  - first:
+      213: -1847864757681086795
+    second: Lava_Fringe_r00_c10
+  - first:
+      213: 8862339703398117708
+    second: Lava_Fringe_r00_c11
+  - first:
+      213: 6262472446968662706
+    second: Lava_Fringe_r00_c12
+  - first:
+      213: 3319878839893500577
+    second: Lava_Fringe_r00_c13
+  - first:
+      213: 5059540319996692317
+    second: Lava_Fringe_r00_c14
+  - first:
+      213: 5469015256869493828
+    second: Lava_Fringe_r00_c15
+  - first:
+      213: 155478263824313486
+    second: Lava_Fringe_r00_c16
+  - first:
+      213: 1529286924504699479
+    second: Lava_Fringe_r00_c17
+  - first:
+      213: 8480979282430606014
+    second: Lava_Fringe_r00_c18
+  - first:
+      213: -7005080175021806418
+    second: Lava_Fringe_r00_c19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Lava_Cap_r00_c00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 319
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d9a7a36369eda340800000000000000
+      internalID: 4876810584595081685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Cap_r00_c01
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 319
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdcdd355c593951c0800000000000000
+      internalID: -4514514082732319524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Cap_r00_c02
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 319
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b177e7c6982d24d60800000000000000
+      internalID: 7873086586269628187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Cap_r00_c03
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 319
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b793f4b45c3b0ad60800000000000000
+      internalID: 7899511406361262459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Cap_r00_c04
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 319
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b309c8efd9a034e20800000000000000
+      internalID: 3333519822881067067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Cap_r00_c05
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 319
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0ee47f934819fe50800000000000000
+      internalID: 6843527787483295242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Cap_r00_c06
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 319
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 740a8be3ca540e900800000000000000
+      internalID: 711645347213516871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Cap_r00_c07
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 319
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d666231b647af340800000000000000
+      internalID: 4898355547950442194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Cap_r00_c08
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 319
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d181a70519066970800000000000000
+      internalID: 8747689312140755417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Cap_r00_c09
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 319
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4919ed662049bf080800000000000000
+      internalID: -9152559079663693420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Cap_r00_c10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 319
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fefdc0775b28ea870800000000000000
+      internalID: 8696031646397030383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Cap_r00_c11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 319
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1dfec5d065ff6a50800000000000000
+      internalID: 6516696982081174810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Cap_r00_c12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 319
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 330c7075a86a59fb0800000000000000
+      internalID: -4641620727839604685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Cap_r00_c13
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 319
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aa5414a20c5f08f0800000000000000
+      internalID: -572137461240276318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Cap_r00_c14
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 319
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0210f3b6748edc460800000000000000
+      internalID: 7263717167458091296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Cap_r00_c15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 319
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5c6904cec9120290800000000000000
+      internalID: -7925744018375742370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Cap_r00_c16
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 319
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2397de83b3c490f0800000000000000
+      internalID: -1111048032090614997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Cap_r00_c17
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 319
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92c70409e1c7c72f0800000000000000
+      internalID: -973766948707861463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Cap_r00_c18
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 319
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63ad4725a9fa42840800000000000000
+      internalID: 5198472947235609142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Cap_r00_c19
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 319
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90ba1f82f56836ae0800000000000000
+      internalID: -1557253302873117943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Cap_r01_c00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 287
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f2b005e44a09f880800000000000000
+      internalID: -8576812724334316813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Cap_r01_c01
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 287
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36df6cf85d1236480800000000000000
+      internalID: -8907238436884775581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Cap_r01_c02
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 287
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5141f5b3789bfbe0800000000000000
+      internalID: -1442391632900964003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Cap_r01_c03
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 287
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5a3cda3384e35220800000000000000
+      internalID: 2473571872635894364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Cap_r01_c04
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 287
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b755fecc869a0460800000000000000
+      internalID: 7208739685071673265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Cap_r01_c05
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 287
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 416ba3d729e323360800000000000000
+      internalID: 7147844357477545492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Cap_r01_c06
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 287
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59eeb9b68e0c46010800000000000000
+      internalID: 1181281106748239509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Cap_r01_c07
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 287
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1835899cf6b560a70800000000000000
+      internalID: 8792815858169172865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Cap_r01_c08
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 287
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05b4a4af4547e2d40800000000000000
+      internalID: 5561510498174389072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Cap_r01_c09
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 287
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e94188655b3626520800000000000000
+      internalID: 2693825157612967070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Cap_r01_c10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 287
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a64c4fe748658dc0800000000000000
+      internalID: -3637386465865087320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Cap_r01_c11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 287
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62918c64f20274aa0800000000000000
+      internalID: -6176932976492275418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Cap_r01_c12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 287
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75cb7cd9c36a459a0800000000000000
+      internalID: -6245184003980673961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Cap_r01_c13
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 287
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81d9a059338ea41b0800000000000000
+      internalID: -5671465472478241512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Cap_r01_c14
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 287
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fc8552f002a81350800000000000000
+      internalID: 5987713829538467059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Cap_r01_c15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 287
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 408599d8408a97100800000000000000
+      internalID: 106300803728889860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Cap_r01_c16
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 287
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c42e04b74e498df00800000000000000
+      internalID: 1141826214579724876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Cap_r01_c17
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 287
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e8cd7a4d9d7533e0800000000000000
+      internalID: -2074613938821150494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Cap_r01_c18
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 287
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9332e253f1d206440800000000000000
+      internalID: 4926987604402774841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Cap_r01_c19
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 287
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9a326af29035f9e0800000000000000
+      internalID: -1588309885754131814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Strip_r00_c00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 255
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33dbe6d029afa9820800000000000000
+      internalID: 2925926413128088883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Strip_r00_c01
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 255
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e32afcbe74dd977b0800000000000000
+      internalID: -5225902591618080194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Strip_r00_c02
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 255
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7948537bdf7a4b5a0800000000000000
+      internalID: -6506390853501221737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Strip_r00_c03
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 255
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d946f06f1cd13c90800000000000000
+      internalID: -7191725102605121066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Strip_r00_c04
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 255
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74d6542b3a24ec420800000000000000
+      internalID: 2652130501405797703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Strip_r00_c05
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 255
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72f51aa11649042a0800000000000000
+      internalID: -6755236296276222169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Strip_r00_c06
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 255
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9ff8f1d6ef37db70800000000000000
+      internalID: 8923671447255711643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Strip_r00_c07
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 255
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74c6670532f060eb0800000000000000
+      internalID: -4754095712294769593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Strip_r00_c08
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 255
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1705e5eddc075f150800000000000000
+      internalID: 5905750515867603057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Strip_r00_c09
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 255
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edb91f6cf763e7470800000000000000
+      internalID: 8394206677891652574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Strip_r00_c10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 255
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9a6dec1fd1e9e230800000000000000
+      internalID: 3668711719849257631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Strip_r00_c11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 255
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f346f4dc284615ab0800000000000000
+      internalID: -5021121596588334017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Strip_r00_c12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 255
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0b2f9c7f5141e9d0800000000000000
+      internalID: -2746842419350787313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Strip_r00_c13
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 255
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fe08c1fe627766c0800000000000000
+      internalID: -4150222710770233614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Strip_r00_c14
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 255
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da36145659f15aa10800000000000000
+      internalID: 1919975542652756909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Strip_r00_c15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 255
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f6d7ecf082b0bf50800000000000000
+      internalID: 6895207296572839667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Strip_r00_c16
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 255
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b56d71c1750e05b0800000000000000
+      internalID: -5400372917034981959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Strip_r00_c17
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 255
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93173d53fa0a3d120800000000000000
+      internalID: 2437468497720340793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Strip_r00_c18
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 255
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c846b6a09cd602be0800000000000000
+      internalID: -1504081565311081332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Strip_r00_c19
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 255
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b82b53431f2dc36e0800000000000000
+      internalID: -1856377012978601333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r00_c00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 217
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 994268b7f9a384180800000000000000
+      internalID: -9130983787847080807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r00_c01
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 217
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dd8dd4cd7be65e20800000000000000
+      internalID: 3339115099148094928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r00_c02
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 217
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d82deb6efc5455140800000000000000
+      internalID: 4707745744717533837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r00_c03
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 217
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1717612fb8813c5c0800000000000000
+      internalID: -4196483438438092431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r00_c04
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 217
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6011f7d403e853100800000000000000
+      internalID: 87132105913340166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r00_c05
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 217
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 761e00aea1d63b0b0800000000000000
+      internalID: -5714103539840523929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r00_c06
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 217
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a1478fa27d77e6b0800000000000000
+      internalID: -5267103307661885021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r00_c07
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 217
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b8f18f48f91e1e00800000000000000
+      internalID: 1017279120108812469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r00_c08
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 217
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d0a64275b7863370800000000000000
+      internalID: 8301972176480149713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r00_c09
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 217
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9275bb4f5a0ae710800000000000000
+      internalID: 1723201211830989467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r00_c10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 217
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93ffe1012a2f26b00800000000000000
+      internalID: 820484860003942201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r00_c11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 217
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1010c058d50f25430800000000000000
+      internalID: 3770340122517307649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r00_c12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 217
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a617295bb3672b180800000000000000
+      internalID: -9101081898140929686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r00_c13
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 217
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dca4f386ac926c750800000000000000
+      internalID: 6324788675997551309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r00_c14
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 217
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37fa0135269657b10800000000000000
+      internalID: 1978603482320514931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r00_c15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 217
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee3cc2a06fbb0ddd0800000000000000
+      internalID: -2463262330764606482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r00_c16
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 217
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 009a4de00ef9691e0800000000000000
+      internalID: -2191388383998859008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r00_c17
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 217
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb5219b9a7e1b1a60800000000000000
+      internalID: 7645738304336373183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r00_c18
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 217
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a19692555ff9c3d50800000000000000
+      internalID: 6718420620174518554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r00_c19
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 217
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59d8bb49cad2137b0800000000000000
+      internalID: -5246361871656972907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r01_c00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 185
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 015d2a79904a15b80800000000000000
+      internalID: -8407758668218313456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r01_c01
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 185
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8100538818c7a2300800000000000000
+      internalID: 228131626913431576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r01_c02
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 185
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f7c302eb46a0e560800000000000000
+      internalID: 7341050237458565108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r01_c03
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 185
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f287ef838aad72180800000000000000
+      internalID: -9140096502679570385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r01_c04
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 185
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3fbdc1bb08014680800000000000000
+      internalID: -8772721752820302017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r01_c05
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 185
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a03cdc84b4b587b0800000000000000
+      internalID: -5222569505315868507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r01_c06
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 185
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e72785c719f7c870800000000000000
+      internalID: 8703198685410306016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r01_c07
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 185
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3b453ccfccdf2c80800000000000000
+      internalID: -8345208799451854017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r01_c08
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 185
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a52fec33bb1eb0b0800000000000000
+      internalID: -5711096820823808605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r01_c09
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 185
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f6133d816e51aed0800000000000000
+      internalID: -2404536952965359885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r01_c10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 185
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11fc3834a5242f440800000000000000
+      internalID: 4968106294390279953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r01_c11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 185
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f44656e7451b1ba50800000000000000
+      internalID: 6535199510747243599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r01_c12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 185
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 393552c22bf7c9ce0800000000000000
+      internalID: -1397101381170146413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r01_c13
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 185
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 787acb1cd088bb5b0800000000000000
+      internalID: -5351534139533383801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r01_c14
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 185
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d275327cf065777d0800000000000000
+      internalID: -2920771207560997075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r01_c15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 185
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0016ce5f30ebf090800000000000000
+      internalID: -7999553750315954165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r01_c16
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 185
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3244f903b35a83dc0800000000000000
+      internalID: -3658993023601130461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r01_c17
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 185
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d3aa41a8a0c23ed0800000000000000
+      internalID: -2435672617960954920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r01_c18
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 185
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f42b0ef5ac4e97360800000000000000
+      internalID: 7168011839779942991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r01_c19
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 185
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e16edcfa11a110240800000000000000
+      internalID: 4756111344746227230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r02_c00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 153
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 186bc399c18608d20800000000000000
+      internalID: 3278735000764987009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r02_c01
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 153
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33982736b565ff580800000000000000
+      internalID: -8791212997093455565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r02_c02
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 153
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbf7ea50dd73cdc00800000000000000
+      internalID: 926677045754101693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r02_c03
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 153
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccd756234737e6190800000000000000
+      internalID: -7967303747872916020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r02_c04
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 153
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b0fc3d736d0a3f70800000000000000
+      internalID: 9167654712420135096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r02_c05
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 153
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bcb5051147c02c80800000000000000
+      internalID: -8349454626805400394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r02_c06
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 153
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 925895c97690433e0800000000000000
+      internalID: -2075023187701562071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r02_c07
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 153
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92e8b31468adb9380800000000000000
+      internalID: -8963330363195945431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r02_c08
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 153
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7dabf0965328ce80800000000000000
+      internalID: -8158231870275080836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r02_c09
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 153
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00ca1cbd161faf7b0800000000000000
+      internalID: -5189570217990050816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r02_c10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 153
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5e162389b65708d0800000000000000
+      internalID: -2880238081910890914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r02_c11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 153
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ac074744ee0cfce0800000000000000
+      internalID: -1370203813016302427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r02_c12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 153
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16e749030559fc810800000000000000
+      internalID: 1787811748734336609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r02_c13
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 153
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3bf8afbdcfa58e30800000000000000
+      internalID: 4505200300472728381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r02_c14
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 153
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b47c7d5394cce1c0800000000000000
+      internalID: -4472984192678071120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r02_c15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 153
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 643521a8a9ed2f1f0800000000000000
+      internalID: -1012502210882153658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r02_c16
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 153
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c979eb7b6e14c2be0800000000000000
+      internalID: -1500752116640213092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r02_c17
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 153
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11d9a6ce72a62c300800000000000000
+      internalID: 270895647298329873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r02_c18
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 153
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5b73a0e0a064cb50800000000000000
+      internalID: 6612516396966574943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r02_c19
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 153
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34fe23da7143f8dc0800000000000000
+      internalID: -3634629097970012349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r03_c00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 121
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4b528607d939f2a0800000000000000
+      internalID: -6703262974674314422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r03_c01
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 121
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06b21d6517202f8c0800000000000000
+      internalID: -3967105635948876960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r03_c02
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 121
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95f55cf87714b19b0800000000000000
+      internalID: -5108417370552705191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r03_c03
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 121
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9980f1b569e871900800000000000000
+      internalID: 655149047230695577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r03_c04
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 121
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b3732a7ecb2ae280800000000000000
+      internalID: -9013343538416225358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r03_c05
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 121
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2950a3657dae693e0800000000000000
+      internalID: -2047190770007800430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r03_c06
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 121
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 938a693b61f7907d0800000000000000
+      internalID: -2951688345285646279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r03_c07
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 121
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5390d596dd6791df0800000000000000
+      internalID: -209005214368462539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r03_c08
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 121
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd46b35ff7a004ea0800000000000000
+      internalID: -5890696767909174053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r03_c09
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 121
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 798ceb035196dfe70800000000000000
+      internalID: 9150585557619755159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r03_c10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 121
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f53b476cf3e202f0800000000000000
+      internalID: -1007992693373323784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r03_c11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 121
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10a4ce30bd0d28cc0800000000000000
+      internalID: -3710173503917635071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r03_c12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 121
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3770b53f386ad4d0800000000000000
+      internalID: -3109057972052920513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r03_c13
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 121
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e445504a68ffd950800000000000000
+      internalID: 6476167924411614440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r03_c14
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 121
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1367b9176d027efd0800000000000000
+      internalID: -2312843778230356431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r03_c15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 121
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd1ce217f409e1500800000000000000
+      internalID: 368890890366665180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r03_c16
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 121
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a537248e48b1f1e00800000000000000
+      internalID: 1017562298455323482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r03_c17
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 121
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f3decf87fe383fb0800000000000000
+      internalID: -4667911780778978317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r03_c18
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 121
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2296597de55b1f30800000000000000
+      internalID: 4547322727191974444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Pillar_r03_c19
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 121
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaca6f4f076be6fa0800000000000000
+      internalID: -5805502273371591510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Floor_r00_c00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 89
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35272b5c2bd0786e0800000000000000
+      internalID: -1835483261658041773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Floor_r00_c01
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 89
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50c3510c30385bb50800000000000000
+      internalID: 6608332080366828549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Floor_r00_c02
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 89
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b544b8a54e38ca670800000000000000
+      internalID: 8551354809264587867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Floor_r00_c03
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 89
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a034d9763b1921f0800000000000000
+      internalID: -1069293515737648989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Floor_r00_c04
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 89
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18bb570ba72713450800000000000000
+      internalID: 6066756044316851073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Floor_r00_c05
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 89
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 493c3e60ab65f4c40800000000000000
+      internalID: 5498709027022160788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Floor_r00_c06
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 89
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cd135d4136e39570800000000000000
+      internalID: 8472368423439113672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Floor_r00_c07
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 89
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a050500e14afa480800000000000000
+      internalID: -8885703091017461595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Floor_r00_c08
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 89
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e91e700cad1de5b90800000000000000
+      internalID: -7251127612565102178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Floor_r00_c09
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 89
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9001a85c8b290390800000000000000
+      internalID: -7851696593561386851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Floor_r00_c10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 89
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7575849c2cd0a6230800000000000000
+      internalID: 3632731179679504215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Floor_r00_c11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 89
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 373ef257115c9c540800000000000000
+      internalID: 5028767137707058035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Floor_r00_c12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 89
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da08cc70f09dd4990800000000000000
+      internalID: -7400019954121277267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Floor_r00_c13
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 89
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fb7588e8f8a984f0800000000000000
+      internalID: -825943269639357451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Floor_r00_c14
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 89
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9424be70a6b54550800000000000000
+      internalID: 6144518067053667482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Floor_r00_c15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 89
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1099cf75c5869ce0800000000000000
+      internalID: -1398783550952992742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Floor_r00_c16
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 89
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cd5ddbffcf38dee0800000000000000
+      internalID: -1236167935196832317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Floor_r00_c17
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 89
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa68ad9e7de97a3f0800000000000000
+      internalID: -889567751203813718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Floor_r00_c18
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 89
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79d17e7b3507e4900800000000000000
+      internalID: 670596899394755991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Floor_r00_c19
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 89
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dabb9e2dd98c50680800000000000000
+      internalID: -8789398517569700947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Floor_r01_c00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 57
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fb919618b5d19990800000000000000
+      internalID: -7380883327654192136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Floor_r01_c01
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 57
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cae51f50d82861c0800000000000000
+      internalID: -4510310151397971255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Floor_r01_c02
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 57
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f305694eed324cb0800000000000000
+      internalID: -4881270952473328653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Floor_r01_c03
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 57
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8af02d3adf87c590800000000000000
+      internalID: -7653990874201654642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Floor_r01_c04
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 57
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85ec610a30d05d8c0800000000000000
+      internalID: -3975256786862682536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Floor_r01_c05
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 57
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 335456e3e6a4347a0800000000000000
+      internalID: -6394185208582290125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Floor_r01_c06
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 57
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04b968de9ddfda470800000000000000
+      internalID: 8407655191805336384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Floor_r01_c07
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 57
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4bf6ecd255a3f4f0800000000000000
+      internalID: -796110933802419377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Floor_r01_c08
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 57
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a6e1c42dae5e39c0800000000000000
+      internalID: -3945612125790935389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Floor_r01_c09
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 57
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e16b45fca8b184440800000000000000
+      internalID: 4920212875900139038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Floor_r01_c10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 57
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9773cffd39277290800000000000000
+      internalID: -7892794475682760806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Floor_r01_c11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 57
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69481c14dc379ff20800000000000000
+      internalID: 3456921514392257686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Floor_r01_c12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 57
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23a1617bb87c5a3c0800000000000000
+      internalID: -4348850462270285262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Floor_r01_c13
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 57
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a055a91e16a35580800000000000000
+      internalID: -8839538995388657499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Floor_r01_c14
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 57
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 117ce400bf6db3360800000000000000
+      internalID: 7150545206911092497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Floor_r01_c15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 57
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7990fc9d9df405e0800000000000000
+      internalID: -1944150285732505222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Floor_r01_c16
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 57
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51b4d287545294d30800000000000000
+      internalID: 4416101889912687381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Floor_r01_c17
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 57
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 074832e205ccd4a30800000000000000
+      internalID: 4201238672150070384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Floor_r01_c18
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 57
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75a7214f754f500d0800000000000000
+      internalID: -3457088480342803881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Floor_r01_c19
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 57
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2522fefdc19c1db40800000000000000
+      internalID: 5463368948830380626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Fringe_r00_c00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07fc0ec76afbad1c0800000000000000
+      internalID: -4478056157685952656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Fringe_r00_c01
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 190d4ab433fc710f0800000000000000
+      internalID: -1146219760923127663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Fringe_r00_c02
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6528bf2ca3baaf1b0800000000000000
+      internalID: -5621992915950927274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Fringe_r00_c03
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0056db26236779750800000000000000
+      internalID: 6311643361560061184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Fringe_r00_c04
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 073e5cb42f19d6810800000000000000
+      internalID: 1760223499211105136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Fringe_r00_c05
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f9ebf02d299b7400800000000000000
+      internalID: 323020217393080817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Fringe_r00_c06
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddf3ada8bf8f2c520800000000000000
+      internalID: 2721010884135239645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Fringe_r00_c07
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67118a43d32454080800000000000000
+      internalID: -9203877432817872522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Fringe_r00_c08
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26887848c34456da0800000000000000
+      internalID: -5952276305788041118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Fringe_r00_c09
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c581d57004d065940800000000000000
+      internalID: 5284425781418465372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Fringe_r00_c10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5be94751bc01b56e0800000000000000
+      internalID: -1847864757681086795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Fringe_r00_c11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c41b2eb610b5dfa70800000000000000
+      internalID: 8862339703398117708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Fringe_r00_c12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ba0d31b285c8e650800000000000000
+      internalID: 6262472446968662706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Fringe_r00_c13
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a220352734921e20800000000000000
+      internalID: 3319878839893500577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Fringe_r00_c14
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d574b2c4d19173640800000000000000
+      internalID: 5059540319996692317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Fringe_r00_c15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44cd5e86668d5eb40800000000000000
+      internalID: 5469015256869493828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Fringe_r00_c16
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8cea8d38ae582200800000000000000
+      internalID: 155478263824313486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Fringe_r00_c17
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75290c6fa5e193510800000000000000
+      internalID: 1529286924504699479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Fringe_r00_c18
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eba39b429bd72b570800000000000000
+      internalID: 8480979282430606014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_Fringe_r00_c19
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaca1b002b4f8ce90800000000000000
+      internalID: -7005080175021806418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      GandalfHardcore Lava Tiles_0: 4367183310561712253
+      GandalfHardcore Lava Tiles_1: 2343447975385160564
+      GandalfHardcore Lava Tiles_2: 6870977759737427601
+      Lava_Cap_r00_c00: 4876810584595081685
+      Lava_Cap_r00_c01: -4514514082732319524
+      Lava_Cap_r00_c02: 7873086586269628187
+      Lava_Cap_r00_c03: 7899511406361262459
+      Lava_Cap_r00_c04: 3333519822881067067
+      Lava_Cap_r00_c05: 6843527787483295242
+      Lava_Cap_r00_c06: 711645347213516871
+      Lava_Cap_r00_c07: 4898355547950442194
+      Lava_Cap_r00_c08: 8747689312140755417
+      Lava_Cap_r00_c09: -9152559079663693420
+      Lava_Cap_r00_c10: 8696031646397030383
+      Lava_Cap_r00_c11: 6516696982081174810
+      Lava_Cap_r00_c12: -4641620727839604685
+      Lava_Cap_r00_c13: -572137461240276318
+      Lava_Cap_r00_c14: 7263717167458091296
+      Lava_Cap_r00_c15: -7925744018375742370
+      Lava_Cap_r00_c16: -1111048032090614997
+      Lava_Cap_r00_c17: -973766948707861463
+      Lava_Cap_r00_c18: 5198472947235609142
+      Lava_Cap_r00_c19: -1557253302873117943
+      Lava_Cap_r01_c00: -8576812724334316813
+      Lava_Cap_r01_c01: -8907238436884775581
+      Lava_Cap_r01_c02: -1442391632900964003
+      Lava_Cap_r01_c03: 2473571872635894364
+      Lava_Cap_r01_c04: 7208739685071673265
+      Lava_Cap_r01_c05: 7147844357477545492
+      Lava_Cap_r01_c06: 1181281106748239509
+      Lava_Cap_r01_c07: 8792815858169172865
+      Lava_Cap_r01_c08: 5561510498174389072
+      Lava_Cap_r01_c09: 2693825157612967070
+      Lava_Cap_r01_c10: -3637386465865087320
+      Lava_Cap_r01_c11: -6176932976492275418
+      Lava_Cap_r01_c12: -6245184003980673961
+      Lava_Cap_r01_c13: -5671465472478241512
+      Lava_Cap_r01_c14: 5987713829538467059
+      Lava_Cap_r01_c15: 106300803728889860
+      Lava_Cap_r01_c16: 1141826214579724876
+      Lava_Cap_r01_c17: -2074613938821150494
+      Lava_Cap_r01_c18: 4926987604402774841
+      Lava_Cap_r01_c19: -1588309885754131814
+      Lava_Floor_r00_c00: -1835483261658041773
+      Lava_Floor_r00_c01: 6608332080366828549
+      Lava_Floor_r00_c02: 8551354809264587867
+      Lava_Floor_r00_c03: -1069293515737648989
+      Lava_Floor_r00_c04: 6066756044316851073
+      Lava_Floor_r00_c05: 5498709027022160788
+      Lava_Floor_r00_c06: 8472368423439113672
+      Lava_Floor_r00_c07: -8885703091017461595
+      Lava_Floor_r00_c08: -7251127612565102178
+      Lava_Floor_r00_c09: -7851696593561386851
+      Lava_Floor_r00_c10: 3632731179679504215
+      Lava_Floor_r00_c11: 5028767137707058035
+      Lava_Floor_r00_c12: -7400019954121277267
+      Lava_Floor_r00_c13: -825943269639357451
+      Lava_Floor_r00_c14: 6144518067053667482
+      Lava_Floor_r00_c15: -1398783550952992742
+      Lava_Floor_r00_c16: -1236167935196832317
+      Lava_Floor_r00_c17: -889567751203813718
+      Lava_Floor_r00_c18: 670596899394755991
+      Lava_Floor_r00_c19: -8789398517569700947
+      Lava_Floor_r01_c00: -7380883327654192136
+      Lava_Floor_r01_c01: -4510310151397971255
+      Lava_Floor_r01_c02: -4881270952473328653
+      Lava_Floor_r01_c03: -7653990874201654642
+      Lava_Floor_r01_c04: -3975256786862682536
+      Lava_Floor_r01_c05: -6394185208582290125
+      Lava_Floor_r01_c06: 8407655191805336384
+      Lava_Floor_r01_c07: -796110933802419377
+      Lava_Floor_r01_c08: -3945612125790935389
+      Lava_Floor_r01_c09: 4920212875900139038
+      Lava_Floor_r01_c10: -7892794475682760806
+      Lava_Floor_r01_c11: 3456921514392257686
+      Lava_Floor_r01_c12: -4348850462270285262
+      Lava_Floor_r01_c13: -8839538995388657499
+      Lava_Floor_r01_c14: 7150545206911092497
+      Lava_Floor_r01_c15: -1944150285732505222
+      Lava_Floor_r01_c16: 4416101889912687381
+      Lava_Floor_r01_c17: 4201238672150070384
+      Lava_Floor_r01_c18: -3457088480342803881
+      Lava_Floor_r01_c19: 5463368948830380626
+      Lava_Fringe_r00_c00: -4478056157685952656
+      Lava_Fringe_r00_c01: -1146219760923127663
+      Lava_Fringe_r00_c02: -5621992915950927274
+      Lava_Fringe_r00_c03: 6311643361560061184
+      Lava_Fringe_r00_c04: 1760223499211105136
+      Lava_Fringe_r00_c05: 323020217393080817
+      Lava_Fringe_r00_c06: 2721010884135239645
+      Lava_Fringe_r00_c07: -9203877432817872522
+      Lava_Fringe_r00_c08: -5952276305788041118
+      Lava_Fringe_r00_c09: 5284425781418465372
+      Lava_Fringe_r00_c10: -1847864757681086795
+      Lava_Fringe_r00_c11: 8862339703398117708
+      Lava_Fringe_r00_c12: 6262472446968662706
+      Lava_Fringe_r00_c13: 3319878839893500577
+      Lava_Fringe_r00_c14: 5059540319996692317
+      Lava_Fringe_r00_c15: 5469015256869493828
+      Lava_Fringe_r00_c16: 155478263824313486
+      Lava_Fringe_r00_c17: 1529286924504699479
+      Lava_Fringe_r00_c18: 8480979282430606014
+      Lava_Fringe_r00_c19: -7005080175021806418
+      Lava_Pillar_r00_c00: -9130983787847080807
+      Lava_Pillar_r00_c01: 3339115099148094928
+      Lava_Pillar_r00_c02: 4707745744717533837
+      Lava_Pillar_r00_c03: -4196483438438092431
+      Lava_Pillar_r00_c04: 87132105913340166
+      Lava_Pillar_r00_c05: -5714103539840523929
+      Lava_Pillar_r00_c06: -5267103307661885021
+      Lava_Pillar_r00_c07: 1017279120108812469
+      Lava_Pillar_r00_c08: 8301972176480149713
+      Lava_Pillar_r00_c09: 1723201211830989467
+      Lava_Pillar_r00_c10: 820484860003942201
+      Lava_Pillar_r00_c11: 3770340122517307649
+      Lava_Pillar_r00_c12: -9101081898140929686
+      Lava_Pillar_r00_c13: 6324788675997551309
+      Lava_Pillar_r00_c14: 1978603482320514931
+      Lava_Pillar_r00_c15: -2463262330764606482
+      Lava_Pillar_r00_c16: -2191388383998859008
+      Lava_Pillar_r00_c17: 7645738304336373183
+      Lava_Pillar_r00_c18: 6718420620174518554
+      Lava_Pillar_r00_c19: -5246361871656972907
+      Lava_Pillar_r01_c00: -8407758668218313456
+      Lava_Pillar_r01_c01: 228131626913431576
+      Lava_Pillar_r01_c02: 7341050237458565108
+      Lava_Pillar_r01_c03: -9140096502679570385
+      Lava_Pillar_r01_c04: -8772721752820302017
+      Lava_Pillar_r01_c05: -5222569505315868507
+      Lava_Pillar_r01_c06: 8703198685410306016
+      Lava_Pillar_r01_c07: -8345208799451854017
+      Lava_Pillar_r01_c08: -5711096820823808605
+      Lava_Pillar_r01_c09: -2404536952965359885
+      Lava_Pillar_r01_c10: 4968106294390279953
+      Lava_Pillar_r01_c11: 6535199510747243599
+      Lava_Pillar_r01_c12: -1397101381170146413
+      Lava_Pillar_r01_c13: -5351534139533383801
+      Lava_Pillar_r01_c14: -2920771207560997075
+      Lava_Pillar_r01_c15: -7999553750315954165
+      Lava_Pillar_r01_c16: -3658993023601130461
+      Lava_Pillar_r01_c17: -2435672617960954920
+      Lava_Pillar_r01_c18: 7168011839779942991
+      Lava_Pillar_r01_c19: 4756111344746227230
+      Lava_Pillar_r02_c00: 3278735000764987009
+      Lava_Pillar_r02_c01: -8791212997093455565
+      Lava_Pillar_r02_c02: 926677045754101693
+      Lava_Pillar_r02_c03: -7967303747872916020
+      Lava_Pillar_r02_c04: 9167654712420135096
+      Lava_Pillar_r02_c05: -8349454626805400394
+      Lava_Pillar_r02_c06: -2075023187701562071
+      Lava_Pillar_r02_c07: -8963330363195945431
+      Lava_Pillar_r02_c08: -8158231870275080836
+      Lava_Pillar_r02_c09: -5189570217990050816
+      Lava_Pillar_r02_c10: -2880238081910890914
+      Lava_Pillar_r02_c11: -1370203813016302427
+      Lava_Pillar_r02_c12: 1787811748734336609
+      Lava_Pillar_r02_c13: 4505200300472728381
+      Lava_Pillar_r02_c14: -4472984192678071120
+      Lava_Pillar_r02_c15: -1012502210882153658
+      Lava_Pillar_r02_c16: -1500752116640213092
+      Lava_Pillar_r02_c17: 270895647298329873
+      Lava_Pillar_r02_c18: 6612516396966574943
+      Lava_Pillar_r02_c19: -3634629097970012349
+      Lava_Pillar_r03_c00: -6703262974674314422
+      Lava_Pillar_r03_c01: -3967105635948876960
+      Lava_Pillar_r03_c02: -5108417370552705191
+      Lava_Pillar_r03_c03: 655149047230695577
+      Lava_Pillar_r03_c04: -9013343538416225358
+      Lava_Pillar_r03_c05: -2047190770007800430
+      Lava_Pillar_r03_c06: -2951688345285646279
+      Lava_Pillar_r03_c07: -209005214368462539
+      Lava_Pillar_r03_c08: -5890696767909174053
+      Lava_Pillar_r03_c09: 9150585557619755159
+      Lava_Pillar_r03_c10: -1007992693373323784
+      Lava_Pillar_r03_c11: -3710173503917635071
+      Lava_Pillar_r03_c12: -3109057972052920513
+      Lava_Pillar_r03_c13: 6476167924411614440
+      Lava_Pillar_r03_c14: -2312843778230356431
+      Lava_Pillar_r03_c15: 368890890366665180
+      Lava_Pillar_r03_c16: 1017562298455323482
+      Lava_Pillar_r03_c17: -4667911780778978317
+      Lava_Pillar_r03_c18: 4547322727191974444
+      Lava_Pillar_r03_c19: -5805502273371591510
+      Lava_Strip_r00_c00: 2925926413128088883
+      Lava_Strip_r00_c01: -5225902591618080194
+      Lava_Strip_r00_c02: -6506390853501221737
+      Lava_Strip_r00_c03: -7191725102605121066
+      Lava_Strip_r00_c04: 2652130501405797703
+      Lava_Strip_r00_c05: -6755236296276222169
+      Lava_Strip_r00_c06: 8923671447255711643
+      Lava_Strip_r00_c07: -4754095712294769593
+      Lava_Strip_r00_c08: 5905750515867603057
+      Lava_Strip_r00_c09: 8394206677891652574
+      Lava_Strip_r00_c10: 3668711719849257631
+      Lava_Strip_r00_c11: -5021121596588334017
+      Lava_Strip_r00_c12: -2746842419350787313
+      Lava_Strip_r00_c13: -4150222710770233614
+      Lava_Strip_r00_c14: 1919975542652756909
+      Lava_Strip_r00_c15: 6895207296572839667
+      Lava_Strip_r00_c16: -5400372917034981959
+      Lava_Strip_r00_c17: 2437468497720340793
+      Lava_Strip_r00_c18: -1504081565311081332
+      Lava_Strip_r00_c19: -1856377012978601333
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

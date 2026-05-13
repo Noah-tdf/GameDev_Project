@@ -1,0 +1,1569 @@
+fileFormatVersion: 2
+guid: 9d63be32598fb4f47abba0e20d529fef
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8598290702019503966
+    second: Large Skull_0
+  - first:
+      213: -3319068768103043142
+    second: Large Skull_1
+  - first:
+      213: -1951528689948385242
+    second: Large Skull_2
+  - first:
+      213: -965823137258468091
+    second: Large Skull_3
+  - first:
+      213: 2355022540000544993
+    second: Large Skull_4
+  - first:
+      213: -5482185268003815606
+    second: Large Skull_5
+  - first:
+      213: -5869637076531370798
+    second: Large Skull_6
+  - first:
+      213: -2722161815639025426
+    second: Large Skull_7
+  - first:
+      213: 3687907649304611887
+    second: Large Skull_8
+  - first:
+      213: -4969402575437398808
+    second: Large Skull_9
+  - first:
+      213: -2394881361772366575
+    second: Large Skull_10
+  - first:
+      213: -1423822666031527222
+    second: Large Skull_11
+  - first:
+      213: -8510291115178010325
+    second: Large Skull_12
+  - first:
+      213: 5256625308290674715
+    second: Large Skull_13
+  - first:
+      213: 7021934147121665243
+    second: Large Skull_14
+  - first:
+      213: -2473709225755898380
+    second: Large Skull_15
+  - first:
+      213: 7571549362615612820
+    second: Large Skull_16
+  - first:
+      213: -8838051105033871877
+    second: Large Skull_17
+  - first:
+      213: -3539395745101563154
+    second: Large Skull_18
+  - first:
+      213: 620239500700310227
+    second: Large Skull_19
+  - first:
+      213: -5583279076908957783
+    second: Large Skull_20
+  - first:
+      213: -7146008678855364896
+    second: Large Skull_21
+  - first:
+      213: -2726691241959908187
+    second: Large Skull_22
+  - first:
+      213: 4259617835166255007
+    second: Large Skull_23
+  - first:
+      213: -172798888550010458
+    second: Large Skull_24
+  - first:
+      213: -8993118727223719634
+    second: Large Skull_25
+  - first:
+      213: 7964241878210130195
+    second: Large Skull_26
+  - first:
+      213: -5484666508555345811
+    second: Large Skull_27
+  - first:
+      213: 297903530572733709
+    second: Large Skull_28
+  - first:
+      213: -1935213755557298385
+    second: Large Skull_29
+  - first:
+      213: 7891082828612728748
+    second: Large Skull_30
+  - first:
+      213: -5283118344248749389
+    second: Large Skull_31
+  - first:
+      213: 1083861975115414606
+    second: Large Skull_32
+  - first:
+      213: -7409305126423068830
+    second: Large Skull_33
+  - first:
+      213: 4228379951481690235
+    second: Large Skull_34
+  - first:
+      213: -264396427130135360
+    second: Large Skull_35
+  - first:
+      213: 4605016710614030432
+    second: Large Skull_36
+  - first:
+      213: 1628305674769506498
+    second: Large Skull_37
+  - first:
+      213: -25377180592221841
+    second: Large Skull_38
+  - first:
+      213: -492949428283883906
+    second: Large Skull_39
+  - first:
+      213: 3513969202208712056
+    second: Large Skull_40
+  - first:
+      213: -6314562487033015117
+    second: Large Skull_41
+  - first:
+      213: 6471906349080140949
+    second: Large Skull_42
+  - first:
+      213: 257716801876569519
+    second: Large Skull_43
+  - first:
+      213: -237573690206329723
+    second: Large Skull_44
+  - first:
+      213: -7546902805597311623
+    second: Large Skull_45
+  - first:
+      213: -1906196110707129543
+    second: Large Skull_46
+  - first:
+      213: -2300657213972383921
+    second: Large Skull_47
+  - first:
+      213: 3059512017759455892
+    second: Large Skull_48
+  - first:
+      213: -3134765514776841410
+    second: Large Skull_49
+  - first:
+      213: -8840320278019277717
+    second: Large Skull_50
+  - first:
+      213: -4729168899931567463
+    second: Large Skull_51
+  - first:
+      213: 3945236615342544900
+    second: Large Skull_52
+  - first:
+      213: -3452392656848930596
+    second: Large Skull_53
+  - first:
+      213: -8446907013906163615
+    second: Large Skull_54
+  - first:
+      213: 6604366474947884249
+    second: Large Skull_55
+  - first:
+      213: -995008620828697340
+    second: Large Skull_56
+  - first:
+      213: 3158030430329669347
+    second: Large Skull_57
+  - first:
+      213: 1867913806217896060
+    second: Large Skull_58
+  - first:
+      213: 74977434429459550
+    second: Large Skull_59
+  - first:
+      213: 473907461014532278
+    second: Large Skull_60
+  - first:
+      213: -8978286323874674026
+    second: Large Skull_61
+  - first:
+      213: 3841832694246288685
+    second: Large Skull_62
+  - first:
+      213: -3376085645902976387
+    second: Large Skull_63
+  - first:
+      213: -490223962178126369
+    second: Large Skull_64
+  - first:
+      213: 2041343756885648801
+    second: Large Skull_65
+  - first:
+      213: -5644184240732119584
+    second: Large Skull_66
+  - first:
+      213: -5257395967330654746
+    second: Large Skull_67
+  - first:
+      213: -7529993916431067393
+    second: Large Skull_68
+  - first:
+      213: 2955590926131691407
+    second: Large Skull_69
+  - first:
+      213: 4091603559273527333
+    second: Large Skull_70
+  - first:
+      213: 2277128150987454820
+    second: Large Skull_71
+  - first:
+      213: 1059572835780591049
+    second: Large Skull_72
+  - first:
+      213: 4390166529367744513
+    second: Large Skull_73
+  - first:
+      213: 3819113910928089618
+    second: Large Skull_74
+  - first:
+      213: -4940444308201558155
+    second: Large Skull_75
+  - first:
+      213: -4326951431745449998
+    second: Large Skull_76
+  - first:
+      213: 22017604966229496
+    second: Large Skull_77
+  - first:
+      213: 8790967929107823858
+    second: Large Skull_78
+  - first:
+      213: -3296195518494248437
+    second: Large Skull_79
+  - first:
+      213: 1488859519461544235
+    second: Large Skull_80
+  - first:
+      213: 4828351326622395108
+    second: Large Skull_81
+  - first:
+      213: 7806843849799703189
+    second: Large Skull_82
+  - first:
+      213: 4461127982805966067
+    second: Large Skull_83
+  - first:
+      213: -1209076907642351918
+    second: Large Skull_84
+  - first:
+      213: 7014102756460088848
+    second: Large Skull_85
+  - first:
+      213: 993328724967398199
+    second: Large Skull_86
+  - first:
+      213: 6880923167306239521
+    second: Large Skull_87
+  - first:
+      213: 5023776783403605689
+    second: Large Skull_88
+  - first:
+      213: 4555397780127822339
+    second: Large Skull_89
+  - first:
+      213: 8490051575240727340
+    second: Large Skull_90
+  - first:
+      213: 6930377412026346769
+    second: Large Skull_91
+  - first:
+      213: -4679196605713056155
+    second: Large Skull_92
+  - first:
+      213: 219131192595368552
+    second: Large Skull_93
+  - first:
+      213: -6205940401224619531
+    second: Large Skull_94
+  - first:
+      213: -1378307902314431872
+    second: Large Skull_95
+  - first:
+      213: -1498338871091777724
+    second: Large Skull_96
+  - first:
+      213: 487696442073353441
+    second: Large Skull_97
+  - first:
+      213: 2685072823816809870
+    second: Large Skull_98
+  - first:
+      213: 7569990047912760230
+    second: Large Skull_99
+  - first:
+      213: 6572301306565136741
+    second: Large Skull_100
+  - first:
+      213: 5433288702092502850
+    second: Large Skull_101
+  - first:
+      213: 8682492951678071028
+    second: Large Skull_102
+  - first:
+      213: -6134482023530249807
+    second: Large_Skull_00_00
+  - first:
+      213: 9221608440248779689
+    second: Large_Skull_00_01
+  - first:
+      213: -1561154327089933415
+    second: Large_Skull_00_02
+  - first:
+      213: -3236546772339690918
+    second: Large_Skull_00_03
+  - first:
+      213: 6277027681600518942
+    second: Large_Skull_00_04
+  - first:
+      213: -677097753883739575
+    second: Large_Skull_00_05
+  - first:
+      213: -1589686729572558933
+    second: Large_Skull_00_06
+  - first:
+      213: 6810870217006879769
+    second: Large_Skull_00_07
+  - first:
+      213: -8851773534681960767
+    second: Large_Skull_00_08
+  - first:
+      213: -6612684239419994170
+    second: Large_Skull_00_09
+  - first:
+      213: 3166099324355121307
+    second: Large_Skull_01_00
+  - first:
+      213: 8432840054174427789
+    second: Large_Skull_01_01
+  - first:
+      213: 5395898277810308308
+    second: Large_Skull_01_02
+  - first:
+      213: 6112081364843615129
+    second: Large_Skull_01_03
+  - first:
+      213: -5360986820977522617
+    second: Large_Skull_01_04
+  - first:
+      213: -5988777645318989619
+    second: Large_Skull_01_05
+  - first:
+      213: 826706542496125070
+    second: Large_Skull_01_06
+  - first:
+      213: -4845740686708501300
+    second: Large_Skull_01_07
+  - first:
+      213: -5241400515940510783
+    second: Large_Skull_01_08
+  - first:
+      213: 2823657771304882411
+    second: Large_Skull_01_09
+  - first:
+      213: 5356571908583784606
+    second: Large_Skull_02_00
+  - first:
+      213: -4052069621973533512
+    second: Large_Skull_02_01
+  - first:
+      213: 2975810710679456948
+    second: Large_Skull_02_02
+  - first:
+      213: -4729960327064439589
+    second: Large_Skull_02_03
+  - first:
+      213: 9155167115581224495
+    second: Large_Skull_02_04
+  - first:
+      213: -5459494354472450314
+    second: Large_Skull_02_05
+  - first:
+      213: 7416264371315076082
+    second: Large_Skull_02_06
+  - first:
+      213: 582152131149823701
+    second: Large_Skull_02_07
+  - first:
+      213: -7658897491405259588
+    second: Large_Skull_02_08
+  - first:
+      213: 2833755998724594483
+    second: Large_Skull_02_09
+  - first:
+      213: -7858880063976527580
+    second: Large_Skull_03_00
+  - first:
+      213: -412705612441227758
+    second: Large_Skull_03_01
+  - first:
+      213: -4568855235638101945
+    second: Large_Skull_03_02
+  - first:
+      213: -4389986361880700154
+    second: Large_Skull_03_03
+  - first:
+      213: 2115272148281755759
+    second: Large_Skull_03_04
+  - first:
+      213: -1759219773470467037
+    second: Large_Skull_03_05
+  - first:
+      213: -3810889311105860104
+    second: Large_Skull_03_06
+  - first:
+      213: -7457896074393254506
+    second: Large_Skull_03_07
+  - first:
+      213: 7543224479728243881
+    second: Large_Skull_03_08
+  - first:
+      213: 6024372342979848262
+    second: Large_Skull_03_09
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Large_Skull_00_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b1c57af911fddaa0800000000000000
+      internalID: -6134482023530249807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large_Skull_00_01
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a3c5caa40cb9ff70800000000000000
+      internalID: 9221608440248779689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large_Skull_00_02
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9939d3e296aa55ae0800000000000000
+      internalID: -1561154327089933415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large_Skull_00_03
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5271c7cbd97513d0800000000000000
+      internalID: -3236546772339690918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large_Skull_00_04
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1bb7175b6b7c1750800000000000000
+      internalID: 6277027681600518942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large_Skull_00_05
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94a7b852e277a96f0800000000000000
+      internalID: -677097753883739575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large_Skull_00_06
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba7dcab875c40f9e0800000000000000
+      internalID: -1589686729572558933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large_Skull_00_07
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9149bf77062158e50800000000000000
+      internalID: 6810870217006879769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large_Skull_00_08
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cee3117ede282580800000000000000
+      internalID: -8851773534681960767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large_Skull_00_09
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cf0c8148b60b34a0800000000000000
+      internalID: -6612684239419994170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large_Skull_01_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b909acf8f8e30fb20800000000000000
+      internalID: 3166099324355121307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large_Skull_01_01
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8aa0c4a957770570800000000000000
+      internalID: 8432840054174427789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large_Skull_01_02
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d4860d15e412ea40800000000000000
+      internalID: 5395898277810308308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large_Skull_01_03
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 993d9cd3e9972d450800000000000000
+      internalID: 6112081364843615129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large_Skull_01_04
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 748851ad3e2f995b0800000000000000
+      internalID: -5360986820977522617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large_Skull_01_05
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc816f3267693eca0800000000000000
+      internalID: -5988777645318989619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large_Skull_01_06
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8019f6683d097b00800000000000000
+      internalID: 826706542496125070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large_Skull_01_07
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc4151fe48870ccb0800000000000000
+      internalID: -4845740686708501300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large_Skull_01_08
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c311d9300ec247b0800000000000000
+      internalID: -5241400515940510783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large_Skull_01_09
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be016e958c5af2720800000000000000
+      internalID: 2823657771304882411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large_Skull_02_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9009f045cd565a40800000000000000
+      internalID: 5356571908583784606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large_Skull_02_01
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bcbd19c52824c7c0800000000000000
+      internalID: -4052069621973533512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large_Skull_02_02
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bc0ad823143c4920800000000000000
+      internalID: 2975810710679456948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large_Skull_02_03
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd432a7942ecb5eb0800000000000000
+      internalID: -4729960327064439589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large_Skull_02_04
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f267e874cffad0f70800000000000000
+      internalID: 9155167115581224495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large_Skull_02_05
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f64b6c6fcafb34b0800000000000000
+      internalID: -5459494354472450314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large_Skull_02_06
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fbee94172ddbe660800000000000000
+      internalID: 7416264371315076082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large_Skull_02_07
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5defb666748341800800000000000000
+      internalID: 582152131149823701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large_Skull_02_08
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbcb8a56f4126b590800000000000000
+      internalID: -7658897491405259588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large_Skull_02_09
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33b9c142116835720800000000000000
+      internalID: 2833755998724594483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large_Skull_03_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 429a74e4836afe290800000000000000
+      internalID: -7858880063976527580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large_Skull_03_01
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21e61ad9e66c54af0800000000000000
+      internalID: -412705612441227758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large_Skull_03_02
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7487b99be5a2890c0800000000000000
+      internalID: -4568855235638101945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large_Skull_03_03
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60b9a4bb9a2a313c0800000000000000
+      internalID: -4389986361880700154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large_Skull_03_04
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f688c99cfc4fa5d10800000000000000
+      internalID: 2115272148281755759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large_Skull_03_05
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32c1370dfeef597e0800000000000000
+      internalID: -1759219773470467037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large_Skull_03_06
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fdb33dcc500d1bc0800000000000000
+      internalID: -3810889311105860104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large_Skull_03_07
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6958202b80b308890800000000000000
+      internalID: -7457896074393254506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large_Skull_03_08
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a49b37d2baeea860800000000000000
+      internalID: 7543224479728243881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large_Skull_03_09
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 648600a3abeda9350800000000000000
+      internalID: 6024372342979848262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Large Skull_0: 8598290702019503966
+      Large Skull_1: -3319068768103043142
+      Large Skull_10: -2394881361772366575
+      Large Skull_100: 6572301306565136741
+      Large Skull_101: 5433288702092502850
+      Large Skull_102: 8682492951678071028
+      Large Skull_11: -1423822666031527222
+      Large Skull_12: -8510291115178010325
+      Large Skull_13: 5256625308290674715
+      Large Skull_14: 7021934147121665243
+      Large Skull_15: -2473709225755898380
+      Large Skull_16: 7571549362615612820
+      Large Skull_17: -8838051105033871877
+      Large Skull_18: -3539395745101563154
+      Large Skull_19: 620239500700310227
+      Large Skull_2: -1951528689948385242
+      Large Skull_20: -5583279076908957783
+      Large Skull_21: -7146008678855364896
+      Large Skull_22: -2726691241959908187
+      Large Skull_23: 4259617835166255007
+      Large Skull_24: -172798888550010458
+      Large Skull_25: -8993118727223719634
+      Large Skull_26: 7964241878210130195
+      Large Skull_27: -5484666508555345811
+      Large Skull_28: 297903530572733709
+      Large Skull_29: -1935213755557298385
+      Large Skull_3: -965823137258468091
+      Large Skull_30: 7891082828612728748
+      Large Skull_31: -5283118344248749389
+      Large Skull_32: 1083861975115414606
+      Large Skull_33: -7409305126423068830
+      Large Skull_34: 4228379951481690235
+      Large Skull_35: -264396427130135360
+      Large Skull_36: 4605016710614030432
+      Large Skull_37: 1628305674769506498
+      Large Skull_38: -25377180592221841
+      Large Skull_39: -492949428283883906
+      Large Skull_4: 2355022540000544993
+      Large Skull_40: 3513969202208712056
+      Large Skull_41: -6314562487033015117
+      Large Skull_42: 6471906349080140949
+      Large Skull_43: 257716801876569519
+      Large Skull_44: -237573690206329723
+      Large Skull_45: -7546902805597311623
+      Large Skull_46: -1906196110707129543
+      Large Skull_47: -2300657213972383921
+      Large Skull_48: 3059512017759455892
+      Large Skull_49: -3134765514776841410
+      Large Skull_5: -5482185268003815606
+      Large Skull_50: -8840320278019277717
+      Large Skull_51: -4729168899931567463
+      Large Skull_52: 3945236615342544900
+      Large Skull_53: -3452392656848930596
+      Large Skull_54: -8446907013906163615
+      Large Skull_55: 6604366474947884249
+      Large Skull_56: -995008620828697340
+      Large Skull_57: 3158030430329669347
+      Large Skull_58: 1867913806217896060
+      Large Skull_59: 74977434429459550
+      Large Skull_6: -5869637076531370798
+      Large Skull_60: 473907461014532278
+      Large Skull_61: -8978286323874674026
+      Large Skull_62: 3841832694246288685
+      Large Skull_63: -3376085645902976387
+      Large Skull_64: -490223962178126369
+      Large Skull_65: 2041343756885648801
+      Large Skull_66: -5644184240732119584
+      Large Skull_67: -5257395967330654746
+      Large Skull_68: -7529993916431067393
+      Large Skull_69: 2955590926131691407
+      Large Skull_7: -2722161815639025426
+      Large Skull_70: 4091603559273527333
+      Large Skull_71: 2277128150987454820
+      Large Skull_72: 1059572835780591049
+      Large Skull_73: 4390166529367744513
+      Large Skull_74: 3819113910928089618
+      Large Skull_75: -4940444308201558155
+      Large Skull_76: -4326951431745449998
+      Large Skull_77: 22017604966229496
+      Large Skull_78: 8790967929107823858
+      Large Skull_79: -3296195518494248437
+      Large Skull_8: 3687907649304611887
+      Large Skull_80: 1488859519461544235
+      Large Skull_81: 4828351326622395108
+      Large Skull_82: 7806843849799703189
+      Large Skull_83: 4461127982805966067
+      Large Skull_84: -1209076907642351918
+      Large Skull_85: 7014102756460088848
+      Large Skull_86: 993328724967398199
+      Large Skull_87: 6880923167306239521
+      Large Skull_88: 5023776783403605689
+      Large Skull_89: 4555397780127822339
+      Large Skull_9: -4969402575437398808
+      Large Skull_90: 8490051575240727340
+      Large Skull_91: 6930377412026346769
+      Large Skull_92: -4679196605713056155
+      Large Skull_93: 219131192595368552
+      Large Skull_94: -6205940401224619531
+      Large Skull_95: -1378307902314431872
+      Large Skull_96: -1498338871091777724
+      Large Skull_97: 487696442073353441
+      Large Skull_98: 2685072823816809870
+      Large Skull_99: 7569990047912760230
+      Large_Skull_00_00: -6134482023530249807
+      Large_Skull_00_01: 9221608440248779689
+      Large_Skull_00_02: -1561154327089933415
+      Large_Skull_00_03: -3236546772339690918
+      Large_Skull_00_04: 6277027681600518942
+      Large_Skull_00_05: -677097753883739575
+      Large_Skull_00_06: -1589686729572558933
+      Large_Skull_00_07: 6810870217006879769
+      Large_Skull_00_08: -8851773534681960767
+      Large_Skull_00_09: -6612684239419994170
+      Large_Skull_01_00: 3166099324355121307
+      Large_Skull_01_01: 8432840054174427789
+      Large_Skull_01_02: 5395898277810308308
+      Large_Skull_01_03: 6112081364843615129
+      Large_Skull_01_04: -5360986820977522617
+      Large_Skull_01_05: -5988777645318989619
+      Large_Skull_01_06: 826706542496125070
+      Large_Skull_01_07: -4845740686708501300
+      Large_Skull_01_08: -5241400515940510783
+      Large_Skull_01_09: 2823657771304882411
+      Large_Skull_02_00: 5356571908583784606
+      Large_Skull_02_01: -4052069621973533512
+      Large_Skull_02_02: 2975810710679456948
+      Large_Skull_02_03: -4729960327064439589
+      Large_Skull_02_04: 9155167115581224495
+      Large_Skull_02_05: -5459494354472450314
+      Large_Skull_02_06: 7416264371315076082
+      Large_Skull_02_07: 582152131149823701
+      Large_Skull_02_08: -7658897491405259588
+      Large_Skull_02_09: 2833755998724594483
+      Large_Skull_03_00: -7858880063976527580
+      Large_Skull_03_01: -412705612441227758
+      Large_Skull_03_02: -4568855235638101945
+      Large_Skull_03_03: -4389986361880700154
+      Large_Skull_03_04: 2115272148281755759
+      Large_Skull_03_05: -1759219773470467037
+      Large_Skull_03_06: -3810889311105860104
+      Large_Skull_03_07: -7457896074393254506
+      Large_Skull_03_08: 7543224479728243881
+      Large_Skull_03_09: 6024372342979848262
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

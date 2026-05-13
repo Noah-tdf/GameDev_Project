@@ -1,0 +1,2313 @@
+fileFormatVersion: 2
+guid: 822b7c7227414be4ab4f639186aa583d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6887813241978575395
+    second: The Devil_0
+  - first:
+      213: 1851128300275213406
+    second: The Devil_1
+  - first:
+      213: -3524811185425761117
+    second: The Devil_2
+  - first:
+      213: -1062577049634858009
+    second: The Devil_3
+  - first:
+      213: 7242898496989420274
+    second: The Devil_4
+  - first:
+      213: -5215863986395352831
+    second: The Devil_5
+  - first:
+      213: -5127976153843940084
+    second: The Devil_6
+  - first:
+      213: 2281945383537141106
+    second: The Devil_7
+  - first:
+      213: -3554590385735735111
+    second: The Devil_8
+  - first:
+      213: 2765609100778922402
+    second: The Devil_9
+  - first:
+      213: -6562135600745380764
+    second: The Devil_10
+  - first:
+      213: 7979228851974824012
+    second: The Devil_11
+  - first:
+      213: 1782707990107161627
+    second: The Devil_12
+  - first:
+      213: 3793273997636972990
+    second: The Devil_13
+  - first:
+      213: -196985066682929286
+    second: The Devil_14
+  - first:
+      213: -6746971403031367513
+    second: The Devil_15
+  - first:
+      213: -366428348828294154
+    second: The Devil_16
+  - first:
+      213: -5928577660881051546
+    second: The Devil_17
+  - first:
+      213: 6009096086034688850
+    second: The Devil_18
+  - first:
+      213: -764195262862887653
+    second: The Devil_19
+  - first:
+      213: -6314019295765441746
+    second: The Devil_20
+  - first:
+      213: 7840252023973588468
+    second: The Devil_21
+  - first:
+      213: -4900771064031005505
+    second: The Devil_22
+  - first:
+      213: 6389064052039337312
+    second: The Devil_23
+  - first:
+      213: -1895445404996388582
+    second: The Devil_24
+  - first:
+      213: -8678439582328460286
+    second: The Devil_25
+  - first:
+      213: 8021615538922947014
+    second: The Devil_26
+  - first:
+      213: -3661564190165190700
+    second: The Devil_27
+  - first:
+      213: -3767321026713393238
+    second: The Devil_28
+  - first:
+      213: -1448591340551867245
+    second: The_Devil_00_00
+  - first:
+      213: -5648049575851001409
+    second: The_Devil_00_01
+  - first:
+      213: -2184130902840707011
+    second: The_Devil_00_02
+  - first:
+      213: -2548144378971772267
+    second: The_Devil_00_03
+  - first:
+      213: 6879745177822711520
+    second: The_Devil_00_04
+  - first:
+      213: 3139396758128819651
+    second: The_Devil_00_05
+  - first:
+      213: -4855420916183569406
+    second: The_Devil_00_06
+  - first:
+      213: 5500334787226138209
+    second: The_Devil_00_07
+  - first:
+      213: -5190140624794077252
+    second: The_Devil_00_08
+  - first:
+      213: 7150027244685035213
+    second: The_Devil_00_09
+  - first:
+      213: -5130226694051373528
+    second: The_Devil_01_00
+  - first:
+      213: -5726891914609729032
+    second: The_Devil_01_01
+  - first:
+      213: 956391269826422734
+    second: The_Devil_01_02
+  - first:
+      213: -7154339583870431728
+    second: The_Devil_01_03
+  - first:
+      213: 7991700425796766697
+    second: The_Devil_01_04
+  - first:
+      213: 5117912343334274234
+    second: The_Devil_01_05
+  - first:
+      213: 5027161201216505551
+    second: The_Devil_01_06
+  - first:
+      213: -9111478142474310602
+    second: The_Devil_01_07
+  - first:
+      213: -1296658256921844753
+    second: The_Devil_01_08
+  - first:
+      213: -6365828661807070894
+    second: The_Devil_01_09
+  - first:
+      213: -5468773137826728481
+    second: The_Devil_02_00
+  - first:
+      213: 7875518173987901452
+    second: The_Devil_02_01
+  - first:
+      213: 6862090379158190650
+    second: The_Devil_02_02
+  - first:
+      213: 6894704082311886598
+    second: The_Devil_02_03
+  - first:
+      213: -608386080537182763
+    second: The_Devil_02_04
+  - first:
+      213: -8640284876779102774
+    second: The_Devil_02_05
+  - first:
+      213: -5320322320551191162
+    second: The_Devil_02_06
+  - first:
+      213: 5859324694820700312
+    second: The_Devil_02_07
+  - first:
+      213: -6006890409530024722
+    second: The_Devil_02_08
+  - first:
+      213: 2539355063303109724
+    second: The_Devil_02_09
+  - first:
+      213: 8160087651839037335
+    second: The_Devil_03_00
+  - first:
+      213: 4652282072817249778
+    second: The_Devil_03_01
+  - first:
+      213: -8157440234733021251
+    second: The_Devil_03_02
+  - first:
+      213: -2481336253776516316
+    second: The_Devil_03_03
+  - first:
+      213: 1429599725476478953
+    second: The_Devil_03_04
+  - first:
+      213: 3032080080932907237
+    second: The_Devil_03_05
+  - first:
+      213: -2758966888998718979
+    second: The_Devil_03_06
+  - first:
+      213: -4367863478415469488
+    second: The_Devil_03_07
+  - first:
+      213: -6373235283017462647
+    second: The_Devil_03_08
+  - first:
+      213: 8175049783077349207
+    second: The_Devil_03_09
+  - first:
+      213: -3562376032396986670
+    second: The_Devil_04_00
+  - first:
+      213: -5245455200664592337
+    second: The_Devil_04_01
+  - first:
+      213: 5565999513649519205
+    second: The_Devil_04_02
+  - first:
+      213: 8836307136092218023
+    second: The_Devil_04_03
+  - first:
+      213: 8960335221606100774
+    second: The_Devil_04_04
+  - first:
+      213: 9159405665854130428
+    second: The_Devil_04_05
+  - first:
+      213: -7545927020640905223
+    second: The_Devil_04_06
+  - first:
+      213: 8751235398324877273
+    second: The_Devil_04_07
+  - first:
+      213: 6547103885497989659
+    second: The_Devil_04_08
+  - first:
+      213: 7726844845091360576
+    second: The_Devil_04_09
+  - first:
+      213: -3935645046089911597
+    second: The_Devil_05_00
+  - first:
+      213: -3964186754453315445
+    second: The_Devil_05_01
+  - first:
+      213: 9126091952656712488
+    second: The_Devil_05_02
+  - first:
+      213: 7443959744573378535
+    second: The_Devil_05_03
+  - first:
+      213: 981152442639830405
+    second: The_Devil_05_04
+  - first:
+      213: -3495599516216981747
+    second: The_Devil_05_05
+  - first:
+      213: 6921260198069047535
+    second: The_Devil_05_06
+  - first:
+      213: -3444924130735868665
+    second: The_Devil_05_07
+  - first:
+      213: -3864634221727468502
+    second: The_Devil_05_08
+  - first:
+      213: -6428605355730877108
+    second: The_Devil_05_09
+  - first:
+      213: -1494227235837969851
+    second: The_Devil_06_00
+  - first:
+      213: 6155723226886686070
+    second: The_Devil_06_01
+  - first:
+      213: -5708810087594622456
+    second: The_Devil_06_02
+  - first:
+      213: 2870651196027140775
+    second: The_Devil_06_03
+  - first:
+      213: 5829382088884561307
+    second: The_Devil_06_04
+  - first:
+      213: 1569330886045324457
+    second: The_Devil_06_05
+  - first:
+      213: 3862900744350220790
+    second: The_Devil_06_06
+  - first:
+      213: -7703691638907920511
+    second: The_Devil_06_07
+  - first:
+      213: -1447289366619133889
+    second: The_Devil_06_08
+  - first:
+      213: 1177509202929083814
+    second: The_Devil_06_09
+  - first:
+      213: 8006451574399486561
+    second: The_Devil_07_00
+  - first:
+      213: -2768220703035466793
+    second: The_Devil_07_01
+  - first:
+      213: -2011804820545991744
+    second: The_Devil_07_02
+  - first:
+      213: -483942982840617298
+    second: The_Devil_07_03
+  - first:
+      213: 731466614959793653
+    second: The_Devil_07_04
+  - first:
+      213: -4770259303965139244
+    second: The_Devil_07_05
+  - first:
+      213: 5802662270545940077
+    second: The_Devil_07_06
+  - first:
+      213: -5782634626364348004
+    second: The_Devil_07_07
+  - first:
+      213: -2950614934508768855
+    second: The_Devil_07_08
+  - first:
+      213: -7361855873584549038
+    second: The_Devil_07_09
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: The_Devil_00_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 496
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 394f2b9c9d195ebe0800000000000000
+      internalID: -1448591340551867245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Devil_00_01
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 496
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb9fa9dd5d81e91b0800000000000000
+      internalID: -5648049575851001409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Devil_00_02
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 496
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d38f931148860b1e0800000000000000
+      internalID: -2184130902840707011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Devil_00_03
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 496
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59aaafe103c23acd0800000000000000
+      internalID: -2548144378971772267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Devil_00_04
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 496
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ee445de9c3c97f50800000000000000
+      internalID: 6879745177822711520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Devil_00_05
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 496
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cdf741e7b0619b20800000000000000
+      internalID: 3139396758128819651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Devil_00_06
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 496
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20c60efd6641e9cb0800000000000000
+      internalID: -4855420916183569406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Devil_00_07
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 496
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1667652d85d155c40800000000000000
+      internalID: 5500334787226138209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Devil_00_08
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 496
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb733dca99ae8f7b0800000000000000
+      internalID: -5190140624794077252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Devil_00_09
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 496
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc601d585eff93360800000000000000
+      internalID: 7150027244685035213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Devil_01_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 432
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82e57dbb006cdc8b0800000000000000
+      internalID: -5130226694051373528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Devil_01_01
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 432
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f161a2652ef580b0800000000000000
+      internalID: -5726891914609729032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Devil_01_02
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 432
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec7e940fac8c54d00800000000000000
+      internalID: 956391269826422734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Devil_01_03
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 432
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01e03e4cd0ea6bc90800000000000000
+      internalID: -7154339583870431728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Devil_01_04
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 432
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eb44f6023938ee60800000000000000
+      internalID: 7991700425796766697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Devil_01_05
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 432
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab4c600192a760740800000000000000
+      internalID: 5117912343334274234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Devil_01_06
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 432
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc6c22b3a7014c540800000000000000
+      internalID: 5027161201216505551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Devil_01_07
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 432
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63c251377e68d8180800000000000000
+      internalID: -9111478142474310602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Devil_01_08
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 432
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe3a8117f28510ee0800000000000000
+      internalID: -1296658256921844753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Devil_01_09
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 432
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2514df74f8808a7a0800000000000000
+      internalID: -6365828661807070894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Devil_02_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 368
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd5b3a25ec30b14b0800000000000000
+      internalID: -5468773137826728481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Devil_02_01
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 368
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c009eae8d067b4d60800000000000000
+      internalID: 7875518173987901452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Devil_02_02
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 368
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3a795ac7da0b3f50800000000000000
+      internalID: 6862090379158190650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Devil_02_03
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 368
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 607b2a945d8eeaf50800000000000000
+      internalID: 6894704082311886598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Devil_02_04
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 368
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ddf94745149e87f0800000000000000
+      internalID: -608386080537182763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Devil_02_05
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 368
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acdd669ceaa871880800000000000000
+      internalID: -8640284876779102774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Devil_02_06
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 368
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68dd6f8a90b6a26b0800000000000000
+      internalID: -5320322320551191162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Devil_02_07
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 368
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 890467214c0805150800000000000000
+      internalID: 5859324694820700312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Devil_02_08
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 368
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eec13479ffc33aca0800000000000000
+      internalID: -6006890409530024722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Devil_02_09
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 368
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5c75cad9f99d3320800000000000000
+      internalID: 2539355063303109724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Devil_03_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 304
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79fcaef3c747e3170800000000000000
+      internalID: 8160087651839037335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Devil_03_01
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 304
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fda03975e9309040800000000000000
+      internalID: 4652282072817249778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Devil_03_02
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 304
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db752449353face80800000000000000
+      internalID: -8157440234733021251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Devil_03_03
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 304
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42b2a59e2d5809dd0800000000000000
+      internalID: -2481336253776516316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Devil_03_04
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 304
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ef75004065f6d310800000000000000
+      internalID: 1429599725476478953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Devil_03_05
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 304
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e82b8ad4cc141a20800000000000000
+      internalID: 3032080080932907237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Devil_03_06
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 304
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df1ba2a6b3e26b9d0800000000000000
+      internalID: -2758966888998718979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Devil_03_07
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 304
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 054d4adee4b3263c0800000000000000
+      internalID: -4367863478415469488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Devil_03_08
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 304
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98c02c5e648bd87a0800000000000000
+      internalID: -6373235283017462647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Devil_03_09
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 304
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 757a575e67c937170800000000000000
+      internalID: 8175049783077349207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Devil_04_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d6bc907fd5ef8ec0800000000000000
+      internalID: -3562376032396986670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Devil_04_01
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 240
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f20692f59466437b0800000000000000
+      internalID: -5245455200664592337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Devil_04_02
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 240
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56a931751176e3d40800000000000000
+      internalID: 5565999513649519205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Devil_04_03
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 240
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a2a605068ed0aa70800000000000000
+      internalID: 8836307136092218023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Devil_04_04
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 240
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62fa0400961895c70800000000000000
+      internalID: 8960335221606100774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Devil_04_05
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 240
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf88feaaceebc1f70800000000000000
+      internalID: 9159405665854130428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Devil_04_06
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 240
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f75da1da5b774790800000000000000
+      internalID: -7545927020640905223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Devil_04_07
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 240
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d77afe8a32a27970800000000000000
+      internalID: 8751235398324877273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Devil_04_08
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 240
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1affaabb4cfbda50800000000000000
+      internalID: 6547103885497989659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Devil_04_09
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 240
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04f8a32b2744b3b60800000000000000
+      internalID: 7726844845091360576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Devil_05_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 176
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d2f8c9bea7c169c0800000000000000
+      internalID: -3935645046089911597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Devil_05_01
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 176
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b80608566216cf8c0800000000000000
+      internalID: -3964186754453315445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Devil_05_02
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 176
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82387a1674466ae70800000000000000
+      internalID: 9126091952656712488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Devil_05_03
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 176
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ef8a99a2f14e4760800000000000000
+      internalID: 7443959744573378535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Devil_05_04
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 176
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58dcd0eb2f0cd9d00800000000000000
+      internalID: 981152442639830405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Devil_05_05
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 176
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d070cdea2c22d7fc0800000000000000
+      internalID: -3495599516216981747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Devil_05_06
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 176
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe094ffca714d0060800000000000000
+      internalID: 6921260198069047535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Devil_05_07
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 176
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 705315d41cb2130d0800000000000000
+      internalID: -3444924130735868665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Devil_05_08
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 176
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a24bd1ba6af0e5ac0800000000000000
+      internalID: -3864634221727468502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Devil_05_09
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 176
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c45cc7a3d7109c6a0800000000000000
+      internalID: -6428605355730877108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Devil_06_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54af92aee30734be0800000000000000
+      internalID: -1494227235837969851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Devil_06_01
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 112
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 675c33219a58d6550800000000000000
+      internalID: 6155723226886686070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Devil_06_02
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 112
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80281cec87b36c0b0800000000000000
+      internalID: -5708810087594622456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Devil_06_03
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 112
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aa7f3dad0a96d720800000000000000
+      internalID: 2870651196027140775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Devil_06_04
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 112
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b952dfbdf1026e050800000000000000
+      internalID: 5829382088884561307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Devil_06_05
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 112
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a4d7cd402267c510800000000000000
+      internalID: 1569330886045324457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Devil_06_06
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 112
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f1469da2c7cb9530800000000000000
+      internalID: 3862900744350220790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Devil_06_07
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 112
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18f1fb3354df61590800000000000000
+      internalID: -7703691638907920511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Devil_06_08
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 112
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3867773df13aebe0800000000000000
+      internalID: -1447289366619133889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Devil_06_09
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 112
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a56750a16a575010800000000000000
+      internalID: 1177509202929083814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Devil_07_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16ac2737941ac1f60800000000000000
+      internalID: 8006451574399486561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Devil_07_01
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 48
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7db50bfefed4599d0800000000000000
+      internalID: -2768220703035466793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Devil_07_02
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 48
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cb00f9bc22a414e0800000000000000
+      internalID: -2011804820545991744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Devil_07_03
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 48
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea6fd30db60b849f0800000000000000
+      internalID: -483942982840617298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Devil_07_04
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 48
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f56cb5c201b62a00800000000000000
+      internalID: 731466614959793653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Devil_07_05
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 48
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ded7acdf62accdb0800000000000000
+      internalID: -4770259303965139244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Devil_07_06
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 48
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6ec37b5792378050800000000000000
+      internalID: 5802662270545940077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Devil_07_07
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 48
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c99edade174ffbfa0800000000000000
+      internalID: -5782634626364348004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Devil_07_08
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 48
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a174af995f4d07d0800000000000000
+      internalID: -2950614934508768855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Devil_07_09
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 48
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 253be57761f65d990800000000000000
+      internalID: -7361855873584549038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      The Devil_0: -6887813241978575395
+      The Devil_1: 1851128300275213406
+      The Devil_10: -6562135600745380764
+      The Devil_11: 7979228851974824012
+      The Devil_12: 1782707990107161627
+      The Devil_13: 3793273997636972990
+      The Devil_14: -196985066682929286
+      The Devil_15: -6746971403031367513
+      The Devil_16: -366428348828294154
+      The Devil_17: -5928577660881051546
+      The Devil_18: 6009096086034688850
+      The Devil_19: -764195262862887653
+      The Devil_2: -3524811185425761117
+      The Devil_20: -6314019295765441746
+      The Devil_21: 7840252023973588468
+      The Devil_22: -4900771064031005505
+      The Devil_23: 6389064052039337312
+      The Devil_24: -1895445404996388582
+      The Devil_25: -8678439582328460286
+      The Devil_26: 8021615538922947014
+      The Devil_27: -3661564190165190700
+      The Devil_28: -3767321026713393238
+      The Devil_3: -1062577049634858009
+      The Devil_4: 7242898496989420274
+      The Devil_5: -5215863986395352831
+      The Devil_6: -5127976153843940084
+      The Devil_7: 2281945383537141106
+      The Devil_8: -3554590385735735111
+      The Devil_9: 2765609100778922402
+      The_Devil_00_00: -1448591340551867245
+      The_Devil_00_01: -5648049575851001409
+      The_Devil_00_02: -2184130902840707011
+      The_Devil_00_03: -2548144378971772267
+      The_Devil_00_04: 6879745177822711520
+      The_Devil_00_05: 3139396758128819651
+      The_Devil_00_06: -4855420916183569406
+      The_Devil_00_07: 5500334787226138209
+      The_Devil_00_08: -5190140624794077252
+      The_Devil_00_09: 7150027244685035213
+      The_Devil_01_00: -5130226694051373528
+      The_Devil_01_01: -5726891914609729032
+      The_Devil_01_02: 956391269826422734
+      The_Devil_01_03: -7154339583870431728
+      The_Devil_01_04: 7991700425796766697
+      The_Devil_01_05: 5117912343334274234
+      The_Devil_01_06: 5027161201216505551
+      The_Devil_01_07: -9111478142474310602
+      The_Devil_01_08: -1296658256921844753
+      The_Devil_01_09: -6365828661807070894
+      The_Devil_02_00: -5468773137826728481
+      The_Devil_02_01: 7875518173987901452
+      The_Devil_02_02: 6862090379158190650
+      The_Devil_02_03: 6894704082311886598
+      The_Devil_02_04: -608386080537182763
+      The_Devil_02_05: -8640284876779102774
+      The_Devil_02_06: -5320322320551191162
+      The_Devil_02_07: 5859324694820700312
+      The_Devil_02_08: -6006890409530024722
+      The_Devil_02_09: 2539355063303109724
+      The_Devil_03_00: 8160087651839037335
+      The_Devil_03_01: 4652282072817249778
+      The_Devil_03_02: -8157440234733021251
+      The_Devil_03_03: -2481336253776516316
+      The_Devil_03_04: 1429599725476478953
+      The_Devil_03_05: 3032080080932907237
+      The_Devil_03_06: -2758966888998718979
+      The_Devil_03_07: -4367863478415469488
+      The_Devil_03_08: -6373235283017462647
+      The_Devil_03_09: 8175049783077349207
+      The_Devil_04_00: -3562376032396986670
+      The_Devil_04_01: -5245455200664592337
+      The_Devil_04_02: 5565999513649519205
+      The_Devil_04_03: 8836307136092218023
+      The_Devil_04_04: 8960335221606100774
+      The_Devil_04_05: 9159405665854130428
+      The_Devil_04_06: -7545927020640905223
+      The_Devil_04_07: 8751235398324877273
+      The_Devil_04_08: 6547103885497989659
+      The_Devil_04_09: 7726844845091360576
+      The_Devil_05_00: -3935645046089911597
+      The_Devil_05_01: -3964186754453315445
+      The_Devil_05_02: 9126091952656712488
+      The_Devil_05_03: 7443959744573378535
+      The_Devil_05_04: 981152442639830405
+      The_Devil_05_05: -3495599516216981747
+      The_Devil_05_06: 6921260198069047535
+      The_Devil_05_07: -3444924130735868665
+      The_Devil_05_08: -3864634221727468502
+      The_Devil_05_09: -6428605355730877108
+      The_Devil_06_00: -1494227235837969851
+      The_Devil_06_01: 6155723226886686070
+      The_Devil_06_02: -5708810087594622456
+      The_Devil_06_03: 2870651196027140775
+      The_Devil_06_04: 5829382088884561307
+      The_Devil_06_05: 1569330886045324457
+      The_Devil_06_06: 3862900744350220790
+      The_Devil_06_07: -7703691638907920511
+      The_Devil_06_08: -1447289366619133889
+      The_Devil_06_09: 1177509202929083814
+      The_Devil_07_00: 8006451574399486561
+      The_Devil_07_01: -2768220703035466793
+      The_Devil_07_02: -2011804820545991744
+      The_Devil_07_03: -483942982840617298
+      The_Devil_07_04: 731466614959793653
+      The_Devil_07_05: -4770259303965139244
+      The_Devil_07_06: 5802662270545940077
+      The_Devil_07_07: -5782634626364348004
+      The_Devil_07_08: -2950614934508768855
+      The_Devil_07_09: -7361855873584549038
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

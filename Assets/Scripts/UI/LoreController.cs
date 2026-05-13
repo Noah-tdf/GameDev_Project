@@ -49,6 +49,8 @@ public class LoreController : MonoBehaviour
     private Canvas canvas;
     private CanvasGroup canvasGroup;
     private RectTransform viewport;
+    private Image backgroundImage;
+    private Image loreImage;
     private RectTransform loreImageRect;
     private TextMeshProUGUI subtitleText;
     private TextMeshProUGUI skipPromptText;
@@ -139,15 +141,15 @@ public class LoreController : MonoBehaviour
         canvasGroup.blocksRaycasts = false;
         canvasGroup.interactable = false;
 
-        Image background = CreateImage("Background", canvasObject.transform, null, Color.black);
-        Stretch(background.rectTransform);
-        background.raycastTarget = true;
+        backgroundImage = CreateImage("Background", canvasObject.transform, null, Color.black);
+        Stretch(backgroundImage.rectTransform);
+        backgroundImage.raycastTarget = true;
 
         viewport = CreateRect("LoreViewport", canvasObject.transform);
         Stretch(viewport);
         viewport.gameObject.AddComponent<RectMask2D>();
 
-        Image loreImage = CreateImage("LoreMasterImage", viewport, loreMasterSprite, Color.white);
+        loreImage = CreateImage("LoreMasterImage", viewport, loreMasterSprite, Color.white);
         loreImageRect = loreImage.rectTransform;
         loreImage.preserveAspect = true;
         loreImage.raycastTarget = false;
@@ -198,8 +200,10 @@ public class LoreController : MonoBehaviour
         {
             canvasGroup.blocksRaycasts = true;
             canvasGroup.interactable = true;
+            canvasGroup.alpha = 0f;
         }
 
+        ResetVisualAlpha();
         ApplyFocus(startFocus, startZoom);
         yield return Fade(0f, 1f, fadeInDuration);
 
@@ -223,7 +227,7 @@ public class LoreController : MonoBehaviour
         if (isLoadingScene)
             yield break;
 
-        yield return Fade(1f, 0f, fadeOutDuration);
+        yield return FadeLoreToBlack(fadeOutDuration);
         FinishSequence();
     }
 
@@ -354,6 +358,52 @@ public class LoreController : MonoBehaviour
             yield return null;
         }
         canvasGroup.alpha = to;
+    }
+
+    private IEnumerator FadeLoreToBlack(float duration)
+    {
+        if (backgroundImage != null)
+            backgroundImage.color = Color.black;
+        if (canvasGroup != null)
+            canvasGroup.alpha = 1f;
+
+        Color loreStart = loreImage != null ? loreImage.color : Color.white;
+        Color subtitleStart = subtitleText != null ? subtitleText.color : subtitleColor;
+        Color skipStart = skipPromptText != null ? skipPromptText.color : subtitleColor;
+
+        float t = 0f;
+        while (t < duration)
+        {
+            t += Time.unscaledDeltaTime;
+            float alpha = 1f - Mathf.Clamp01(t / duration);
+            SetAlpha(loreImage, loreStart.a * alpha);
+            SetAlpha(subtitleText, subtitleStart.a * alpha);
+            SetAlpha(skipPromptText, skipStart.a * alpha);
+            yield return null;
+        }
+
+        SetAlpha(loreImage, 0f);
+        SetAlpha(subtitleText, 0f);
+        SetAlpha(skipPromptText, 0f);
+    }
+
+    private void ResetVisualAlpha()
+    {
+        if (backgroundImage != null)
+            backgroundImage.color = Color.black;
+        SetAlpha(loreImage, 1f);
+        SetAlpha(subtitleText, subtitleColor.a);
+        SetAlpha(skipPromptText, 0.55f);
+    }
+
+    private static void SetAlpha(Graphic graphic, float alpha)
+    {
+        if (graphic == null)
+            return;
+
+        Color color = graphic.color;
+        color.a = alpha;
+        graphic.color = color;
     }
 
     private void FinishSequence()

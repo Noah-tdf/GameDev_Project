@@ -1,0 +1,565 @@
+fileFormatVersion: 2
+guid: fa943aaba80787740b7a39a79484cb63
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8385902695541306975
+    second: Tree Damned_0
+  - first:
+      213: -5044262628754221169
+    second: Tree Damned_1
+  - first:
+      213: -3726655346861358829
+    second: Tree Damned_2
+  - first:
+      213: -1638865020883218820
+    second: Tree Damned_3
+  - first:
+      213: -7756542497568443302
+    second: Tree Damned_4
+  - first:
+      213: -3488486089166895447
+    second: Tree Damned_5
+  - first:
+      213: -7500158380419181633
+    second: Tree Damned_6
+  - first:
+      213: 6622454050582267265
+    second: Tree Damned_7
+  - first:
+      213: 2738588441642155441
+    second: Tree Damned_8
+  - first:
+      213: 2725262300087949903
+    second: Tree Damned_9
+  - first:
+      213: 6534132914588759096
+    second: Tree Damned_10
+  - first:
+      213: -7472391885224280524
+    second: Tree Damned_11
+  - first:
+      213: -4328731202089338528
+    second: Tree Damned_12
+  - first:
+      213: 2755756816494829628
+    second: Tree Damned_13
+  - first:
+      213: 2015662373045562011
+    second: Tree Damned_14
+  - first:
+      213: 2371600360125399863
+    second: Tree Damned_15
+  - first:
+      213: -2812554035137258582
+    second: Tree Damned_16
+  - first:
+      213: 1286346820631810515
+    second: Tree Damned_17
+  - first:
+      213: -337798289619707987
+    second: Tree Damned_18
+  - first:
+      213: -1710893210570815218
+    second: Tree Damned_19
+  - first:
+      213: -7360477318536506314
+    second: Tree Damned_20
+  - first:
+      213: -2462435110683560791
+    second: Tree_Damned_00_00
+  - first:
+      213: 443142371994660363
+    second: Tree_Damned_00_01
+  - first:
+      213: 4549479484371330755
+    second: Tree_Damned_00_02
+  - first:
+      213: -3022101234991486192
+    second: Tree_Damned_00_03
+  - first:
+      213: -2959629357516231663
+    second: Tree_Damned_00_04
+  - first:
+      213: 5320977459812810267
+    second: Tree_Damned_00_05
+  - first:
+      213: -6116538580817765511
+    second: Tree_Damned_00_06
+  - first:
+      213: -6576821122239612093
+    second: Tree_Damned_01_00
+  - first:
+      213: 2096556448267689938
+    second: Tree_Damned_01_01
+  - first:
+      213: 4265390334567349695
+    second: Tree_Damned_01_02
+  - first:
+      213: -364662733845713655
+    second: Tree_Damned_01_03
+  - first:
+      213: -7984155133702299900
+    second: Tree_Damned_01_04
+  - first:
+      213: -7340933485281073656
+    second: Tree_Damned_01_05
+  - first:
+      213: -5452472876960389980
+    second: Tree_Damned_01_06
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tree_Damned_00_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a4b149305ca3ddd0800000000000000
+      internalID: -2462435110683560791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree_Damned_00_01
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0e6aa3b3ab562600800000000000000
+      internalID: 443142371994660363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree_Damned_00_02
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c661e2ac7ff22f30800000000000000
+      internalID: 4549479484371330755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree_Damned_00_03
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01b201540f65f06d0800000000000000
+      internalID: -3022101234991486192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree_Damned_00_04
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11c6d66b7c84de6d0800000000000000
+      internalID: -2959629357516231663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree_Damned_00_05
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1eb006dec8e7d940800000000000000
+      internalID: 5320977459812810267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree_Damned_00_06
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97b926b4190bd1ba0800000000000000
+      internalID: -6116538580817765511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree_Damned_01_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34b3f99e8007ab4a0800000000000000
+      internalID: -6576821122239612093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree_Damned_01_01
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dfdc8e4bf6781d10800000000000000
+      internalID: 2096556448267689938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree_Damned_01_02
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbd754809e5b13b30800000000000000
+      internalID: 4265390334567349695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree_Damned_01_03
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90dad46fc2570faf0800000000000000
+      internalID: -364662733845713655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree_Damned_01_04
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40f10103535923190800000000000000
+      internalID: -7984155133702299900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree_Damned_01_05
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8062d0a93e3cf1a90800000000000000
+      internalID: -7340933485281073656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree_Damned_01_06
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a4e25d8ecce454b0800000000000000
+      internalID: -5452472876960389980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Tree Damned_0: -8385902695541306975
+      Tree Damned_1: -5044262628754221169
+      Tree Damned_10: 6534132914588759096
+      Tree Damned_11: -7472391885224280524
+      Tree Damned_12: -4328731202089338528
+      Tree Damned_13: 2755756816494829628
+      Tree Damned_14: 2015662373045562011
+      Tree Damned_15: 2371600360125399863
+      Tree Damned_16: -2812554035137258582
+      Tree Damned_17: 1286346820631810515
+      Tree Damned_18: -337798289619707987
+      Tree Damned_19: -1710893210570815218
+      Tree Damned_2: -3726655346861358829
+      Tree Damned_20: -7360477318536506314
+      Tree Damned_3: -1638865020883218820
+      Tree Damned_4: -7756542497568443302
+      Tree Damned_5: -3488486089166895447
+      Tree Damned_6: -7500158380419181633
+      Tree Damned_7: 6622454050582267265
+      Tree Damned_8: 2738588441642155441
+      Tree Damned_9: 2725262300087949903
+      Tree_Damned_00_00: -2462435110683560791
+      Tree_Damned_00_01: 443142371994660363
+      Tree_Damned_00_02: 4549479484371330755
+      Tree_Damned_00_03: -3022101234991486192
+      Tree_Damned_00_04: -2959629357516231663
+      Tree_Damned_00_05: 5320977459812810267
+      Tree_Damned_00_06: -6116538580817765511
+      Tree_Damned_01_00: -6576821122239612093
+      Tree_Damned_01_01: 2096556448267689938
+      Tree_Damned_01_02: 4265390334567349695
+      Tree_Damned_01_03: -364662733845713655
+      Tree_Damned_01_04: -7984155133702299900
+      Tree_Damned_01_05: -7340933485281073656
+      Tree_Damned_01_06: -5452472876960389980
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

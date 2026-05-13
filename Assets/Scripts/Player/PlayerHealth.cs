@@ -1,5 +1,7 @@
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
+using System.IO;
 
 /// <summary>
 /// Tracks Luca's hit points, invincibility frames, damage flashing, and death.
@@ -17,6 +19,9 @@ public class PlayerHealth : MonoBehaviour
 
     [Header("UI")]
     [SerializeField] private TextMeshProUGUI hpText;               // Drag the HP label in via Inspector
+    [SerializeField] private Image healthBarFill;
+
+    private const string HealthBarAssetPath = "Art/Characters/Pixel Health Bar Asset Pack 1 by Adwit Rahman/Pixel Health Bar 1/RPG Style (1).png";
 
     // ── Internal state ───────────────────────────────────────────────────────
     private int _currentHP;
@@ -28,6 +33,7 @@ public class PlayerHealth : MonoBehaviour
     private SpriteRenderer _sr;
     private PlayerMovement _movement;
     private Animator _animator;
+    private Texture2D _healthBarTexture;
 
     // ── Public accessor ──────────────────────────────────────────────────────
     /// <summary>Current HP — read-only from outside.</summary>
@@ -44,6 +50,7 @@ public class PlayerHealth : MonoBehaviour
 
     private void Start()
     {
+        BuildHealthBarUI();
         UpdateHPUI();
     }
 
@@ -117,6 +124,7 @@ public class PlayerHealth : MonoBehaviour
         _movement?.DisableInput();
         _animator?.SetBool("IsDead", true);
         SetAlpha(0.3f);
+        ShowGameOverUI();
     }
 
     private void SetAlpha(float alpha)
@@ -130,6 +138,128 @@ public class PlayerHealth : MonoBehaviour
     private void UpdateHPUI()
     {
         if (hpText != null)
-            hpText.text = "HP: " + _currentHP;
+            hpText.gameObject.SetActive(false);
+
+        if (healthBarFill != null)
+            healthBarFill.fillAmount = maxHP > 0 ? (float)_currentHP / maxHP : 0f;
+    }
+
+    private void BuildHealthBarUI()
+    {
+        if (healthBarFill != null)
+            return;
+
+        Sprite emptyBarSprite;
+        Sprite fullBarSprite;
+        if (!TryLoadHealthBarSprites(out emptyBarSprite, out fullBarSprite))
+            return;
+
+        GameObject canvasObject = new GameObject("HealthBarCanvas", typeof(Canvas), typeof(CanvasScaler), typeof(GraphicRaycaster));
+        Canvas canvas = canvasObject.GetComponent<Canvas>();
+        canvas.renderMode = RenderMode.ScreenSpaceOverlay;
+        canvas.sortingOrder = 100;
+
+        CanvasScaler scaler = canvasObject.GetComponent<CanvasScaler>();
+        scaler.uiScaleMode = CanvasScaler.ScaleMode.ScaleWithScreenSize;
+        scaler.referenceResolution = new Vector2(1920f, 1080f);
+        scaler.matchWidthOrHeight = 0.5f;
+
+        GameObject rootObject = new GameObject("RPGStyleHealthBar", typeof(RectTransform));
+        rootObject.transform.SetParent(canvasObject.transform, false);
+        RectTransform root = rootObject.GetComponent<RectTransform>();
+        root.anchorMin = new Vector2(0f, 1f);
+        root.anchorMax = new Vector2(0f, 1f);
+        root.pivot = new Vector2(0f, 1f);
+        root.anchoredPosition = new Vector2(6f, -6f);
+        root.sizeDelta = new Vector2(356f, 60f);
+
+        Image emptyBar = CreateHealthBarImage("EmptyBar", root, emptyBarSprite);
+        Stretch(emptyBar.rectTransform);
+
+        healthBarFill = CreateHealthBarImage("FillBar", root, fullBarSprite);
+        Stretch(healthBarFill.rectTransform);
+        healthBarFill.type = Image.Type.Filled;
+        healthBarFill.fillMethod = Image.FillMethod.Horizontal;
+        healthBarFill.fillOrigin = (int)Image.OriginHorizontal.Left;
+        healthBarFill.fillAmount = 1f;
+    }
+
+    private bool TryLoadHealthBarSprites(out Sprite emptyBarSprite, out Sprite fullBarSprite)
+    {
+        emptyBarSprite = null;
+        fullBarSprite = null;
+
+        string path = Path.Combine(Application.dataPath, HealthBarAssetPath);
+        if (!File.Exists(path))
+        {
+            Debug.LogWarning("Health bar asset not found: " + path);
+            return false;
+        }
+
+        byte[] bytes = File.ReadAllBytes(path);
+        _healthBarTexture = new Texture2D(2, 2, TextureFormat.RGBA32, false);
+        _healthBarTexture.filterMode = FilterMode.Point;
+
+        if (!_healthBarTexture.LoadImage(bytes))
+            return false;
+
+        emptyBarSprite = Sprite.Create(_healthBarTexture, new Rect(2f, 75f, 89f, 15f), new Vector2(0.5f, 0.5f), 1f);
+        fullBarSprite = Sprite.Create(_healthBarTexture, new Rect(2f, 56f, 89f, 15f), new Vector2(0.5f, 0.5f), 1f);
+        return emptyBarSprite != null && fullBarSprite != null;
+    }
+
+    private static Image CreateHealthBarImage(string objectName, Transform parent, Sprite sprite)
+    {
+        GameObject imageObject = new GameObject(objectName, typeof(RectTransform), typeof(CanvasRenderer), typeof(Image));
+        imageObject.transform.SetParent(parent, false);
+
+        Image image = imageObject.GetComponent<Image>();
+        image.sprite = sprite;
+        image.color = Color.white;
+        image.preserveAspect = false;
+        image.raycastTarget = false;
+        return image;
+    }
+
+    private static void Stretch(RectTransform rectTransform)
+    {
+        rectTransform.anchorMin = Vector2.zero;
+        rectTransform.anchorMax = Vector2.one;
+        rectTransform.pivot = new Vector2(0.5f, 0.5f);
+        rectTransform.offsetMin = Vector2.zero;
+        rectTransform.offsetMax = Vector2.zero;
+    }
+
+    private void ShowGameOverUI()
+    {
+        if (GameObject.Find("GameOverCanvas") != null)
+            return;
+
+        GameObject canvasObject = new GameObject("GameOverCanvas", typeof(Canvas), typeof(CanvasScaler), typeof(GraphicRaycaster));
+        Canvas canvas = canvasObject.GetComponent<Canvas>();
+        canvas.renderMode = RenderMode.ScreenSpaceOverlay;
+        canvas.sortingOrder = 1000;
+
+        CanvasScaler scaler = canvasObject.GetComponent<CanvasScaler>();
+        scaler.uiScaleMode = CanvasScaler.ScaleMode.ScaleWithScreenSize;
+        scaler.referenceResolution = new Vector2(1920f, 1080f);
+        scaler.matchWidthOrHeight = 0.5f;
+
+        GameObject textObject = new GameObject("GameOverText", typeof(RectTransform), typeof(CanvasRenderer), typeof(TextMeshProUGUI));
+        textObject.transform.SetParent(canvasObject.transform, false);
+
+        RectTransform rect = textObject.GetComponent<RectTransform>();
+        rect.anchorMin = new Vector2(0.5f, 0.5f);
+        rect.anchorMax = new Vector2(0.5f, 0.5f);
+        rect.pivot = new Vector2(0.5f, 0.5f);
+        rect.anchoredPosition = Vector2.zero;
+        rect.sizeDelta = new Vector2(700f, 140f);
+
+        TextMeshProUGUI text = textObject.GetComponent<TextMeshProUGUI>();
+        text.text = "GAME OVER";
+        text.fontSize = 92f;
+        text.alignment = TextAlignmentOptions.Center;
+        text.color = Color.red;
+        text.raycastTarget = false;
     }
 }
