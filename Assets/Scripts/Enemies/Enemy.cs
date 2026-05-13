@@ -115,12 +115,7 @@ public class Enemy : MonoBehaviour
 
             PlayerMovement player = FindFirstObjectByType<PlayerMovement>();
             if (player != null)
-            {
                 player.FinishCombatTip();
-
-                if (gameObject.name == "UbuntyWalker")
-                    player.ShowLevelEndTip();
-            }
 
             GameObject combatPopUp = GameObject.Find("CombatPopUp");
             if (combatPopUp != null)

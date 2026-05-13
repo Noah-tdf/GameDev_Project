@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class MainMenuStartButton : MonoBehaviour
 {
     [SerializeField] private string sceneName = "Level1";
+    [SerializeField] private LoreController loreController;
     [SerializeField] private Camera uiCamera;
 
     private RectTransform rectTransform;
@@ -18,6 +19,9 @@ public class MainMenuStartButton : MonoBehaviour
         {
             uiCamera = Camera.main;
         }
+
+        if (loreController == null)
+            loreController = FindFirstObjectByType<LoreController>();
     }
 
     private void Update()
@@ -30,7 +34,10 @@ public class MainMenuStartButton : MonoBehaviour
         Vector2 mousePosition = Mouse.current.position.ReadValue();
         if (RectTransformUtility.RectangleContainsScreenPoint(rectTransform, mousePosition, uiCamera))
         {
-            SceneManager.LoadScene(sceneName);
+            if (loreController != null)
+                loreController.PlayAndLoadScene(sceneName);
+            else
+                SceneManager.LoadScene(sceneName);
         }
     }
 }

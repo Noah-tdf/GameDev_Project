@@ -226,6 +226,23 @@ MonoBehaviour:
   bulletPrefab: {fileID: 2268013671619156180, guid: 9c904cddab196c24db8bcfa2062d8033, type: 3}
   fireRate: 0.25
   bulletSpeed: 12
+  primarySpawnOffset: {x: 0.9, y: 0.15}
+  secondaryFirePoint: {fileID: 0}
+  secondaryBulletPrefab: {fileID: 0}
+  secondaryFireRate: 0.5
+  secondaryBulletSpeed: 20
+  secondarySpawnOffset: {x: 0.9, y: 0.05}
+  equippedWeapon: 0
+  primaryWeaponVisual: {fileID: 0}
+  secondaryWeaponVisual: {fileID: 0}
+  createWeaponHud: 1
+  weaponHudFrameSprite: {fileID: 252925535302917362, guid: bd698f1b1444a9a4b96465242fb54dc6, type: 3}
+  primaryWeaponIcon: {fileID: 7504847062895872125, guid: 36b3fc18ede2e7543975233a63f39371, type: 3}
+  secondaryWeaponIcon: {fileID: -8059712827397707480, guid: 023d1668945edb049b9c20fb47220971, type: 3}
+  activeColor: {r: 0.3, g: 1, b: 0.3, a: 1}
+  inactiveColor: {r: 0.35, g: 0.35, b: 0.4, a: 0.85}
+  activePanelColor: {r: 0.05, g: 0.55, b: 0.18, a: 0.38}
+  inactivePanelColor: {r: 0.06, g: 0.06, b: 0.08, a: 0.5}
   shootingSound: {fileID: 2606705088491955548}
 --- !u!82 &2606705088491955548
 AudioSource:

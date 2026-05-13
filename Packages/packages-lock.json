@@ -1,5 +1,13 @@
 {
   "dependencies": {
+    "com.bezi.sidekick": {
+      "version": "file:com.bezi.sidekick",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1"
+      }
+    },
     "com.coplaydev.unity-mcp": {
       "version": "https://github.com/CoplayDev/unity-mcp.git?path=/MCPForUnity#main",
       "depth": 0,
@@ -11,7 +19,7 @@
       "hash": "61521a26b7a85c67ef18d99f802f9ae5d154a3a1"
     },
     "com.ivanmurzak.unity.mcp": {
-      "version": "0.65.0",
+      "version": "0.72.1",
       "depth": 0,
       "source": "registry",
       "dependencies": {

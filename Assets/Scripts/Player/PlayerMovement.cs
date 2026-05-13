@@ -20,7 +20,10 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private GameObject movementPopUp;
     [SerializeField] private GameObject combatPopUp;
     [SerializeField] private GameObject levelEndPopUp;
+    [SerializeField] private GameObject weaponSwitchPopUp;
     private bool combatTipDone;
+    private bool weaponSwitchTipShown;
+    private bool levelEndTipShown;
 
     private Rigidbody2D rb;
     private Collider2D bodyCollider;
@@ -82,6 +85,12 @@ public class PlayerMovement : MonoBehaviour
 
         if (levelEndPopUp != null)
             levelEndPopUp.SetActive(false);
+
+        if (weaponSwitchPopUp == null)
+            weaponSwitchPopUp = GameObject.Find("WeaponSwitchPopUp");
+
+        if (weaponSwitchPopUp != null)
+            weaponSwitchPopUp.SetActive(false);
     }
 
     /// <summary>Called by PlayerHealth on death — freezes all movement.</summary>
@@ -290,18 +299,48 @@ public class PlayerMovement : MonoBehaviour
         {
             if (collision.GetContact(i).normal.y > 0.45f)
             {
-                if (movementPopUp != null && collision.gameObject.name.StartsWith("AirPlatforms"))
+                string platformName = collision.gameObject.name;
+
+                if (movementPopUp != null && platformName.StartsWith("AirPlatforms"))
                     movementPopUp.SetActive(false);
 
-                if (!combatTipDone && combatPopUp != null && collision.gameObject.name.StartsWith("2ndPlatform"))
+                if (!combatTipDone && combatPopUp != null && platformName.StartsWith("2ndPlatform"))
                     combatPopUp.SetActive(true);
 
-                if (levelEndPopUp != null && collision.gameObject.name.StartsWith("3rdPlatform"))
-                    levelEndPopUp.SetActive(false);
+                if (!weaponSwitchTipShown && weaponSwitchPopUp != null && platformName.StartsWith("3rdPlatform"))
+                {
+                    weaponSwitchTipShown = true;
+                    if (combatPopUp != null)
+                        combatPopUp.SetActive(false);
+                    weaponSwitchPopUp.SetActive(true);
+                }
+                else if (weaponSwitchTipShown && !levelEndTipShown && IsLevelEndPlatform(platformName))
+                {
+                    levelEndTipShown = true;
+                    if (weaponSwitchPopUp != null)
+                        weaponSwitchPopUp.SetActive(false);
+                    if (levelEndPopUp != null)
+                        levelEndPopUp.SetActive(true);
+                }
 
                 return;
             }
         }
+    }
+
+    private static bool IsLevelEndPlatform(string platformName)
+    {
+        if (string.IsNullOrEmpty(platformName))
+            return false;
+
+        // Any platform reached AFTER 3rdPlatform — exclude only the platform we just left
+        // and earlier ground platforms so backtracking doesn't trigger it. Air platforms count
+        // because the next one comes right after 3rdPlatform.
+        if (platformName.StartsWith("3rdPlatform")) return false;
+        if (platformName.StartsWith("2ndPlatform")) return false;
+        if (platformName.StartsWith("1stPlatform")) return false;
+
+        return platformName.Contains("Platform") || platformName.Contains("platform");
     }
 
     public void FinishCombatTip()
@@ -309,12 +348,6 @@ public class PlayerMovement : MonoBehaviour
         combatTipDone = true;
         if (combatPopUp != null)
             combatPopUp.SetActive(false);
-    }
-
-    public void ShowLevelEndTip()
-    {
-        if (levelEndPopUp != null)
-            levelEndPopUp.SetActive(true);
     }
 
     private void OnDrawGizmosSelected()
