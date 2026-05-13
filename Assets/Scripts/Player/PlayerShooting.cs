@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -46,6 +47,9 @@ public class PlayerShooting : MonoBehaviour
     [SerializeField] private Color activeColor = new Color(0.3f, 1f, 0.3f, 1f);
     [SerializeField] private Color inactiveColor = new Color(0.35f, 0.35f, 0.4f, 0.85f);
 
+    [Header("Ammunition")]
+    [SerializeField] private List<WeaponAmmunition> weaponAmmunition = new List<WeaponAmmunition>();
+
     [Header("References")]
     [SerializeField] private PlayerMovement playerMovement;
     [SerializeField] private AudioSource shootingSound;
@@ -62,6 +66,13 @@ public class PlayerShooting : MonoBehaviour
     private float nextFireTime;
 
     private bool IsPrimaryEquipped => equippedWeapon == WeaponSlot.Primary;
+
+    [System.Serializable]
+    private sealed class WeaponAmmunition
+    {
+        public string weaponId;
+        public Sprite projectileSprite;
+    }
 
     private void Awake()
     {
@@ -154,6 +165,7 @@ public class PlayerShooting : MonoBehaviour
         Vector3 spawnPosition = GetCurrentSpawnPosition(direction);
         Quaternion rotation = direction > 0f ? Quaternion.identity : Quaternion.Euler(0f, 180f, 0f);
         GameObject bulletObj = Instantiate(currentBulletPrefab, spawnPosition, rotation);
+        ApplyCurrentAmmunition(bulletObj);
 
         if (!bulletObj.activeSelf)
             bulletObj.SetActive(true);
@@ -218,6 +230,7 @@ public class PlayerShooting : MonoBehaviour
 
 #if UNITY_EDITOR
         ApplySavedWeaponSpritesInEditor();
+        EnsureDefaultAmmunitionProfiles();
 
         if (weaponHudFrameSprite == null)
             weaponHudFrameSprite = LoadEditorSprite("Assets/Art/Noah's/Gemini_Generated_Image_jex9o0jex9o0jex9-removebg-preview.png");
@@ -275,6 +288,54 @@ public class PlayerShooting : MonoBehaviour
 
         return null;
     }
+
+    public void EditorEnsureDefaultAmmunitionProfiles()
+    {
+        EnsureDefaultAmmunitionProfiles();
+    }
+
+    private void EnsureDefaultAmmunitionProfiles()
+    {
+        AddOrUpdateAmmunition("weapon-primary", "Assets/Art/Ammunition/Laser Sprites/01.png");
+        AddOrUpdateAmmunition("weapon-secondary", "Assets/Art/Ammunition/Laser Sprites/06.png");
+
+        AddOrUpdateAmmunition("ERA Weapon Primary (36)", "Assets/Art/Ammunition/Laser Sprites/15.png");
+        AddOrUpdateAmmunition("ERA Weapon Primary (55)", "Assets/Art/Ammunition/Laser Sprites/26.png");
+        AddOrUpdateAmmunition("ERA Weapon Primary (56)", "Assets/Art/Ammunition/Laser Sprites/58.png");
+        AddOrUpdateAmmunition("ERA Weapon Primary (60)", "Assets/Art/Ammunition/Laser Sprites/24.png");
+        AddOrUpdateAmmunition("ERA Weapon Primary (61)", "Assets/Art/Ammunition/Laser Sprites/55.png");
+        AddOrUpdateAmmunition("ERA Weapon Primary (72)", "Assets/Art/Ammunition/Laser Sprites/56.png");
+
+        AddOrUpdateAmmunition("ERA Weapon Secondary (2)", "Assets/Art/Ammunition/Laser Sprites/06.png");
+        AddOrUpdateAmmunition("ERA Weapon Secondary (3)", "Assets/Art/Ammunition/Laser Sprites/33.png");
+        AddOrUpdateAmmunition("ERA Weapon Secondary (4)", "Assets/Art/Ammunition/Laser Sprites/47.png");
+        AddOrUpdateAmmunition("ERA Weapon Secondary (5)", "Assets/Art/Ammunition/Laser Sprites/64.png");
+        AddOrUpdateAmmunition("ERA Weapon Secondary (8)", "Assets/Art/Ammunition/Laser Sprites/19.png");
+        AddOrUpdateAmmunition("ERA Weapon Secondary (9)", "Assets/Art/Ammunition/Laser Sprites/55.png");
+        AddOrUpdateAmmunition("ERA Weapon Secondary (13)", "Assets/Art/Ammunition/Laser Sprites/65.png");
+
+        EditorUtility.SetDirty(this);
+    }
+
+    private void AddOrUpdateAmmunition(string weaponId, string spritePath)
+    {
+        Sprite sprite = LoadEditorSprite(spritePath);
+        if (sprite == null)
+            return;
+
+        WeaponAmmunition existing = weaponAmmunition.Find(profile => profile != null && profile.weaponId == weaponId);
+        if (existing != null)
+        {
+            existing.projectileSprite = sprite;
+            return;
+        }
+
+        weaponAmmunition.Add(new WeaponAmmunition
+        {
+            weaponId = weaponId,
+            projectileSprite = sprite
+        });
+    }
 #endif
 
     private void SetVisualSprite(Transform weaponVisual, Sprite sprite)
@@ -302,6 +363,57 @@ public class PlayerShooting : MonoBehaviour
             return secondaryBulletPrefab;
 
         return bulletPrefab;
+    }
+
+    private void ApplyCurrentAmmunition(GameObject bulletObj)
+    {
+        if (bulletObj == null)
+            return;
+
+        Sprite projectileSprite = GetCurrentAmmunitionSprite();
+        if (projectileSprite == null)
+            return;
+
+        SpriteRenderer bulletRenderer = bulletObj.GetComponent<SpriteRenderer>();
+        if (bulletRenderer == null)
+            return;
+
+        bulletRenderer.sprite = projectileSprite;
+        bulletRenderer.color = Color.white;
+    }
+
+    private Sprite GetCurrentAmmunitionSprite()
+    {
+        string weaponId = GetCurrentWeaponId();
+        if (string.IsNullOrEmpty(weaponId))
+            return null;
+
+        foreach (WeaponAmmunition ammunition in weaponAmmunition)
+        {
+            if (ammunition != null && ammunition.weaponId == weaponId && ammunition.projectileSprite != null)
+                return ammunition.projectileSprite;
+        }
+
+        string fallbackId = IsPrimaryEquipped ? "weapon-primary" : "weapon-secondary";
+        foreach (WeaponAmmunition ammunition in weaponAmmunition)
+        {
+            if (ammunition != null && ammunition.weaponId == fallbackId && ammunition.projectileSprite != null)
+                return ammunition.projectileSprite;
+        }
+
+        return null;
+    }
+
+    private string GetCurrentWeaponId()
+    {
+        if (IsPrimaryEquipped)
+        {
+            string primaryWeaponId = PlayerPrefs.GetString(EquippedPrimaryKey, "weapon-primary");
+            return string.IsNullOrEmpty(primaryWeaponId) ? "weapon-primary" : primaryWeaponId;
+        }
+
+        string secondaryWeaponId = PlayerPrefs.GetString(EquippedSecondaryKey, "weapon-secondary");
+        return string.IsNullOrEmpty(secondaryWeaponId) ? "weapon-secondary" : secondaryWeaponId;
     }
 
     private float GetCurrentFireRate()

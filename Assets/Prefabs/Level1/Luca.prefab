@@ -193,6 +193,11 @@ MonoBehaviour:
     m_Bits: 64
   coyoteTime: 0.1
   jumpBufferTime: 0.12
+  movementPopUp: {fileID: 0}
+  combatPopUp: {fileID: 0}
+  levelEndPopUp: {fileID: 0}
+  weaponSwitchPopUp: {fileID: 0}
+  healthBarPopUp: {fileID: 0}
 --- !u!114 &5376908514645773362
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -209,6 +214,7 @@ MonoBehaviour:
   invincibilityDuration: 1.5
   flashInterval: 0.1
   hpText: {fileID: 0}
+  healthBarFill: {fileID: 0}
 --- !u!114 &630000756356967944
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -221,7 +227,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82efb0b4720a6cf4f8f2bbfb9413f5f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerShooting
-  playerMovement: {fileID: 7667087145645907921}
   firePoint: {fileID: 6122073128601328213}
   bulletPrefab: {fileID: 2268013671619156180, guid: 9c904cddab196c24db8bcfa2062d8033, type: 3}
   fireRate: 0.25
@@ -241,9 +246,40 @@ MonoBehaviour:
   secondaryWeaponIcon: {fileID: -8059712827397707480, guid: 023d1668945edb049b9c20fb47220971, type: 3}
   activeColor: {r: 0.3, g: 1, b: 0.3, a: 1}
   inactiveColor: {r: 0.35, g: 0.35, b: 0.4, a: 0.85}
-  activePanelColor: {r: 0.05, g: 0.55, b: 0.18, a: 0.38}
-  inactivePanelColor: {r: 0.06, g: 0.06, b: 0.08, a: 0.5}
+  weaponAmmunition:
+  - weaponId: weapon-primary
+    projectileSprite: {fileID: -3164809056393425246, guid: 4527c1f1911ec454ea3b31ab31ffae94, type: 3}
+  - weaponId: weapon-secondary
+    projectileSprite: {fileID: 141893073332109768, guid: 4ca11ddf8edee224d92274745681679e, type: 3}
+  - weaponId: ERA Weapon Primary (36)
+    projectileSprite: {fileID: 4349915267927364619, guid: c773e6529a34ae14c8adfcf893c7fbe3, type: 3}
+  - weaponId: ERA Weapon Primary (55)
+    projectileSprite: {fileID: -1045133410153605164, guid: 679ebbb1d247a3c4ca81108d8ce47cc4, type: 3}
+  - weaponId: ERA Weapon Primary (56)
+    projectileSprite: {fileID: 2032972958061289525, guid: 426a8667a6418d04b8a825c0e64ed65d, type: 3}
+  - weaponId: ERA Weapon Primary (60)
+    projectileSprite: {fileID: 8102358098348255977, guid: 790ec205fcf95784aa24b0983964b359, type: 3}
+  - weaponId: ERA Weapon Primary (61)
+    projectileSprite: {fileID: -41970534257140035, guid: 4656e098258e9fa49a7b8b4a23136d94, type: 3}
+  - weaponId: ERA Weapon Primary (72)
+    projectileSprite: {fileID: 7571068671740948714, guid: 30cac8a3360c72343a620b795bb23a73, type: 3}
+  - weaponId: ERA Weapon Secondary (2)
+    projectileSprite: {fileID: 141893073332109768, guid: 4ca11ddf8edee224d92274745681679e, type: 3}
+  - weaponId: ERA Weapon Secondary (3)
+    projectileSprite: {fileID: -4093987921198194536, guid: cb7785e7364bf3a499e1fbc7ac902d02, type: 3}
+  - weaponId: ERA Weapon Secondary (4)
+    projectileSprite: {fileID: 9108365968018652678, guid: c06bc8db288919545a77a54193a95a4e, type: 3}
+  - weaponId: ERA Weapon Secondary (5)
+    projectileSprite: {fileID: 1679825127283579670, guid: 1ef4c141dd297744a9aec4547548ade1, type: 3}
+  - weaponId: ERA Weapon Secondary (8)
+    projectileSprite: {fileID: 7157561037332017152, guid: 91c946075109c794a9ead3e8265232c4, type: 3}
+  - weaponId: ERA Weapon Secondary (9)
+    projectileSprite: {fileID: -41970534257140035, guid: 4656e098258e9fa49a7b8b4a23136d94, type: 3}
+  - weaponId: ERA Weapon Secondary (13)
+    projectileSprite: {fileID: 1734083152993632163, guid: 429688070a7f33741a0b0a3586a5818e, type: 3}
+  playerMovement: {fileID: 7667087145645907921}
   shootingSound: {fileID: 2606705088491955548}
+  spawnOffset: {x: 0.9, y: 0.15}
 --- !u!82 &2606705088491955548
 AudioSource:
   m_ObjectHideFlags: 0
