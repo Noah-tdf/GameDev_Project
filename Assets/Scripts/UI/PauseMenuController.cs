@@ -141,26 +141,6 @@ public class PauseMenuController : MonoBehaviour
             if (selected != prev && switchSound != null) audioSource.PlayOneShot(switchSound);
         }
 
-        // Mouse Hover Detection
-        if (ms != null && canvas != null)
-        {
-            Vector2 mousePos = ms.position.ReadValue();
-            for (int i = 0; i < buttons.Length; i++)
-            {
-                if (isGameOver && buttons[i].action == Action.Resume) continue;
-                
-                if (RectTransformUtility.RectangleContainsScreenPoint(buttons[i].rect, mousePos, canvas.worldCamera))
-                {
-                    if (selected != i)
-                    {
-                        selected = i;
-                        if (switchSound != null) audioSource.PlayOneShot(switchSound);
-                    }
-                    break;
-                }
-            }
-        }
-
         // Tween each button toward its target state
         for (int i = 0; i < buttons.Length; i++)
         {

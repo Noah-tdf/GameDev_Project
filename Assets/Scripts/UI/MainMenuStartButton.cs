@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 [RequireComponent(typeof(RectTransform))]
 public class MainMenuStartButton : MonoBehaviour
 {
-    [SerializeField] private string sceneName = "FinalLevel";
+    [SerializeField] private string sceneName = "Level1";
     [SerializeField] private LoreController loreController;
     [SerializeField] private Camera uiCamera;
 

@@ -47,7 +47,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::FinalLevelManager
   countdownDuration: 120
   timerText: {fileID: 0}
-  messageText: {fileID: 0}
   enemyPrefabs:
   - {fileID: 841202192252274757, guid: 75a635e3de44acc46a615bfb7a2f83ed, type: 3}
   - {fileID: 406448167519896024, guid: 9ae95df8d9a08384591e1e3515f44a4c, type: 3}

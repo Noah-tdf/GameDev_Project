@@ -14,9 +14,8 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField] private int maxHP = 5;
 
     [Header("Invincibility")]
-    [SerializeField] private bool isGodMode = false;               // If true, player never takes damage
     [SerializeField] private float invincibilityDuration = 1.5f;  // Seconds of i-frames after hit
-[SerializeField] private float flashInterval = 0.1f;           // Seconds between each sprite blink
+    [SerializeField] private float flashInterval = 0.1f;           // Seconds between each sprite blink
 
     [Header("Fall Death")]
     [SerializeField] private bool killWhenBelowMap = true;
@@ -118,7 +117,6 @@ public class PlayerHealth : MonoBehaviour
     public void TakeDamage(int amount)
     {
         if (_isDead) return;
-        if (isGodMode) return;
         if (_isInvincible) return;
 
         _currentHP = Mathf.Max(_currentHP - amount, 0);

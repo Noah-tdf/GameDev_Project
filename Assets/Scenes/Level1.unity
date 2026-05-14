@@ -1223,12 +1223,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 72
+  m_fontSizeBase: 72
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 18
-  m_fontSizeMax: 24
+  m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -2275,9 +2275,6 @@ MonoBehaviour:
   loadingAnimationRoot: {fileID: 881617394}
   transitionImage: {fileID: 317580853}
   skipPromptText: {fileID: 2057490242}
-  stencilSourceFont: {fileID: 0}
-  skipPromptFontSize: 22
-  skipPromptColor: {r: 0.92, g: 0.88, b: 0.78, a: 0.55}
   fadeDuration: 1
   defaultTransitionSprite: {fileID: 0}
   defaultFadeColor: {r: 0, g: 0, b: 0, a: 1}
@@ -2626,12 +2623,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 72
+  m_fontSizeBase: 72
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 18
-  m_fontSizeMax: 24
+  m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -3334,12 +3331,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 72
+  m_fontSizeBase: 26
   m_fontWeight: 400
-  m_enableAutoSizing: 1
-  m_fontSizeMin: 18
-  m_fontSizeMax: 24
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 14
+  m_fontSizeMax: 30
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -8597,12 +8594,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 72
+  m_fontSizeBase: 72
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 18
-  m_fontSizeMax: 24
+  m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -11752,10 +11749,6 @@ PrefabInstance:
       propertyPath: hpText
       value: 
       objectReference: {fileID: 1414985155}
-    - target: {fileID: 5365261438954310758, guid: d4565c32ca3f4744bb65d47e0ab69bf7, type: 3}
-      propertyPath: isGodMode
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 5377467350755137488, guid: d4565c32ca3f4744bb65d47e0ab69bf7, type: 3}
       propertyPath: tutorialPopUpAutoHideSeconds
       value: 5
