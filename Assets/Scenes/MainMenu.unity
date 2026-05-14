@@ -652,6 +652,8 @@ MonoBehaviour:
   sceneName: Level1
   loreController: {fileID: 700002}
   uiCamera: {fileID: 100002}
+  hoverSound: {fileID: 8300000, guid: 682772c2839038e449ee225e2549a6ff, type: 3}
+  selectSound: {fileID: 8300000, guid: e82ce564572b1dd4c9983cc45231ab9b, type: 3}
 --- !u!1 &230000
 GameObject:
   m_ObjectHideFlags: 0
@@ -803,6 +805,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   uiCamera: {fileID: 100002}
+  hoverSound: {fileID: 8300000, guid: 682772c2839038e449ee225e2549a6ff, type: 3}
+  selectSound: {fileID: 8300000, guid: e82ce564572b1dd4c9983cc45231ab9b, type: 3}
 --- !u!1 &700000
 GameObject:
   m_ObjectHideFlags: 0
@@ -948,6 +952,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MainMenuStoreButton
   sceneName: Store
   uiCamera: {fileID: 100002}
+  hoverSound: {fileID: 8300000, guid: 682772c2839038e449ee225e2549a6ff, type: 3}
+  selectSound: {fileID: 8300000, guid: e82ce564572b1dd4c9983cc45231ab9b, type: 3}
 --- !u!114 &474133870
 MonoBehaviour:
   m_ObjectHideFlags: 0

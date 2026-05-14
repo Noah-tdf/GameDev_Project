@@ -376,6 +376,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetCanvas: {fileID: 200002}
   slotSprite: {fileID: -8358113870863188520, guid: 59467b134bf75b14a94acca2e8edda24, type: 3}
+  buyButtonCoverSprite: {fileID: 0}
   storeFont: {fileID: 11400000, guid: 78d87033577ea284f91ab400a3bb6e28, type: 2}
   stencilSourceFont: {fileID: 12800000, guid: b10c0901abcd4ef0a000000000000001, type: 3}
   primaryWeaponSprites:
@@ -387,6 +388,12 @@ MonoBehaviour:
   - {fileID: 3062257105595108032, guid: 0fc32a38ceed1a44fb3cf111794475cb, type: 3}
   - {fileID: 778899027314678103, guid: 3f09742b87d127144a7e40045422e337, type: 3}
   secondaryWeaponSprites: []
+  goldCoinSprites: []
+  coinRain: {fileID: 0}
+  hoverSound: {fileID: 8300000, guid: 682772c2839038e449ee225e2549a6ff, type: 3}
+  selectSound: {fileID: 8300000, guid: e82ce564572b1dd4c9983cc45231ab9b, type: 3}
+  coinRainSound: {fileID: 8300000, guid: 04fc42e2a48bdc946a9223bcba688291, type: 3}
+  bgmClip: {fileID: 8300000, guid: de09b549aa9881343af65f3e677976d7, type: 3}
   scrollPosition: {x: 162, y: -246.5}
   scrollSize: {x: 555, y: 723}
   slotSize: {x: 260, y: 320}
@@ -529,6 +536,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   menuSceneName: MainMenu
   uiCamera: {fileID: 0}
+  hoverSound: {fileID: 8300000, guid: 682772c2839038e449ee225e2549a6ff, type: 3}
+  selectSound: {fileID: 8300000, guid: e82ce564572b1dd4c9983cc45231ab9b, type: 3}
 --- !u!1 &500000
 GameObject:
   m_ObjectHideFlags: 0
@@ -579,6 +588,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   menuSceneName: MainMenu
   uiCamera: {fileID: 0}
+  hoverSound: {fileID: 0}
+  selectSound: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

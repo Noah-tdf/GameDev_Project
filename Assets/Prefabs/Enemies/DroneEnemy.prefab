@@ -185,6 +185,8 @@ MonoBehaviour:
   hoverFrequency: 2
   hitColor: {r: 1, g: 0.2, b: 0.2, a: 1}
   flashDuration: 0.15
+  hitSound: {fileID: 8300000, guid: 4da48256e5d371d478964c31721ac0f0, type: 3}
+  shootSound: {fileID: 8300000, guid: 0dea79b844d515f488dbce9519bc6db4, type: 3}
 --- !u!1 &1656512111272599197
 GameObject:
   m_ObjectHideFlags: 0

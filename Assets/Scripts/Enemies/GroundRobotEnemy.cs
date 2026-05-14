@@ -23,6 +23,10 @@ public float stompBounceForce = 12f;
     public float flashDuration = 0.15f;
     public Transform gunTransform;
 
+    [Header("Audio")]
+    public AudioClip hitSound;
+    public AudioClip shootSound;
+
     private Vector3 _startPosition;
     private Transform _player;
     private float _fireTimer;
@@ -146,6 +150,8 @@ public float stompBounceForce = 12f;
     {
         if (bulletPrefab == null || firePoint == null || _player == null) return;
 
+        if (shootSound != null) AudioSource.PlayClipAtPoint(shootSound, transform.position);
+
         if (_anim != null) _anim.SetTrigger(IsShootingHash);
 
         GameObject bulletObj = Instantiate(bulletPrefab, firePoint.position, Quaternion.identity);
@@ -185,6 +191,9 @@ public float stompBounceForce = 12f;
         if (_isDead) return;
 
         health -= damage;
+
+        if (hitSound != null) AudioSource.PlayClipAtPoint(hitSound, transform.position);
+
         _sr.color = hitColor;
         _flashTimer = flashDuration;
 

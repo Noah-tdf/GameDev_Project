@@ -131,6 +131,15 @@ public class Bullet : MonoBehaviour
                 Destroy(gameObject);
                 return;
             }
+
+            // Damage GroundRobot component
+            GroundRobotEnemy groundRobot = other.GetComponent<GroundRobotEnemy>();
+            if (groundRobot != null)
+            {
+                groundRobot.TakeDamage(damage);
+                Destroy(gameObject);
+                return;
+            }
             
             // If it's tagged enemy but has no specific component, still destroy
             Destroy(gameObject);

@@ -208,6 +208,8 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0.2, b: 0.2, a: 1}
   flashDuration: 0.15
   gunTransform: {fileID: 2414426311594753913}
+  hitSound: {fileID: 8300000, guid: be54e2d28f7e5104bace22433cefa4cf, type: 3}
+  shootSound: {fileID: 8300000, guid: 72d34cad7433f984b836a526a4fac4ce, type: 3}
 --- !u!1 &4664463778717635699
 GameObject:
   m_ObjectHideFlags: 0

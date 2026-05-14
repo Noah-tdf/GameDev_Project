@@ -426,7 +426,14 @@ public class LoreController : MonoBehaviour
         if (!string.IsNullOrEmpty(nextSceneName))
         {
             isLoadingScene = true;
-            SceneManager.LoadScene(nextSceneName);
+            if (SceneTransitionManager.Instance != null)
+            {
+                SceneTransitionManager.Instance.TransitionToSceneImmediate(nextSceneName);
+            }
+            else
+            {
+                SceneManager.LoadScene(nextSceneName);
+            }
             return;
         }
 

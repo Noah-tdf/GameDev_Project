@@ -82,6 +82,20 @@ public class StoreWeaponShopUI : MonoBehaviour
     [SerializeField] private List<Sprite> goldCoinSprites = new List<Sprite>();
     [SerializeField] private CoinRainUI coinRain;
 
+    [Header("Audio")]
+    [SerializeField] private AudioClip hoverSound;
+    [SerializeField] private AudioClip selectSound;
+    [SerializeField] private AudioClip coinRainSound;
+    [SerializeField] private AudioClip bgmClip;
+    private AudioSource audioSource;
+
+    [Header("Transparent Digits")]
+    private const string TransparentNumpadPath = "Assets/Art/Coins/NumpadFree/Numpad_Transparent.png";
+    private Sprite[] transparentNumpadSprites;
+    private RectTransform creditsDigitsContainer;
+    private List<Image> creditDigitImages = new List<Image>();
+    private TextMeshProUGUI creditsLabel;
+
     private static TMP_FontAsset cachedStencilFontAsset;
 
     [Header("Layout")]
@@ -114,7 +128,6 @@ public class StoreWeaponShopUI : MonoBehaviour
     private RectTransform previewArea;
     private Image previewImage;
     private TextMeshProUGUI detailsText;
-    private TextMeshProUGUI creditsText;
     private TextMeshProUGUI buyButtonText;
     private Image buyButtonTextCover;
     private RectTransform buyButtonRect;
@@ -125,6 +138,24 @@ public class StoreWeaponShopUI : MonoBehaviour
     private void Awake()
     {
         ResolveReferences();
+
+        audioSource = gameObject.AddComponent<AudioSource>();
+        audioSource.playOnAwake = false;
+
+    #if UNITY_EDITOR
+        if (hoverSound == null) hoverSound = AssetDatabase.LoadAssetAtPath<AudioClip>("Assets/Audio/Button/MECHSwtch_BLEEOOP_Lazer_Click.ogg");
+        if (selectSound == null) selectSound = AssetDatabase.LoadAssetAtPath<AudioClip>("Assets/Audio/Button/UIClick_BLEEOOP_Digi_Select.ogg");
+        if (coinRainSound == null) coinRainSound = AssetDatabase.LoadAssetAtPath<AudioClip>("Assets/Audio/Coins sounds [OGG]/1_Coins.ogg");
+        if (bgmClip == null) bgmClip = AssetDatabase.LoadAssetAtPath<AudioClip>("Assets/Audio/Store/ikoliks_aj-jazz-lounge-elevator-music-332339.mp3");
+    #endif
+
+        if (bgmClip != null)
+        {
+            audioSource.clip = bgmClip;
+            audioSource.loop = true;
+            audioSource.volume = 0.5f;
+            audioSource.Play();
+        }
 
         BuildWeaponList();
         InitializeCredits();
@@ -206,6 +237,9 @@ public class StoreWeaponShopUI : MonoBehaviour
 
         if (goldCoinSprites.Count == 0)
             goldCoinSprites = LoadGoldCoinSprites();
+
+        if (transparentNumpadSprites == null || transparentNumpadSprites.Length == 0)
+            transparentNumpadSprites = LoadTransparentNumpadSprites();
         #endif
 
         TMP_FontAsset stencilFont = ResolveStencilFontAsset();
@@ -279,10 +313,26 @@ private static List<Sprite> LoadGoldCoinSprites()
         }
     }
     return sprites;
-}
-#endif
+    }
 
-private static bool IsExcludedPrimaryWeapon(Sprite sprite)
+    private static Sprite[] LoadTransparentNumpadSprites()
+    {
+    #if UNITY_EDITOR
+    Object[] assets = AssetDatabase.LoadAllAssetsAtPath(TransparentNumpadPath);
+    List<Sprite> sprites = new List<Sprite>();
+    foreach (var asset in assets)
+    {
+        if (asset is Sprite s) sprites.Add(s);
+    }
+    sprites.Sort((a, b) => string.CompareOrdinal(a.name, b.name));
+    return sprites.ToArray();
+    #else
+    return new Sprite[0];
+    #endif
+    }
+    #endif
+
+    private static bool IsExcludedPrimaryWeapon(Sprite sprite)
 {
         if (sprite == null)
             return true;
@@ -340,12 +390,30 @@ private static bool IsExcludedPrimaryWeapon(Sprite sprite)
         detailsText = CreateText("SelectedWeaponDetails", root, string.Empty, 28f, TextAlignmentOptions.Top);
         SetTopLeft(detailsText.rectTransform, detailsPosition, detailsSize);
 
-        creditsText = CreateText("CreditsAmountText", root, string.Empty, 46f, TextAlignmentOptions.Left);
-        ApplyOverlayTextStyle(creditsText);
-        creditsText.color = new Color(0.82f, 0.78f, 0.70f, 1f);
-        creditsText.outlineWidth = 0.12f;
-        creditsText.enableWordWrapping = false;
-        SetTopLeft(creditsText.rectTransform, creditsPosition, creditsSize);
+        // Credits Label
+        creditsLabel = CreateText("CreditsLabel", root, "CREDITS:", 46f, TextAlignmentOptions.Left);
+        ApplyOverlayTextStyle(creditsLabel);
+        creditsLabel.color = new Color(0.82f, 0.78f, 0.70f, 1f);
+        creditsLabel.outlineWidth = 0.12f;
+        creditsLabel.enableWordWrapping = false;
+        SetTopLeft(creditsLabel.rectTransform, creditsPosition, new Vector2(250f, 55f));
+
+        // Digits Container for Credits
+        creditsDigitsContainer = CreateRect("CreditsDigitsContainer", root);
+        creditsDigitsContainer.anchorMin = new Vector2(0f, 1f);
+        creditsDigitsContainer.anchorMax = new Vector2(0f, 1f);
+        creditsDigitsContainer.pivot = new Vector2(0f, 1f);
+        // Position it just to the right of the "CREDITS:" label
+        creditsDigitsContainer.anchoredPosition = creditsPosition + new Vector2(195f, 0f);
+        creditsDigitsContainer.sizeDelta = new Vector2(300f, 55f);
+
+        HorizontalLayoutGroup layout = creditsDigitsContainer.gameObject.AddComponent<HorizontalLayoutGroup>();
+        layout.childAlignment = TextAnchor.MiddleLeft;
+        layout.childControlHeight = false;
+        layout.childControlWidth = false;
+        layout.childForceExpandHeight = false;
+        layout.childForceExpandWidth = false;
+        layout.spacing = -8f; // Tight spacing for digits
 
         buyButtonRect = CreateRect("BuyEquipClickArea", root);
         SetTopLeft(buyButtonRect, buyButtonPosition, buyButtonSize);
@@ -432,6 +500,9 @@ private static bool IsExcludedPrimaryWeapon(Sprite sprite)
         if (index < 0 || index >= weapons.Count)
             return;
 
+        if (index != selectedIndex && hoverSound != null && audioSource != null)
+            audioSource.PlayOneShot(hoverSound);
+
         selectedIndex = index;
         ShopWeapon selectedWeapon = weapons[index];
         Sprite selectedSprite = selectedWeapon.Sprite;
@@ -481,8 +552,15 @@ private static bool IsExcludedPrimaryWeapon(Sprite sprite)
             PlayerPrefs.SetInt(CreditsKey, credits - WeaponPrice);
             PlayerPrefs.SetInt(GetOwnedKey(weaponId), 1);
 
+            if (selectSound != null && audioSource != null) audioSource.PlayOneShot(selectSound);
+            if (coinRainSound != null && audioSource != null) audioSource.PlayOneShot(coinRainSound, 1.5f);
+
             if (coinRain != null)
                 coinRain.StartRain();
+        }
+        else
+        {
+            if (selectSound != null && audioSource != null) audioSource.PlayOneShot(selectSound);
         }
 
         PlayerPrefs.SetString(GetEquippedKey(weapon.Type), weaponId);
@@ -493,8 +571,7 @@ private static bool IsExcludedPrimaryWeapon(Sprite sprite)
 
     private void RefreshStoreState()
     {
-        if (creditsText != null)
-            creditsText.text = PlayerPrefs.GetInt(CreditsKey, StartingCredits).ToString();
+        RefreshCreditDigits();
 
         if (buyButtonText == null || selectedIndex < 0 || selectedIndex >= weapons.Count)
             return;
@@ -514,6 +591,42 @@ private static bool IsExcludedPrimaryWeapon(Sprite sprite)
         {
             buyButtonText.text = string.Empty;
             SetBuyButtonOverlayVisible(false);
+        }
+    }
+
+    private void RefreshCreditDigits()
+    {
+        if (creditsDigitsContainer == null || transparentNumpadSprites == null || transparentNumpadSprites.Length < 10)
+            return;
+
+        string coinStr = PlayerPrefs.GetInt(CreditsKey, StartingCredits).ToString();
+
+        // Ensure enough digit images exist
+        while (creditDigitImages.Count < coinStr.Length)
+        {
+            GameObject digitObj = new GameObject("Digit", typeof(RectTransform), typeof(CanvasRenderer), typeof(Image));
+            digitObj.transform.SetParent(creditsDigitsContainer, false);
+            Image img = digitObj.GetComponent<Image>();
+            img.raycastTarget = false;
+            img.preserveAspect = true;
+            RectTransform rt = digitObj.GetComponent<RectTransform>();
+            rt.sizeDelta = new Vector2(45f, 45f);
+            creditDigitImages.Add(img);
+        }
+
+        // Update sprites and visibility
+        for (int i = 0; i < creditDigitImages.Count; i++)
+        {
+            if (i < coinStr.Length)
+            {
+                creditDigitImages[i].gameObject.SetActive(true);
+                int digitChar = int.Parse(coinStr[i].ToString());
+                creditDigitImages[i].sprite = transparentNumpadSprites[digitChar];
+            }
+            else
+            {
+                creditDigitImages[i].gameObject.SetActive(false);
+            }
         }
     }
 

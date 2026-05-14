@@ -24,6 +24,10 @@ public class DroneEnemy : MonoBehaviour
     public Color hitColor = new Color(1f, 0.2f, 0.2f, 1f);
     public float flashDuration = 0.15f;
 
+    [Header("Audio")]
+    public AudioClip hitSound;
+    public AudioClip shootSound;
+
     private Vector3 _startPosition;
     private Transform _player;
     private float _fireTimer;
@@ -130,6 +134,8 @@ public class DroneEnemy : MonoBehaviour
     {
         if (bulletPrefab == null || firePoint == null || _player == null) return;
 
+        if (shootSound != null) AudioSource.PlayClipAtPoint(shootSound, transform.position);
+
         GameObject bulletObj = Instantiate(bulletPrefab, firePoint.position, Quaternion.identity);
         Bullet bullet = bulletObj.GetComponent<Bullet>();
         if (bullet != null)
@@ -145,6 +151,8 @@ public class DroneEnemy : MonoBehaviour
 
         health -= damage;
         
+        if (hitSound != null) AudioSource.PlayClipAtPoint(hitSound, transform.position);
+
         // Flash feedback
         _sr.color = hitColor;
         _flashTimer = flashDuration;

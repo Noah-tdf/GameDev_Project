@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-using TMPro;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 using UnityEngine.UI;
@@ -7,29 +6,46 @@ using UnityEngine.UI;
 public class CoinTilemapCollector : MonoBehaviour
 {
     private const string CreditsKey = "PlayerCredits";
-    private const string CounterPrefix = ":";
+    private const string NumpadPath = "Assets/Art/Coins/NumpadFree/Numpad_Light.png";
     private static readonly Vector2 CounterAnchor = new Vector2(0f, 1f);
-    private static readonly Vector2 CounterPosition = new Vector2(68f, -70f); 
-    private static readonly Vector2 CounterSize = new Vector2(420f, 60f);
+    private static readonly Vector2 CounterPosition = new Vector2(12f, -73.5f); 
     private const string CoinSpritePath = "Assets/Art/Coins/coin3_20x20.png";
-    private const string FontPath = "Assets/Fonts/Astron-Bold.otf";
 
     [SerializeField] private int valuePerCoin = 1;
     [SerializeField] private string coinTilemapNameContains = "coin";
     [SerializeField] private bool createCoinHud = true;
+    [SerializeField] private float digitSpacing = -5f; // Tighter spacing for numpad digits
+    [SerializeField] private Vector2 digitSize = new Vector2(45f, 45f);
 
     private readonly List<Tilemap> coinTilemaps = new List<Tilemap>();
     private Collider2D playerCollider;
-    private TextMeshProUGUI coinText;
+    private RectTransform digitsContainer;
+    private List<Image> digitImages = new List<Image>();
     private Image coinIcon;
-    private static TMP_FontAsset cachedFont;
+    private Sprite[] numpadSprites;
 
     private void Awake()
     {
         playerCollider = GetComponent<Collider2D>();
+        LoadNumpadSprites();
         FindCoinTilemaps();
         CreateCoinHud();
         RefreshCoinHud();
+    }
+
+    private void LoadNumpadSprites()
+    {
+        #if UNITY_EDITOR
+        Object[] assets = UnityEditor.AssetDatabase.LoadAllAssetsAtPath(NumpadPath);
+        List<Sprite> sprites = new List<Sprite>();
+        foreach (var asset in assets)
+        {
+            if (asset is Sprite s) sprites.Add(s);
+        }
+        // Sort by name to ensure 0-9 order
+        sprites.Sort((a, b) => a.name.CompareTo(b.name));
+        numpadSprites = sprites.ToArray();
+        #endif
     }
 
     private void OnEnable()
@@ -104,7 +120,7 @@ public class CoinTilemapCollector : MonoBehaviour
 
     private void CreateCoinHud()
     {
-        if (!createCoinHud || coinText != null)
+        if (!createCoinHud || digitsContainer != null)
             return;
 
         GameObject canvasObject = GameObject.Find("CoinCounterCanvas");
@@ -121,20 +137,6 @@ public class CoinTilemapCollector : MonoBehaviour
             scaler.matchWidthOrHeight = 0.5f;
         }
 
-        GameObject existingText = GameObject.Find("CoinCounterText");
-        if (existingText != null && existingText.TryGetComponent(out TextMeshProUGUI foundText))
-        {
-            coinText = foundText;
-            ConfigureCoinText(coinText);
-        }
-        else
-        {
-            GameObject textObject = new GameObject("CoinCounterText", typeof(RectTransform), typeof(CanvasRenderer), typeof(TextMeshProUGUI));
-            textObject.transform.SetParent(canvasObject.transform, false);
-            coinText = textObject.GetComponent<TextMeshProUGUI>();
-            ConfigureCoinText(coinText);
-        }
-
         // Add Icon
         GameObject iconObject = GameObject.Find("CoinCounterIcon");
         if (iconObject == null)
@@ -144,6 +146,35 @@ public class CoinTilemapCollector : MonoBehaviour
         }
         coinIcon = iconObject.GetComponent<Image>();
         ConfigureCoinIcon(coinIcon);
+
+        // Add Digits Container
+        GameObject containerObject = GameObject.Find("CoinDigitsContainer");
+        if (containerObject == null)
+        {
+            containerObject = new GameObject("CoinDigitsContainer", typeof(RectTransform));
+            containerObject.transform.SetParent(canvasObject.transform, false);
+        }
+        digitsContainer = containerObject.GetComponent<RectTransform>();
+        ConfigureDigitsContainer(digitsContainer);
+    }
+
+    private void ConfigureDigitsContainer(RectTransform rect)
+    {
+        rect.anchorMin = CounterAnchor;
+        rect.anchorMax = CounterAnchor;
+        rect.pivot = CounterAnchor;
+        // Position it to the right of the icon
+        rect.anchoredPosition = new Vector2(70f, -73.5f);
+        rect.sizeDelta = new Vector2(400f, 50f);
+
+        HorizontalLayoutGroup layout = rect.GetComponent<HorizontalLayoutGroup>();
+        if (layout == null) layout = rect.gameObject.AddComponent<HorizontalLayoutGroup>();
+        layout.childAlignment = TextAnchor.MiddleLeft;
+        layout.childControlHeight = false;
+        layout.childControlWidth = false;
+        layout.childForceExpandHeight = false;
+        layout.childForceExpandWidth = false;
+        layout.spacing = digitSpacing;
     }
 
     private void ConfigureCoinIcon(Image image)
@@ -152,7 +183,7 @@ public class CoinTilemapCollector : MonoBehaviour
         rectTransform.anchorMin = CounterAnchor;
         rectTransform.anchorMax = CounterAnchor;
         rectTransform.pivot = CounterAnchor;
-        rectTransform.anchoredPosition = new Vector2(12f, -73.5f); // Adjusted for center alignment
+        rectTransform.anchoredPosition = CounterPosition;
         rectTransform.sizeDelta = new Vector2(47f, 47f); 
 
         // Load the specific sprite (facing front)
@@ -172,39 +203,39 @@ public class CoinTilemapCollector : MonoBehaviour
         image.raycastTarget = false;
     }
 
-    private static void ConfigureCoinText(TextMeshProUGUI text)
-    {
-        RectTransform rectTransform = text.rectTransform;
-        rectTransform.anchorMin = CounterAnchor;
-        rectTransform.anchorMax = CounterAnchor;
-        rectTransform.pivot = CounterAnchor;
-        rectTransform.anchoredPosition = CounterPosition;
-        rectTransform.sizeDelta = CounterSize;
-
-        text.alignment = TextAlignmentOptions.Left;
-        text.fontSize = 40.5f; 
-        text.fontStyle = FontStyles.Bold;
-        text.color = new Color(1f, 0.86f, 0.25f, 1f);
-        text.outlineWidth = 0.16f;
-        text.raycastTarget = false;
-
-        #if UNITY_EDITOR
-        if (cachedFont == null)
-        {
-            Font font = UnityEditor.AssetDatabase.LoadAssetAtPath<Font>(FontPath);
-            if (font != null)
-            {
-                cachedFont = TMP_FontAsset.CreateFontAsset(font);
-                cachedFont.name = "Astron-Bold (CoinHUD)";
-            }
-        }
-        if (cachedFont != null) text.font = cachedFont;
-        #endif
-    }
-
     private void RefreshCoinHud()
     {
-        if (coinText != null)
-            coinText.text = CounterPrefix + PlayerPrefs.GetInt(CreditsKey, 0);
+        if (digitsContainer == null || numpadSprites == null || numpadSprites.Length < 10)
+            return;
+
+        string coinStr = PlayerPrefs.GetInt(CreditsKey, 0).ToString();
+        
+        // Ensure enough digit images exist
+        while (digitImages.Count < coinStr.Length)
+        {
+            GameObject digitObj = new GameObject("Digit", typeof(RectTransform), typeof(CanvasRenderer), typeof(Image));
+            digitObj.transform.SetParent(digitsContainer, false);
+            Image img = digitObj.GetComponent<Image>();
+            img.raycastTarget = false;
+            img.preserveAspect = true;
+            RectTransform rt = digitObj.GetComponent<RectTransform>();
+            rt.sizeDelta = digitSize;
+            digitImages.Add(img);
+        }
+
+        // Update sprites and visibility
+        for (int i = 0; i < digitImages.Count; i++)
+        {
+            if (i < coinStr.Length)
+            {
+                digitImages[i].gameObject.SetActive(true);
+                int digitValue = int.Parse(coinStr[i].ToString());
+                digitImages[i].sprite = numpadSprites[digitValue];
+            }
+            else
+            {
+                digitImages[i].gameObject.SetActive(false);
+            }
+        }
     }
 }

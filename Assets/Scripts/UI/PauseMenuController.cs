@@ -24,6 +24,11 @@ public class PauseMenuController : MonoBehaviour
     [SerializeField] private float maxAlpha      = 0.95f;     // dim background target
     [SerializeField] private Font  sciFiFont;                 // pixel/blocky font (auto-loaded from Assets/Fonts in editor)
 
+    [Header("Audio")]
+    [SerializeField] private AudioClip switchSound;
+    [SerializeField] private AudioClip selectSound;
+
+    private AudioSource audioSource;
     private static TMP_FontAsset cachedFontAsset;
 
     enum Action { Resume, Restart, MainMenu, Exit }
@@ -64,6 +69,16 @@ public class PauseMenuController : MonoBehaviour
     {
         if (Instance != null && Instance != this) { Destroy(gameObject); return; }
         Instance = this;
+
+        audioSource = gameObject.AddComponent<AudioSource>();
+        audioSource.playOnAwake = false;
+        audioSource.ignoreListenerPause = true;
+
+    #if UNITY_EDITOR
+        if (switchSound == null) switchSound = AssetDatabase.LoadAssetAtPath<AudioClip>("Assets/Audio/Button/MECHSwtch_BLEEOOP_Lazer_Click.ogg");
+        if (selectSound == null) selectSound = AssetDatabase.LoadAssetAtPath<AudioClip>("Assets/Audio/Button/UIClick_BLEEOOP_Digi_Select.ogg");
+    #endif
+
         BuildUI();
         ApplyVisibility(0f);
         Debug.Log("[PauseMenu] Awake: controller built. Press Esc to toggle. Keyboard.current=" + (Keyboard.current != null ? "OK" : "NULL"));
@@ -113,8 +128,18 @@ public class PauseMenuController : MonoBehaviour
         bool confirm = (kb != null && (kb.enterKey.wasPressedThisFrame || kb.spaceKey.wasPressedThisFrame))
                     || (ms != null && ms.leftButton.wasPressedThisFrame);
 
-        if (down) selected = Mathf.Min(selected + 1, buttons.Length - 1);
-        if (up)   selected = Mathf.Max(selected - 1, 0);
+        if (down)
+        {
+            int prev = selected;
+            selected = Mathf.Min(selected + 1, buttons.Length - 1);
+            if (selected != prev && switchSound != null) audioSource.PlayOneShot(switchSound);
+        }
+        if (up)
+        {
+            int prev = selected;
+            selected = Mathf.Max(selected - 1, 0);
+            if (selected != prev && switchSound != null) audioSource.PlayOneShot(switchSound);
+        }
 
         // Tween each button toward its target state
         for (int i = 0; i < buttons.Length; i++)
@@ -155,6 +180,8 @@ public class PauseMenuController : MonoBehaviour
     private void Confirm()
     {
         if (isResuming) return;
+        if (selectSound != null) audioSource.PlayOneShot(selectSound);
+        
         Action action = buttons[selected].action;
         if (isGameOver && action == Action.Resume) return;
 

@@ -63,7 +63,21 @@ public class PlayerMovement : MonoBehaviour
     public bool ShouldHideWeapon => hideWeaponUntilGrounded;
 
     private bool inputDisabled;
+    private bool movementLocked;
     private Animator _animator;
+
+    public void SetMovementLocked(bool locked)
+    {
+        if (movementLocked == locked) return;
+        movementLocked = locked;
+        Debug.Log($"[PlayerMovement] Movement Locked: {locked}");
+        if (locked)
+        {
+            moveInput = 0f;
+            verticalInput = 0f;
+            if (rb != null) rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
+        }
+    }
 
     private void Awake()
     {
@@ -197,7 +211,11 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
-        if (inputDisabled) return;
+        if (inputDisabled || movementLocked)
+        {
+            UpdateAnimator();
+            return;
+        }
         ReadInput();
         UpdateLadderContact();
         CheckGrounded();
@@ -210,7 +228,7 @@ public class PlayerMovement : MonoBehaviour
     private void UpdateAnimator()
     {
         if (_animator == null) return;
-        _animator.SetFloat("Speed", Mathf.Abs(rb.linearVelocity.x));
+        _animator.SetFloat("Speed", rb != null ? Mathf.Abs(rb.linearVelocity.x) : 0f);
         _animator.SetBool("IsGrounded", IsGrounded);
         SetAnimatorBoolIfExists("IsClimbing", isClimbing);
         SetAnimatorFloatIfExists("ClimbSpeed", Mathf.Abs(verticalInput));
@@ -218,7 +236,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (inputDisabled) return;
+        if (inputDisabled || movementLocked) return;
         if (isOnLadder)
         {
             MoveOnLadder();

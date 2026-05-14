@@ -65,8 +65,17 @@ public class PlayerShooting : MonoBehaviour
     private GameObject weaponSwitchPopUp;
     private float nextFireTime;
     private bool weaponsHiddenForClimb;
+    private bool weaponsHiddenForInteraction;
 
     private bool IsPrimaryEquipped => equippedWeapon == WeaponSlot.Primary;
+
+    public void SetWeaponsHiddenForInteraction(bool hidden)
+    {
+        if (weaponsHiddenForInteraction == hidden) return;
+        weaponsHiddenForInteraction = hidden;
+        Debug.Log($"[PlayerShooting] Weapons Hidden for Interaction: {hidden}");
+        RefreshWeaponVisuals();
+    }
 
     [System.Serializable]
     private sealed class WeaponAmmunition
@@ -103,6 +112,19 @@ public class PlayerShooting : MonoBehaviour
 
         if (shootHeld)
             Shoot();
+    }
+
+    private void LateUpdate()
+    {
+        // Force hide weapons if interacting, to override any other script or animator that might try to show them
+        if (weaponsHiddenForInteraction || (playerMovement != null && playerMovement.ShouldHideWeapon))
+        {
+            if (primaryWeaponVisual != null && primaryWeaponVisual.gameObject.activeSelf)
+                primaryWeaponVisual.gameObject.SetActive(false);
+            
+            if (secondaryWeaponVisual != null && secondaryWeaponVisual.gameObject.activeSelf)
+                secondaryWeaponVisual.gameObject.SetActive(false);
+        }
     }
 
     private void HandleWeaponSwitchInput()
@@ -153,7 +175,7 @@ public class PlayerShooting : MonoBehaviour
 
     private void Shoot()
     {
-        if (weaponsHiddenForClimb)
+        if (weaponsHiddenForClimb || weaponsHiddenForInteraction)
             return;
 
         if (Time.time < nextFireTime)
@@ -462,7 +484,8 @@ public class PlayerShooting : MonoBehaviour
 
     private void RefreshWeaponVisuals()
     {
-        if (weaponsHiddenForClimb)
+        bool shouldHide = weaponsHiddenForClimb || weaponsHiddenForInteraction;
+        if (shouldHide)
         {
             if (primaryWeaponVisual != null)
                 primaryWeaponVisual.gameObject.SetActive(false);

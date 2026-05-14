@@ -20,6 +20,10 @@ public class HoldToInteract : MonoBehaviour
     public Image progressBar;
     public TextMeshProUGUI promptLabel;
 
+    [Header("Audio")]
+    public AudioClip appearanceSound;
+    public AudioClip completionSound;
+
     [Header("Detection")]
     public float interactionRange = 2f;
     public LayerMask playerLayer;
@@ -29,6 +33,9 @@ public class HoldToInteract : MonoBehaviour
     private bool isComplete = false;
     private float currentProgress = 0f;
     private Transform playerTransform;
+    private Animator playerAnimator;
+    private PlayerShooting playerShooting;
+    private PlayerMovement playerMovement;
 
     private void Awake()
     {
@@ -55,6 +62,10 @@ public class HoldToInteract : MonoBehaviour
 
         if (isPlayerInRange)
         {
+            if (!uiPanel.activeSelf && appearanceSound != null)
+            {
+                AudioSource.PlayClipAtPoint(appearanceSound, transform.position);
+            }
             uiPanel.SetActive(true);
             HandleInteraction();
         }
@@ -75,28 +86,51 @@ public class HoldToInteract : MonoBehaviour
         Collider2D hit = Physics2D.OverlapCircle(transform.position, interactionRange, playerLayer);
         if (hit != null)
         {
-            if (!isPlayerInRange) Debug.Log($"Player detected at {name}");
+            if (!isPlayerInRange)
+            {
+                Debug.Log($"Player detected at {name}");
+                GameObject player = hit.gameObject;
+                playerAnimator = player.GetComponent<Animator>();
+                if (playerAnimator == null) playerAnimator = player.GetComponentInParent<Animator>();
+                
+                playerShooting = player.GetComponent<PlayerShooting>();
+                if (playerShooting == null) playerShooting = player.GetComponentInParent<PlayerShooting>();
+                
+                playerMovement = player.GetComponent<PlayerMovement>();
+                if (playerMovement == null) playerMovement = player.GetComponentInParent<PlayerMovement>();
+            }
             isPlayerInRange = true;
             playerTransform = hit.transform;
         }
         else
         {
-            if (isPlayerInRange) Debug.Log($"Player left range of {name}");
+            if (isPlayerInRange)
+            {
+                Debug.Log($"Player left range of {name}");
+                SetPlayerInteractingAnimation(false);
+                playerAnimator = null;
+                playerShooting = null;
+                playerMovement = null;
+            }
             isPlayerInRange = false;
         }
     }
 
-    private void HandleInteraction()
-    {
-        bool isKeyPressed = false;
-        if (Keyboard.current != null)
-        {
+            private void HandleInteraction()
+            {
+            bool isKeyPressed = false;
+            if (Keyboard.current != null)
+            {
             isKeyPressed = Keyboard.current.eKey.isPressed;
-        }
+            }
 
-        if (isKeyPressed)
-        {
-            isInteracting = true;
+            if (isKeyPressed)
+            {
+            if (!isInteracting)
+            {
+                isInteracting = true;
+                SetPlayerInteractingAnimation(true);
+            }
             currentProgress += Time.deltaTime;
             progressBar.fillAmount = currentProgress / interactionTime;
 
@@ -104,24 +138,52 @@ public class HoldToInteract : MonoBehaviour
             {
                 OnInteractionComplete();
             }
-        }
-        else
-        {
+            }
+            else
+            {
             ResetInteraction();
-        }
-    }
+            }
+            }
 
-    private void ResetInteraction()
-    {
-        isInteracting = false;
-        currentProgress = 0f;
-        progressBar.fillAmount = 0f;
-    }
+            private void ResetInteraction()
+            {
+            if (isInteracting)
+            {
+            isInteracting = false;
+            SetPlayerInteractingAnimation(false);
+            }
+            currentProgress = 0f;
+            progressBar.fillAmount = 0f;
+            }
+
+            private void SetPlayerInteractingAnimation(bool state)
+            {
+            if (playerAnimator != null)
+            {
+            try
+            {
+                playerAnimator.SetBool("IsInteracting", state);
+            }
+            catch { /* Parameter might not exist on all animators */ }
+            }
+        
+            if (playerShooting != null)
+            {
+            playerShooting.SetWeaponsHiddenForInteraction(state);
+            }
+
+            if (playerMovement != null)
+            {
+            playerMovement.SetMovementLocked(state);
+            }
+            }
 
     private void OnInteractionComplete()
     {
         Debug.Log("Interaction Complete!");
         isComplete = true;
+
+        if (completionSound != null) AudioSource.PlayClipAtPoint(completionSound, transform.position);
         
         OnComplete?.Invoke();
 
