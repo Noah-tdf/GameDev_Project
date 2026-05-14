@@ -58,6 +58,9 @@ MonoBehaviour:
   enemiesContainer: {fileID: 0}
   bossPrefab: {fileID: 2768563633801181313, guid: d9900a4cd242e4243a5114c80de0aabf, type: 3}
   bossSpawnPoint: {fileID: 528153594817204405}
+  victoryTransitionImage: {fileID: 2596552556267567030, guid: 3a776e2372087654591450d17bec3cc1, type: 3}
+  victoryDelay: 4
+  zoomSize: 3.5
 --- !u!1 &1092314282494355855
 GameObject:
   m_ObjectHideFlags: 0

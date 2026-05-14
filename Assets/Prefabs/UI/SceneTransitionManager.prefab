@@ -49,6 +49,9 @@ MonoBehaviour:
   loadingAnimationRoot: {fileID: 2462568202667384355}
   transitionImage: {fileID: 2241176993776359630}
   skipPromptText: {fileID: 0}
+  stencilSourceFont: {fileID: 12800000, guid: b10c0901abcd4ef0a000000000000001, type: 3}
+  skipPromptFontSize: 22
+  skipPromptColor: {r: 0.92, g: 0.88, b: 0.78, a: 0.55}
   fadeDuration: 1
   defaultTransitionSprite: {fileID: 0}
   defaultFadeColor: {r: 0, g: 0, b: 0, a: 1}
@@ -268,7 +271,7 @@ MonoBehaviour:
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 0.5
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96

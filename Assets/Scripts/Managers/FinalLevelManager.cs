@@ -19,11 +19,17 @@ public class FinalLevelManager : MonoBehaviour
     [SerializeField] private GameObject bossPrefab;
     [SerializeField] private Transform bossSpawnPoint;
 
+    [Header("Victory Sequence")]
+    [SerializeField] private Sprite victoryTransitionImage;
+    [SerializeField] private float victoryDelay = 3.0f;
+    [SerializeField] private float zoomSize = 3.0f;
+
     private float _timer;
     private bool _isTimerRunning = true;
     private bool _bossSpawned = false;
     private GameObject _bossInstance;
     private bool _levelCompleted = false;
+    private bool _isVictorySequencePlaying = false;
 
     private void Start()
     {
@@ -34,6 +40,8 @@ public class FinalLevelManager : MonoBehaviour
 
     private void Update()
     {
+        if (_isVictorySequencePlaying) return;
+
         if (_isTimerRunning)
         {
             _timer -= Time.deltaTime;
@@ -41,7 +49,9 @@ public class FinalLevelManager : MonoBehaviour
             {
                 _timer = 0;
                 _isTimerRunning = false;
-                SpawnBoss();
+                
+                // Trigger victory sequence when timer runs out
+                StartCoroutine(VictorySequence());
             }
             UpdateTimerUI();
         }
@@ -93,10 +103,10 @@ public class FinalLevelManager : MonoBehaviour
             
             enemyScript.SetPatrolPoints(new Vector3(leftBound, 0, 0), new Vector3(rightBound, 0, 0));
         }
-        }
+    }
 
-        private void SpawnBoss()
-        {
+    private void SpawnBoss()
+    {
         if (bossPrefab != null && bossSpawnPoint != null)
         {
             Vector3 spawnPos = bossSpawnPoint.position;
@@ -105,12 +115,110 @@ public class FinalLevelManager : MonoBehaviour
             _bossSpawned = true;
             if (timerText != null) timerText.text = "DEFEAT THE BOSS!";
         }
-        }
+    }
 
     private void OnBossDefeated()
     {
-        Debug.Log("Boss Defeated! Transitioning to cutscene...");
-        // For now, just log. Cutscene transition will be added later.
+        Debug.Log("Boss Defeated! Starting victory sequence...");
+        if (!_isVictorySequencePlaying)
+        {
+            StartCoroutine(VictorySequence());
+        }
+    }
+
+    private IEnumerator VictorySequence()
+    {
+        if (_isVictorySequencePlaying) yield break;
+        _isVictorySequencePlaying = true;
+        _isTimerRunning = false;
+
         if (timerText != null) timerText.text = "VICTORY!";
+
+        // 1. Stop everyone
+        StopAllMovement();
+
+        // 2. Find the player
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        if (player != null)
+        {
+            // Trigger Victory Animation
+            Animator anim = player.GetComponent<Animator>();
+            if (anim != null)
+            {
+                anim.SetTrigger("Victory");
+            }
+
+            // Camera Focus
+            CameraFollow camFollow = Object.FindFirstObjectByType<CameraFollow>();
+            if (camFollow != null)
+            {
+                camFollow.SetTarget(player.transform);
+                camFollow.SetZoom(zoomSize);
+            }
+        }
+
+        // 3. Delay for victory pose
+        yield return new WaitForSeconds(victoryDelay);
+
+        // 4. Transition to Credits via image2
+        if (SceneTransitionManager.Instance != null)
+        {
+            SceneTransitionManager.Instance.TransitionWithPortal("Credits", victoryTransitionImage);
+        }
+        else
+        {
+            UnityEngine.SceneManagement.SceneManager.LoadScene("Credits");
+        }
+        }
+
+    private void StopAllMovement()
+    {
+        // 1. Disable all MonoBehaviours that handle logic for enemies and player
+        MonoBehaviour[] allScripts = Object.FindObjectsByType<MonoBehaviour>(FindObjectsInactive.Exclude, FindObjectsSortMode.None);
+        
+        string[] typesToDisable = new string[] 
+        { 
+            "Enemy", "DroneEnemy", "UFOEnemy", "GroundRobotEnemy", "CarMovement", 
+            "PlayerMovement", "PlayerShooting", "PlayerHealth", "Bullet",
+            "WeaponHandFollower", "WeaponHand"
+        };
+
+        foreach (var script in allScripts)
+        {
+            if (script == null) continue;
+            
+            string typeName = script.GetType().Name;
+            bool shouldDisable = false;
+            foreach (var t in typesToDisable)
+            {
+                if (typeName == t)
+                {
+                    shouldDisable = true;
+                    break;
+                }
+            }
+
+            if (shouldDisable)
+            {
+                script.enabled = false;
+                
+                // Stop Rigidbody velocity
+                Rigidbody2D rb = script.GetComponent<Rigidbody2D>();
+                if (rb != null)
+                {
+                    rb.linearVelocity = Vector2.zero;
+                    rb.isKinematic = true; // Prevent further physics movement
+                }
+            }
+        }
+
+        // 2. Clear all bullets immediately
+        foreach (var projectile in GameObject.FindGameObjectsWithTag("Bullet"))
+        {
+            Destroy(projectile);
+        }
+        
+        // 3. Stop spawning flag
+        _isTimerRunning = false;
     }
 }

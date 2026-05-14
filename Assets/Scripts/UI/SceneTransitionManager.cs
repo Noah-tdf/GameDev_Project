@@ -15,6 +15,13 @@ public class SceneTransitionManager : MonoBehaviour
     [SerializeField] private Image transitionImage;
     [SerializeField] private TextMeshProUGUI skipPromptText;
 
+    [Header("Lore Style Matching")]
+    [SerializeField] private Font stencilSourceFont;
+    [SerializeField] private float skipPromptFontSize = 22f;
+    [SerializeField] private Color skipPromptColor = new Color(0.92f, 0.88f, 0.78f, 0.55f);
+
+    private static TMP_FontAsset cachedStencilFontAsset;
+
     [Header("Settings")]
     [SerializeField] private float fadeDuration = 1.0f;
     [SerializeField] private Sprite defaultTransitionSprite;
@@ -48,10 +55,50 @@ public class SceneTransitionManager : MonoBehaviour
         {
             skipPromptText.gameObject.SetActive(false);
         }
+
+        // Resolve font in editor if not assigned
+    #if UNITY_EDITOR
+        if (stencilSourceFont == null)
+        {
+            stencilSourceFont = UnityEditor.AssetDatabase.LoadAssetAtPath<Font>("Assets/Fonts/BlackOpsOne-Regular.ttf");
+        }
+    #endif
+    }
+
+    private TMP_FontAsset ResolveStencilFontAsset()
+    {
+        if (cachedStencilFontAsset != null) return cachedStencilFontAsset;
+        if (stencilSourceFont == null) return null;
+        cachedStencilFontAsset = TMP_FontAsset.CreateFontAsset(stencilSourceFont);
+        if (cachedStencilFontAsset != null)
+            cachedStencilFontAsset.name = stencilSourceFont.name + " SDF (Runtime)";
+        return cachedStencilFontAsset;
+    }
+
+    private void ApplyLoreStyleToSkipPrompt()
+    {
+        if (skipPromptText == null) return;
+
+        skipPromptText.text = "Press any key to skip";
+
+        TMP_FontAsset font = ResolveStencilFontAsset();
+        if (font != null) skipPromptText.font = font;
+        
+        skipPromptText.fontSize = skipPromptFontSize;
+        skipPromptText.color = skipPromptColor;
+        skipPromptText.alignment = TextAlignmentOptions.BottomRight;
+
+        // Apply Layout to match LoreController
+        RectTransform rect = skipPromptText.rectTransform;
+        rect.anchorMin = new Vector2(1f, 0f);
+        rect.anchorMax = new Vector2(1f, 0f);
+        rect.pivot = new Vector2(1f, 0f);
+        rect.anchoredPosition = new Vector2(-30f, 22f);
+        rect.sizeDelta = new Vector2(420f, 40f);
     }
 
     public void TransitionToScene(string sceneName)
-    {
+{
         if (isTransitioning) return;
         StartCoroutine(TransitionStandard(sceneName, true));
     }
@@ -125,7 +172,7 @@ public class SceneTransitionManager : MonoBehaviour
         if (skipPromptText != null)
         {
             skipPromptText.gameObject.SetActive(true);
-            skipPromptText.text = "Press any key to skip";
+            ApplyLoreStyleToSkipPrompt();
         }
 
         // Wait for input

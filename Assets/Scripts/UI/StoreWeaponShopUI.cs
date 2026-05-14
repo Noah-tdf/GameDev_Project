@@ -89,12 +89,11 @@ public class StoreWeaponShopUI : MonoBehaviour
     [SerializeField] private AudioClip bgmClip;
     private AudioSource audioSource;
 
-    [Header("Transparent Digits")]
-    private const string TransparentNumpadPath = "Assets/Art/Coins/NumpadFree/Numpad_Transparent.png";
-    private Sprite[] transparentNumpadSprites;
+    [Header("Numpad Digits")]
+    private const string NumpadPath = "Assets/Art/Coins/NumpadFree/Numpad_Light.png";
+    private Sprite[] numpadSprites;
     private RectTransform creditsDigitsContainer;
     private List<Image> creditDigitImages = new List<Image>();
-    private TextMeshProUGUI creditsLabel;
 
     private static TMP_FontAsset cachedStencilFontAsset;
 
@@ -110,8 +109,8 @@ public class StoreWeaponShopUI : MonoBehaviour
     [SerializeField] private Vector2 previewSize = new Vector2(360f, 260f);
     [SerializeField] private Vector2 detailsPosition = new Vector2(1265f, -345f);
     [SerializeField] private Vector2 detailsSize = new Vector2(420f, 330f);
-    [SerializeField] private Vector2 creditsPosition = new Vector2(1816f, -36f);
-    [SerializeField] private Vector2 creditsSize = new Vector2(90f, 55f);
+    [SerializeField] private Vector2 creditsPosition = new Vector2(1816f, -36f); 
+    [SerializeField] private float digitSize = 32f; 
     [SerializeField] private Vector2 buyButtonPosition = new Vector2(895f, -805f);
     [SerializeField] private Vector2 buyButtonSize = new Vector2(340f, 125f);
 
@@ -238,8 +237,8 @@ public class StoreWeaponShopUI : MonoBehaviour
         if (goldCoinSprites.Count == 0)
             goldCoinSprites = LoadGoldCoinSprites();
 
-        if (transparentNumpadSprites == null || transparentNumpadSprites.Length == 0)
-            transparentNumpadSprites = LoadTransparentNumpadSprites();
+        if (numpadSprites == null || numpadSprites.Length == 0)
+            numpadSprites = LoadNumpadSprites();
         #endif
 
         TMP_FontAsset stencilFont = ResolveStencilFontAsset();
@@ -315,19 +314,19 @@ private static List<Sprite> LoadGoldCoinSprites()
     return sprites;
     }
 
-    private static Sprite[] LoadTransparentNumpadSprites()
+    private static Sprite[] LoadNumpadSprites()
     {
     #if UNITY_EDITOR
-    Object[] assets = AssetDatabase.LoadAllAssetsAtPath(TransparentNumpadPath);
-    List<Sprite> sprites = new List<Sprite>();
-    foreach (var asset in assets)
-    {
-        if (asset is Sprite s) sprites.Add(s);
-    }
-    sprites.Sort((a, b) => string.CompareOrdinal(a.name, b.name));
-    return sprites.ToArray();
+        Object[] assets = AssetDatabase.LoadAllAssetsAtPath(NumpadPath);
+        List<Sprite> sprites = new List<Sprite>();
+        foreach (var asset in assets)
+        {
+            if (asset is Sprite s) sprites.Add(s);
+        }
+        sprites.Sort((a, b) => string.CompareOrdinal(a.name, b.name));
+        return sprites.ToArray();
     #else
-    return new Sprite[0];
+        return new Sprite[0];
     #endif
     }
     #endif
@@ -390,33 +389,37 @@ private static List<Sprite> LoadGoldCoinSprites()
         detailsText = CreateText("SelectedWeaponDetails", root, string.Empty, 28f, TextAlignmentOptions.Top);
         SetTopLeft(detailsText.rectTransform, detailsPosition, detailsSize);
 
-        // Credits Label
-        creditsLabel = CreateText("CreditsLabel", root, "CREDITS:", 46f, TextAlignmentOptions.Left);
-        ApplyOverlayTextStyle(creditsLabel);
-        creditsLabel.color = new Color(0.82f, 0.78f, 0.70f, 1f);
-        creditsLabel.outlineWidth = 0.12f;
-        creditsLabel.enableWordWrapping = false;
-        SetTopLeft(creditsLabel.rectTransform, creditsPosition, new Vector2(250f, 55f));
+        // Digits Container for Credits (No Label)
+        GameObject existing = GameObject.Find("CreditsDigitsContainer");
+        if (existing != null)
+        {
+            creditsDigitsContainer = existing.GetComponent<RectTransform>();
+            // Clear any editor-time sample digits
+            foreach (Transform child in creditsDigitsContainer) {
+                Destroy(child.gameObject);
+            }
+        }
+        else
+        {
+            creditsDigitsContainer = CreateRect("CreditsDigitsContainer", root);
+            creditsDigitsContainer.anchorMin = new Vector2(0f, 1f);
+            creditsDigitsContainer.anchorMax = new Vector2(0f, 1f);
+            creditsDigitsContainer.pivot = new Vector2(0f, 1f);
+            creditsDigitsContainer.anchoredPosition = creditsPosition;
+        }
+creditsDigitsContainer.sizeDelta = new Vector2(300f, digitSize);
 
-        // Digits Container for Credits
-        creditsDigitsContainer = CreateRect("CreditsDigitsContainer", root);
-        creditsDigitsContainer.anchorMin = new Vector2(0f, 1f);
-        creditsDigitsContainer.anchorMax = new Vector2(0f, 1f);
-        creditsDigitsContainer.pivot = new Vector2(0f, 1f);
-        // Position it just to the right of the "CREDITS:" label
-        creditsDigitsContainer.anchoredPosition = creditsPosition + new Vector2(195f, 0f);
-        creditsDigitsContainer.sizeDelta = new Vector2(300f, 55f);
-
-        HorizontalLayoutGroup layout = creditsDigitsContainer.gameObject.AddComponent<HorizontalLayoutGroup>();
-        layout.childAlignment = TextAnchor.MiddleLeft;
-        layout.childControlHeight = false;
-        layout.childControlWidth = false;
+        HorizontalLayoutGroup layout = creditsDigitsContainer.gameObject.GetComponent<HorizontalLayoutGroup>();
+if (layout == null) layout = creditsDigitsContainer.gameObject.AddComponent<HorizontalLayoutGroup>();
+layout.childAlignment = TextAnchor.MiddleLeft;
+        layout.childControlHeight = false; // Manual height
+        layout.childControlWidth = false; // Manual width
         layout.childForceExpandHeight = false;
         layout.childForceExpandWidth = false;
-        layout.spacing = -8f; // Tight spacing for digits
+        layout.spacing = -6f; // Tight pixel-art spacing
 
         buyButtonRect = CreateRect("BuyEquipClickArea", root);
-        SetTopLeft(buyButtonRect, buyButtonPosition, buyButtonSize);
+SetTopLeft(buyButtonRect, buyButtonPosition, buyButtonSize);
 
         // Cover size and offset derived from the reference Square placed over the buy button inner area.
         // Square world scale (263.27, 71.76) / canvas scale (1.333) = ~(197.5, 53.8) canvas px.
@@ -596,21 +599,22 @@ private static List<Sprite> LoadGoldCoinSprites()
 
     private void RefreshCreditDigits()
     {
-        if (creditsDigitsContainer == null || transparentNumpadSprites == null || transparentNumpadSprites.Length < 10)
+        if (creditsDigitsContainer == null || numpadSprites == null || numpadSprites.Length < 10)
             return;
 
-        string coinStr = PlayerPrefs.GetInt(CreditsKey, StartingCredits).ToString();
+        int credits = PlayerPrefs.GetInt(CreditsKey, StartingCredits);
+        string coinStr = credits.ToString("D3"); // Force 3 digits (e.g. 012)
 
-        // Ensure enough digit images exist
-        while (creditDigitImages.Count < coinStr.Length)
-        {
+        // Ensure exactly 3 digit images exist
+        while (creditDigitImages.Count < 3)
+{
             GameObject digitObj = new GameObject("Digit", typeof(RectTransform), typeof(CanvasRenderer), typeof(Image));
             digitObj.transform.SetParent(creditsDigitsContainer, false);
             Image img = digitObj.GetComponent<Image>();
             img.raycastTarget = false;
             img.preserveAspect = true;
             RectTransform rt = digitObj.GetComponent<RectTransform>();
-            rt.sizeDelta = new Vector2(45f, 45f);
+            rt.sizeDelta = new Vector2(digitSize, digitSize);
             creditDigitImages.Add(img);
         }
 
@@ -621,7 +625,7 @@ private static List<Sprite> LoadGoldCoinSprites()
             {
                 creditDigitImages[i].gameObject.SetActive(true);
                 int digitChar = int.Parse(coinStr[i].ToString());
-                creditDigitImages[i].sprite = transparentNumpadSprites[digitChar];
+                creditDigitImages[i].sprite = numpadSprites[digitChar];
             }
             else
             {

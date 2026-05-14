@@ -29,16 +29,35 @@ public class CameraFollow : MonoBehaviour
 
     private Vector3 _velocity = Vector3.zero;
     private float _currentLookahead;
+    private Camera _cam;
+    private float _zoomVelocity;
+    private float _targetZoom;
+    private bool _isZooming;
+
+    private void Awake()
+    {
+        _cam = GetComponent<Camera>();
+        if (_cam != null) _targetZoom = _cam.orthographicSize;
+    }
 
     // ────────────────────────────────────────────────────────────────────────
     private void LateUpdate()
     {
         if (target == null) return;
 
+        // Smoothly interpolate zoom if active
+        if (_isZooming && _cam != null)
+        {
+            _cam.orthographicSize = Mathf.SmoothDamp(_cam.orthographicSize, _targetZoom, ref _zoomVelocity, smoothTime);
+        }
+
         // Resolve lookahead direction based on player facing
         PlayerMovement pm = target.GetComponent<PlayerMovement>();
         float facing = pm != null ? pm.FacingDirection : 1f;
-        _currentLookahead = Mathf.Lerp(_currentLookahead, facing * lookaheadDistance, lookaheadSpeed * Time.deltaTime);
+        
+        // If we are in a special focus mode, we might want to override lookahead
+        float effectiveLookahead = _isZooming ? 0 : lookaheadDistance;
+        _currentLookahead = Mathf.Lerp(_currentLookahead, facing * effectiveLookahead, lookaheadSpeed * Time.deltaTime);
 
         // Target X is the player X + lookahead, clamped within level bounds
         float halfWidth = GetComponent<Camera>().orthographicSize * GetComponent<Camera>().aspect;
@@ -71,4 +90,11 @@ public class CameraFollow : MonoBehaviour
         minX = newMinX;
         maxX = newMaxX;
     }
-}
+
+    /// <summary>Zooms the camera to a specific size and centers on the target.</summary>
+    public void SetZoom(float targetSize)
+    {
+        _targetZoom = targetSize;
+        _isZooming = true;
+    }
+    }

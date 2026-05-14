@@ -184,6 +184,13 @@ public class Enemy : MonoBehaviour
         _rb.MovePosition(nextPosition);
     }
 
+    public void SetPatrolPoints(Vector3 left, Vector3 right)
+    {
+        _leftBoundX = Mathf.Min(left.x, right.x);
+        _rightBoundX = Mathf.Max(left.x, right.x);
+        _hasPatrolBounds = true;
+    }
+
     private void FaceDirection(int direction)
     {
         Vector3 localScale = transform.localScale;
