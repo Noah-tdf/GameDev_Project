@@ -8,6 +8,7 @@ public class FinalLevelManager : MonoBehaviour
     [Header("Timer Settings")]
     [SerializeField] private float countdownDuration = 120f;
     [SerializeField] private TextMeshProUGUI timerText;
+    [SerializeField] private TextMeshProUGUI messageText;
 
     [Header("Spawning Settings")]
     [SerializeField] private GameObject[] enemyPrefabs;
@@ -36,6 +37,18 @@ public class FinalLevelManager : MonoBehaviour
         _timer = countdownDuration;
         UpdateTimerUI();
         StartCoroutine(EnemySpawningRoutine());
+        StartCoroutine(ShowIntroSequence());
+    }
+
+    private IEnumerator ShowIntroSequence()
+    {
+        if (messageText != null)
+        {
+            messageText.text = "Survive against Cityjan's minions";
+            messageText.transform.parent.gameObject.SetActive(true);
+            yield return new WaitForSeconds(5f);
+            messageText.transform.parent.gameObject.SetActive(false);
+        }
     }
 
     private void Update()
@@ -49,9 +62,7 @@ public class FinalLevelManager : MonoBehaviour
             {
                 _timer = 0;
                 _isTimerRunning = false;
-                
-                // Trigger victory sequence when timer runs out
-                StartCoroutine(VictorySequence());
+                SpawnBoss();
             }
             UpdateTimerUI();
         }
@@ -114,6 +125,11 @@ public class FinalLevelManager : MonoBehaviour
             _bossInstance = Instantiate(bossPrefab, spawnPos, Quaternion.identity, enemiesContainer);
             _bossSpawned = true;
             if (timerText != null) timerText.text = "DEFEAT THE BOSS!";
+            if (messageText != null)
+            {
+                messageText.text = "Defeat the last enemy";
+                messageText.transform.parent.gameObject.SetActive(true);
+            }
         }
     }
 
