@@ -2618,6 +2618,7 @@ GameObject:
   - component: {fileID: 709451362}
   - component: {fileID: 709451361}
   - component: {fileID: 709451360}
+  - component: {fileID: 709451363}
   m_Layer: 0
   m_Name: LadderTilemap
   m_TagString: Untagged
@@ -2830,6 +2831,19 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!114 &709451363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 709451358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7d6a62f0951474aa8647a2b72dd4e31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LevelExitTrigger
+  nextSceneName: FinalLevel
 --- !u!1 &719800762
 GameObject:
   m_ObjectHideFlags: 0

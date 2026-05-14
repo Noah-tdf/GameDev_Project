@@ -39,6 +39,14 @@ public class Enemy : MonoBehaviour
     private readonly float _flashDuration = 0.12f;
 
     // ────────────────────────────────────────────────────────────────────────
+    public void SetPatrolPoints(Vector3 left, Vector3 right)
+    {
+        _leftBoundX = Mathf.Min(left.x, right.x);
+        _rightBoundX = Mathf.Max(left.x, right.x);
+        _hasPatrolBounds = true;
+        shouldPatrol = true;
+    }
+
     private void Awake()
     {
         _rb = GetComponent<Rigidbody2D>();

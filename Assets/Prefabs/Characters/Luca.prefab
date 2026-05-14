@@ -288,7 +288,6 @@ GameObject:
   - component: {fileID: 1016316331945450361}
   - component: {fileID: 3580750461007650501}
   - component: {fileID: 4800278132013619774}
-  - component: {fileID: 844442979598871726}
   - component: {fileID: 5377467350755137488}
   - component: {fileID: 5365261438954310758}
   - component: {fileID: 9063318413431473068}
@@ -296,6 +295,7 @@ GameObject:
   - component: {fileID: 632721239301113930}
   - component: {fileID: 8610595732944894743}
   - component: {fileID: -1949321827669131867}
+  - component: {fileID: 8967354791674935812}
   m_Layer: 3
   m_Name: Luca
   m_TagString: Player
@@ -407,52 +407,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
---- !u!61 &844442979598871726
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9015825848889765356}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: -0.005, y: -0.01}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.16, y: 0.32}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 0.16, y: 0.31}
-  m_EdgeRadius: 0
 --- !u!114 &5377467350755137488
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -467,6 +421,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
   moveSpeed: 6
   jumpForce: 12
+  maxSlopeAngle: 45
   groundCheck: {fileID: 2848287881919335198}
   groundCheckRadius: 0.15
   groundLayer:
@@ -494,6 +449,8 @@ MonoBehaviour:
   maxHP: 5
   invincibilityDuration: 1.5
   flashInterval: 0.1
+  killWhenBelowMap: 1
+  fallDeathY: -12
   hpText: {fileID: 0}
   healthBarFill: {fileID: 0}
 --- !u!114 &9063318413431473068
@@ -751,3 +708,40 @@ MonoBehaviour:
   valuePerCoin: 1
   coinTilemapNameContains: coin
   createCoinHud: 1
+--- !u!70 &8967354791674935812
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9015825848889765356}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 6200000, guid: ff2219a66bbc7a742881f0c4bdc3f58b, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -0.005, y: -0.01}
+  m_Size: {x: 0.16, y: 0.31}
+  m_Direction: 0

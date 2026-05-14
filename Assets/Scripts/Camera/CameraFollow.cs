@@ -20,7 +20,7 @@ public class CameraFollow : MonoBehaviour
     [SerializeField] private float yDeadzone = 1.5f;        // Vertical wiggle room before camera reacts (kills jump bob)
 
     [Header("Level Bounds")]
-    [SerializeField] private float minX = -5f;              // Left edge — camera stops here
+    [SerializeField] private float minX = -10f;              // Left edge — camera stops here
     [SerializeField] private float maxX = 55f;              // Right edge — camera stops here
 
     [Header("Lookahead (optional)")]
