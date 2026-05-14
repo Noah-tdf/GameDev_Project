@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 5376908514645773362}
   - component: {fileID: 630000756356967944}
   - component: {fileID: 2606705088491955548}
+  - component: {fileID: 2621156719822484431}
   m_Layer: 3
   m_Name: Luca
   m_TagString: Player
@@ -377,6 +378,21 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &2621156719822484431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6394802474900548800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03dd6df76212a1648bfb3c79c44e8842, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CoinTilemapCollector
+  valuePerCoin: 1
+  coinTilemapNameContains: coin
+  createCoinHud: 1
 --- !u!1 &7507999498890278115
 GameObject:
   m_ObjectHideFlags: 0

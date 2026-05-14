@@ -295,6 +295,7 @@ GameObject:
   - component: {fileID: 3830142434479101630}
   - component: {fileID: 632721239301113930}
   - component: {fileID: 8610595732944894743}
+  - component: {fileID: -1949321827669131867}
   m_Layer: 3
   m_Name: Luca
   m_TagString: Player
@@ -735,3 +736,18 @@ MonoBehaviour:
     offset: {x: 0.11, y: -0.05, z: 0}
   - spriteName: playerumpSpritesheet_3
     offset: {x: 0.050000012, y: -0.05, z: 0}
+--- !u!114 &-1949321827669131867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9015825848889765356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03dd6df76212a1648bfb3c79c44e8842, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CoinTilemapCollector
+  valuePerCoin: 1
+  coinTilemapNameContains: coin
+  createCoinHud: 1

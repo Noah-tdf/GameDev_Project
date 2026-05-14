@@ -17,6 +17,10 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField] private float invincibilityDuration = 1.5f;  // Seconds of i-frames after hit
     [SerializeField] private float flashInterval = 0.1f;           // Seconds between each sprite blink
 
+    [Header("Fall Death")]
+    [SerializeField] private bool killWhenBelowMap = true;
+    [SerializeField] private float fallDeathY = -12f;
+
     [Header("UI")]
     [SerializeField] private TextMeshProUGUI hpText;               // Drag the HP label in via Inspector
     [SerializeField] private Image healthBarFill;
@@ -29,6 +33,7 @@ public class PlayerHealth : MonoBehaviour
     private float _invincibilityTimer;
     private float _flashTimer;
     private bool _spriteVisible = true;
+    private bool _isDead;
 
     private SpriteRenderer _sr;
     private PlayerMovement _movement;
@@ -57,6 +62,15 @@ public class PlayerHealth : MonoBehaviour
     // ────────────────────────────────────────────────────────────────────────
     private void Update()
     {
+        if (_isDead)
+            return;
+
+        if (killWhenBelowMap && transform.position.y <= fallDeathY)
+        {
+            KillInstantly();
+            return;
+        }
+
         if (_isInvincible)
             TickInvincibility();
     }
@@ -92,6 +106,7 @@ public class PlayerHealth : MonoBehaviour
     /// <param name="amount">How many HP to subtract (typically 1).</param>
     public void TakeDamage(int amount)
     {
+        if (_isDead) return;
         if (_isInvincible) return;
 
         _currentHP = Mathf.Max(_currentHP - amount, 0);
@@ -104,6 +119,16 @@ public class PlayerHealth : MonoBehaviour
             BeginInvincibility();
             _animator?.SetTrigger("IsHurt");
         }
+    }
+
+    public void KillInstantly()
+    {
+        if (_isDead)
+            return;
+
+        _currentHP = 0;
+        UpdateHPUI();
+        Die();
     }
 
     /// <summary>Kick off the post-hit invincibility window.</summary>
@@ -120,6 +145,10 @@ public class PlayerHealth : MonoBehaviour
     /// </summary>
     private void Die()
     {
+        if (_isDead)
+            return;
+
+        _isDead = true;
         Debug.Log("Luca died!");
         _movement?.DisableInput();
         _animator?.SetBool("IsDead", true);
