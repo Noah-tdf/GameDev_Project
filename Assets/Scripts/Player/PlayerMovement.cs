@@ -2,6 +2,9 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using TMPro;
 using UnityEngine.UI;
+using UnityEngine.Tilemaps;
+using System.Collections;
+using System.Collections.Generic;
 
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(Collider2D))]
@@ -10,6 +13,11 @@ public class PlayerMovement : MonoBehaviour
     [Header("Movement")]
     [SerializeField] private float moveSpeed = 6f;
     [SerializeField] private float jumpForce = 12f;
+    [SerializeField] private float ladderClimbSpeed = 5f;
+    [SerializeField] private float ladderDetectionPadding = 0.45f;
+    [SerializeField] private int ladderMaxVerticalGapCells = 1;
+    [SerializeField] private string ladderNameContains = "ladder";
+    [SerializeField] private string upperPlatformNameContains = "upperplatform";
 
     [Header("Ground Check")]
     [SerializeField] private Transform groundCheck;
@@ -24,32 +32,53 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private GameObject levelEndPopUp;
     [SerializeField] private GameObject weaponSwitchPopUp;
     [SerializeField] private GameObject healthBarPopUp;
+    [SerializeField] private float tutorialPopUpAutoHideSeconds = 5f;
     private bool combatTipDone;
     private bool weaponSwitchTipShown;
     private bool levelEndTipShown;
     private bool healthBarTipShown;
+    private readonly Dictionary<GameObject, Coroutine> popUpAutoHideRoutines = new Dictionary<GameObject, Coroutine>();
 
     private Rigidbody2D rb;
     private Collider2D bodyCollider;
     private readonly ContactPoint2D[] groundContacts = new ContactPoint2D[8];
     private readonly RaycastHit2D[] groundHits = new RaycastHit2D[8];
+    private readonly List<Tilemap> ladderTilemaps = new List<Tilemap>();
+    private readonly Collider2D[] ladderOverlapResults = new Collider2D[16];
     private float moveInput;
+    private float verticalInput;
     private bool isFacingRight = true;
     private float coyoteTimer;
     private float jumpBufferTimer;
+    private float defaultGravityScale;
+    private bool isOnLadder;
+    private bool isInLadderTrigger;
+    private bool isClimbing;
+    private bool hideWeaponUntilGrounded;
 
     public bool IsGrounded { get; private set; }
     public float FacingDirection => isFacingRight ? 1f : -1f;
     public bool FacingRight => isFacingRight;
+    public bool IsClimbing => isClimbing;
+    public bool ShouldHideWeapon => hideWeaponUntilGrounded;
 
     private bool inputDisabled;
     private Animator _animator;
 
     private void Awake()
     {
+        PauseMenuController.SpawnIfMissing();
+
         rb = GetComponent<Rigidbody2D>();
         bodyCollider = GetComponent<Collider2D>();
         _animator = GetComponent<Animator>();
+        defaultGravityScale = rb != null ? rb.gravityScale : 1f;
+
+        if (string.IsNullOrWhiteSpace(ladderNameContains))
+            ladderNameContains = "ladder";
+
+        if (string.IsNullOrWhiteSpace(upperPlatformNameContains))
+            upperPlatformNameContains = "upperplatform";
 
         if (groundCheck == null)
         {
@@ -72,11 +101,14 @@ public class PlayerMovement : MonoBehaviour
 
     private void Start()
     {
+        ConfigureUpperPlatformTilemaps();
+        RefreshLadderTilemaps();
+
         if (movementPopUp == null)
             movementPopUp = GameObject.Find("MovementPopUp");
 
         if (movementPopUp != null)
-            movementPopUp.SetActive(true);
+            ShowPopUp(movementPopUp);
 
         if (healthBarPopUp == null)
             healthBarPopUp = GameObject.Find("HealthBarPopUp");
@@ -111,11 +143,55 @@ public class PlayerMovement : MonoBehaviour
             weaponSwitchPopUp.SetActive(false);
     }
 
+    private void RefreshLadderTilemaps()
+    {
+        ladderTilemaps.Clear();
+
+        Tilemap[] tilemaps = FindObjectsByType<Tilemap>(FindObjectsSortMode.None);
+        foreach (Tilemap tilemap in tilemaps)
+        {
+            if (tilemap == null || !TransformNameChainContains(tilemap.transform, ladderNameContains))
+                continue;
+
+            ladderTilemaps.Add(tilemap);
+        }
+    }
+
+    private void ConfigureUpperPlatformTilemaps()
+    {
+        Tilemap[] tilemaps = FindObjectsByType<Tilemap>(FindObjectsSortMode.None);
+        foreach (Tilemap tilemap in tilemaps)
+        {
+            if (tilemap == null || !TransformNameChainContains(tilemap.transform, upperPlatformNameContains))
+                continue;
+
+            TilemapCollider2D tilemapCollider = tilemap.GetComponent<TilemapCollider2D>();
+            if (tilemapCollider == null)
+                tilemapCollider = tilemap.gameObject.AddComponent<TilemapCollider2D>();
+
+            tilemapCollider.isTrigger = false;
+            tilemapCollider.usedByEffector = true;
+
+            PlatformEffector2D platformEffector = tilemap.GetComponent<PlatformEffector2D>();
+            if (platformEffector == null)
+                platformEffector = tilemap.gameObject.AddComponent<PlatformEffector2D>();
+
+            platformEffector.useOneWay = true;
+            platformEffector.useOneWayGrouping = true;
+            platformEffector.surfaceArc = 170f;
+            platformEffector.sideArc = 0f;
+        }
+    }
+
     /// <summary>Called by PlayerHealth on death — freezes all movement.</summary>
     public void DisableInput()
     {
         inputDisabled = true;
         moveInput = 0f;
+        verticalInput = 0f;
+        isClimbing = false;
+        hideWeaponUntilGrounded = false;
+        if (rb != null) rb.gravityScale = defaultGravityScale;
         if (rb != null) rb.linearVelocity = Vector2.zero;
     }
 
@@ -123,7 +199,9 @@ public class PlayerMovement : MonoBehaviour
     {
         if (inputDisabled) return;
         ReadInput();
+        UpdateLadderContact();
         CheckGrounded();
+        UpdateWeaponReturnState();
         UpdateTimers();
         FlipCharacter();
         UpdateAnimator();
@@ -134,11 +212,20 @@ public class PlayerMovement : MonoBehaviour
         if (_animator == null) return;
         _animator.SetFloat("Speed", Mathf.Abs(rb.linearVelocity.x));
         _animator.SetBool("IsGrounded", IsGrounded);
+        SetAnimatorBoolIfExists("IsClimbing", isClimbing);
+        SetAnimatorFloatIfExists("ClimbSpeed", Mathf.Abs(verticalInput));
     }
 
     private void FixedUpdate()
     {
         if (inputDisabled) return;
+        if (isOnLadder)
+        {
+            MoveOnLadder();
+            if (isClimbing)
+                return;
+        }
+
         Move();
         Jump();
     }
@@ -146,6 +233,7 @@ public class PlayerMovement : MonoBehaviour
     private void ReadInput()
     {
         moveInput = 0f;
+        verticalInput = 0f;
 
         if (Keyboard.current == null)
         {
@@ -165,6 +253,15 @@ public class PlayerMovement : MonoBehaviour
         {
             jumpBufferTimer = jumpBufferTime;
         }
+
+        if (Keyboard.current.wKey.isPressed || Keyboard.current.upArrowKey.isPressed)
+        {
+            verticalInput = 1f;
+        }
+        else if (Keyboard.current.sKey.isPressed || Keyboard.current.downArrowKey.isPressed)
+        {
+            verticalInput = -1f;
+        }
     }
 
     private void Move()
@@ -172,8 +269,34 @@ public class PlayerMovement : MonoBehaviour
         rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
     }
 
+    private void MoveOnLadder()
+    {
+        if (Mathf.Abs(verticalInput) > 0.01f)
+        {
+            isClimbing = true;
+            hideWeaponUntilGrounded = true;
+        }
+
+        if (!isClimbing)
+            return;
+
+        rb.gravityScale = 0f;
+        rb.linearVelocity = new Vector2(moveInput * moveSpeed, verticalInput * ladderClimbSpeed);
+
+        if (jumpBufferTimer > 0f)
+        {
+            LeaveLadder();
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+            jumpBufferTimer = 0f;
+            coyoteTimer = 0f;
+        }
+    }
+
     private void Jump()
     {
+        if (isClimbing)
+            return;
+
         if (jumpBufferTimer <= 0f)
         {
             return;
@@ -311,6 +434,216 @@ public class PlayerMovement : MonoBehaviour
         HideTutorialPromptIfLandedOnTarget(collision);
     }
 
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (IsLadderTrigger(other))
+        {
+            isInLadderTrigger = true;
+            isOnLadder = true;
+        }
+    }
+
+    private void OnTriggerStay2D(Collider2D other)
+    {
+        if (IsLadderTrigger(other))
+        {
+            isInLadderTrigger = true;
+            isOnLadder = true;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (IsLadderTrigger(other))
+            isInLadderTrigger = false;
+    }
+
+    private void UpdateLadderContact()
+    {
+        bool touchingLadder = isInLadderTrigger || IsTouchingLadderCollider() || IsTouchingLadderTile();
+        if (touchingLadder)
+        {
+            isOnLadder = true;
+            return;
+        }
+
+        if (isOnLadder || isInLadderTrigger)
+            LeaveLadder();
+    }
+
+    private bool IsTouchingLadderTile()
+    {
+        if (bodyCollider == null)
+            return false;
+
+        if (ladderTilemaps.Count == 0)
+            RefreshLadderTilemaps();
+
+        Bounds playerBounds = bodyCollider.bounds;
+        for (int i = ladderTilemaps.Count - 1; i >= 0; i--)
+        {
+            Tilemap ladderTilemap = ladderTilemaps[i];
+            if (ladderTilemap == null)
+            {
+                ladderTilemaps.RemoveAt(i);
+                continue;
+            }
+
+            if (IsTouchingPaintedLadderCells(ladderTilemap, playerBounds))
+                return true;
+        }
+
+        return false;
+    }
+
+    private bool IsTouchingLadderCollider()
+    {
+        if (bodyCollider == null)
+            return false;
+
+        Bounds playerBounds = bodyCollider.bounds;
+        Vector2 center = playerBounds.center;
+        Vector2 size = new Vector2(
+            playerBounds.size.x + ladderDetectionPadding,
+            playerBounds.size.y + ladderDetectionPadding);
+
+        ContactFilter2D filter = new ContactFilter2D
+        {
+            useTriggers = true,
+            useLayerMask = false
+        };
+
+        int hitCount = Physics2D.OverlapBox(center, size, 0f, filter, ladderOverlapResults);
+        for (int i = 0; i < hitCount; i++)
+        {
+            Collider2D hit = ladderOverlapResults[i];
+            if (hit == null || hit == bodyCollider)
+                continue;
+
+            if (IsLadderTrigger(hit))
+                return true;
+        }
+
+        return false;
+    }
+
+    private bool IsTouchingPaintedLadderCells(Tilemap ladderTilemap, Bounds playerBounds)
+    {
+        Vector3Int minCell = ladderTilemap.WorldToCell(playerBounds.min - new Vector3(ladderDetectionPadding, ladderDetectionPadding, 0f));
+        Vector3Int maxCell = ladderTilemap.WorldToCell(playerBounds.max + new Vector3(ladderDetectionPadding, ladderDetectionPadding, 0f));
+        int verticalGapCells = Mathf.Max(0, ladderMaxVerticalGapCells);
+
+        for (int x = minCell.x; x <= maxCell.x; x++)
+        {
+            for (int y = minCell.y - verticalGapCells; y <= maxCell.y + verticalGapCells; y++)
+            {
+                Vector3Int cell = new Vector3Int(x, y, 0);
+                if (!ladderTilemap.HasTile(cell))
+                    continue;
+
+                Bounds cellBounds = GetCellWorldBounds(ladderTilemap, cell);
+                cellBounds.Expand(new Vector3(ladderDetectionPadding, ladderDetectionPadding + verticalGapCells, 0f));
+                if (cellBounds.Intersects(playerBounds))
+                    return true;
+            }
+        }
+
+        return false;
+    }
+
+    private static Bounds GetCellWorldBounds(Tilemap tilemap, Vector3Int cell)
+    {
+        Vector3 cellCenter = tilemap.GetCellCenterWorld(cell);
+        Vector3 cellSize = Vector3.Scale(
+            tilemap.layoutGrid != null ? tilemap.layoutGrid.cellSize : Vector3.one,
+            tilemap.transform.lossyScale);
+
+        cellSize.x = Mathf.Abs(cellSize.x);
+        cellSize.y = Mathf.Abs(cellSize.y);
+        return new Bounds(cellCenter, cellSize);
+    }
+
+    private void LeaveLadder()
+    {
+        isOnLadder = false;
+        isInLadderTrigger = false;
+        isClimbing = false;
+        if (rb != null)
+            rb.gravityScale = defaultGravityScale;
+    }
+
+    private void UpdateWeaponReturnState()
+    {
+        if (isClimbing && IsGrounded && Mathf.Abs(verticalInput) < 0.01f)
+        {
+            isClimbing = false;
+            if (rb != null)
+                rb.gravityScale = defaultGravityScale;
+        }
+
+        if (hideWeaponUntilGrounded && IsGrounded && !isClimbing)
+            hideWeaponUntilGrounded = false;
+    }
+
+    private bool IsLadderTrigger(Collider2D other)
+    {
+        if (other == null || !other.isTrigger)
+            return false;
+
+        return TransformNameChainContains(other.transform, ladderNameContains);
+    }
+
+    private static bool TransformNameChainContains(Transform transformToCheck, string expectedNamePart)
+    {
+        if (transformToCheck == null || string.IsNullOrWhiteSpace(expectedNamePart))
+            return false;
+
+        string normalizedExpected = NormalizeObjectName(expectedNamePart);
+        Transform current = transformToCheck;
+        while (current != null)
+        {
+            if (NormalizeObjectName(current.name).Contains(normalizedExpected))
+                return true;
+
+            current = current.parent;
+        }
+
+        return false;
+    }
+
+    private void SetAnimatorBoolIfExists(string parameterName, bool value)
+    {
+        if (HasAnimatorParameter(parameterName))
+            _animator.SetBool(parameterName, value);
+    }
+
+    private void SetAnimatorFloatIfExists(string parameterName, float value)
+    {
+        if (HasAnimatorParameter(parameterName))
+            _animator.SetFloat(parameterName, value);
+    }
+
+    private bool HasAnimatorParameter(string parameterName)
+    {
+        foreach (AnimatorControllerParameter parameter in _animator.parameters)
+        {
+            if (parameter.name == parameterName)
+                return true;
+        }
+
+        return false;
+    }
+
+    private static string NormalizeObjectName(string objectName)
+    {
+        return objectName
+            .ToLowerInvariant()
+            .Replace(" ", string.Empty)
+            .Replace("_", string.Empty)
+            .Replace("-", string.Empty)
+            .Replace("=", string.Empty);
+    }
+
     private void HideTutorialPromptIfLandedOnTarget(Collision2D collision)
     {
         for (int i = 0; i < collision.contactCount; i++)
@@ -321,7 +654,7 @@ public class PlayerMovement : MonoBehaviour
 
                 if (movementPopUp != null && IsFirstAirPlatformSet(platformName))
                 {
-                    movementPopUp.SetActive(false);
+                    HideAllPopUps();
                     ShowHealthBarTip();
                 }
 
@@ -330,31 +663,42 @@ public class PlayerMovement : MonoBehaviour
 
                 if (!combatTipDone && combatPopUp != null && platformName.StartsWith("2ndPlatform"))
                 {
-                    HideHealthBarTip();
-                    combatPopUp.SetActive(true);
+                    HideAllPopUps();
+                    ShowPopUp(combatPopUp);
                 }
 
                 if (!weaponSwitchTipShown && weaponSwitchPopUp != null && platformName.StartsWith("3rdPlatform"))
                 {
                     weaponSwitchTipShown = true;
-                    HideHealthBarTip();
-                    if (combatPopUp != null)
-                        combatPopUp.SetActive(false);
-                    weaponSwitchPopUp.SetActive(true);
+                    HideAllPopUps();
+                    ShowPopUp(weaponSwitchPopUp);
                 }
                 else if (weaponSwitchTipShown && !levelEndTipShown && IsLevelEndPlatform(platformName))
                 {
                     levelEndTipShown = true;
-                    if (weaponSwitchPopUp != null)
-                        weaponSwitchPopUp.SetActive(false);
+                    HideAllPopUps();
                     if (levelEndPopUp != null)
-                        levelEndPopUp.SetActive(true);
+                        ShowPopUp(levelEndPopUp);
                 }
 
                 return;
             }
         }
     }
+
+    private void HideAllPopUps()
+    {
+        if (movementPopUp != null) movementPopUp.SetActive(false);
+        if (combatPopUp != null) combatPopUp.SetActive(false);
+        if (weaponSwitchPopUp != null) weaponSwitchPopUp.SetActive(false);
+        if (levelEndPopUp != null) levelEndPopUp.SetActive(false);
+        HideHealthBarTip();
+    }
+
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        // Optional: Hide dialogue when leaving a platform
+        }
 
     private static bool IsLevelEndPlatform(string platformName)
     {
@@ -391,13 +735,35 @@ public class PlayerMovement : MonoBehaviour
 
         healthBarTipShown = true;
         if (healthBarPopUp != null)
-            healthBarPopUp.SetActive(true);
+            ShowPopUp(healthBarPopUp);
     }
 
     private void HideHealthBarTip()
     {
         if (healthBarPopUp != null)
             healthBarPopUp.SetActive(false);
+    }
+
+    private void ShowPopUp(GameObject popUp)
+    {
+        if (popUp == null) return;
+        popUp.SetActive(true);
+
+        if (popUpAutoHideRoutines.TryGetValue(popUp, out Coroutine running) && running != null)
+            StopCoroutine(running);
+
+        float duration = (popUp == levelEndPopUp) ? 10f : tutorialPopUpAutoHideSeconds;
+
+        if (duration > 0f)
+            popUpAutoHideRoutines[popUp] = StartCoroutine(AutoHidePopUp(popUp, duration));
+    }
+
+    private IEnumerator AutoHidePopUp(GameObject popUp, float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        if (popUp != null && popUp.activeSelf)
+            popUp.SetActive(false);
+        popUpAutoHideRoutines[popUp] = null;
     }
 
     private static GameObject BuildHealthBarPopUp(TextMeshProUGUI styleSource)

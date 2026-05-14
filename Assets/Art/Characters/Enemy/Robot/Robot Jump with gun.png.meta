@@ -1,0 +1,481 @@
+fileFormatVersion: 2
+guid: 0a145708d0bf59341b9d2b7ea4ee7eaa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4869394151907158696
+    second: Robot Jump with gun_0
+  - first:
+      213: -4101127114717162744
+    second: Robot Jump with gun_1
+  - first:
+      213: 5028345254206741564
+    second: Robot Jump with gun_2
+  - first:
+      213: 368377242474540579
+    second: Robot Jump with gun_3
+  - first:
+      213: -3101014181294625550
+    second: Robot Jump with gun_4
+  - first:
+      213: 3588993770701647947
+    second: Robot Jump with gun_5
+  - first:
+      213: -6749734389521305409
+    second: Robot Jump with gun_6
+  - first:
+      213: -811100626518223812
+    second: Robot Jump with gun_7
+  - first:
+      213: 2488542655658097264
+    second: Robot Jump with gun_8
+  - first:
+      213: -425895927403845740
+    second: Robot Jump with gun_9
+  - first:
+      213: -5414517232978430835
+    second: Robot Jump with gun_10
+  - first:
+      213: 6148801930404027616
+    second: Robot Jump with gun_11
+  - first:
+      213: 2826990461181912003
+    second: Robot Jump with gun_12
+  - first:
+      213: -3151164049229685116
+    second: Robot Jump with gun_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Robot Jump with gun_0
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 0
+        width: 372
+        height: 601
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aa6ac79e20939340800000000000000
+      internalID: 4869394151907158696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Jump with gun_1
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 0
+        width: 372
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8039f8c2e9ed517c0800000000000000
+      internalID: -4101127114717162744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Jump with gun_2
+      rect:
+        serializedVersion: 2
+        x: 2359
+        y: 0
+        width: 322
+        height: 681
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3c930d0e5548c540800000000000000
+      internalID: 5028345254206741564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Jump with gun_3
+      rect:
+        serializedVersion: 2
+        x: 3389
+        y: 0
+        width: 292
+        height: 691
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32e6809762dbc1500800000000000000
+      internalID: 368377242474540579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Jump with gun_4
+      rect:
+        serializedVersion: 2
+        x: 4239
+        y: 0
+        width: 462
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fc2c70380cf6f4d0800000000000000
+      internalID: -3101014181294625550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Jump with gun_5
+      rect:
+        serializedVersion: 2
+        x: 5169
+        y: 0
+        width: 532
+        height: 601
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b40f2c3b1daaec130800000000000000
+      internalID: 3588993770701647947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Jump with gun_6
+      rect:
+        serializedVersion: 2
+        x: 6149
+        y: 0
+        width: 552
+        height: 601
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb0385895502452a0800000000000000
+      internalID: -6749734389521305409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Jump with gun_7
+      rect:
+        serializedVersion: 2
+        x: 7129
+        y: 0
+        width: 572
+        height: 601
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c34d84f07446eb4f0800000000000000
+      internalID: -811100626518223812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Jump with gun_8
+      rect:
+        serializedVersion: 2
+        x: 8129
+        y: 0
+        width: 572
+        height: 601
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07a78e64c54198220800000000000000
+      internalID: 2488542655658097264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Jump with gun_9
+      rect:
+        serializedVersion: 2
+        x: 9189
+        y: 0
+        width: 512
+        height: 601
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 497eec719e9e61af0800000000000000
+      internalID: -425895927403845740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Jump with gun_10
+      rect:
+        serializedVersion: 2
+        x: 10159
+        y: 0
+        width: 542
+        height: 601
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d84f6129345cbd4b0800000000000000
+      internalID: -5414517232978430835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Jump with gun_11
+      rect:
+        serializedVersion: 2
+        x: 11199
+        y: 0
+        width: 502
+        height: 591
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ecd7f727cee45550800000000000000
+      internalID: 6148801930404027616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Jump with gun_12
+      rect:
+        serializedVersion: 2
+        x: 12249
+        y: 0
+        width: 472
+        height: 521
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c36a2ea8dc7b3720800000000000000
+      internalID: 2826990461181912003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Jump with gun_13
+      rect:
+        serializedVersion: 2
+        x: 13269
+        y: 0
+        width: 412
+        height: 591
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48edea82ef0d444d0800000000000000
+      internalID: -3151164049229685116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Robot Jump with gun_0: 4869394151907158696
+      Robot Jump with gun_1: -4101127114717162744
+      Robot Jump with gun_10: -5414517232978430835
+      Robot Jump with gun_11: 6148801930404027616
+      Robot Jump with gun_12: 2826990461181912003
+      Robot Jump with gun_13: -3151164049229685116
+      Robot Jump with gun_2: 5028345254206741564
+      Robot Jump with gun_3: 368377242474540579
+      Robot Jump with gun_4: -3101014181294625550
+      Robot Jump with gun_5: 3588993770701647947
+      Robot Jump with gun_6: -6749734389521305409
+      Robot Jump with gun_7: -811100626518223812
+      Robot Jump with gun_8: 2488542655658097264
+      Robot Jump with gun_9: -425895927403845740
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

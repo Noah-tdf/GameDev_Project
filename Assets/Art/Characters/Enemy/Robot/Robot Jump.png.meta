@@ -1,0 +1,481 @@
+fileFormatVersion: 2
+guid: 62a807c6a2ce6924791f657b874eb07a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7798174959667970484
+    second: Robot Jump_0
+  - first:
+      213: -8798622535807224093
+    second: Robot Jump_1
+  - first:
+      213: -3656773105582103332
+    second: Robot Jump_2
+  - first:
+      213: 1490357810587856242
+    second: Robot Jump_3
+  - first:
+      213: 7304926996771562755
+    second: Robot Jump_4
+  - first:
+      213: -6556061405388189275
+    second: Robot Jump_5
+  - first:
+      213: 5032132968402553786
+    second: Robot Jump_6
+  - first:
+      213: 8843271781566220221
+    second: Robot Jump_7
+  - first:
+      213: 8878971842997492903
+    second: Robot Jump_8
+  - first:
+      213: -1525153102477100481
+    second: Robot Jump_9
+  - first:
+      213: -5501113730891520921
+    second: Robot Jump_10
+  - first:
+      213: -3425939506070079419
+    second: Robot Jump_11
+  - first:
+      213: -813508191570350316
+    second: Robot Jump_12
+  - first:
+      213: 717775989507224676
+    second: Robot Jump_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Robot Jump_0
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 0
+        width: 332
+        height: 601
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b10b5f2fcea83c60800000000000000
+      internalID: 7798174959667970484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Jump_1
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 0
+        width: 332
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e6b678bb6305e580800000000000000
+      internalID: -8798622535807224093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Jump_2
+      rect:
+        serializedVersion: 2
+        x: 2359
+        y: 0
+        width: 272
+        height: 681
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd4a3912c38804dc0800000000000000
+      internalID: -3656773105582103332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Jump_3
+      rect:
+        serializedVersion: 2
+        x: 3389
+        y: 0
+        width: 242
+        height: 691
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27d61505880dea410800000000000000
+      internalID: 1490357810587856242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Jump_4
+      rect:
+        serializedVersion: 2
+        x: 4239
+        y: 0
+        width: 402
+        height: 601
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 305eab08660506560800000000000000
+      internalID: 7304926996771562755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Jump_5
+      rect:
+        serializedVersion: 2
+        x: 5169
+        y: 0
+        width: 472
+        height: 601
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a1503623e03405a0800000000000000
+      internalID: -6556061405388189275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Jump_6
+      rect:
+        serializedVersion: 2
+        x: 6149
+        y: 0
+        width: 492
+        height: 601
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abb8a2cf54ab5d540800000000000000
+      internalID: 5032132968402553786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Jump_7
+      rect:
+        serializedVersion: 2
+        x: 7129
+        y: 0
+        width: 512
+        height: 601
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db78d78e4dc99ba70800000000000000
+      internalID: 8843271781566220221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Jump_8
+      rect:
+        serializedVersion: 2
+        x: 8129
+        y: 0
+        width: 512
+        height: 601
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ac9f8039d1783b70800000000000000
+      internalID: 8878971842997492903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Jump_9
+      rect:
+        serializedVersion: 2
+        x: 9189
+        y: 0
+        width: 452
+        height: 601
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3a74ca755195dae0800000000000000
+      internalID: -1525153102477100481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Jump_10
+      rect:
+        serializedVersion: 2
+        x: 10159
+        y: 0
+        width: 482
+        height: 601
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 764ef29353e18a3b0800000000000000
+      internalID: -5501113730891520921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Jump_11
+      rect:
+        serializedVersion: 2
+        x: 11199
+        y: 0
+        width: 442
+        height: 591
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54837beab2e9470d0800000000000000
+      internalID: -3425939506070079419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Jump_12
+      rect:
+        serializedVersion: 2
+        x: 12249
+        y: 0
+        width: 422
+        height: 521
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41f24932c96d5b4f0800000000000000
+      internalID: -813508191570350316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Jump_13
+      rect:
+        serializedVersion: 2
+        x: 13269
+        y: 0
+        width: 372
+        height: 591
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 464f1e2a57d06f900800000000000000
+      internalID: 717775989507224676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Robot Jump_0: 7798174959667970484
+      Robot Jump_1: -8798622535807224093
+      Robot Jump_10: -5501113730891520921
+      Robot Jump_11: -3425939506070079419
+      Robot Jump_12: -813508191570350316
+      Robot Jump_13: 717775989507224676
+      Robot Jump_2: -3656773105582103332
+      Robot Jump_3: 1490357810587856242
+      Robot Jump_4: 7304926996771562755
+      Robot Jump_5: -6556061405388189275
+      Robot Jump_6: 5032132968402553786
+      Robot Jump_7: 8843271781566220221
+      Robot Jump_8: 8878971842997492903
+      Robot Jump_9: -1525153102477100481
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

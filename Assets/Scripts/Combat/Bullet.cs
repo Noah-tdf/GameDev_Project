@@ -43,6 +43,23 @@ public class Bullet : MonoBehaviour
         startPosition = transform.position;
         environmentCollisionEnabledTime = Time.time + environmentCollisionDelay;
         rb.linearVelocity = new Vector2(direction * speed, 0f);
+        
+        // Face the move direction
+        float angle = direction < 0 ? 180 : 0;
+        transform.rotation = Quaternion.Euler(0, 0, angle);
+    }
+
+    public void InitializeAimed(Vector2 velocity, GameObject bulletOwner, float range)
+    {
+        owner = bulletOwner;
+        startPosition = transform.position;
+        maxDistance = range;
+        environmentCollisionEnabledTime = Time.time + environmentCollisionDelay;
+        rb.linearVelocity = velocity;
+
+        // Rotate to match velocity
+        float angle = Mathf.Atan2(velocity.y, velocity.x) * Mathf.Rad2Deg;
+        transform.rotation = Quaternion.Euler(0, 0, angle);
     }
 
     private void EnsureVisibleSprite()
@@ -90,14 +107,49 @@ public class Bullet : MonoBehaviour
             return;
         }
 
-        Enemy enemy = other.GetComponent<Enemy>();
-        if (enemy != null)
+        bool ownerIsPlayer = owner != null && owner.CompareTag("Player");
+        bool targetIsEnemy = other.CompareTag("Enemy");
+        bool targetIsPlayer = other.CompareTag("Player");
+
+        // Player bullet hitting enemy
+        if (ownerIsPlayer && targetIsEnemy)
         {
-            enemy.TakeDamage(damage);
+            // Damage Enemy component
+            Enemy enemy = other.GetComponent<Enemy>();
+            if (enemy != null)
+            {
+                enemy.TakeDamage(damage);
+                Destroy(gameObject);
+                return;
+            }
+
+            // Damage Drone component
+            DroneEnemy drone = other.GetComponent<DroneEnemy>();
+            if (drone != null)
+            {
+                drone.TakeDamage(damage);
+                Destroy(gameObject);
+                return;
+            }
+            
+            // If it's tagged enemy but has no specific component, still destroy
             Destroy(gameObject);
             return;
         }
 
+        // Enemy bullet hitting player
+        if (!ownerIsPlayer && targetIsPlayer)
+        {
+            PlayerHealth ph = other.GetComponent<PlayerHealth>();
+            if (ph != null)
+            {
+                ph.TakeDamage(damage);
+                Destroy(gameObject);
+                return;
+            }
+        }
+
+        // Environment collision
         if (other.CompareTag("Ground") || other.CompareTag("Platform"))
         {
             if (Time.time < environmentCollisionEnabledTime)
@@ -109,9 +161,13 @@ public class Bullet : MonoBehaviour
             return;
         }
 
-        if (other.CompareTag("Enemy"))
+        // If an enemy bullet hits another enemy, just pass through (don't even destroy the bullet?)
+        // The user said "they shouldn't be able to damage", usually this implies ignoring them.
+        // If we want bullets to be blocked by enemies but not damage them, we destroy but don't damage.
+        // But "ignore" usually means pass through. I'll make them pass through for better "don't shoot each other" feel.
+        if (!ownerIsPlayer && targetIsEnemy)
         {
-            Destroy(gameObject);
+            return;
         }
     }
 }

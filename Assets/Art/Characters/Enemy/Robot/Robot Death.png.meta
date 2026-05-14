@@ -1,0 +1,481 @@
+fileFormatVersion: 2
+guid: c8cac4adbbf18814e89c844c7d76dcfc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -619021263805796301
+    second: Robot Death_0
+  - first:
+      213: 2502871677080342282
+    second: Robot Death_1
+  - first:
+      213: 3482136221997732756
+    second: Robot Death_2
+  - first:
+      213: 5923117054909234050
+    second: Robot Death_3
+  - first:
+      213: -5537602388068213612
+    second: Robot Death_4
+  - first:
+      213: -8723519795164619222
+    second: Robot Death_5
+  - first:
+      213: 7429913258492688240
+    second: Robot Death_6
+  - first:
+      213: 3086861039818180339
+    second: Robot Death_7
+  - first:
+      213: 8571799309772866381
+    second: Robot Death_8
+  - first:
+      213: -8693296732122311519
+    second: Robot Death_9
+  - first:
+      213: -8960041584124438586
+    second: Robot Death_10
+  - first:
+      213: 5030987257610003163
+    second: Robot Death_11
+  - first:
+      213: -1424510974027665636
+    second: Robot Death_12
+  - first:
+      213: 9196604794625255044
+    second: Robot Death_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Robot Death_0
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 0
+        width: 302
+        height: 651
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3303176b07bc867f0800000000000000
+      internalID: -619021263805796301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Death_1
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 0
+        width: 292
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0f82ce878cfbb220800000000000000
+      internalID: 2502871677080342282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Death_2
+      rect:
+        serializedVersion: 2
+        x: 2309
+        y: 0
+        width: 292
+        height: 651
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49312bbd178035030800000000000000
+      internalID: 3482136221997732756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Death_3
+      rect:
+        serializedVersion: 2
+        x: 3309
+        y: 0
+        width: 312
+        height: 571
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28b3ce45493233250800000000000000
+      internalID: 5923117054909234050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Death_4
+      rect:
+        serializedVersion: 2
+        x: 4309
+        y: 0
+        width: 322
+        height: 531
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49cd6dfa7fb7623b0800000000000000
+      internalID: -5537602388068213612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Death_5
+      rect:
+        serializedVersion: 2
+        x: 5309
+        y: 0
+        width: 332
+        height: 491
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2edf1a27f4dfe680800000000000000
+      internalID: -8723519795164619222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Death_6
+      rect:
+        serializedVersion: 2
+        x: 6309
+        y: 0
+        width: 332
+        height: 471
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 077fb644eba5c1760800000000000000
+      internalID: 7429913258492688240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Death_7
+      rect:
+        serializedVersion: 2
+        x: 7309
+        y: 0
+        width: 332
+        height: 491
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f60b55c2cbb6da20800000000000000
+      internalID: 3086861039818180339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Death_8
+      rect:
+        serializedVersion: 2
+        x: 8309
+        y: 0
+        width: 332
+        height: 501
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4343f09e0625f670800000000000000
+      internalID: 8571799309772866381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Death_9
+      rect:
+        serializedVersion: 2
+        x: 9329
+        y: 0
+        width: 352
+        height: 511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a419c26ea43b5780800000000000000
+      internalID: -8693296732122311519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Death_10
+      rect:
+        serializedVersion: 2
+        x: 10349
+        y: 0
+        width: 412
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c7d88dc6a987a380800000000000000
+      internalID: -8960041584124438586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Death_11
+      rect:
+        serializedVersion: 2
+        x: 11359
+        y: 0
+        width: 502
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd26c576148a1d540800000000000000
+      internalID: 5030987257610003163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Death_12
+      rect:
+        serializedVersion: 2
+        x: 12379
+        y: 0
+        width: 552
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1f6f6601de1b3ce0800000000000000
+      internalID: -1424510974027665636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Death_13
+      rect:
+        serializedVersion: 2
+        x: 13379
+        y: 0
+        width: 552
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 486ea43c557e0af70800000000000000
+      internalID: 9196604794625255044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Robot Death_0: -619021263805796301
+      Robot Death_1: 2502871677080342282
+      Robot Death_10: -8960041584124438586
+      Robot Death_11: 5030987257610003163
+      Robot Death_12: -1424510974027665636
+      Robot Death_13: 9196604794625255044
+      Robot Death_2: 3482136221997732756
+      Robot Death_3: 5923117054909234050
+      Robot Death_4: -5537602388068213612
+      Robot Death_5: -8723519795164619222
+      Robot Death_6: 7429913258492688240
+      Robot Death_7: 3086861039818180339
+      Robot Death_8: 8571799309772866381
+      Robot Death_9: -8693296732122311519
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

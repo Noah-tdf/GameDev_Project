@@ -15,8 +15,16 @@ public class StoreWeaponShopUI : MonoBehaviour
     public const string EquippedPrimaryKey = "EquippedPrimaryWeapon";
     public const string EquippedSecondaryKey = "EquippedSecondaryWeapon";
     public const string EquippedWeaponSlotKey = "EquippedWeaponSlot";
-    private const int StartingCredits = 100;
+    private const int StartingCredits = 0;
     private const int WeaponPrice = 1;
+
+    // Reset credits when the game application is closed
+    private void OnApplicationQuit()
+    {
+        PlayerPrefs.DeleteKey(CreditsKey);
+        PlayerPrefs.DeleteKey(CreditsInitializedKey);
+        PlayerPrefs.Save();
+    }
 
     private static readonly HashSet<string> excludedPrimaryWeaponFiles = new HashSet<string>
     {
@@ -71,6 +79,8 @@ public class StoreWeaponShopUI : MonoBehaviour
     [SerializeField] private Font stencilSourceFont;
     [SerializeField] private List<Sprite> primaryWeaponSprites = new List<Sprite>();
     [SerializeField] private List<Sprite> secondaryWeaponSprites = new List<Sprite>();
+    [SerializeField] private List<Sprite> goldCoinSprites = new List<Sprite>();
+    [SerializeField] private CoinRainUI coinRain;
 
     private static TMP_FontAsset cachedStencilFontAsset;
 
@@ -193,7 +203,10 @@ public class StoreWeaponShopUI : MonoBehaviour
         List<Sprite> editorSecondarySprites = LoadWeaponSpritesInEditor("ERA Weapon Secondary", false);
         if (editorSecondarySprites.Count > secondaryWeaponSprites.Count)
             secondaryWeaponSprites = editorSecondarySprites;
-#endif
+
+        if (goldCoinSprites.Count == 0)
+            goldCoinSprites = LoadGoldCoinSprites();
+        #endif
 
         TMP_FontAsset stencilFont = ResolveStencilFontAsset();
         if (stencilFont != null)
@@ -248,10 +261,29 @@ public class StoreWeaponShopUI : MonoBehaviour
         sprites.Sort((left, right) => string.CompareOrdinal(left.name, right.name));
         return sprites;
     }
+private static List<Sprite> LoadGoldCoinSprites()
+{
+    List<Sprite> sprites = new List<Sprite>();
+    string path = "Assets/Art/Coins/Coin Flip (animation frames)";
+    if (!System.IO.Directory.Exists(path)) return sprites;
+
+    string[] guids = AssetDatabase.FindAssets("t:Sprite", new[] { path });
+    foreach (string guid in guids)
+    {
+        string assetPath = AssetDatabase.GUIDToAssetPath(guid);
+        string fileName = System.IO.Path.GetFileName(assetPath);
+        if (fileName.StartsWith("goldcoin"))
+        {
+            Sprite s = AssetDatabase.LoadAssetAtPath<Sprite>(assetPath);
+            if (s != null) sprites.Add(s);
+        }
+    }
+    return sprites;
+}
 #endif
 
-    private static bool IsExcludedPrimaryWeapon(Sprite sprite)
-    {
+private static bool IsExcludedPrimaryWeapon(Sprite sprite)
+{
         if (sprite == null)
             return true;
 
@@ -335,7 +367,13 @@ public class StoreWeaponShopUI : MonoBehaviour
         Center(buyButtonText.rectTransform);
         buyButtonText.rectTransform.anchoredPosition = innerCoverOffset;
         buyButtonText.rectTransform.sizeDelta = innerCoverSize;
-    }
+
+        GameObject rainObj = new GameObject("CoinRainEffect", typeof(RectTransform), typeof(CoinRainUI));
+        rainObj.transform.SetParent(root, false);
+        Stretch(rainObj.GetComponent<RectTransform>());
+        coinRain = rainObj.GetComponent<CoinRainUI>();
+        coinRain.SetSprites(goldCoinSprites);
+        }
 
     private void CreateWeaponSlot(int index)
     {
@@ -442,6 +480,9 @@ public class StoreWeaponShopUI : MonoBehaviour
 
             PlayerPrefs.SetInt(CreditsKey, credits - WeaponPrice);
             PlayerPrefs.SetInt(GetOwnedKey(weaponId), 1);
+
+            if (coinRain != null)
+                coinRain.StartRain();
         }
 
         PlayerPrefs.SetString(GetEquippedKey(weapon.Type), weaponId);

@@ -7,7 +7,15 @@ public class LevelExitTrigger : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        if (!IsLevelEndObject())
+            return;
+
         if (other.CompareTag("Player"))
             SceneManager.LoadScene(nextSceneName);
+    }
+
+    private bool IsLevelEndObject()
+    {
+        return CompareTag("LevelEnd") || name.Contains("LevelEnd");
     }
 }

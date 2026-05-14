@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
+  m_Name: Coin v2
+  m_EditorClassIdentifier: Unity.2D.Tilemap.Extras::UnityEngine.Tilemaps.AnimatedTile
+  m_AnimatedSprites:
+  - {fileID: 5499588514170312760, guid: c470bd74878c1424c94ac541304909b8, type: 3}
+  - {fileID: 2145784170218173241, guid: c470bd74878c1424c94ac541304909b8, type: 3}
+  - {fileID: -6908209526052787499, guid: c470bd74878c1424c94ac541304909b8, type: 3}
+  - {fileID: -912573327966997863, guid: c470bd74878c1424c94ac541304909b8, type: 3}
+  - {fileID: 5012411477502494358, guid: c470bd74878c1424c94ac541304909b8, type: 3}
+  - {fileID: -7789032578805560108, guid: c470bd74878c1424c94ac541304909b8, type: 3}
+  - {fileID: -1119787982367855719, guid: c470bd74878c1424c94ac541304909b8, type: 3}
+  - {fileID: -7059277099711468666, guid: c470bd74878c1424c94ac541304909b8, type: 3}
+  - {fileID: -7668422823699437606, guid: c470bd74878c1424c94ac541304909b8, type: 3}
+  m_MinSpeed: 40
+  m_MaxSpeed: 40
+  m_AnimationStartTime: 0
+  m_AnimationStartFrame: 0
+  m_TileColliderType: 0
+  m_TileAnimationFlags: 0

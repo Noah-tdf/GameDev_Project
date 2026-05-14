@@ -1,0 +1,28 @@
+{
+    "asset": "d0038c60c8b5b244b99ea0f88a23989c",
+    "fileName": "019e2519-a2af-7066-bd34-9163a0507ee0.png",
+    "prompt": "A high-tech sci-fi flying drone enemy, side view, mechanical details, glowing parts, clean lines, game asset style, isolated on white background.",
+    "negativePrompt": "",
+    "model": "flux-2-dev",
+    "modelName": "Flux 2 (Dev)",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

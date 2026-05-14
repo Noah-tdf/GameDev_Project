@@ -76,6 +76,16 @@ public class PlayerHealth : MonoBehaviour
     }
 
     /// <summary>
+    /// Restores player health to its maximum value.
+    /// </summary>
+    public void HealFull()
+    {
+        if (_isDead) return;
+        _currentHP = maxHP;
+        UpdateHPUI();
+    }
+
+    /// <summary>
     /// Counts down the invincibility window and toggles sprite alpha to create a
     /// flicker effect. Restores full opacity when the window expires.
     /// </summary>
@@ -153,7 +163,10 @@ public class PlayerHealth : MonoBehaviour
         _movement?.DisableInput();
         _animator?.SetBool("IsDead", true);
         SetAlpha(0.3f);
-        ShowGameOverUI();
+        if (PauseMenuController.Instance != null)
+            PauseMenuController.Instance.ShowGameOver();
+        else
+            ShowGameOverUI();
     }
 
     private void SetAlpha(float alpha)

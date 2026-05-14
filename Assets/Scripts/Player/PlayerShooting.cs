@@ -64,6 +64,7 @@ public class PlayerShooting : MonoBehaviour
     private TextMeshProUGUI secondaryLabel;
     private GameObject weaponSwitchPopUp;
     private float nextFireTime;
+    private bool weaponsHiddenForClimb;
 
     private bool IsPrimaryEquipped => equippedWeapon == WeaponSlot.Primary;
 
@@ -90,6 +91,7 @@ public class PlayerShooting : MonoBehaviour
 
     private void Update()
     {
+        RefreshWeaponVisibilityForMovement();
         HandleWeaponSwitchInput();
 
         if (Keyboard.current == null && Mouse.current == null)
@@ -151,6 +153,9 @@ public class PlayerShooting : MonoBehaviour
 
     private void Shoot()
     {
+        if (weaponsHiddenForClimb)
+            return;
+
         if (Time.time < nextFireTime)
             return;
 
@@ -408,12 +413,12 @@ public class PlayerShooting : MonoBehaviour
     {
         if (IsPrimaryEquipped)
         {
-            string primaryWeaponId = PlayerPrefs.GetString(EquippedPrimaryKey, "weapon-primary");
-            return string.IsNullOrEmpty(primaryWeaponId) ? "weapon-primary" : primaryWeaponId;
+            string primaryWeaponId = PlayerPrefs.GetString(EquippedPrimaryKey, "ERA Weapon Primary (36)");
+            return string.IsNullOrEmpty(primaryWeaponId) ? "ERA Weapon Primary (36)" : primaryWeaponId;
         }
 
-        string secondaryWeaponId = PlayerPrefs.GetString(EquippedSecondaryKey, "weapon-secondary");
-        return string.IsNullOrEmpty(secondaryWeaponId) ? "weapon-secondary" : secondaryWeaponId;
+        string secondaryWeaponId = PlayerPrefs.GetString(EquippedSecondaryKey, "ERA Weapon Secondary (2)");
+        return string.IsNullOrEmpty(secondaryWeaponId) ? "ERA Weapon Secondary (2)" : secondaryWeaponId;
     }
 
     private float GetCurrentFireRate()
@@ -457,11 +462,32 @@ public class PlayerShooting : MonoBehaviour
 
     private void RefreshWeaponVisuals()
     {
+        if (weaponsHiddenForClimb)
+        {
+            if (primaryWeaponVisual != null)
+                primaryWeaponVisual.gameObject.SetActive(false);
+
+            if (secondaryWeaponVisual != null)
+                secondaryWeaponVisual.gameObject.SetActive(false);
+
+            return;
+        }
+
         if (primaryWeaponVisual != null)
             primaryWeaponVisual.gameObject.SetActive(IsPrimaryEquipped);
 
         if (secondaryWeaponVisual != null)
             secondaryWeaponVisual.gameObject.SetActive(!IsPrimaryEquipped);
+    }
+
+    private void RefreshWeaponVisibilityForMovement()
+    {
+        bool shouldHideWeapons = playerMovement != null && playerMovement.ShouldHideWeapon;
+        if (weaponsHiddenForClimb == shouldHideWeapons)
+            return;
+
+        weaponsHiddenForClimb = shouldHideWeapons;
+        RefreshWeaponVisuals();
     }
 
     private void CreateWeaponHud()
