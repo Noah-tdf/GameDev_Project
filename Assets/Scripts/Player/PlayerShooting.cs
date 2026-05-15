@@ -439,8 +439,8 @@ public class PlayerShooting : MonoBehaviour
             return string.IsNullOrEmpty(primaryWeaponId) ? "ERA Weapon Primary (36)" : primaryWeaponId;
         }
 
-        string secondaryWeaponId = PlayerPrefs.GetString(EquippedSecondaryKey, "ERA Weapon Secondary (2)");
-        return string.IsNullOrEmpty(secondaryWeaponId) ? "ERA Weapon Secondary (2)" : secondaryWeaponId;
+        string secondaryWeaponId = PlayerPrefs.GetString(EquippedSecondaryKey, "ERA Weapon Secondary (13)");
+        return string.IsNullOrEmpty(secondaryWeaponId) ? "ERA Weapon Secondary (13)" : secondaryWeaponId;
     }
 
     private float GetCurrentFireRate()

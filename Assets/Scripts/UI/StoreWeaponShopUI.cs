@@ -18,11 +18,10 @@ public class StoreWeaponShopUI : MonoBehaviour
     private const int StartingCredits = 0;
     private const int WeaponPrice = 1;
 
-    // Reset credits when the game application is closed
+    // Reset everything when the game application is closed
     private void OnApplicationQuit()
     {
-        PlayerPrefs.DeleteKey(CreditsKey);
-        PlayerPrefs.DeleteKey(CreditsInitializedKey);
+        PlayerPrefs.DeleteAll();
         PlayerPrefs.Save();
     }
 
@@ -198,12 +197,38 @@ public class StoreWeaponShopUI : MonoBehaviour
             BuyOrEquipSelectedWeapon();
     }
 
-    private static void InitializeCredits()
+    private void InitializeCredits()
     {
         if (PlayerPrefs.GetInt(CreditsInitializedKey, 0) == 1)
             return;
 
         PlayerPrefs.SetInt(CreditsKey, StartingCredits);
+
+        // Find default weapons from the shop list
+        string firstPrimary = string.Empty;
+        string firstSecondary = string.Empty;
+
+        foreach (var w in weapons)
+        {
+            if (string.IsNullOrEmpty(firstPrimary) && w.Type == "Primary")
+                firstPrimary = GetWeaponId(w);
+            if (string.IsNullOrEmpty(firstSecondary) && w.Type == "Secondary")
+                firstSecondary = GetWeaponId(w);
+        }
+
+        if (!string.IsNullOrEmpty(firstPrimary))
+        {
+            PlayerPrefs.SetString(EquippedPrimaryKey, firstPrimary);
+            PlayerPrefs.SetInt(GetOwnedKey(firstPrimary), 1);
+        }
+
+        if (!string.IsNullOrEmpty(firstSecondary))
+        {
+            PlayerPrefs.SetString(EquippedSecondaryKey, firstSecondary);
+            PlayerPrefs.SetInt(GetOwnedKey(firstSecondary), 1);
+        }
+
+        PlayerPrefs.SetString(EquippedWeaponSlotKey, "Primary");
         PlayerPrefs.SetInt(CreditsInitializedKey, 1);
         PlayerPrefs.Save();
     }

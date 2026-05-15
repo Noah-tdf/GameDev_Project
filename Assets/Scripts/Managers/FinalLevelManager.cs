@@ -6,7 +6,7 @@ using System.Collections.Generic;
 public class FinalLevelManager : MonoBehaviour
 {
     [Header("Timer Settings")]
-    [SerializeField] private float countdownDuration = 120f;
+    [SerializeField] private float countdownDuration = 30f;
     [SerializeField] private TextMeshProUGUI timerText;
 
     [Header("Spawning Settings")]
@@ -173,14 +173,12 @@ public class FinalLevelManager : MonoBehaviour
 
     private void StopAllMovement()
     {
-        // 1. Disable all MonoBehaviours that handle logic for enemies and player
+        // 1. Disable all MonoBehaviours that handle logic for enemies
         MonoBehaviour[] allScripts = Object.FindObjectsByType<MonoBehaviour>(FindObjectsInactive.Exclude, FindObjectsSortMode.None);
         
         string[] typesToDisable = new string[] 
         { 
-            "Enemy", "DroneEnemy", "UFOEnemy", "GroundRobotEnemy", "CarMovement", 
-            "PlayerMovement", "PlayerShooting", "PlayerHealth", "Bullet",
-            "WeaponHandFollower", "WeaponHand"
+            "Enemy", "DroneEnemy", "UFOEnemy", "GroundRobotEnemy", "CarMovement", "Bullet"
         };
 
         foreach (var script in allScripts)
@@ -207,7 +205,7 @@ public class FinalLevelManager : MonoBehaviour
                 if (rb != null)
                 {
                     rb.linearVelocity = Vector2.zero;
-                    rb.isKinematic = true; // Prevent further physics movement
+                    rb.isKinematic = true; 
                 }
             }
         }
@@ -218,7 +216,35 @@ public class FinalLevelManager : MonoBehaviour
             Destroy(projectile);
         }
         
-        // 3. Stop spawning flag
+        // 3. Disable player actions and hide guns
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        if (player != null)
+        {
+            foreach (var mb in player.GetComponentsInChildren<MonoBehaviour>())
+            {
+                if (mb is PlayerMovement || mb is PlayerShooting || mb is PlayerHealth || 
+                    mb.GetType().Name == "WeaponHandFollower" || mb.GetType().Name == "WeaponHand")
+                {
+                    mb.enabled = false;
+                }
+            }
+
+            foreach (Transform child in player.transform)
+            {
+                if (child.name == "Gun" || child.name == "GunSecondary")
+                {
+                    child.gameObject.SetActive(false);
+                }
+            }
+
+            Rigidbody2D prb = player.GetComponent<Rigidbody2D>();
+            if (prb != null)
+            {
+                prb.linearVelocity = Vector2.zero;
+                prb.isKinematic = true;
+            }
+        }
+
         _isTimerRunning = false;
     }
-}
+    }

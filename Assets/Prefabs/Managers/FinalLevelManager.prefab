@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfb3005c12eae8648b760d88c363e4e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FinalLevelManager
-  countdownDuration: 120
+  countdownDuration: 30
   timerText: {fileID: 0}
   enemyPrefabs:
   - {fileID: 841202192252274757, guid: 75a635e3de44acc46a615bfb7a2f83ed, type: 3}

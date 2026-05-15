@@ -12,6 +12,7 @@ public class PlayerHealth : MonoBehaviour
     // ── Inspector-exposed settings ───────────────────────────────────────────
     [Header("Health")]
     [SerializeField] private int maxHP = 5;
+    [SerializeField] private bool isGodMode = false;
 
     [Header("Invincibility")]
     [SerializeField] private float invincibilityDuration = 1.5f;  // Seconds of i-frames after hit
@@ -65,8 +66,18 @@ public class PlayerHealth : MonoBehaviour
         if (_isDead)
             return;
 
-        if (killWhenBelowMap && transform.position.y <= fallDeathY)
+        // Toggle God Mode with 'G' key
+        if (UnityEngine.InputSystem.Keyboard.current != null && UnityEngine.InputSystem.Keyboard.current.gKey.wasPressedThisFrame)
         {
+            isGodMode = !isGodMode;
+            Debug.Log($"[PlayerHealth] God Mode toggled: {isGodMode}");
+            
+            // Visual feedback: if entering God Mode, flash once or set a tint (optional)
+            if (isGodMode) HealFull();
+        }
+
+        if (killWhenBelowMap && transform.position.y <= fallDeathY)
+{
             KillInstantly();
             return;
         }
@@ -116,7 +127,7 @@ public class PlayerHealth : MonoBehaviour
     /// <param name="amount">How many HP to subtract (typically 1).</param>
     public void TakeDamage(int amount)
     {
-        if (_isDead) return;
+        if (_isDead || isGodMode) return;
         if (_isInvincible) return;
 
         _currentHP = Mathf.Max(_currentHP - amount, 0);
@@ -133,7 +144,7 @@ public class PlayerHealth : MonoBehaviour
 
     public void KillInstantly()
     {
-        if (_isDead)
+        if (_isDead || isGodMode)
             return;
 
         _currentHP = 0;

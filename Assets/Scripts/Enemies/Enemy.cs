@@ -10,6 +10,14 @@ public class Enemy : MonoBehaviour
     [Header("Stats")]
     [SerializeField] private int maxHealth = 3;
 
+    [Header("Behavior")]
+    [SerializeField] private bool followPlayer = false;
+    [SerializeField] private bool useGravity = false;
+    [SerializeField] private float followSpeed = 3f;
+    [SerializeField] private float detectionRange = 15f;
+    [SerializeField] private float jumpForce = 8f;
+    [SerializeField] private LayerMask groundLayer;
+
     [Header("Patrol")]
     [SerializeField] private bool shouldPatrol = true;
     [SerializeField] private float patrolSpeed = 2f;
@@ -26,12 +34,16 @@ public class Enemy : MonoBehaviour
 
     private Rigidbody2D _rb;
     private SpriteRenderer _sr;
+    private Collider2D _col;
+    private Transform _target;
     private int _currentHealth;
     private int _moveDirection = 1;
     private float _leftBoundX;
     private float _rightBoundX;
     private bool _hasPatrolBounds;
     private bool _isDead;
+    private float _lastX;
+    private float _stuckTimer;
 
     // Flash-on-hit state
     private float _flashTimer;
@@ -43,6 +55,7 @@ public class Enemy : MonoBehaviour
     {
         _rb = GetComponent<Rigidbody2D>();
         _sr = GetComponent<SpriteRenderer>();
+        _col = GetComponent<Collider2D>();
         _currentHealth = maxHealth;
 
         if (hitSound == null)
@@ -50,8 +63,17 @@ public class Enemy : MonoBehaviour
 
         if (_rb != null)
         {
-            _rb.bodyType = RigidbodyType2D.Kinematic;
-            _rb.gravityScale = 0f;
+            if (useGravity)
+            {
+                _rb.bodyType = RigidbodyType2D.Dynamic;
+                _rb.gravityScale = 2f;
+                _rb.collisionDetectionMode = CollisionDetectionMode2D.Continuous;
+            }
+            else
+            {
+                _rb.bodyType = RigidbodyType2D.Kinematic;
+                _rb.gravityScale = 0f;
+            }
             _rb.freezeRotation = true;
         }
 
@@ -61,6 +83,12 @@ public class Enemy : MonoBehaviour
             _rightBoundX = Mathf.Max(leftPoint.position.x, rightPoint.position.x);
             _hasPatrolBounds = true;
         }
+
+        // Auto-find player
+        GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
+        if (playerObj != null) _target = playerObj.transform;
+
+        if (groundLayer == 0) groundLayer = LayerMask.GetMask("Ground", "Platform");
     }
 
     private void Update()
@@ -76,13 +104,81 @@ public class Enemy : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (!shouldPatrol)
+        if (_isDead) return;
+
+        if (followPlayer && _target != null)
         {
-            _rb.linearVelocity = new Vector2(0f, _rb.linearVelocity.y);
-            return;
+            float dist = Vector2.Distance(transform.position, _target.position);
+            if (dist < detectionRange)
+            {
+                FollowTarget();
+                CheckIfStuck();
+                return;
+            }
         }
 
-        Patrol();
+        if (shouldPatrol)
+        {
+            Patrol();
+        }
+        else if (_rb.bodyType != RigidbodyType2D.Dynamic)
+        {
+            _rb.linearVelocity = new Vector2(0f, _rb.linearVelocity.y);
+        }
+    }
+
+    private void FollowTarget()
+    {
+        float dirX = _target.position.x - transform.position.x;
+        int moveDir = dirX > 0 ? 1 : -1;
+        FaceDirection(moveDir);
+
+        if (useGravity)
+        {
+            _rb.linearVelocity = new Vector2(moveDir * followSpeed, _rb.linearVelocity.y);
+        }
+        else
+        {
+            Vector2 nextPosition = _rb.position + Vector2.right * (moveDir * followSpeed * Time.fixedDeltaTime);
+            _rb.MovePosition(nextPosition);
+        }
+    }
+
+    private void CheckIfStuck()
+    {
+        if (!useGravity) return;
+
+        // Simple check: if we are trying to move but X hasn't changed much
+        if (Mathf.Abs(_rb.linearVelocity.x) > 0.1f && Mathf.Abs(transform.position.x - _lastX) < 0.01f)
+        {
+            _stuckTimer += Time.fixedDeltaTime;
+            if (_stuckTimer > 0.5f)
+            {
+                Jump();
+                _stuckTimer = 0;
+            }
+        }
+        else
+        {
+            _stuckTimer = 0;
+        }
+        _lastX = transform.position.x;
+    }
+
+    private void Jump()
+    {
+        if (IsGrounded())
+        {
+            _rb.linearVelocity = new Vector2(_rb.linearVelocity.x, jumpForce);
+        }
+    }
+
+    private bool IsGrounded()
+    {
+        if (_col == null) return false;
+        float extraHeight = 0.1f;
+        RaycastHit2D hit = Physics2D.Raycast(_col.bounds.center, Vector2.down, _col.bounds.extents.y + extraHeight, groundLayer);
+        return hit.collider != null;
     }
 
     // ────────────────────────────────────────────────────────────────────────

@@ -467,6 +467,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
   moveSpeed: 6
   jumpForce: 12
+  ladderClimbSpeed: 5
+  ladderDetectionPadding: 0.45
+  ladderMaxVerticalGapCells: 1
+  ladderNameContains: ladder
+  upperPlatformNameContains: upperplatform
   groundCheck: {fileID: 2848287881919335198}
   groundCheckRadius: 0.15
   groundLayer:
@@ -479,6 +484,7 @@ MonoBehaviour:
   levelEndPopUp: {fileID: 0}
   weaponSwitchPopUp: {fileID: 0}
   healthBarPopUp: {fileID: 0}
+  tutorialPopUpAutoHideSeconds: 5
 --- !u!114 &5365261438954310758
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -492,8 +498,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
   maxHP: 5
+  isGodMode: 1
   invincibilityDuration: 1.5
   flashInterval: 0.1
+  killWhenBelowMap: 1
+  fallDeathY: -12
   hpText: {fileID: 0}
   healthBarFill: {fileID: 0}
 --- !u!114 &9063318413431473068
@@ -751,3 +760,5 @@ MonoBehaviour:
   valuePerCoin: 1
   coinTilemapNameContains: coin
   createCoinHud: 1
+  digitSpacing: -5
+  digitSize: {x: 45, y: 45}
